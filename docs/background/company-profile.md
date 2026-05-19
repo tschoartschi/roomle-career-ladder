@@ -1,3 +1,10 @@
+---
+title: Company Profile
+aliases: [Roomle, Company]
+type: reference
+tags: [background, company]
+---
+
 # Company Profile – Roomle GmbH
 
 ## Overview

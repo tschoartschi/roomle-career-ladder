@@ -1,3 +1,11 @@
+---
+title: Engineering Ladders Summary
+aliases: [Engineering Ladders]
+type: reference
+source: https://www.engineeringladders.com/
+tags: [background, engineering-ladders]
+---
+
 # Engineering Ladders – Summary
 
 > Source: [engineeringladders.com](https://www.engineeringladders.com/) by [jorgef](https://github.com/jorgef/engineeringladders)

@@ -1,3 +1,10 @@
+---
+title: Framework Design
+aliases: [Idea, Framework]
+type: reference
+tags: [background, framework-design]
+---
+
 # Idea
 
 The idea was, to create a well defined career path for the employes at Roomle. 
@@ -8,30 +15,30 @@ We had several thoughts when designing a career ladder:
 
 * it should be simple enough for a 30 people company
 * but it should be flexible enough to give everyone room to develop
-* it should somehow align with [IT KV](./kv-informationstechnologie-2026.md)
+* it should somehow align with [[kv-informationstechnologie-2026|IT KV]]
 * at a certain level there should be two tracks:
   - technical track
   - management track
 
-## [Engineering Ladders]((./engineeringladders.md))
+## [[engineeringladders|Engineering Ladders]]
 
-To define the skill set we borrowed lot's of ideas from [engineeringladders.com](https://www.engineeringladders.com/) (also see [local version of engineering ladders](./engineeringladders/), see [local summary](./engineeringladders.md)).
+To define the skill set we borrowed lot's of ideas from [engineeringladders.com](https://www.engineeringladders.com/) (also see [local version of engineering ladders](./engineeringladders/), see [[engineeringladders|local summary]]).
 
 We defined that we will have the following levels:
 
-1. [Junior](../01%20Junior.md)
-2. [Expert](../02%20Expert.md)
-3. [Senior Level 1](../03%20Senior-L1.md)
-4. Senior Level 2 (from here it's ST2 from [IT KV](./kv-informationstechnologie-2026.md))
-  - 4a. [Senior Level 2 (technical track)](../04a%20Senior-L2%20(technical%20track).md)
-  - 4b. [Senior Level 2 (management track)](../04b%20Senior-L2%20(management%20track).md)
+1. [[01 Junior|Junior]]
+2. [[02 Expert|Expert]]
+3. [[03 Senior-L1|Senior Level 1]]
+4. Senior Level 2 (from here it's ST2 from [[kv-informationstechnologie-2026|IT KV]])
+  - 4a. [[04a Senior-L2 (technical track)|Senior Level 2 (technical track)]]
+  - 4b. [[04b Senior-L2 (management track)|Senior Level 2 (management track)]]
 5. Lead  
-  - 5a. [Lead (technical track)](../05a%20Lead%20(technical%20track).md)
-  - 5b. [Lead (management track)](../05b%20Lead%20(management%20track).md)
+  - 5a. [[05a Lead (technical track)|Lead (technical track)]]
+  - 5b. [[05b Lead (management track)|Lead (management track)]]
 
 ### IT KV Mapping
 
-The career ladder aligns with the [IT KV](./kv-informationstechnologie-2026.md) salary grades as follows:
+The career ladder aligns with the [[kv-informationstechnologie-2026|IT KV]] salary grades as follows:
 
 | IT KV | Vorrückungsstufe | Roomle Level | Min. Gehalt 2026 |
 |-------|-----------------|--------------|------------------|
@@ -46,7 +53,7 @@ The career ladder aligns with the [IT KV](./kv-informationstechnologie-2026.md) 
 
 ### Leitung (LT) — Outside the Career Ladder
 
-The [IT KV](./kv-informationstechnologie-2026.md) defines a further level: **Leitung (LT)** (Einstieg € 5.301, Regel € 6.059, Erfahrung € 6.781) for employees in leadership positions that decisively influence the company in their area of responsibility.
+The [[kv-informationstechnologie-2026|IT KV]] defines a further level: **Leitung (LT)** (Einstieg € 5.301, Regel € 6.059, Erfahrung € 6.781) for employees in leadership positions that decisively influence the company in their area of responsibility.
 
 **Leitung (LT) is explicitly excluded from this career ladder** for the following reasons:
 
@@ -58,7 +65,7 @@ Reaching Lead (5a/5b) is the highest level in this career ladder. From there, a 
 
 ### Axes - Engineering Ladders
 
-In [engineeringladders.com](https://www.engineeringladders.com/) (also see [local version of engineering ladders](./engineeringladders/), see [local summary](engineeringladders.md)) the Radar chart/Spider Charts, defines the axes:
+In [engineeringladders.com](https://www.engineeringladders.com/) (also see [local version of engineering ladders](./engineeringladders/), see [[engineeringladders|local summary]]) the Radar chart/Spider Charts, defines the axes:
 
 * Technology
 * System

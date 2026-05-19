@@ -1,3 +1,10 @@
+---
+title: Design Decisions
+aliases: [Decisions, ADRs]
+type: reference
+tags: [background, decisions]
+---
+
 # Design Decisions & Changelog
 
 This document tracks key decisions made while designing the Roomle career ladder.

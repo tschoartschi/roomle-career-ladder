@@ -1,3 +1,10 @@
+---
+title: IT KV 2026
+aliases: [IT KV, Kollektivvertrag, KV 2026]
+type: reference
+tags: [background, it-kv]
+---
+
 # Kollektivvertrag 2026
 
 **für Angestellte von Unternehmen im Bereich Dienstleistungen in der automatischen Datenverarbeitung und Informationstechnik**
