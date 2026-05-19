@@ -43,6 +43,8 @@ From Senior L2 onward, the ladder splits into two tracks:
 
 **The ST1 → ST2 transition is a deliberate choice.** Moving from ST1 to ST2 (i.e., being promoted to Senior L2) is not automatic, it requires mutual agreement. However, anyone choosing this path should be aware: once in ST2, the KV will advance them through Einstieg → Regel → Erfahrung over time. This means the company commits to eventually paying Lead-level salary (ST2 Erfahrung), and the employee commits to growing into that level of responsibility. This is a significant mutual commitment and should be discussed openly before promotion.
 
+**Staying at Senior L1 is a valid choice.** Not every engineer wants — or needs — to become a multiplier. Some of our strongest engineers choose to stay at Senior L1 long-term because they enjoy what they do and don't want the broader responsibilities of Senior L2. This is fully respected. It is also a structural reality: a ~30-person company cannot sustain everyone at the Lead level. Senior L1 is a destination, not just a way station.
+
 ## Technical Track vs Management Track
 
 From Senior L2 onward, the ladder offers two equally senior, equally valuable tracks, just with a different focus.
