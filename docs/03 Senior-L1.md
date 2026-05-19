@@ -40,24 +40,6 @@ Senior contributor
 
 * **Professionalism**: polished PRs, thoughtful written communication, rarely makes the same mistake twice. Most of their PRs merge quickly because reviewers only have minor remarks.
 
-## Subject-Specific Technical Skills
-
-### Web frontend
-
-**tldr;** A senior frontend engineer can teach HTML, CSS, and advanced JavaScript fundamentals, has strong UX/UI judgment, communicates effectively across functions, stays current with frameworks without chasing hype, and has demonstrated full-stack capability.
-
-* **Teaching fundamentals**: can teach HTML, CSS, and advanced JavaScript to junior developers.
-* **Design and UX**: deep knowledge of UX/UI patterns, sharp eye for visual glitches, aware of current design trends.
-* **Collaboration with designers**: bridges designer and engineering language, leads design-engineering discussions, helps designers understand the technical impact of layout choices.
-* **Cross-functional communication**: web frontend work is highly cross-functional. Communicates effectively with sales, marketing, designers, and other engineers.
-* **Frameworks and libraries**: up-to-date with the frameworks in use and the broader JavaScript ecosystem. Understands the architecture and design patterns of the team's frameworks, including their strengths and weaknesses. Aware of framework fatigue — knows that chasing the next hype is rarely the best move. Evaluates external dependencies thoughtfully and keeps them current.
-* **User experience**: applies current UX standards without needing constant designer input. Knows when to optimize perceived vs. actual performance. Understands the differences between desktop and mobile UX.
-* **Design systems**: understands the value of design systems, can introduce and maintain them, spreads the idea within the team.
-* **Browser compatibility**: knows how to prevent cross-browser issues. Balances developer experience against backward compatibility pragmatically.
-* **Full-stack capability**: has demonstrated hands-on full-stack skills — in production code, side projects, Innovation Days, or integration examples.
-
-_(Specific sections for other domains — e.g., Backend, Infrastructure, 3D/Configurator — to be added. See [[follow-ups]].)_
-
 ## Learning
 **tldr;** A Senior L1 actively takes initiative to learn — within and outside their domain — and brings that learning back to the team.
 

@@ -39,12 +39,6 @@ _See [[senior-l1-vs-l2]] for how the L1 → L2 transition is defined._
 
 * **Technical debt strategy**: doesn't just identify tech debt (Senior L1) but develops and drives strategies to address it at a system level. Knows how to prioritize debt repayment against feature work and can sell this to stakeholders.
 
-## Subject-Specific Technical Skills
-
-Subject-specific skills at this level go beyond proficiency into thought leadership within the domain. A Senior L2 (technical) should be able to define best practices, evaluate architectural approaches, and guide others in their specialization.
-
-_(Specific sections per domain — e.g., Web Frontend, Backend, Infrastructure — to be defined by each team based on their stack.)_
-
 ## Learning
 **tldr;** A Senior L2 (technical) actively educates others, brings new knowledge into the team through structured formats, and creates learning opportunities for the team.
 

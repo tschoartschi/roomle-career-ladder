@@ -36,12 +36,6 @@ Learning contributor
 
 * **Growing toolkit**: is actively building familiarity with the team's tools, IDE, version control, CI/CD pipeline, deployment processes. Can use them for standard workflows without help.
 
-## Subject-Specific Technical Skills
-
-At this level, subject-specific skills focus on learning the fundamentals of the primary technology area. A Junior should be building a solid foundation in the core technologies the team uses.
-
-_(Specific sections per domain — e.g., Web Frontend, Backend, Infrastructure — to be defined by each team based on their stack.)_
-
 ## Learning
 **tldr;** A Junior adopts the patterns, practices, and knowledge presented to them, actively absorbs information from their environment, and shows curiosity about how things work.
 

@@ -37,12 +37,6 @@ Technical visionary
 
 * **Technical risk at org level**: identifies and manages systemic technical risks — vendor dependencies, technology obsolescence, architectural bottlenecks — and develops strategies to mitigate them before they become critical.
 
-## Subject-Specific Technical Skills
-
-At this level, subject-specific mastery is assumed. A Lead (technical) transcends their original specialization — they have deep expertise in their core domain and sufficient breadth to make informed decisions across the entire stack.
-
-They define what "good" looks like for their domain organization-wide and ensure that standards evolve with the industry.
-
 ## Learning
 **tldr;** A Lead (technical) evangelizes new ideas inside and outside the organization, shapes the learning culture, and ensures the company stays at the forefront of relevant technology.
 

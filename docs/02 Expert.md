@@ -36,12 +36,6 @@ Competent individual contributor
 
 * **Quality awareness**: pays attention to edge cases, error handling, and input validation in their own code. Reviews their own work before submitting PRs.
 
-## Subject-Specific Technical Skills
-
-At this level, subject-specific skills focus on growing proficiency within the primary technology area. An Expert should be able to work confidently with the core tools of their stack and is starting to understand the broader ecosystem.
-
-_(Specific sections per domain — e.g., Web Frontend, Backend, Infrastructure — to be defined by each team based on their stack.)_
-
 ## Learning
 **tldr;** An Expert actively grows their knowledge within their domain, seeks feedback to improve, and keeps up with developments in their primary technology area.
 

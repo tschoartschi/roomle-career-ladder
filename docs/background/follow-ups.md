@@ -54,17 +54,37 @@ The structural gap that originally motivated this item has been absorbed. The re
 
 ---
 
-## Subject-Specific Technical Skills — to be filled out per domain
+## ~~Subject-Specific Technical Skills — to be filled out per domain~~ — Resolved 2026-05-19
+
+**Opened:** 2026-05-19
+**Resolved:** 2026-05-19
+**Status:** ~~Open~~ → **Resolved by replacing with role profiles**
+
+### What we did
+
+Rather than embedding per-domain skill content directly in the ladder, we moved domain expectations to **separate role profiles** that live alongside it. The general ladder defines competencies abstractly; role profiles describe what those competencies look like for each domain.
+
+This keeps the ladder stable and abstract while letting domain content evolve at its own pace (frontend frameworks especially churn fast). It also lets each role profile be owned and refreshed by a domain expert, independently of ladder revisions.
+
+The Web Frontend content that previously lived in Senior L1 has been moved to [[web-frontend|Web Frontend role profile]]. The Subject-Specific section has been removed from Junior, Expert, Senior L1, Senior L2 (technical), and Lead (technical). See [[decisions]] for the full rationale.
+
+---
+
+## Role Profiles — to be written per domain
 
 **Opened:** 2026-05-19
 **Status:** Open
 **Owner:** Per domain — TBD
 
-Only [[03 Senior-L1|Senior L1]] currently has a subject-specific section spelled out, and only for Web Frontend. The intent is to fill in:
+Role profiles describe what each ladder level looks like specifically for a given domain. They live at `docs/role-profiles/` and are maintained independently of the ladder.
 
-- Each domain (Web Frontend, Backend, Infrastructure, 3D/Configurator, …)
-- For each level (Junior, Expert, Senior L1, Senior L2, Lead)
+Coverage:
 
-Each domain expert or lead should define the level-specific expectations for their area. The Web Frontend section in [[03 Senior-L1|Senior L1]] can serve as a structural template.
+- [[web-frontend|Web Frontend]] — Senior L1 spelled out; Junior, Expert, Senior L2, Lead to be added
+- **Backend** — to be created
+- **Infrastructure** — to be created
+- **3D / Configurator** — to be created
+
+Each domain expert or lead owns the profile for their area.
 
 ---

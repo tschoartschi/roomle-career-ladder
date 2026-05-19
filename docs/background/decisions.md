@@ -11,6 +11,29 @@ This document tracks key decisions made while designing the Roomle career ladder
 
 ---
 
+## 2026-05-19: Replaced per-level Subject-Specific Skills with Role Profiles
+
+### Decision
+
+Per-domain technical skills will not be embedded in the ladder. Instead they live in **role profiles** — separate documents per domain, kept at `docs/role-profiles/` — that describe what each ladder level looks like for that domain.
+
+The Web Frontend content previously in Senior L1 has been moved to [[web-frontend|role-profiles/web-frontend.md]]. The Subject-Specific section has been removed from all five technical-track levels.
+
+### Rationale
+
+- **Different lifecycles**: the ladder is meant to be stable (years between revisions); subject-specific skills churn fast (frontend frameworks especially). Coupling them forces ladder updates whenever a framework or library changes.
+- **Different owners**: the ladder is owned framework-wide; each role profile can be owned by a domain expert/lead and refreshed independently.
+- **Different audiences**: the ladder serves promotion and calibration; role profiles serve hiring and onboarding ("what does a Senior L1 Backend hire look like?"). Two artifacts, two jobs.
+- **Avoids fake coverage**: with the Subject-Specific section in the ladder, every level for every domain needed *some* content, encouraging placeholder text. Role profiles are written when there's something real to say.
+
+### Changes
+
+- New: [[web-frontend|docs/role-profiles/web-frontend.md]] — Senior L1 frontend content moved here.
+- Subject-Specific Technical Skills section removed from: [[01 Junior|Junior]], [[02 Expert|Expert]], [[03 Senior-L1|Senior L1]], [[04a Senior-L2 (technical track)|Senior L2 (technical)]], [[05a Lead (technical track)|Lead (technical)]].
+- [[follow-ups]]: previous Subject-Specific item marked resolved; new Role Profiles item tracks per-domain coverage going forward.
+
+---
+
 ## 2026-05-19: Reframed Senior L1 as "Senior Contributor" (broad professional destination)
 
 ### Decision
