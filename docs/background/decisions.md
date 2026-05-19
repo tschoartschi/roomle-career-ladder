@@ -50,7 +50,7 @@ We will **not** include a dedicated "Process" axis (as used in Engineering Ladde
 
 ### Rationale
 
-- For a ~20-person company, a standalone Process axis feels over-engineered.
+- For a ~30-person company, a standalone Process axis feels over-engineered.
 - Process maturity naturally emerges in other axes:
   - **Responsibility & Ownership** (stages 3–5: Drives, Empowers, Mentors) covers process improvement
   - **Influence** (stages 3–5) covers shaping how the team/org works
@@ -84,7 +84,7 @@ Replaced Engineering Ladders' original 5 axes with Roomle-specific ones.
 | Engineering Ladders | Roomle | Why |
 |---|---|---|
 | Technology | **Technical Mastery** | Broader — includes domain knowledge, not just stack familiarity |
-| System | **Responsibility & Ownership** | ~20 people don't have deep "system ownership" hierarchy; accountability is more relevant |
+| System | **Responsibility & Ownership** | ~30 people don't have deep "system ownership" hierarchy; accountability is more relevant |
 | People | **Collaboration & Communication** | More actionable for a small team where everyone interacts directly |
 | Process | **Learning** | Adaptability and growth matter more than process enforcement at this scale |
 | Influence | **Influence** | Kept as-is — universal concept |

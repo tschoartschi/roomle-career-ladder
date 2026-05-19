@@ -49,15 +49,15 @@ The career ladder aligns with the [[kv-informationstechnologie-2026|IT KV]] sala
 | ST2 | Regel (max 4 J.) | Senior L2 (4a/4b) | € 4.611 |
 | ST2 | Erfahrung | Lead (5a/5b) | € 5.444 |
 
-**ST2 Einstieg — Transition Phase:** When an employee is promoted from Senior L1 to Senior L2, they enter ST2 at the Einstiegsstufe. This is a transitional salary ramp — the employee already operates at Senior L2 level expectations, but the KV salary floor progresses from Einstieg (€ 4.061) to Regel (€ 4.611) within max 3 years. This is not a separate career level, but an explicit compensation phase during the transition.
+**ST2 Einstieg — Transition Phase:** When an employee is promoted from Senior L1 to Senior L2, they enter ST2 at the Einstiegsstufe. This is a transitional salary ramp — the employee already operates at Senior L2 level expectations, but the KV salary floor progresses from Einstieg to Regel within max 3 years. This is not a separate career level, but an explicit compensation phase during the transition.
 
 ### Leitung (LT) — Outside the Career Ladder
 
-The [[kv-informationstechnologie-2026|IT KV]] defines a further level: **Leitung (LT)** (Einstieg € 5.301, Regel € 6.059, Erfahrung € 6.781) for employees in leadership positions that decisively influence the company in their area of responsibility.
+The [[kv-informationstechnologie-2026|IT KV]] defines a further level: **Leitung (LT)** (Einstieg, Regel, Erfahrung) for employees in leadership positions that decisively influence the company in their area of responsibility.
 
 **Leitung (LT) is explicitly excluded from this career ladder** for the following reasons:
 
-- LT depends on **structural opportunity, not just skill growth**. In a ~20-person company, there are only 1–2 such positions (e.g., CTO, VP Engineering). You cannot "ladder" into something that requires an organizational seat to be available.
+- LT depends on **structural opportunity, not just skill growth**. In a ~30-person company, there are only 1–2 such positions (e.g., CTO, VP Engineering). You cannot "ladder" into something that requires an organizational seat to be available.
 - LT requires **active seeking and claiming**. An employee who aims for Leitung must proactively seek this position and demonstrate readiness beyond the Lead level. It is not an automatic progression.
 - LT requires **specific individual negotiations** regarding scope, responsibilities, and compensation that go beyond what a standardized career ladder can define.
 

@@ -9,15 +9,15 @@ tags: [career-ladder, overview]
 
 ## Levels at a Glance
 
-| Level | IT KV | Operating Level | What this means |
-|-------|-------|----------------|-----------------|
-| Junior | ST1 Einstieg (max 3 J.) | Guided contributor | Delivers with support; primary job is to learn |
-| Expert | ST1 Regel (max 4 J.) | Independent contributor | Owns and delivers their work reliably |
-| Senior L1 | ST1 Erfahrung | Team driver | Drives quality, standards, and initiative within the team |
-| Senior L2 | ST2 Regel * | Multiplier | Makes others better — through tech leadership or people leadership |
-| Lead | ST2 Erfahrung | Org shaper | Defines how engineering works; impact outlasts individual contributions |
+| Level     | IT KV                   | Operating Level         | What this means                                                         |
+| --------- | ----------------------- | ----------------------- | ----------------------------------------------------------------------- |
+| Junior    | ST1 Einstieg (max 3 J.) | Guided contributor      | Delivers with support; primary job is to learn                          |
+| Expert    | ST1 Regel (max 4 J.)    | Independent contributor | Owns and delivers their work reliably                                   |
+| Senior L1 | ST1 Erfahrung           | Team driver             | Drives quality, standards, and initiative within the team               |
+| Senior L2 | ST2 Regel *             | Multiplier              | Makes others better, through tech leadership or people leadership       |
+| Lead      | ST2 Erfahrung           | Org shaper              | Defines how engineering works; impact outlasts individual contributions |
 
-\* Senior L2 enters ST2 at the Einstiegsstufe (€ 4.061) first. This is a transitional salary ramp — the employee already operates at Senior L2 expectations, but the KV salary floor progresses from Einstieg to Regel (€ 4.611) within max 3 years. See [[kv-informationstechnologie-2026|IT KV details]].
+\* Senior L2 enters ST2 at the Einstiegsstufe first. This is a transitional salary ramp, the employee already operates at Senior L2 expectations, but the KV salary floor progresses from Einstieg to Regel within max 3 years. See [[kv-informationstechnologie-2026|IT KV details]].
 
 ## Track Split
 
@@ -25,27 +25,27 @@ From Senior L2 onward, the ladder splits into two tracks:
 
 | Level | Technical Track | Management Track |
 |-------|----------------|------------------|
-| Senior L2 | [[04a Senior-L2 (technical track)|Technical multiplier]] — system ownership, architectural leadership | [[04b Senior-L2 (management track)|People multiplier]] — team delivery, coaching, people development |
-| Lead | [[05a Lead (technical track)|Technical visionary]] — defines tech future, org-wide technical impact | [[05b Lead (management track)|Engineering leader]] — shapes org culture, talent strategy, company influence |
+| Senior L2 | [Technical multiplier](<04a Senior-L2 (technical track).md>) — system ownership, architectural leadership | [People multiplier](<04b Senior-L2 (management track).md>) — team delivery, coaching, people development |
+| Lead | [Technical visionary](<05a Lead (technical track).md>) — defines tech future, org-wide technical impact | [Engineering leader](<05b Lead (management track).md>) — shapes org culture, talent strategy, company influence |
 
 ## Starting Level & Progression
 
 **Most external hires start at Expert.** The Junior level is reserved for career starters (graduates, career changers, or trainees) who need structured guidance and onboarding.
 
-**Senior L1 requires Roomle-specific knowledge.** A strong engineer hired from Big Tech or another company will likely have the general technical skills of a Senior — but Senior L1 at Roomle also requires understanding of our systems, our domain, our team dynamics, and our way of working. External hires typically start at Expert and can progress quickly once they've built that context. This is not a demotion — it's an acknowledgment that seniority is partly contextual.
+**Senior L1 requires Roomle-specific knowledge.** A strong engineer hired from Big Tech or another company will likely have the general technical skills of a Senior, but Senior L1 at Roomle also requires understanding of our systems, our domain, our team dynamics, and our way of working. External hires typically start at Expert and can progress quickly once they've built that context. This is not a demotion, it's an acknowledgment that seniority is partly contextual.
 
-**IT KV advancement is legally mandated within a Verwendungsgruppe.** The KV defines maximum durations per Vorrückungsstufe (e.g., max 3 years at Einstieg, max 4 years at Regel). Once those durations pass, the employer is **legally required** to advance the employee to the next Vorrückungsstufe — regardless of performance. This means:
+**IT KV advancement is legally mandated within a "Verwendungsgruppe".** The KV defines maximum durations per "Vorrückungsstufe" (e.g., max 3 years at Einstieg, max 4 years at Regel). Once those durations pass, the employer is **legally required** to advance the employee to the next "Vorrückungsstufe", regardless of performance. This means:
 
-- Within **ST1**: an employee will progress through Einstieg → Regel → Erfahrung automatically over time. They *must* reach Senior L1 (ST1 Erfahrung) eventually — the KV guarantees it.
-- Within **ST2**: the same applies. Once someone enters ST2, they will progress to ST2 Erfahrung (Lead level) over time.
+- Within **ST1**: an employee will progress through Einstieg → Regel → Erfahrung automatically over time. They *must* reach Senior L1 (ST1 Erfahrung) eventually. The KV guarantees it but also the performance *must* to fit to the "Vorrückungsstufe".
+- Within **ST2**: the same applies. Once someone enters ST2, they will progress to ST2 Erfahrung (Lead level) over time. This means the employe has to grow to this "Vorrückungsstufe".
 
 **Promotion to the next level can happen faster.** If someone demonstrates the next level's expectations consistently, they can be promoted ahead of the KV schedule. But the KV pace is the guaranteed minimum.
 
-**The ST1 → ST2 transition is a deliberate choice.** Moving from ST1 to ST2 (i.e., being promoted to Senior L2) is not automatic — it requires mutual agreement. However, anyone choosing this path should be aware: once in ST2, the KV will advance them through Einstieg → Regel → Erfahrung over time. This means the company commits to eventually paying Lead-level salary (ST2 Erfahrung, € 5.444), and the employee commits to growing into that level of responsibility. This is a significant mutual commitment and should be discussed openly before promotion.
+**The ST1 → ST2 transition is a deliberate choice.** Moving from ST1 to ST2 (i.e., being promoted to Senior L2) is not automatic, it requires mutual agreement. However, anyone choosing this path should be aware: once in ST2, the KV will advance them through Einstieg → Regel → Erfahrung over time. This means the company commits to eventually paying Lead-level salary (ST2 Erfahrung), and the employee commits to growing into that level of responsibility. This is a significant mutual commitment and should be discussed openly before promotion.
 
 ## Technical Track vs Management Track
 
-From Senior L2 onward, the ladder offers two equally senior, equally valuable tracks — just with a different focus.
+From Senior L2 onward, the ladder offers two equally senior, equally valuable tracks, just with a different focus.
 
 ### What they own
 
@@ -70,7 +70,7 @@ From Senior L2 onward, the ladder offers two equally senior, equally valuable tr
 | Production incidents | Leads technical response | Shields team, communicates to stakeholders |
 | Planning | Estimates, scopes, identifies risks | Prioritizes, staffs, manages capacity |
 
-Neither track is "above" the other. In small teams, one person may cover both — but as teams grow, these responsibilities should be separated.
+Neither track is "above" the other. In small teams, one person may cover both, but as teams grow, these responsibilities should be separated.
 
 ---
 
@@ -80,11 +80,11 @@ Each level is evaluated across 5 axes:
 
 | Axis | What it measures |
 |------|-----------------|
-| [[idea#Technical Mastery|Technical Mastery]] | Depth and breadth of technical skills; how they solve problems |
-| [[idea#Learning|Learning]] | How they acquire and share knowledge |
-| [[idea#Responsibility and Ownership|Responsibility & Ownership]] | How they own outcomes and empower others |
-| [[idea#Collaboration and Communication|Collaboration & Communication]] | How they work with and through people |
-| [[idea#Influence|Influence]] | How they shape decisions and the organization |
+| [Technical Mastery](<background/idea.md#Technical Mastery>) | Depth and breadth of technical skills; how they solve problems |
+| [Learning](<background/idea.md#Learning>) | How they acquire and share knowledge |
+| [Responsibility & Ownership](<background/idea.md#Responsibility and Ownership>) | How they own outcomes and empower others |
+| [Collaboration & Communication](<background/idea.md#Collaboration and Communication>) | How they work with and through people |
+| [Influence](<background/idea.md#Influence>) | How they shape decisions and the organization |
 
 ### Stage Verbs by Level
 

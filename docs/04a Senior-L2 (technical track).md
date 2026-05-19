@@ -33,7 +33,7 @@ Technical multiplier
 
 * **Quality at scale**: defines and evolves quality standards that go beyond their own code. Establishes testing strategies, performance budgets, and reliability targets for the systems they own. Ensures technical excellence across the team's output, not just their own.
 
-* **System thinking**: understands the production system holistically — monitoring, SLAs, failure modes, scalability limits. Can reason about system behavior under stress and plan for growth.
+* **System thinking**: understands the production system holistically, monitoring, SLAs, failure modes, scalability limits. Can reason about system behavior under stress and plan for growth.
 
 * **Technical debt strategy**: doesn't just identify tech debt (Senior L1) but develops and drives strategies to address it at a system level. Knows how to prioritize debt repayment against feature work and can sell this to stakeholders.
 
@@ -48,7 +48,7 @@ _(Specific sections per domain — e.g., Web Frontend, Backend, Infrastructure �
 
 * **Educates**: can teach complex topics to others in a structured way. Creates documentation, gives internal talks, or runs workshops that raise the team's overall knowledge.
 * **Structured knowledge sharing**: establishes patterns for how the team learns together — whether through tech talks, reading groups, pair programming rotations, or innovation days.
-* **External engagement**: engages with the broader tech community beyond the company. This could be through conferences, meetups, open-source contributions, blog posts, or networking with peers at other companies. Brings insights back to the team.
+* **External awareness**: stays connected to the broader tech community as part of their role — attending conferences, reading industry publications, or engaging with professional networks during work hours. Brings external perspectives back to the team to inform technical decisions.
 * **Cross-domain curiosity**: actively learns about adjacent domains (e.g., a frontend engineer exploring infrastructure, or a backend engineer understanding UX principles). Uses this broader knowledge to make better technical decisions.
 
 ## Responsibility and Ownership
@@ -58,8 +58,8 @@ _(Specific sections per domain — e.g., Web Frontend, Backend, Infrastructure �
 * **Empowers others**: delegates meaningful work to others and trusts them to deliver. Provides the right level of guidance without micromanaging. Grows others' autonomy by giving them stretch opportunities.
 * **Mentors**: formally and informally mentors other engineers. Helps them navigate technical challenges, career growth, and professional development. Is sought out for advice.
 * **Cross-team technical advice**: provides technical guidance that impacts other teams or the company at large. Weighs in on technical decisions beyond their own area when appropriate.
-* **Proactive vision**: brings their own technical vision for how systems and practices should evolve. Doesn't wait for direction — proposes improvements and gets buy-in from stakeholders.
-* **Holds others accountable**: not just themselves (Senior L1) — ensures the team maintains high standards. Addresses quality issues constructively and directly.
+* **Proactive vision**: brings their own technical vision for how systems and practices should evolve. Doesn't wait for direction, proposes improvements and gets buy-in from stakeholders.
+* **Holds others accountable**: not just themselves (Senior L1), ensures the team maintains high standards. Addresses quality issues constructively and directly.
 * **Delegation and trust**: knows when to trust others, when to work together, and when to step in. Effectively distributes work within the team based on people's strengths and growth areas.
 * **Reliable delivery of complex work**: regularly delivers complex, multi-week initiatives on time. Can manage uncertainty and adjust plans when requirements shift.
 
@@ -79,8 +79,8 @@ _(Specific sections per domain — e.g., Web Frontend, Backend, Infrastructure �
 
 * **Sets direction**: sets technical direction at the project and team level. Consistently influences decision-making beyond just their own work.
 * **Cross-team impact**: their work and decisions have an impact beyond their own team. Other teams seek their input on technical matters.
-* **Visibility**: knows how to ensure that the team's work — especially technical improvements and maintenance — is visible to the whole company (dev-team, business, and management). Can market technical work effectively.
+* **Visibility**: knows how to ensure that the team's work, especially technical improvements and maintenance, is visible to the whole company (dev-team, business, and management). Can market technical work effectively.
 * **Engagement beyond engineering**: engages with other parts of the company beyond software engineering. Understands how technical decisions affect business outcomes.
 * **Trusted representative**: trusted to represent the team's technical perspective in cross-functional discussions and planning sessions.
-* **Shapes team practices**: actively improves how the team works — tooling, processes, standards — and gets buy-in for changes.
+* **Shapes team practices**: actively improves how the team works, tooling, processes, standards, and gets buy-in for changes.
 * **Role model**: others look to them as an example of technical excellence combined with pragmatism and professionalism.

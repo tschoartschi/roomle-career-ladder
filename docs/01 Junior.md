@@ -17,7 +17,7 @@ Technical position → no management counterpart
 
 Learning contributor
 
-> A Junior is at the beginning of their professional career. They learn and adopt the patterns, tools, and practices of the team, take responsibility for their own tasks with guidance, participate in team efforts, and are building their initial understanding of how the organization works. Their primary job is to grow — absorbing knowledge, asking questions, and turning guidance into independent capability.
+> A Junior is at the beginning of their professional career. They learn and adopt the patterns, tools, and practices of the team, take responsibility for their own tasks with guidance, participate in team efforts, and are building their initial understanding of how the organization works. Their primary job is to grow, absorbing knowledge, asking questions, and turning guidance into independent capability.
 
 ## Technical Mastery
 **tldr;** A Junior applies known patterns and tools to solve defined problems within their area, following established conventions and learning from the codebase and their colleagues.
@@ -34,7 +34,7 @@ Learning contributor
 
 * **Asks good questions**: when stuck, formulates clear questions that show what they've already tried. Doesn't spin for too long before asking, but also doesn't ask before trying.
 
-* **Growing toolkit**: is actively building familiarity with the team's tools — IDE, version control, CI/CD pipeline, deployment processes. Can use them for standard workflows without help.
+* **Growing toolkit**: is actively building familiarity with the team's tools, IDE, version control, CI/CD pipeline, deployment processes. Can use them for standard workflows without help.
 
 ## Subject-Specific Technical Skills
 
@@ -47,18 +47,18 @@ _(Specific sections per domain — e.g., Web Frontend, Backend, Infrastructure �
 
 * **Adopts what is taught**: takes onboarding material, documentation, and guidance seriously. Applies what they learn in their daily work. Doesn't need the same thing explained repeatedly.
 * **Absorbs from environment**: picks up knowledge from code reviews, pair programming, team discussions, and observing how senior colleagues work. Actively listens and takes notes.
-* **Shows curiosity**: asks "why" — not just "how". Wants to understand the reasoning behind decisions, not just the instructions.
+* **Shows curiosity**: asks "why", not just "how". Wants to understand the reasoning behind decisions, not just the instructions.
 * **Accepts feedback gracefully**: treats code review feedback and corrections as learning opportunities, not criticism. Applies feedback consistently.
-* **Builds foundations**: is investing in understanding fundamentals (data structures, algorithms, networking, operating systems, or domain-specific basics) — not just the immediate task at hand.
+* **Builds foundations**: is investing in understanding fundamentals (data structures, algorithms, networking, operating systems, or domain-specific basics), not just the immediate task at hand.
 
 ## Responsibility and Ownership
 **tldr;** A Junior acknowledges the importance of responsibility, takes care with their assigned tasks, communicates their progress honestly, and is learning to be accountable for their output.
 
 * **Takes tasks seriously**: treats assigned work with care. Reads requirements thoroughly, asks clarifying questions, and makes an honest effort before asking for help.
-* **Communicates progress**: keeps the team informed about where they stand — what's done, what's in progress, what's blocked. Doesn't go silent when things are difficult.
+* **Communicates progress**: keeps the team informed about where they stand, what's done, what's in progress, what's blocked. Doesn't go silent when things are difficult.
 * **Honest about struggles**: admits when they don't understand something or when a task is taking longer than expected. Doesn't hide problems hoping they'll resolve themselves.
 * **Completes what they start**: finishes tasks end-to-end (within their scope). Doesn't leave work half-done without communicating. Follows up on PR feedback and makes requested changes promptly.
-* **Respects commitments**: when they commit to a deadline or task, they take it seriously. If they can't meet it, they raise it early — not at the last moment.
+* **Respects commitments**: when they commit to a deadline or task, they take it seriously. If they can't meet it, they raise it early, not at the last moment.
 * **Learning accountability**: is beginning to understand that their output affects others (teammates waiting for their code, users affected by bugs). Developing a sense of professional responsibility.
 
 ## Collaboration and Communication
@@ -74,9 +74,9 @@ _(Specific sections per domain — e.g., Web Frontend, Backend, Infrastructure �
 ## Influence
 **tldr;** A Junior is learning how the organization works, building initial relationships, and starting to understand how their work fits into the bigger picture.
 
-* **Observes and learns**: is developing an understanding of how the team operates — processes, decision-making, communication channels, stakeholder relationships.
+* **Observes and learns**: is developing an understanding of how the team operates, processes, decision-making, communication channels, stakeholder relationships.
 * **Builds relationships**: gets to know their teammates. Is approachable, friendly, and shows interest in others' work.
 * **Understands their place**: knows how their work contributes to the team's goals. Beginning to see the connection between their tasks and the product/business.
 * **Shows up reliably**: influence at this stage comes from being dependable. They're there when expected, they deliver what they promise, and they're easy to work with.
 * **Positive attitude**: approaches work with enthusiasm and willingness to learn. Doesn't bring unnecessary negativity or resistance to the team.
-* **Growing professional identity**: starting to develop their own professional presence — how they communicate, how they present their work, how they interact with colleagues.
+* **Growing professional identity**: starting to develop their own professional presence, how they communicate, how they present their work, how they interact with colleagues.

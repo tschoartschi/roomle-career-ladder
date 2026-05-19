@@ -13,28 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/00 Overview.md",
+                "file": "docs/05b Lead (management track).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Career Ladder Overview"
-            }
-          }
-        ]
-      },
-      {
-        "id": "81c2d9be136c5572",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e3b0701c37e1e0bc",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph-Ansicht"
+              "title": "05b Lead (management track)"
             }
           }
         ]
@@ -94,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "74319cf97d25c574",
@@ -201,6 +185,14 @@
   },
   "active": "2f4ac53730b96c0e",
   "lastOpenFiles": [
-    "docs/00 Overview.md"
+    "docs/04b Senior-L2 (management track).md",
+    "docs/04a Senior-L2 (technical track).md",
+    "docs/03 Senior-L1.md",
+    "docs/02 Expert.md",
+    "docs/01 Junior.md",
+    "docs/background/company-profile.md",
+    "docs/background/idea.md",
+    "docs/00 Overview.md",
+    "docs/background/kv-informationstechnologie-2026.md"
   ]
 }

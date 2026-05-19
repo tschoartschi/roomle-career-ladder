@@ -11,7 +11,7 @@ tags: [background, company]
 
 - **Founded:** 2014 in Austria (Linz)
 - **Location:** Tabakfabrik Linz (creative/tech hub)
-- **Headcount:** ~20 employees
+- **Headcount:** ~30 employees
 - **CEO:** Albert Ortig
 - **Legal form:** GmbH (Austrian limited liability company)
 - **Collective agreement:** Austrian IT services KV (UBIT/WKO)
@@ -36,7 +36,7 @@ Roomle provides the visual configuration and digitalization technology layer. Sp
 
 ## What This Means Structurally
 
-Roomle is a small, highly specialized software company (~20 people) embedded within a large industrial group (~7,000 people). It operates as a tech/product unit focused on 3D product configuration, while HOMAG provides the manufacturing ecosystem, customer base, and go-to-market reach in the furniture/wood industry.
+Roomle is a small, highly specialized software company (~30 people) embedded within a large industrial group (~7,000 people). It operates as a tech/product unit focused on 3D product configuration, while HOMAG provides the manufacturing ecosystem, customer base, and go-to-market reach in the furniture/wood industry.
 
 ## Core Product
 
