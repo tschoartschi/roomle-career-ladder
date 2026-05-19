@@ -13,7 +13,7 @@ tags: [career-ladder, overview]
 | --------- | ----------------------- | ----------------------- | ----------------------------------------------------------------------- |
 | Junior    | ST1 Einstieg (max 3 J.) | Guided contributor      | Delivers with support; primary job is to learn                          |
 | Expert    | ST1 Regel (max 4 J.)    | Independent contributor | Owns and delivers their work reliably                                   |
-| Senior L1 | ST1 Erfahrung           | Team driver             | Drives quality, standards, and initiative within the team               |
+| Senior L1 | ST1 Erfahrung           | Senior contributor      | Delivers complex work reliably; lifts the team through craft and reviews |
 | Senior L2 | ST2 Regel *             | Multiplier              | Makes others better, through tech leadership or people leadership       |
 | Lead      | ST2 Erfahrung           | Org shaper              | Defines how engineering works; impact outlasts individual contributions |
 

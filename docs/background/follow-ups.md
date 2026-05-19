@@ -31,27 +31,26 @@ The ladder defines *what* each level is, but does not define *how* someone is as
 
 ---
 
-## Expert → Senior L1 Gap
+## ~~Expert → Senior L1 Gap~~ — Resolved 2026-05-19
 
 **Opened:** 2026-05-19
-**Status:** Open
-**Owner:** TBD
+**Resolved:** 2026-05-19
+**Status:** ~~Open~~ → **Resolved by reframing**
 
-The behavioral gap between [[02 Expert|Expert]] and [[03 Senior-L1|Senior L1]] is wider than the other level transitions:
+### What we did
 
-- **Expert** is described as a reliable independent contributor — "solves standard problems independently", "follows established team patterns".
-- **Senior L1** jumps to designing complex systems from scratch, regularly fixing hard-to-fix bugs, driving team-wide standards, and being a sole developer for extended periods.
+Rather than splitting Senior L1 into sub-levels or adding bridging examples, we **reframed Senior L1 as the broad professional destination** (operating level: *Senior contributor*) and softened its description — moving the "actively drives the team" behaviors up to Senior L2. See [[decisions#2026-05-19 Reframed Senior L1 as Senior Contributor broad professional destination|the decision entry]] and the new [[senior-l1-vs-l2|L1 vs L2 boundary doc]].
 
-The missing middle: someone who designs *small* systems, *occasionally* contributes to hard bugs, leads on a single feature but not a full system. By comparison, the Senior L1 → Senior L2 transition (individual excellence → multiplier) is clearer.
+Under the new framing:
+- **Expert** stays as the ramp-up level (capped by the KV at max 4 years in ST1 Regel).
+- **Senior L1** is the destination most engineers naturally grow into — established senior IC, designs systems in their area, contributes to team quality through craft.
+- The real career inflection moves to **Senior L1 → Senior L2** (IC → multiplier), which is now the deliberate, mutually-agreed step.
 
-**Possible directions:**
+The structural gap that originally motivated this item has been absorbed. The remaining ambiguity is a **calibration question** (when is someone *ready* for Senior L1?) rather than a structural one (does the level exist for them to fit into?). Calibration is handled per person at promotion time, not in the framework.
 
-- Add bridging behavioral examples to clarify the boundary
-- Split Senior L1 into sub-levels (Senior L1a / L1b) similar to L2 and L5
-- Lower the Senior L1 bar (closer to today's Expert+) and raise the Expert bar
-- Accept the gap as a feature — Senior L1 is intentionally "the level you grow into over years"
+### ~~Original problem statement~~
 
-**Why it matters:** A wide gap makes calibration harder — two engineers between Expert and Senior L1 may be assessed inconsistently because the boundary is fuzzy.
+> ~~The behavioral gap between Expert and Senior L1 is wider than the other level transitions: Expert is described as a reliable independent contributor — "solves standard problems independently", "follows established team patterns". Senior L1 jumps to designing complex systems from scratch, regularly fixing hard-to-fix bugs, driving team-wide standards, and being a sole developer for extended periods. The missing middle: someone who designs *small* systems, *occasionally* contributes to hard bugs, leads on a single feature but not a full system.~~
 
 ---
 

@@ -11,6 +11,34 @@ This document tracks key decisions made while designing the Roomle career ladder
 
 ---
 
+## 2026-05-19: Reframed Senior L1 as "Senior Contributor" (broad professional destination)
+
+### Decision
+
+Senior L1 is now framed as an **established senior engineer** and the **broad professional destination** for most engineers — not a stretch tier or a stepping stone. The operating level label changes from "Team driver" to "Senior contributor".
+
+Behaviors that imply *actively driving the team* (defining team-wide standards, owning cross-cutting initiatives, formally mentoring, redesigning team processes) move up to Senior L2. Senior L1 retains influence-through-craft behaviors: PR reviews that nudge consistency, being a go-to expert, helping colleagues when asked, raising process concerns constructively.
+
+### Rationale
+
+- **Reality fit**: Roomle has no Juniors today and won't hire any in the near term. Most engineers naturally reach ST1 Erfahrung within the KV's max 4 years at ST1 Regel — a comfortable destination there matches who we actually employ.
+- **Clean KV mapping**: keeping Senior L1 aligned with ST1 Erfahrung avoids decoupling role from salary (the earlier "Expert role / ST1 Erfahrung salary" option felt unappealing to communicate).
+- **Meaningful L1 → L2 transition**: by reserving multiplier behaviors for L2, the L1 → L2 step becomes a genuine, intentional career choice — matching the existing ST1 → ST2 mutual-commitment framing in [[idea]].
+- **Avoids ladder inflation**: Senior L1 is reachable as a destination, but Senior L2 requires actively choosing the multiplier role.
+
+### Changes
+
+- [[03 Senior-L1|Senior L1]]: framing softened throughout; active/intentional language moved to L2 or removed.
+- [[00 Overview|Overview]]: operating level "Team driver" → "Senior contributor"; level-at-a-glance summary updated.
+- New: [[senior-l1-vs-l2|Senior L1 vs Senior L2]] reference documenting how the boundary is drawn.
+- [[04a Senior-L2 (technical track)|Senior L2 (technical)]] and [[04b Senior-L2 (management track)|Senior L2 (management)]]: cross-links added to the new boundary doc; no behavioral changes (L2 descriptions already represented all of the moved-up content).
+
+### Acknowledged trade-off
+
+The Expert → Senior L1 gap ([[follow-ups]]) is narrower under this framing but does not fully disappear. The gap becomes a calibration question rather than a structural one.
+
+---
+
 ## 2026-05-19: Harmonized Axis Stage Naming
 
 ### Decision
