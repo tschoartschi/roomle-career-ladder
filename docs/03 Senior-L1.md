@@ -56,53 +56,47 @@ Strong contributor
 * Has a “growth mindset”: always challenges the status-quo, the own status-quo but also the status-quo of the organization
 * Learning Agility: demonstrates the commitment to continuous learning and professional development. Always tries to understand new technologies, tools, and methodologies. Is proactive in seeking out new opportunities to learn and grow.
 
-## Responsibility and Ownership
-**tldr;** A senior software engineer is responsible for the entire project lifecycle, can lead initiatives, work independently on technical topics, takes ownership and accountability, delivers on time, provides technical advice, mentors junior developers, and proactively brings in his own vision.
 
-* Independently responsible for the entire lifecycle of projects including engineering design, development, deployment, and operation
-* Can and is trusted to lead larger initiatives
-* Is trusted to be set aside to work on technical topics she/he identified (e.g.: upgrade, improve testing, remove impediments etc)
-* Has the ownership, standing, and responsibility in her/his team to push certain tasks to an end. She/he can “get shit done”
-* The ability to be a sole developer for a certain amount of time and still not lose track or gets lost
-* Holds themselves and others accountable. Can pick up previous work and build on top of it without complaining about what was done in the past.
-* Can do research and present results to a larger audience, the results are the basis for developing new features or changing the current architecture
+## Responsibility and Ownership
+**tldr;** A senior software engineer independently drives their own projects through the full lifecycle, takes ownership and accountability for their work, delivers reliably, proactively improves their area, and takes initiative to solve problems beyond assigned tasks.
+
+* Independently responsible for the entire lifecycle of their own projects including engineering design, development, deployment, and operation
+* Is trusted to be set aside to work on technical topics they identified (e.g.: upgrade, improve testing, remove impediments etc)
+* Has the ownership and responsibility in their team to push their tasks to an end. Can "get shit done"
+* The ability to be a sole developer for a certain amount of time and still not lose track or get lost
+* Holds themselves accountable. Can pick up previous work and build on top of it without complaining about what was done in the past.
+* Can do research and present results to a larger audience; the results are the basis for developing new features or changing the current architecture
 * Regularly delivers on time and is constantly working to make accurate estimates and deliver on those estimates
-* Takes initiative to identify and solve important problems. Is able to coordinate with others if it’s a cross-cutting problem.
-* Provides technical advice and weighs in on technical decisions that impact other teams or the company at large.
+* Takes initiative to identify and solve important problems within their area. Is able to coordinate with others if it's a cross-cutting problem.
 * Owns the technical-, testing- and performance parts for their projects
-* Knows when to trust in others, when to work together, and when to control others
-* Shows initiative and independently executes process improvements for the pod, considers how tasks can be effectively distributed within the team
-* Intrinsically cares about projects she/he leads, knows who to present those projects, knows how to set those projects into spot-light, knows how to explain why those projects deliver value
-* Responsible for leading technical projects, mentoring junior developers, and guiding teams on technical decisions
-* Proactively brings in their own vision so that the organization can grow based on the ideas of the employees
+* Shows initiative and independently executes process improvements for the pod
+* Intrinsically cares about projects they work on, knows how to present those projects, knows how to explain why those projects deliver value
 * Has the courage to defend and explain spill overs. Knows when a spill over makes more sense than a quick hacky solution
 
 ## Collaboration and Communication
-**tldr;** A senior software engineer understands business needs, communicates effectively, takes initiative to organize and coordinate, enables and collaborates with others while remaining humble and open to learning
+**tldr;** A senior software engineer understands business needs, communicates effectively with diverse stakeholders, actively facilitates team discussions, and supports others through feedback and knowledge sharing.
 
-* Understands business and product domain well: also knows what’s happening outside of the Software Engineering department
-* Has the ability to communicate clearly with technical and non-technical people. Makes sure her/his message comes clear regardless of the audience. Can communicate effectively with all stakeholders, including business analysts, project managers, designers, and other engineers
+* Understands business and product domain well: also knows what's happening outside of the Software Engineering department
+* Has the ability to communicate clearly with technical and non-technical people. Makes sure their message comes clear regardless of the audience. Can communicate effectively with all stakeholders, including business analysts, project managers, designers, and other engineers
 * Hunting for business knowledge: actively searches how the product works, how users interact with it, why it works as it does etc.
-* Lobbying: actively communicates her/his ideas and knows how to get buy-in on those solutions. Knows how to pursue her/his own ideas. Takes the initiative to define team-wide guidelines (code-wise, process-wise, etc). Is not simply "the coder in the corner". Is able to spread her/his ideas throughout the organization and rally people to join her/him in her/his cause.
-* Collaborate effectively with team members, and be able to give and receive feedback constructively.
+* Communicates ideas proactively: is not simply "the coder in the corner". Actively shares opinions and proposals within the team. Takes the initiative to suggest team-wide guidelines (code-wise, process-wise, etc).
+* Collaborates effectively with team members, and is able to give and receive feedback constructively.
 * Organizing: takes the initiative to bring together the right people to discuss specific topics. Knows when to escalate problems that have a wider scope.
-* Enabler: is enabling others to become “better”. This can be done for example in code reviews, with documentation, with technical guidance, or mentoring, etc. Lifts the skills and expertise of those around her/him. Growing others around them to take over their existing responsibilities. Assists and teaches other engineers on an individual basis.
-* General: A communicative collaborator, not a passive bystander. Generally, unambiguous communication that's to the point, assumes good intentions. Humility because she/he knows that it’s impossible to know everything and there will always be someone smarter in some aspect than she/he or you and me are.
+* Supporting others: supports colleagues through code reviews, documentation, and technical guidance. Helps others grow by sharing knowledge and providing constructive feedback.
+* General: A communicative collaborator, not a passive bystander. Unambiguous communication that's to the point, assumes good intentions. Humility — knows that it's impossible to know everything and there will always be someone smarter in some aspect.
 * Assistance to PO: can help the PO and help to refine User Stories
 
 ## Influence
-**tldr;** A senior software engineer is highly influential and delivers impactful results, provides valuable PR reviews, sets direction, challenges team processes, and maintains a positive attitude
+**tldr;** A senior software engineer has established credibility within the team, delivers impactful results, provides valuable PR reviews, challenges team processes, and influences decision-making within their team.
 
-* Has a strong influence on the team
-* Creates influence through PR reviews: by giving valuable advice in the reviews new standards and guidelines can emerge
+* Has established credibility and influence within the team through consistent delivery and expertise
+* Creates influence through PR reviews: by giving valuable advice in the reviews, new standards and guidelines can emerge
 * Is focusing on delivering impactful results: knows which initiatives bring the bigger value at which time. Knows how to market maintenance work and why maintenance is impactful.
-* Trusted to interact with and represent the team with other stakeholders to drive decisions
-* Sets direction at the project level and consistently influences decision-making at the team level
 * Go-to expert in at least one area of the codebase
-* Shows engagement that goes beyond her/his direct co-workers. Ideally engages also with other parts of the company than with software engineering.
-* Perception: people know she/he is reliable and professional.
-* Has an appreciation for her/his own work and is ambitious about creating great solutions
+* Influences decision-making at the team level on technical matters
+* Shows engagement within the team and the broader dev organization
+* Perception: people know they are reliable and professional.
+* Has an appreciation for their own work and is ambitious about creating great solutions
 * Challenges the team processes, looking for ways to improve them
-* Makes an impact on the whole development team, not just on her/his direct co-workers
-* Knows how to ensure that her/his work is visible to everyone in the company (dev-team, business, and management)
+* Makes an impact on the whole development team, not just on their direct co-workers
 * Positive Attitude: maintains a positive attitude towards challenges and setbacks, and demonstrates resilience in the face of difficulties.
