@@ -11,15 +11,15 @@ The transition from Expert to Senior L1 is the journey from "reliable independen
 
 The cleanest way to draw the line is on **depth of craft and earned influence**:
 
-| | Expert | Senior L1 |
-|---|---|---|
-| **Stance** | "I deliver my assigned work reliably" | "I deliver complex work; my craft lifts the team" |
-| **Scope of work** | Standard problems within their domain | Complex systems within their area, full project lifecycle |
-| **Design** | Applies existing patterns; doesn't yet design from scratch | Designs complex systems within their area; leads architecture discussions for their own work |
-| **Debugging** | Systematic within known systems | Roots out causes across systems; debugs race conditions, deadlocks, non-breakpoint issues |
-| **Standards** | Applies team standards consistently | Their own work models the standards; reviews nudge consistency across the team |
-| **Risk & tradeoffs** | Aware of edge cases in their own code | Identifies risks (security, technical debt, rewrites); documents tradeoffs for the team |
-| **Recognition** | Builds credibility through consistent delivery | Established credibility; go-to person in at least one area |
+|                      | Expert                                                     | Senior L1                                                                                    |
+| -------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| **Stance**           | "I deliver my assigned work reliably"                      | "I deliver complex work; my craft lifts the team"                                            |
+| **Scope of work**    | Standard problems within their domain                      | Complex features within their area, end-to-end from spec to deployment                       |
+| **Design**           | Applies existing patterns; doesn't yet design from scratch | Designs features and components within their area; contributes to architecture discussions for their own work (team-wide architectural ownership is Senior L2) |
+| **Debugging**        | Systematic within known systems                            | Roots out causes across systems; debugs race conditions, deadlocks, non-breakpoint issues    |
+| **Standards**        | Applies team standards consistently                        | Their own work models the standards; reviews nudge consistency across the team               |
+| **Risk & tradeoffs** | Aware of edge cases in their own code                      | Identifies risks (security, technical debt, rewrites); documents tradeoffs for the team      |
+| **Recognition**      | Builds credibility through consistent delivery             | Established credibility; go-to person in at least one area                                   |
 
 ## Why this distinction matters
 

@@ -11,6 +11,95 @@ This document tracks key decisions made while designing the Roomle career ladder
 
 ---
 
+## 2026-05-20: Replaced hard artifact gating with holistic calibration
+
+### Decision
+
+The Overview's evaluation section now treats the core ladder, domain profiles, and cross-cutting profiles as **mandatory inputs**, not independent pass/fail checklists. A level is met when the overall pattern of evidence fits the level: the majority of expectations are consistently demonstrated, gaps are understood, and strong expertise or business-critical impact can outweigh weaker areas where that is reasonable.
+
+Some gaps remain blocking: trust, ownership, legal/security hygiene, repeated quality failures, or missing the core responsibility of the target level cannot be compensated for by narrow expertise alone.
+
+### Rationale
+
+- Real promotion conversations are judgment calls, not a 100m race with a single cutoff time.
+- Domain and cross-cutting profiles should inform calibration without turning every bullet into a hard gate.
+- The framework still needs guardrails: serious ownership, quality, trust, legal, or security gaps must not be hidden behind exceptional depth elsewhere.
+
+### Changes
+
+- [[00 Overview]]: "Evaluation & Aggregation Rule" renamed to "Evaluation & Calibration Rule" and rewritten as holistic calibration.
+- [[03 Senior-L1]]: clarified "within their area" as "area of ownership" and aligned the stale `tldr` lines with the softened L1 scope.
+
+---
+
+## 2026-05-20: Corrected ST2 entry mapping and external seniority calibration
+
+### Decision
+
+The Senior L2 KV mapping has been corrected:
+
+- The normal Senior L1 → Senior L2 promotion is **ST1 Erfahrung → ST2 Regel**.
+- **ST2 Einstieg** only applies when an employee is moved from **ST1 Regel** into ST2 early.
+- ST2 Einstieg is not a separate career level. In that case, the employee already operates at Senior L2 expectations, but the KV salary floor progresses from ST2 Einstieg to ST2 Regel within max 3 years.
+
+The external-hire calibration language in [[00 Overview]] was also sharpened. Seniority is treated as contextual: strong external seniority, including seniority at a large corporation, does not automatically mean Roomle Senior L1 performance from day one. Most external hires start at Expert unless there is strong evidence that they already operate effectively in Roomle's autonomous, broad, high-context environment.
+
+### Rationale
+
+- **KV mechanics**: The IT KV does not allow a move from an Erfahrungsstufe into the next Tätigkeitsfamilie's Einstiegsstufe. Therefore, an employee moving from ST1 Erfahrung to ST2 enters ST2 Regel. ST2 Einstieg is only relevant for an early ST1 Regel → ST2 move.
+- **Roomle reality**: Roomle has repeatedly seen that senior engineers from large, specialized, process-heavy corporations may need significant ramp-up before they perform at Roomle Senior level. Freelancers or agency engineers often adapt faster because they are used to autonomy, broad ownership, and context-switching. The ladder should reflect that observed pattern without treating external seniority as meaningless.
+- **Clear commitment**: Entering ST2 is a serious mutual commitment because the KV will continue advancing the employee toward ST2 Erfahrung over time. The company cannot sustainably keep someone in a lower-output role while the KV mandates higher salary bands.
+
+### Changes
+
+- [[00 Overview]]: corrected the Senior L2 footnote and ST1 → ST2 transition language; expanded the external-hire Senior L1 explanation.
+- [[idea]]: corrected the IT KV mapping note for ST2 Einstieg vs ST2 Regel.
+- [[senior-l1-vs-l2]]: clarified that normal L1 → L2 maps to ST2 Regel.
+- [[senior-l2-vs-lead-technical]] and [[senior-l2-vs-lead-management]]: replaced the soft "honest scope conversation" language with the explicit transition-out/termination consequence already decided for KV-mandated mismatch.
+
+---
+
+## 2026-05-20: Tightened Senior L1 wording for KV ST1 defensibility; made L2 the explicit fachliche/personelle Managementaufgaben threshold
+
+### Decision
+
+A close reading of the IT KV (§ 15 II, ST1 vs ST2 descriptions) flagged Senior L1 as sitting near the ST1/ST2 boundary. Three changes were made:
+
+1. **Softened the most exposed Senior L1 bullets** in [[03 Senior-L1|Senior L1]]:
+   - "designs complex systems within their area" → "designs features and components within their area, scoping data flow, error handling, and integration points; team-wide architectural ownership belongs to Senior L2"
+   - "Full lifecycle ownership: owns the entire lifecycle of their projects" → "Feature lifecycle ownership: owns the features they lead from design and implementation through deployment and post-release follow-up, within their area; multi-team or cross-cutting initiatives are Senior L2 territory"
+   - "Solo capability: can be the sole developer on a topic for extended periods" → "Self-direction: can carry a well-scoped feature or component without daily check-ins; sustained sole ownership of a system is Senior L2 territory"
+   - Intro paragraph updated for consistency.
+2. **Mirrored the softening in the boundary docs** ([[expert-vs-senior-l1]], [[senior-l1-vs-l2]]) so calibration material does not undo the level-page changes.
+3. **Made L2 the explicit threshold for KV-defining responsibilities**:
+   - [[04a Senior-L2 (technical track)|L2 technical]]: explicitly framed as the threshold for **fachliche Managementaufgaben** (team-wide architectural ownership, team standards, cross-cutting initiatives).
+   - [[04b Senior-L2 (management track)|L2 management]]: explicitly framed as the threshold for **personelle Managementaufgaben** (team delivery, performance management, people development).
+   - [[senior-l1-vs-l2|L1↔L2 boundary doc]] now includes a "KV-relevant boundary" subsection.
+4. **Added a follow-up for the 36-month assessment obligation** (§ 15 II ST2 ¶ 2) in [[follow-ups]] — this is a legal obligation, not a process preference.
+
+### Rationale
+
+- **ST1 requires "Qualifikation und/oder Verantwortung … selbständig"; ST2 requires "besondere Qualifikation oder besondere Verantwortung" or "fachliche bzw. personelle Managementaufgaben"** (§ 15 II IT-KV). The L1 bullets that read most clearly as ST2 in plain German were the ones describing "sole developer for extended periods", "owns the entire lifecycle of their projects", and "designs complex systems". Reframing them at feature/component scope keeps L1 inside ST1 ("Qualifikation und Verantwortung, selbständig") without losing the level's character.
+- **Making L2 the explicit Managementaufgaben threshold** uses the KV's own vocabulary to document why the salary jump (ST1 Erfahrung → ST2 Regel) coincides with the role jump. It also gives a manager defending an L1 (ST1) classification a concrete reference point — "no fachliche Managementaufgaben yet" — rather than a vibes-based answer.
+- **The 36-month assessment is a § 15 II ST2 ¶ 2 obligation**, not optional. Tracking it as a follow-up surfaces the compliance work that the ladder created but did not address.
+
+### Acknowledged trade-off
+
+The L1 description is now narrower than it was. Some behaviors that previously read as L1 (sustained sole ownership of a system, full project lifecycle, designing complex systems) now read as L2. This is intentional — it sharpens the L1 → L2 transition and keeps L1 defensibly inside ST1 — but it slightly increases the L1 → L2 step and may move a few currently-described-as-L1 engineers closer to the L2 boundary on paper. Calibration conversations at the next assessment cycle will need to reflect this.
+
+This change does not replace seeking a written opinion from an Austrian labor lawyer with ST1/ST2 dispute experience before rollout — it reduces the surface area such a review would need to address.
+
+### Changes
+
+- [[03 Senior-L1|Senior L1]]: intro and four Technical Mastery / Responsibility & Ownership bullets softened.
+- [[expert-vs-senior-l1|Expert → Senior L1]]: Scope-of-work and Design rows updated to match.
+- [[senior-l1-vs-l2|Senior L1 → Senior L2]]: new "KV-relevant boundary" subsection added.
+- [[04a Senior-L2 (technical track)|Senior L2 (technical)]]: intro extended with fachliche-Managementaufgaben framing.
+- [[04b Senior-L2 (management track)|Senior L2 (management)]]: intro extended with personelle-Managementaufgaben framing.
+- [[follow-ups]]: new "36-Month KV ST1/ST2 Assessment" item added.
+
+---
+
 ## 2026-05-20: Added cross-cutting role profile category (AI Tooling first)
 
 ### Decision
@@ -216,3 +305,17 @@ Replaced Engineering Ladders' original 5 axes with Roomle-specific ones.
 | People | **Collaboration & Communication** | More actionable for a small team where everyone interacts directly |
 | Process | **Learning** | Adaptability and growth matter more than process enforcement at this scale |
 | Influence | **Influence** | Kept as-is — universal concept |
+
+---
+
+## 2026-05-20: Resolved "Regression and Up-or-Out" due to IT KV
+
+### Decision
+
+There will be no formal framework mechanism for "stepping down" or "down-leveling" if an employee regresses or fails to grow into a KV-mandated salary band. The outcome of structural underperformance against the KV-mandated level is a mutual transition out or termination.
+
+### Rationale
+
+- **The legal and economic reality**: The Austrian IT KV forces salary increases over time (e.g. max 4 years in ST1 Regel before moving to ST1 Erfahrung). The company cannot legally cut an employee's salary to correspond to a lower output level.
+- **Sustainability**: Paying for Senior L2 levels while receiving Senior L1 output is financially unsustainable for a ~30-person startup.
+- **Clarity**: Rather than pretending down-leveling is a viable ongoing state, the framework and the Overview explicitly state that failing to keep pace with the salary guarantees enforced by the calendar leaves termination/separation as the only viable path.

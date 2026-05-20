@@ -17,7 +17,9 @@ Management position → counterpart: [[04a Senior-L2 (technical track)]]
 
 People multiplier
 
-> A Senior L2 on the management track multiplies their impact through people. They are responsible for the team's delivery, growth, and well-being. They still have strong technical judgment — using it to make good decisions, support their team, and participate in technical discussions — but their primary job is no longer writing code. They create the environment in which their team can do their best work.
+> A Senior L2 on the management track multiplies their impact through people. They are responsible for the team's delivery, growth, and well-being. At our current company scale, this role operates heavily as a **"Player-Coach"**, managing 1-4 engineers while still contributing directly. They use their strong technical judgment to make good decisions, support their team, and participate in discussions. Their primary accountability is the team's output and health, not just their own ticket delivery.
+>
+> This level is the threshold for **personelle Managementaufgaben** in the IT KV sense — ownership of team delivery, performance management, and people development — which is why it maps to ST2 rather than ST1.
 
 _Boundaries: [[senior-l1-vs-l2|Senior L1 → Senior L2]] · [[senior-l2-vs-lead-management|Senior L2 → Lead]]._
 
@@ -30,11 +32,11 @@ _Boundaries: [[senior-l1-vs-l2|Senior L1 → Senior L2]] · [[senior-l2-vs-lead-
 
 * **Architectural awareness**: understands the team's systems well enough to participate in design reviews and architectural discussions. Can identify when decisions need more input or when the team is heading toward a dead end.
 
-* **Capacity planning**: understands the technical complexity of the team's work well enough to plan capacity, assess estimates, and identify when the team is overcommitted.
+* **Capacity planning**: understands the technical complexity of the team's work well enough to plan capacity, assess estimates, and identify when the team is overcommitted, even for a very small team.
 
-* **Hands-on balance**: may still write code occasionally (0-30% of the time), but never on the critical path. Doesn't block the team's progress by holding onto implementation work.
+* **Hands-on balance (Player-Coach)**: depending on the size of their team (which may be just 1-3 people), they still write code actively (often up to 50% of the time). However, they avoid taking the critical path tasks that would block the team if management emergencies arise.
 
-* **Quality oversight**: ensures the team maintains high technical standards — not by reviewing every PR, but by establishing practices (code review culture, testing standards, CI/CD quality gates) and trusting the team to uphold them.
+* **Quality oversight**: ensures the team maintains high technical standards — not by reviewing every PR, but by establishing practices (code review culture, testing standards) and trusting colleagues to uphold them.
 
 ## Learning
 **tldr;** A Senior L2 (management) develops their team's skills, creates structured learning opportunities, and grows their own management capabilities alongside their technical knowledge.
@@ -48,9 +50,9 @@ _Boundaries: [[senior-l1-vs-l2|Senior L1 → Senior L2]] · [[senior-l2-vs-lead-
 ## Responsibility and Ownership
 **tldr;** A Senior L2 (management) owns the team's delivery and health, empowers individuals through delegation and coaching, and is accountable for outcomes — both technical and human.
 
-* **Owns team delivery**: is accountable for the team's output — on-time delivery, quality, and reliability. Doesn't do the work themselves, but ensures the conditions for the team to deliver consistently.
-* **Empowers through delegation**: gives team members meaningful ownership over their work. Delegates real responsibility, not just tasks. Trusts people to deliver and steps in only when necessary.
-* **Coaching over directing**: helps team members solve problems rather than solving problems for them. Asks good questions, provides frameworks, and lets people grow through challenge.
+* **Owns team delivery**: is accountable for the team's output. While they may still do some of the work themselves as a Player-Coach, they ensure the structural conditions exist for the rest of the team to deliver consistently.
+* **Empowers through delegation**: gives team members meaningful ownership over their work. Delegates real responsibility, not just tasks, even when it might be faster to just code it themselves.
+* **Coaching over directing**: helps team members solve problems rather than solving problems for them. Pairs constantly but avoids taking over the keyboard instinctively.
 * **Performance management**: has honest, timely conversations about performance. Addresses underperformance early and constructively. Celebrates and rewards strong performance.
 * **Shields the team**: protects the team from unnecessary organizational noise, shifting priorities, and context switching — without isolating them from important business context.
 * **Resource stewardship**: manages the team's time, energy, and focus as finite resources. Pushes back on overcommitment. Knows when to say no.

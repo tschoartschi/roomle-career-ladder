@@ -9,27 +9,44 @@ tags: [background, level-boundaries]
 
 The transition from Senior L1 to Senior L2 is the most significant career inflection in this ladder. It is a deliberate, mutually-agreed choice — not an automatic progression. (See the [[idea#IT KV Mapping|ST1 → ST2 transition]] framing for the salary commitment side, and the [[00 Overview#Starting Level & Progression|Overview]] for the role-choice side.)
 
-The cleanest way to draw the line is on **intent**:
+The cleanest way to draw the line is on **accountability and scope**:
 
 | | Senior L1 | Senior L2 |
 |---|---|---|
-| **Stance** | "I deliver excellent work" | "I take responsibility for others' work being excellent" |
-| **How they influence** | Passive / byproduct — their PRs naturally raise the bar, juniors learn from their code, people seek them out | Active / intentional — they own team standards, they own someone's growth, they own architectural direction |
-| **Mentoring** | Helps when asked; informal | Owns it; runs regular 1:1s; structured |
-| **Standards** | Their own work models high standards; reviews nudge consistency | Defines and maintains team-wide standards as a primary responsibility |
-| **Initiatives** | Owns their own projects end-to-end | Leads cross-cutting initiatives that involve other people's work |
-| **Architecture** | Designs systems in their area | Owns architecture across the team |
+| **Stance** | "I deliver excellent work in my area" | "I am accountable for the team's outcomes or system architecture" |
+| **Measured by** | Their own output and the health of their domain | The output and health of the team, or the architecture across the team |
+| **Mentoring** | Helps on shared projects; informal | Structured 1:1s with assigned people; accountable for their growth |
+| **Standards** | Sets standards inside their area | Defines and enforces team-wide standards |
+| **Initiatives** | Owns projects end-to-end inside their area | Leads initiatives that cross domains or involve other people's work |
+| **Architecture** | Designs systems inside their area | Owns architecture across the team or across multiple domains |
+
+## L2 entry criteria
+
+Senior L1 stays broad on purpose. Senior L2 is the deliberate step, so it must be specific. Promotion to L2 requires demonstrated, sustained evidence (months, not weeks) across **all four** of these:
+
+1. **Cross-cutting initiative delivered.** Has led at least one initiative whose execution spanned engineers other than themselves — scoped, planned, driven through review and rollout, and landed. The work must have meaningfully depended on coordinating other people's output, not just the L1's own.
+2. **Structured mentoring or 1:1 ownership.** Has held regular structured 1:1s or sustained mentoring with at least one other engineer for ≥6 months, where the L2 is accountable for the other person's growth (not just available for questions).
+3. **Team-wide standard owned.** Is the person who maintains at least one team-wide standard — testing strategy, code review guidelines, deployment process, AI use conventions, ADR template, etc. "Owns" means: edits the document, decides on changes, and the team accepts those changes as authoritative.
+4. **Architectural decision recorded and adopted.** Has driven at least one architectural decision recorded as an ADR (or equivalent durable artifact) that affected work beyond their own area — and the team is following it months later.
+
+For the management track ([[04b Senior-L2 (management track)|L2b]]), criterion 4 is replaced by: *has run an end-to-end people process (hiring, performance, reorg) where they were the decision-maker, not the participant*.
+
+These four are entry criteria, not promotion guarantees — the company also needs an L2-shaped scope available for the role to exist (see [[00 Overview#Starting Level & Progression|Overview]] on staying at L1 as a valid choice). But absence of any one of the four is a defensible reason to not promote, and a clear gap to point at in a non-promotion conversation.
 
 ## Why this distinction matters
 
-Senior L1 still has **seeds** of multiplier behavior — informal mentoring, influence through reviews, being a go-to expert — but as **byproducts** of being a senior IC, not as the primary job. Senior L2 makes those things the primary job.
+Senior L1s are highly skilled ICs accountable for executing within their scope. While they naturally raise the bar around them, they are primarily measured by the success of their own output and local domain health. Senior L2s are explicitly measured by the output, health, and architecture of the broader team.
 
 This means:
 
-- A Senior L1 engineer should have demonstrated capability for multiplier work in small doses before being considered for the L2 promotion. The L1 → L2 leap is real and intentional, but it is not from zero.
-- The career choice is genuine: continue going deep on craft (stay L1), or shift toward making others productive (move to L2). Neither is "above" the other; they are different jobs.
+- A Senior L1 engineer should have demonstrated capability for multiplier work in small doses before being considered for the L2 promotion. The L1 → L2 leap is real and intentional, but it is not from zero — the four entry criteria above are how "small doses" become evidence.
+- The career choice is genuine: continue going deep on craft (stay L1), or shift toward making others productive (move to L2). Neither is "above" the other; they are different jobs. Salary growth is possible on both paths — see [[00 Overview#Starting Level & Progression|Overview]].
 - For the management track ([[04b Senior-L2 (management track)|L2b]]), the principle is the same but the multiplier work shifts toward people delivery rather than technical leadership.
 - Staying at Senior L1 long-term is a valid, respected choice — see [[00 Overview#Starting Level & Progression|Overview]].
+
+### KV-relevant boundary
+
+This boundary is also where the IT KV ST1 → ST2 threshold sits. ST2 begins where the role requires **besondere Qualifikation oder besondere Verantwortung** (4a) or **fachliche bzw. personelle Managementaufgaben** (both tracks at 4a/4b) (§ 15 II IT-KV). Roomle's L1 description is deliberately kept inside ST1 (depth of craft, byproduct influence, feature-scope ownership); L2 is where ST2-defining responsibilities begin — team-wide architectural ownership, cross-cutting initiatives, team-wide standards (technical track) or people leadership (management track). Because Senior L1 maps to **ST1 Erfahrung**, the normal L1 → L2 promotion maps to **ST2 Regel**, not ST2 Einstieg. ST2 Einstieg only applies to an early ST1 Regel → ST2 transition. The KV's 36-month assessment obligation (§ 15 II ST2 ¶ 2) means that for any employee operating in this space, ST1-vs-ST2 fit must be assessed in writing at the latest after 36 months of relevant experience — see [[follow-ups]].
 
 ## Related boundary docs
 

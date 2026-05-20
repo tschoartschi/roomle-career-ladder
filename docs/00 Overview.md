@@ -17,7 +17,7 @@ tags: [career-ladder, overview]
 | Senior L2 | ST2 Regel *             | Multiplier              | Makes others better, through tech leadership or people leadership       |
 | Lead      | ST2 Erfahrung           | Org shaper              | Defines how engineering works; impact outlasts individual contributions |
 
-\* Senior L2 enters ST2 at the Einstiegsstufe first. This is a transitional salary ramp, the employee already operates at Senior L2 expectations, but the KV salary floor progresses from Einstieg to Regel within max 3 years. See [[kv-informationstechnologie-2026|IT KV details]].
+\* Senior L2 normally maps to **ST2 Regel**. When someone moves from **ST1 Erfahrung** (Senior L1) into ST2, the KV transition is **ST1 Erfahrung → ST2 Regel**, not ST2 Einstieg. **ST2 Einstieg** only applies when someone is moved from **ST1 Regel** into ST2 early; in that case they already operate at Senior L2 expectations, but the KV salary floor progresses from ST2 Einstieg to ST2 Regel within max 3 years. See [[kv-informationstechnologie-2026|IT KV details]].
 
 ## Track Split
 
@@ -32,18 +32,20 @@ From Senior L2 onward, the ladder splits into two tracks:
 
 **Most external hires start at Expert.** The Junior level is reserved for career starters (graduates, career changers, or trainees) who need structured guidance and onboarding.
 
-**Senior L1 requires Roomle-specific knowledge.** A strong engineer hired from Big Tech or another company will likely have the general technical skills of a Senior, but Senior L1 at Roomle also requires understanding of our systems, our domain, our team dynamics, and our way of working. External hires typically start at Expert and can progress quickly once they've built that context. This is not a demotion, it's an acknowledgment that seniority is partly contextual.
+**Senior L1 requires Roomle-specific knowledge.** A strong engineer hired from Big Tech or another company may have the general technical skills of a Senior, but Senior L1 at Roomle also requires understanding of our systems, our domain, our team dynamics, our ambiguity level, and our way of working. Roomle's experience is that seniority from large corporations does not automatically translate into Roomle Senior performance from day one: people from highly specialized, process-heavy environments can struggle with the autonomy, breadth, and context-switching expected here. Engineers with freelancer or agency backgrounds often ramp faster because they are already used to ownership across messy boundaries. External hires therefore typically start at Expert and can progress quickly once they demonstrate Roomle-context seniority. This is not a demotion; it is an acknowledgment that seniority is partly contextual.
 
 **IT KV advancement is legally mandated within a "Verwendungsgruppe".** The KV defines maximum durations per "Vorrückungsstufe" (e.g., max 3 years at Einstieg, max 4 years at Regel). Once those durations pass, the employer is **legally required** to advance the employee to the next "Vorrückungsstufe", regardless of performance. This means:
 
-- Within **ST1**: an employee will progress through Einstieg → Regel → Erfahrung automatically over time. They *must* reach Senior L1 (ST1 Erfahrung) eventually. The KV guarantees it but also the performance *must* to fit to the "Vorrückungsstufe".
-- Within **ST2**: the same applies. Once someone enters ST2, they will progress to ST2 Erfahrung (Lead level) over time. This means the employe has to grow to this "Vorrückungsstufe".
+- Within **ST1**: an employee will progress through Einstieg → Regel → Erfahrung automatically over time. The KV guarantees this salary progression, but the employee's performance **must** keep pace with the corresponding ladder level (e.g., meeting Senior L1 expectations when arriving at ST1 Erfahrung). If an employee reaches a KV-mandated salary baseline but cannot sustainably meet the behavioral and technical expectations of that level, the company cannot simply pay the higher salary for lower-level output. In such cases, legal and economic reality forces a termination of the contract.
+- Within **ST2**: the same applies. Once someone enters ST2, they will progress to ST2 Erfahrung (Lead level) over time. The employee is strictly expected to grow into that level of responsibility. If they top out at Senior L2, or regress in performance, and cannot meet the framework expectations for the salary the KV enforces, they cannot remain in the role.
 
 **Promotion to the next level can happen faster.** If someone demonstrates the next level's expectations consistently, they can be promoted ahead of the KV schedule. But the KV pace is the guaranteed minimum.
 
-**The ST1 → ST2 transition is a deliberate choice.** Moving from ST1 to ST2 (i.e., being promoted to Senior L2) is not automatic, it requires mutual agreement. However, anyone choosing this path should be aware: once in ST2, the KV will advance them through Einstieg → Regel → Erfahrung over time. This means the company commits to eventually paying Lead-level salary (ST2 Erfahrung), and the employee commits to growing into that level of responsibility. This is a significant mutual commitment and should be discussed openly before promotion.
+**The ST1 → ST2 transition is a deliberate choice.** Moving from ST1 to ST2 (i.e., being promoted to Senior L2) is not automatic, it requires mutual agreement. The KV entry point depends on the employee's current ST1 Vorrückungsstufe: moving from **ST1 Erfahrung** into ST2 means **ST2 Regel**; moving from **ST1 Regel** into ST2 early means **ST2 Einstieg**. However, anyone choosing this path should be aware: once in ST2, the KV will advance them toward **ST2 Erfahrung** over time. This means the company commits to eventually paying ST2 Erfahrung / Lead-level salary, and the employee commits to growing into that level of responsibility. This is a significant mutual commitment and should be discussed openly before promotion.
 
 **Staying at Senior L1 is a valid choice.** Not every engineer wants — or needs — to become a multiplier. Some of our strongest engineers choose to stay at Senior L1 long-term because they enjoy what they do and don't want the broader responsibilities of Senior L2. This is fully respected. It is also a structural reality: a ~30-person company cannot sustain everyone at the Lead level. Senior L1 is a destination, not just a way station.
+
+**Compensation growth is possible at Senior L1 without moving to Senior L2.** ST1 Erfahrung is a KV *minimum*, not a ceiling. An engineer who becomes a recognized deep expert in a Roomle surface — Rubens core, the embedding library, the HOMAG INTELLIGENCE integration, AR/rendering, etc. — can be compensated above the KV floor while remaining at Senior L1. The L1 → L2 step is about taking on multiplier responsibilities (team standards, architecture across the team, growing others), not about being more technically expert. Some of the strongest individual experts in the company are L1 and intentionally stay there; their depth is rewarded through salary, not through a forced move into a multiplier role they don't want.
 
 ## Technical Track vs Management Track
 
@@ -57,7 +59,7 @@ From Senior L2 onward, the ladder offers two equally senior, equally valuable tr
 | **Decisions** | *How* to build it | *What* to build | *Who* builds it & *when* |
 | **Quality means** | Code, architecture, reliability | Standards, practices | Team health, sustainable pace |
 | **Grows others by** | Teaching, reviewing, pairing | Setting expectations | Coaching, feedback, career planning |
-| **Time allocation** | 50–70% hands-on | — | 0–30% hands-on |
+| **Time allocation** | 50–70% hands-on | — | Player-Coach (depends on team size, up to 50% hands-on) |
 
 ### What they do day-to-day
 
@@ -97,3 +99,16 @@ Each level is evaluated across 5 axes:
 | **Senior L1** | Designs | Explores | Drives | Facilitates | Influences |
 | **Senior L2** | Masters | Educates | Empowers | Leads | Leads |
 | **Lead** | Creates | Evangelizes | Mentors | Advocates | Shapes |
+
+---
+
+## Evaluation & Calibration Rule
+
+When evaluating an engineer for a level (e.g., for promotion to Senior L1), managers must look at up to three artifacts:
+1. **The Core Ladder** (e.g., `03 Senior-L1.md`)
+2. **The Domain Profile** (e.g., `web-frontend.md`)
+3. **Cross-Cutting Profiles** (e.g., `ai-tooling.md`)
+
+**The Rule**: These artifacts are mandatory inputs, not independent pass/fail checklists. A level is met when the overall pattern of evidence fits the level: the majority of expectations are consistently demonstrated, any gaps are understood, and strong expertise or business-critical impact can outweigh weaker areas where that is reasonable.
+
+This is a calibration conversation, not a 100m race with a single cutoff time. For example, weak AI tooling practice may matter if it causes bad reviews, unverified code, security risk, or poor ownership. It may matter much less for an engineer whose domain expertise is exceptional and whose AI-tooling gap does not materially reduce their output or create risk. Some gaps are still blocking: trust, ownership, legal/security hygiene, repeated quality failures, or missing the core responsibility of the target level cannot be compensated for by narrow expertise alone.

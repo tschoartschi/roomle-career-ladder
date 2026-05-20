@@ -18,6 +18,8 @@ Technical position → counterpart: [[04b Senior-L2 (management track)]]
 Technical multiplier
 
 > A Senior L2 on the technical track has mastered their domain and now multiplies their impact through others. They lead larger technical initiatives, mentor team members, provide cross-team technical guidance, and drive the technical direction within their area. They are trusted to make decisions that affect the whole team and beyond.
+>
+> This level is the threshold for **fachliche Managementaufgaben** in the IT KV sense — team-wide architectural ownership, defining and maintaining technical standards, and leading cross-cutting initiatives — which is why it maps to ST2 rather than ST1.
 
 _Boundaries: [[senior-l1-vs-l2|Senior L1 → Senior L2]] · [[senior-l2-vs-lead-technical|Senior L2 → Lead]]._
 
@@ -37,6 +39,8 @@ _Boundaries: [[senior-l1-vs-l2|Senior L1 → Senior L2]] · [[senior-l2-vs-lead-
 * **System thinking**: understands the production system holistically, monitoring, SLAs, failure modes, scalability limits. Can reason about system behavior under stress and plan for growth.
 
 * **Technical debt strategy**: doesn't just identify tech debt (Senior L1) but develops and drives strategies to address it at a system level. Knows how to prioritize debt repayment against feature work and can sell this to stakeholders.
+
+* **Team-wide automation**: identifies recurring friction across the team — not just their own tedious tasks — and drives automation that the whole team adopts. Shares the resulting tooling so it stops being one person's pet project.
 
 ## Learning
 **tldr;** A Senior L2 (technical) actively educates others, brings new knowledge into the team through structured formats, and creates learning opportunities for the team.

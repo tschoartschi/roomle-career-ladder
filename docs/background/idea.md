@@ -45,11 +45,11 @@ The career ladder aligns with the [[kv-informationstechnologie-2026|IT KV]] sala
 | ST1 | Einstieg (max 3 J.) | Junior | € 3.267 |
 | ST1 | Regel (max 4 J.) | Expert | € 3.954 |
 | ST1 | Erfahrung | Senior L1 | € 4.476 |
-| ST2 | Einstieg (max 3 J.) | *Transition phase* (see below) | € 4.061 |
+| ST2 | Einstieg (max 3 J.) | *Early ST2 transition only* (see below) | € 4.061 |
 | ST2 | Regel (max 4 J.) | Senior L2 (4a/4b) | € 4.611 |
 | ST2 | Erfahrung | Lead (5a/5b) | € 5.444 |
 
-**ST2 Einstieg — Transition Phase:** When an employee is promoted from Senior L1 to Senior L2, they enter ST2 at the Einstiegsstufe. This is a transitional salary ramp — the employee already operates at Senior L2 level expectations, but the KV salary floor progresses from Einstieg to Regel within max 3 years. This is not a separate career level, but an explicit compensation phase during the transition.
+**ST2 entry depends on the previous ST1 Vorrückungsstufe:** The normal Senior L1 → Senior L2 promotion is **ST1 Erfahrung → ST2 Regel**. The employee moves directly into ST2 Regel because the IT KV does not allow a transition from an Erfahrungsstufe into the next Tätigkeitsfamilie's Einstiegsstufe. **ST2 Einstieg** only applies when an employee is moved from **ST1 Regel** into ST2 early. In that case, ST2 Einstieg is not a separate career level: the employee already operates at Senior L2 expectations, but the KV salary floor progresses from ST2 Einstieg to ST2 Regel within max 3 years.
 
 ### Leitung (LT) — Outside the Career Ladder
 
