@@ -14,7 +14,7 @@ The cleanest way to draw the line is on **depth of craft and earned influence**:
 |                      | Expert                                                     | Senior L1                                                                                    |
 | -------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | **Stance**           | "I deliver my assigned work reliably"                      | "I deliver complex work; my craft lifts the team"                                            |
-| **Scope of work**    | Standard problems within their domain                      | Complex features within their area, end-to-end from spec to deployment                       |
+| **Scope of work**    | Standard tasks inside one Roomle surface                      | Complex features that run longer than two iterations, end-to-end from spec to deployment, inside one or two Roomle surfaces *including the seams between them* (e.g., UI ↔ Web SDK ↔ Core, or UI ↔ embedding ↔ customer site)                       |
 | **Design**           | Applies existing patterns; doesn't yet design from scratch | Designs features and components within their area; contributes to architecture discussions for their own work (team-wide architectural ownership is Senior L2) |
 | **Debugging**        | Systematic within known systems                            | Roots out causes across systems; debugs race conditions, deadlocks, non-breakpoint issues    |
 | **Standards**        | Applies team standards consistently                        | Their own work models the standards; reviews nudge consistency across the team               |

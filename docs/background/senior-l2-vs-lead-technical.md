@@ -14,7 +14,7 @@ The cleanest way to draw the line is on **scope and time horizon**:
 | | Senior L2 (technical) | Lead (technical) |
 |---|---|---|
 | **Stance** | "I make my team's technical work excellent" | "I shape how engineering works org-wide" |
-| **Scope** | Team / area | Whole organization (and beyond — HOMAG ecosystem, industry) |
+| **Scope** | One Roomle surface or a tight cluster (e.g., Rubens + Web SDK + embedding) | The Roomle ↔ Homag engineering seam, technical strategy for Roomle as a whole, and Roomle's position in the broader Homag Group / configurator industry |
 | **Architecture** | Owns architecture in their area | Owns architecture across the organization; ensures system consistency |
 | **Vision** | Drives technical direction within the team | Defines long-term technical vision (2-5 year horizon); anticipates industry shifts |
 | **Decisions** | Makes significant technical decisions for the team | Influences company strategy; their perspective shapes investment and direction |

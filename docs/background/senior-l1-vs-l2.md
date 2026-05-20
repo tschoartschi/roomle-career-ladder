@@ -19,6 +19,7 @@ The cleanest way to draw the line is on **accountability and scope**:
 | **Standards** | Sets standards inside their area | Defines and enforces team-wide standards |
 | **Initiatives** | Owns projects end-to-end inside their area | Leads initiatives that cross domains or involve other people's work |
 | **Architecture** | Designs systems inside their area | Owns architecture across the team or across multiple domains |
+| **Scope** | One or two Roomle surfaces (e.g., Web SDK; or Web + Core) | Cross-surface seams — the contracts and shared standards between Rubens, Web SDK, embedding, Core, RAPI, and HI |
 
 ## L2 entry criteria
 
@@ -32,6 +33,8 @@ Senior L1 stays broad on purpose. Senior L2 is the deliberate step, so it must b
 For the management track ([[04b Senior-L2 (management track)|L2b]]), criterion 4 is replaced by: *has run an end-to-end people process (hiring, performance, reorg) where they were the decision-maker, not the participant*.
 
 These four are entry criteria, not promotion guarantees — the company also needs an L2-shaped scope available for the role to exist (see [[00 Overview#Starting Level & Progression|Overview]] on staying at L1 as a valid choice). But absence of any one of the four is a defensible reason to not promote, and a clear gap to point at in a non-promotion conversation.
+
+**Team-of-one surfaces.** For engineers whose primary surface is small or staffed by one person (Core, iOS, DevOps), criteria 1 and 2 are met *across* surface boundaries, not inside the surface — e.g., a Core engineer who mentors a Web engineer through a WASM-boundary change, or a DevOps engineer who drives a release-pipeline change adopted by Web and Backend. The criteria are not waived; they apply across boundaries. The same logic applies to criterion 3 (a team-wide standard the surface contributes to) and criterion 4 (an ADR that crosses surfaces).
 
 ## Why this distinction matters
 

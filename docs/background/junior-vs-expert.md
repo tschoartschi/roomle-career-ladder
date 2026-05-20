@@ -14,7 +14,7 @@ The cleanest way to draw the line is on **independence**:
 | | Junior | Expert |
 |---|---|---|
 | **Stance** | "I am learning to do this job" | "I deliver my work reliably and independently" |
-| **Scope of work** | Well-defined tasks with clear requirements | Standard problems within their domain, end-to-end |
+| **Scope of work** | Well-defined tasks with clear requirements | Standard tasks inside one Roomle surface (a Vue component in roomle-ui, a RAPI endpoint, a fix in the embedding library, an iOS view) — end-to-end from spec to merged PR |
 | **Supervision** | Frequent check-ins; expects review iterations | Periodic check-ins; trusted to finish without daily oversight |
 | **Patterns & design** | Follows existing patterns; doesn't invent | Applies established patterns correctly; recognizes when one fits |
 | **Debugging** | Reads stack traces, uses standard tools; asks for help on hard issues | Systematic debugging within known systems; knows when to escalate |

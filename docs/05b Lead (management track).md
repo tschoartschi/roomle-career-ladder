@@ -62,10 +62,10 @@ _Boundary: [[senior-l2-vs-lead-management|Senior L2 → Lead]]._
 * **Executive communication**: communicates engineering's priorities, risks, and needs to company leadership. Frames engineering work in business terms. Ensures engineering has a seat at the strategic table.
 * **Cross-functional leadership**: works closely with product, design, sales, and other functions at a leadership level. Ensures engineering is aligned with and responsive to company-wide priorities.
 * **Organizational alignment**: aligns multiple teams toward shared goals. Creates forums, rituals, and communication channels that keep the engineering organization connected and moving in the same direction.
-* **Navigates corporate context**: effectively works within the HOMAG Group/Dürr AG context — managing up to corporate stakeholders, leveraging group resources, and protecting team autonomy where needed.
+* **Navigates corporate context**: effectively works within the Homag Group / Dürr AG context — a 10k+ engineering organization sitting above Roomle's 30-person product unit, with its own roadmaps, process standards, and political weight. Manages up to corporate stakeholders, leverages group resources, and actively protects team autonomy and Roomle's product-org speed where needed.
 * **Grows other managers**: coaches and develops the management capabilities of team leads and aspiring managers. Establishes management practices and standards across the organization.
 * **Difficult decisions**: makes and communicates difficult organizational decisions (restructuring, letting people go, killing projects) with transparency, empathy, and conviction.
-* **External representation**: represents Roomle's engineering organization externally — at HOMAG, at industry events, in the hiring market — building the company's reputation as a strong engineering organization.
+* **External representation**: represents Roomle's engineering organization externally — across the Roomle ↔ Homag Group engineering interface, at industry events, in the hiring market — building the company's reputation as a strong engineering organization.
 
 ## Influence
 **tldr;** A Lead (management) shapes the engineering organization's culture, processes, and structure. Their influence extends into company strategy and defines how engineering works at Roomle.

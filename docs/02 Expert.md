@@ -23,13 +23,15 @@ _Boundaries: [[junior-vs-expert|Junior → Expert]] · [[expert-vs-senior-l1|Exp
 ## Technical Mastery
 **tldr;** An Expert solves standard problems independently in their domain, writes clean and maintainable code, debugs effectively within known systems, and is building depth in their area of expertise.
 
-* **Independent problem-solving**: can solve standard problems within their domain without needing step-by-step guidance. Knows when they are stuck and asks the right questions to get unblocked.
+* **Independent problem-solving**: can solve standard problems within their domain without needing step-by-step guidance — a ticket inside one Roomle surface (a Vue component in roomle-ui, a RAPI endpoint, a fix inside the embedding library, an iOS view) taken from spec to merged PR. Knows when they are stuck and asks the right questions to get unblocked.
 
 * **Clean code**: writes readable, maintainable code that follows established team patterns and conventions. Code reviews rarely surface fundamental issues mostly stylistic or minor improvements.
 
 * **Debugging**: can debug issues within systems they know. Uses systematic approaches (logs, breakpoints, reading stack traces) rather than trial and error. Knows when a bug is within their ability to fix and when to escalate.
 
 * **Domain knowledge**: developing solid depth in their primary technology area. Understands the tools, frameworks, and libraries they work with — not just at surface level, but how they fit together.
+
+* **Roomle vocabulary and Roomle Script literacy**: knows what a static item, configurable item, and configuration are, and can read Roomle Script well enough to *triage* whether a bug is content (a Roomle Script issue from Content Service) or code. Writing production Roomle Script is not expected outside Core / Content Service. (See [[engineering-context#Domain vocabulary|Engineering Context]].)
 
 * **Testing**: writes meaningful tests for their code. Understands the purpose of different testing layers (unit, integration, e2e) and applies them appropriately.
 

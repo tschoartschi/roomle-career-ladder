@@ -17,6 +17,8 @@ Management position → counterpart: [[04a Senior-L2 (technical track)]]
 
 People multiplier
 
+> **Current organisational note.** At Roomle today there is no Senior L2 (management track) role filled \u2014 the responsibilities described here are currently covered by VP Engineering. This page describes the level as a *destination*: what someone moving into people management at Roomle would actually be accountable for, and what would have to be true for the role to exist as a distinct slot.
+
 > A Senior L2 on the management track multiplies their impact through people. They are responsible for the team's delivery, growth, and well-being. At our current company scale, this role operates heavily as a **"Player-Coach"**, managing 1-4 engineers while still contributing directly. They use their strong technical judgment to make good decisions, support their team, and participate in discussions. Their primary accountability is the team's output and health, not just their own ticket delivery.
 >
 > This level is the threshold for **personelle Managementaufgaben** in the IT KV sense — ownership of team delivery, performance management, and people development — which is why it maps to ST2 rather than ST1.

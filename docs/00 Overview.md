@@ -32,7 +32,7 @@ From Senior L2 onward, the ladder splits into two tracks:
 
 **Most external hires start at Expert.** The Junior level is reserved for career starters (graduates, career changers, or trainees) who need structured guidance and onboarding.
 
-**Senior L1 requires Roomle-specific knowledge.** A strong engineer hired from Big Tech or another company may have the general technical skills of a Senior, but Senior L1 at Roomle also requires understanding of our systems, our domain, our team dynamics, our ambiguity level, and our way of working. Roomle's experience is that seniority from large corporations does not automatically translate into Roomle Senior performance from day one: people from highly specialized, process-heavy environments can struggle with the autonomy, breadth, and context-switching expected here. Engineers with freelancer or agency backgrounds often ramp faster because they are already used to ownership across messy boundaries. External hires therefore typically start at Expert and can progress quickly once they demonstrate Roomle-context seniority. This is not a demotion; it is an acknowledgment that seniority is partly contextual.
+**Senior L1 requires Roomle-specific knowledge.** A strong engineer hired from Big Tech or another company may have the general technical skills of a Senior, but Senior L1 at Roomle also requires understanding of our systems, our domain, our team dynamics, our ambiguity level, and our way of working. Concretely: working across the breadth of our stack — from Roomle Script and the C/C++ Core through the Web SDK (three.js) and the embedding library to the Vue UI in roomle-ui and the Java REST backend (RAPI); recognizing whether a reported bug is content, code, integration, or a Homag-side change (see [[engineering-context#What makes Roomle hard|Engineering Context]]); and operating with the ambiguity that comes with a 30-person product unit inside a 10k+ industrial group. Roomle's experience is that seniority from large corporations does not automatically translate into Roomle Senior performance from day one: people from highly specialized, process-heavy environments can struggle with the autonomy, breadth, and context-switching expected here. Engineers with freelancer or agency backgrounds often ramp faster because they are already used to ownership across messy boundaries. External hires therefore typically start at Expert and can progress quickly once they demonstrate Roomle-context seniority. This is not a demotion; it is an acknowledgment that seniority is partly contextual.
 
 **IT KV advancement is legally mandated within a "Verwendungsgruppe".** The KV defines maximum durations per "Vorrückungsstufe" (e.g., max 3 years at Einstieg, max 4 years at Regel). Once those durations pass, the employer is **legally required** to advance the employee to the next "Vorrückungsstufe", regardless of performance. This means:
 
@@ -45,7 +45,27 @@ From Senior L2 onward, the ladder splits into two tracks:
 
 **Staying at Senior L1 is a valid choice.** Not every engineer wants — or needs — to become a multiplier. Some of our strongest engineers choose to stay at Senior L1 long-term because they enjoy what they do and don't want the broader responsibilities of Senior L2. This is fully respected. It is also a structural reality: a ~30-person company cannot sustain everyone at the Lead level. Senior L1 is a destination, not just a way station.
 
-**Compensation growth is possible at Senior L1 without moving to Senior L2.** ST1 Erfahrung is a KV *minimum*, not a ceiling. An engineer who becomes a recognized deep expert in a Roomle surface — Rubens core, the embedding library, the HOMAG INTELLIGENCE integration, AR/rendering, etc. — can be compensated above the KV floor while remaining at Senior L1. The L1 → L2 step is about taking on multiplier responsibilities (team standards, architecture across the team, growing others), not about being more technically expert. Some of the strongest individual experts in the company are L1 and intentionally stay there; their depth is rewarded through salary, not through a forced move into a multiplier role they don't want.
+**Compensation growth is possible at Senior L1 without moving to Senior L2.** ST1 Erfahrung is a KV *minimum*, not a ceiling. An engineer who becomes a recognized deep expert in a Roomle surface — Core (Roomle Script, the C/C++ rules engine), the Web SDK (three.js / AR / rendering), the embedding library, RAPI, Homag Intelligence — can be compensated above the KV floor while remaining at Senior L1. The L1 → L2 step is about taking on multiplier responsibilities (team standards, architecture across the team, growing others), not about being more technically expert. Some of the strongest individual experts in the company are L1 and intentionally stay there; their depth is rewarded through salary, not through a forced move into a multiplier role they don't want.
+
+## Roomle Technical Surfaces
+
+Engineers grow depth in one or more of these surfaces. When level pages and boundary docs say *"their area"* or *"their domain"*, they mean one of the following. Full descriptions in [[engineering-context|Engineering Context]].
+
+| Surface | What it covers | Current shape |
+|---|---|---|
+| **Rubens** (Room Designer / Configurator / Admin) | The user-facing 3D product, including the Vue 3 frontends in *roomle-ui* and the Ember.js *Rubens Admin* customer back-office | Team of ~5 web engineers, broad surface coverage |
+| **Web SDK** | three.js, the canvas, real-time 3D graphics, AR; the rendering library the Vue UI sits on top of | Part of web; one engineer specializes in 3D/AR, others support |
+| **Embedding library** | Instantiates Rubens inside customer webshops in an iframe; handles cross-frame `postMessage` and serialization | Part of web; touched by anyone who works on customer integrations |
+| **Core** | C/C++ rules engine — Roomle Script interpreter, collision detection, placement constraints, interaction rules. Cross-compiled to WASM (browser) and server | Single engineer; also works across web |
+| **RAPI** | Java REST backend — catalog, tenants, content, persistence. Single backend for all Roomle products; minimal role inside Homag Intelligence | Team of 3 |
+| **Homag Intelligence (HI)** | The Homag-content variant of Rubens Room Designer (calc.js + glue layer); engineering work spans Rubens, Web SDK, embedding, and a direct Roomle-dev ↔ Homag-dev channel | Cross-cutting; anyone working HI surfaces must hold the Homag-dev conversation |
+| **Infrastructure & delivery** | GCP, Kubernetes, Docker, observability, build/release pipelines | Single DevOps engineer |
+| **iOS** | Native iOS app (since 2013); maintained for steady revenue, not a strategic growth area | Single iOS engineer |
+| **DAP** | Digital asset pipeline | Adjacent to RAPI and Core |
+
+**Single-engineer surfaces (Core, iOS, DevOps) are a structural reality.** The ladder does not require these engineers to mentor inside their surface (no one is there); their multiplier behavior expresses across surfaces or in adjacent surfaces. See the team-of-one paragraph in [[senior-l1-vs-l2|L1 vs L2 boundary]].
+
+**Cross-surface depth is welcomed, not penalized.** The Web + Core engineer is the canonical example; the ladder does not force anyone into a single surface.
 
 ## Technical Track vs Management Track
 
@@ -102,13 +122,13 @@ Each level is evaluated across 5 axes:
 
 ---
 
-## Evaluation & Calibration Rule
+## Evaluation & Aggregation Rule
 
 When evaluating an engineer for a level (e.g., for promotion to Senior L1), managers must look at up to three artifacts:
 1. **The Core Ladder** (e.g., `03 Senior-L1.md`)
 2. **The Domain Profile** (e.g., `web-frontend.md`)
 3. **Cross-Cutting Profiles** (e.g., `ai-tooling.md`)
 
-**The Rule**: These artifacts are mandatory inputs, not independent pass/fail checklists. A level is met when the overall pattern of evidence fits the level: the majority of expectations are consistently demonstrated, any gaps are understood, and strong expertise or business-critical impact can outweigh weaker areas where that is reasonable.
+**The Rule**: To achieve a level, an engineer must meet the expectations outlined in **all applicable artifacts** for that level. The domain and cross-cutting profiles are not optional extras; they are mandatory extensions of the core ladder (primarily mapping to the *Technical Mastery* and *Learning* axes).
 
-This is a calibration conversation, not a 100m race with a single cutoff time. For example, weak AI tooling practice may matter if it causes bad reviews, unverified code, security risk, or poor ownership. It may matter much less for an engineer whose domain expertise is exceptional and whose AI-tooling gap does not materially reduce their output or create risk. Some gaps are still blocking: trust, ownership, legal/security hygiene, repeated quality failures, or missing the core responsibility of the target level cannot be compensated for by narrow expertise alone.
+For example, if utilizing AI tooling efficiently is defined as table stakes for a Senior L1 in 2026, an engineer must meet the Senior L1 criteria in the AI Tooling profile in order to be recognized as a Senior L1 overall. If an engineer is Senior L1 in Web Frontend but only operates at Expert level in AI Tooling, they have not yet met the bar for Senior L1 overall. This prevents the "leakage" of critical modern technical skills.

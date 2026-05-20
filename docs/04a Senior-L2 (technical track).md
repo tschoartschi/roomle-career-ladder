@@ -28,7 +28,7 @@ _Boundaries: [[senior-l1-vs-l2|Senior L1 → Senior L2]] · [[senior-l2-vs-lead-
 
 * **Deep stack mastery**: has very deep knowledge about the whole technology stack of the system in their area. Understands not just how things work but *why* they were built that way, and what the alternatives would have been.
 
-* **Architectural ownership**: owns the technical architecture in their area. Evaluates and decides on technology choices, balancing innovation with stability. Understands how their systems fit into the broader product and infrastructure landscape.
+* **Architectural ownership**: owns the technical architecture in their area. Evaluates and decides on technology choices, balancing innovation with stability. Understands how their systems fit into the broader product and infrastructure landscape — at Roomle this means knowing where the RAPI ↔ Web SDK ↔ Core ↔ embedding seams sit and what assumptions cross each one.
 
 * **Research and innovation**: researches, creates proofs of concept, and introduces new technologies to the team. Evaluates emerging technologies against the team's real needs (not hype-driven). Can articulate the costs and benefits of adopting something new.
 
@@ -53,10 +53,10 @@ _Boundaries: [[senior-l1-vs-l2|Senior L1 → Senior L2]] · [[senior-l2-vs-lead-
 ## Responsibility and Ownership
 **tldr;** A Senior L2 (technical) leads larger technical initiatives, empowers others to take ownership, mentors team members, and provides technical advice that impacts beyond their immediate area.
 
-* **Leads larger initiatives**: can and is trusted to lead cross-cutting technical initiatives (e.g., major refactors, platform migrations, new system introductions). Scopes, plans, and drives these to completion.
+* **Leads larger initiatives**: can and is trusted to lead cross-cutting technical initiatives (e.g., major refactors, platform migrations, new system introductions). Scopes, plans, and drives these to completion. Roomle-scale example: rolling swagger across all RAPI endpoints and getting the Web team to consume the generated client; aligning a Web ↔ Core ↔ RAPI ERP-sync improvement with the Homag-dev counterpart on the HI side.
 * **Empowers others**: delegates meaningful work to others and trusts them to deliver. Provides the right level of guidance without micromanaging. Grows others' autonomy by giving them stretch opportunities.
 * **Mentors**: formally and informally mentors other engineers. Helps them navigate technical challenges, career growth, and professional development. Is sought out for advice.
-* **Cross-team technical advice**: provides technical guidance that impacts other teams or the company at large. Weighs in on technical decisions beyond their own area when appropriate.
+* **Cross-team technical advice**: provides technical guidance that impacts other teams or the company at large. At Roomle that includes the Roomle ↔ Homag-dev engineering interface: Senior L2 (technical) on an HI-relevant surface is expected to identify their Homag-dev counterpart and own that conversation, not delegate it upward.
 * **Proactive vision**: brings their own technical vision for how systems and practices should evolve. Doesn't wait for direction, proposes improvements and gets buy-in from stakeholders.
 * **Holds others accountable**: not just themselves (Senior L1), ensures the team maintains high standards. Addresses quality issues constructively and directly.
 * **Delegation and trust**: knows when to trust others, when to work together, and when to step in. Effectively distributes work within the team based on people's strengths and growth areas.
@@ -65,7 +65,7 @@ _Boundaries: [[senior-l1-vs-l2|Senior L1 → Senior L2]] · [[senior-l2-vs-lead-
 ## Collaboration and Communication
 **tldr;** A Senior L2 (technical) leads technical discussions, builds buy-in across the organization for technical initiatives, represents the team externally, and actively grows others' communication skills.
 
-* **Lobbying and buy-in**: actively communicates their ideas and knows how to get organizational buy-in. Can rally people behind a technical direction. Knows how to frame technical needs in business terms.
+* **Lobbying and buy-in**: actively communicates their ideas and knows how to get organizational buy-in. Can rally people behind a technical direction. Knows how to frame technical needs in business terms. Roomle example: getting swagger across all of RAPI accepted by both backend and Web; getting strict null checks adopted across roomle-ui without stalling feature work.
 * **Represents the team**: trusted to interact with and represent the team with other stakeholders (other teams, management, external partners) to drive technical decisions.
 * **Leads technical discussions**: moderates architecture discussions, design reviews, and technical planning sessions. Ensures all voices are heard and brings discussions to actionable conclusions.
 * **Cross-team collaboration**: works effectively across team boundaries. Identifies dependencies, coordinates with other teams, and resolves technical conflicts.
