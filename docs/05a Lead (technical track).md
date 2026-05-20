@@ -2,7 +2,6 @@
 title: Lead (Technical Track)
 aliases: [Lead Tech, Level 5a]
 level: 5
-stage: 5
 track: technical
 it_kv: ST2 Erfahrung
 operating_level: Org shaper

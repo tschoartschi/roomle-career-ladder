@@ -2,7 +2,6 @@
 title: Lead (Management Track)
 aliases: [Lead Mgmt, Level 5b]
 level: 5
-stage: 5
 track: management
 it_kv: ST2 Erfahrung
 operating_level: Org shaper

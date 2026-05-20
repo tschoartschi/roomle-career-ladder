@@ -2,7 +2,6 @@
 title: Senior L2 (Technical Track)
 aliases: [Senior L2 Tech, Level 4a]
 level: 4
-stage: 4
 track: technical
 it_kv: ST2 Regel
 operating_level: Multiplier

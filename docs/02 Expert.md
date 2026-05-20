@@ -2,7 +2,6 @@
 title: Expert
 aliases: [Expert, Level 2]
 level: 2
-stage: 2
 track: technical
 it_kv: ST1 Regel
 operating_level: Independent contributor

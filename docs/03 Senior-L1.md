@@ -2,7 +2,6 @@
 title: Senior L1
 aliases: [Senior L1, Senior Level 1, Level 3]
 level: 3
-stage: 3
 track: technical
 it_kv: ST1 Erfahrung
 operating_level: Senior contributor

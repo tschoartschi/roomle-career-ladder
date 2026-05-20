@@ -3,6 +3,7 @@ title: Web Frontend — Role Profile
 aliases: [Web Frontend Role Profile, Frontend Role Profile]
 type: role-profile
 domain: web-frontend
+cross_cutting: false
 tags: [role-profile, web-frontend]
 ---
 

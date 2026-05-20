@@ -2,7 +2,6 @@
 title: Senior L2 (Management Track)
 aliases: [Senior L2 Mgmt, Level 4b]
 level: 4
-stage: 4
 track: management
 it_kv: ST2 Regel
 operating_level: Multiplier

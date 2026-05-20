@@ -2,7 +2,6 @@
 title: Junior
 aliases: [Junior, Level 1]
 level: 1
-stage: 1
 track: technical
 it_kv: ST1 Einstieg
 operating_level: Guided contributor
