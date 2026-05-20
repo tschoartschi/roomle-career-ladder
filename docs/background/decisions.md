@@ -11,6 +11,34 @@ This document tracks key decisions made while designing the Roomle career ladder
 
 ---
 
+## 2026-05-20: Added cross-cutting role profile category (AI Tooling first)
+
+### Decision
+
+Role profiles now have two categories: **domain profiles** (Web Frontend, Backend, …) and **cross-cutting profiles** that apply to all engineers regardless of domain. The first cross-cutting profile is [[ai-tooling|AI Tooling]], with all five levels drafted.
+
+Cross-cutting profiles use the same axes-based, cumulative structure as domain profiles. Engineers read them *in addition to* their domain profile.
+
+### Rationale
+
+- **AI tooling is universal**: every engineer uses Claude Code, Cursor, Copilot, etc. Embedding it in any single domain profile would force duplication across domains and churn whenever AI tools evolve.
+- **AI tooling churns faster than domain stacks**: keeping it separate lets it evolve independently of the more stable domain content.
+- **AI tooling is a distinct craft**: senior engineers visibly differ from juniors in how they handle AI output (verification, context engineering, knowing when *not* to use it). The skill has its own level progression and deserves its own profile.
+
+Future cross-cutting profiles might cover code review craft, debugging methodology, or operational/oncall practices — though none of those have the same urgency as AI tooling today.
+
+### Changes
+
+- New: [[ai-tooling|docs/role-profiles/ai-tooling.md]] — all five levels drafted.
+- [[web-frontend|Web Frontend role profile]]: brief cross-reference added to the intro.
+- [[follow-ups]]: Role Profiles section split into Domain and Cross-cutting subsections; AI Tooling listed with owner TBD.
+
+### Open: owner for the AI Tooling profile
+
+Domain profiles have natural owners (the domain lead). Cross-cutting profiles need a different kind of owner — someone engaged with the team's AI workflow practices. Tracked in [[follow-ups]].
+
+---
+
 ## 2026-05-20: Role-profile structure — axes-based, cumulative levels
 
 ### Decision

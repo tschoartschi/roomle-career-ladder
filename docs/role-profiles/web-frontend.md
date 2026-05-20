@@ -14,7 +14,7 @@ Each level is **cumulative**: Expert assumes everything in Junior; Senior L1 ass
 
 Content is organized by the five [ladder axes](../00 Overview.md#Axes): Technical Mastery, Learning, Responsibility & Ownership, Collaboration & Communication, Influence.
 
-Role profiles complement the general ladder; they live separately so domain content can evolve at its own pace. See [[decisions]] for the rationale.
+Role profiles complement the general ladder; they live separately so domain content can evolve at its own pace. See [[decisions]] for the rationale. Engineers should also read the cross-cutting [[ai-tooling|AI Tooling]] profile, which applies regardless of domain.
 
 > **Status:** Junior, Expert, and Senior L1 spelled out. Senior L2 and Lead are to be added. See [[follow-ups]].
 

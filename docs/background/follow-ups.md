@@ -80,11 +80,17 @@ Role profiles describe what each ladder level looks like specifically for a give
 
 Coverage:
 
+**Domain profiles:**
+
 - [[web-frontend|Web Frontend]] — Junior, Expert, Senior L1 spelled out (axes-based, cumulative, 2026 stack); Senior L2, Lead to be added
 - **Backend** — to be created
 - **Infrastructure** — to be created
 - **3D / Configurator** — to be created
 
-Each domain expert or lead owns the profile for their area.
+**Cross-cutting profiles:**
+
+- [[ai-tooling|AI Tooling]] — all five levels drafted; owner TBD; needs review and ongoing refresh as the tooling landscape evolves
+
+Each domain expert or lead owns the profile for their area. Cross-cutting profiles need a separate owner (engaged with the team's AI workflow practices).
 
 ---
