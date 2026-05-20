@@ -80,7 +80,7 @@ Role profiles describe what each ladder level looks like specifically for a give
 
 Coverage:
 
-- [[web-frontend|Web Frontend]] — Senior L1 spelled out; Junior, Expert, Senior L2, Lead to be added
+- [[web-frontend|Web Frontend]] — Junior, Expert, Senior L1 spelled out (axes-based, cumulative, 2026 stack); Senior L2, Lead to be added
 - **Backend** — to be created
 - **Infrastructure** — to be created
 - **3D / Configurator** — to be created

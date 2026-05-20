@@ -11,6 +11,37 @@ This document tracks key decisions made while designing the Roomle career ladder
 
 ---
 
+## 2026-05-20: Role-profile structure — axes-based, cumulative levels
+
+### Decision
+
+Role profiles follow a fixed structure that will apply to **all domains** (Web Frontend, Backend, Infrastructure, 3D/Configurator, …):
+
+1. **Organized by the five ladder axes** (Technical Mastery, Learning, Responsibility & Ownership, Collaboration & Communication, Influence) — not thematic bullets. This makes role profiles parallel to the ladder.
+2. **Cumulative levels**: each level describes only what is *newly expected* at that level. Expert assumes Junior; Senior L1 assumes Expert; etc. Readers add levels up to know the full expectation.
+
+The [[web-frontend|Web Frontend role profile]] has been refreshed under this structure and serves as the template for other domains. Junior, Expert, and Senior L1 are spelled out; Senior L2 and Lead remain open.
+
+The Web Frontend refresh also updated the content to the 2026 stack (Vue 3, Pinia, TypeScript, Vitest, Playwright, Vite — replacing the 2023 framing with Vuex/Jest/Cypress) and added expectations around accessibility, Core Web Vitals, and modern testing strategy.
+
+### Rationale
+
+- **Axes-based organization**: aligns role profiles with the ladder, making it easier to map bullets to axes during 1:1s and promotion discussions.
+- **Cumulative levels**: prevents content duplication and clarifies what *changes* at each level. Without it, each level either repeats the previous one or accidentally leaks expectations across boundaries.
+- **2026 stack alignment for Web Frontend**: the original 2023 content was missing TypeScript, Vitest, Playwright, accessibility, and performance-metrics expectations — all table stakes by 2026. Refreshing also let us ground bullets in actual project conventions (the `.agents/` guidelines, component ordering, npm-script discipline, HAR mocking).
+
+### Pattern for future domains
+
+When adding Backend, Infrastructure, or 3D/Configurator role profiles, follow the Web Frontend template:
+
+1. Brief intro naming the stack reference (e.g., the relevant repo or project).
+2. Explicit statement of the cumulative principle.
+3. Each level: stance + 5 axis sections.
+4. Each level above Junior labeled "*Adds on top of [previous]*".
+5. Levels not yet written marked "To be defined" with a [[follow-ups]] reference.
+
+---
+
 ## 2026-05-20: Added boundary docs for all level transitions
 
 ### Decision
