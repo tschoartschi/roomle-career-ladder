@@ -19,7 +19,9 @@ Technical position → no management counterpart
 
 Senior contributor
 
-> A Senior L1 is an established senior engineer who delivers complex work reliably. They design systems within their area, make sound tradeoffs, take full ownership of their projects end-to-end, and contribute to team quality through their craft. Their influence is real but arrives mostly as a byproduct of excellent work — through PR reviews, code that models good patterns, and being a recognized expert their colleagues turn to. The Senior L2 multiplier role is a deliberate next step, not an automatic progression — and staying at Senior L1 long-term is a valid choice. See [[senior-l1-vs-l2]] for how the L1 → L2 line is drawn.
+> A Senior L1 is an established senior engineer who delivers complex work reliably. They design systems within their area, make sound tradeoffs, take full ownership of their projects end-to-end, and contribute to team quality through their craft. Their influence is real but arrives mostly as a byproduct of excellent work — through PR reviews, code that models good patterns, and being a recognized expert their colleagues turn to. The Senior L2 multiplier role is a deliberate next step, not an automatic progression — and staying at Senior L1 long-term is a valid choice.
+
+_Boundaries: [[expert-vs-senior-l1|Expert → Senior L1]] · [[senior-l1-vs-l2|Senior L1 → Senior L2]]._
 
 ## Technical Mastery
 **tldr;** A Senior L1 designs complex systems within their area, makes sound technical tradeoffs, debugs to root cause, and models high quality standards through their own work. They are the go-to person in at least one area of the codebase.

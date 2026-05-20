@@ -11,6 +11,24 @@ This document tracks key decisions made while designing the Roomle career ladder
 
 ---
 
+## 2026-05-20: Added boundary docs for all level transitions
+
+### Decision
+
+Added comparison/boundary documents for every level transition, following the pattern established by [[senior-l1-vs-l2]]. Every ladder level now links to its relevant boundary doc(s) via an italic "Boundaries:" line below the intro.
+
+### Rationale
+
+The L1 → L2 boundary doc proved useful for clarifying intent. Extending the pattern to every transition gives a complete set of "how do we tell these levels apart?" references — useful for calibration discussions, promotion conversations, and onboarding new managers to the ladder. Each doc follows the same shape: intro (with KV context) → comparison table → "Why this distinction matters" prose → cross-links to sibling boundary docs.
+
+### Changes
+
+- New: [[junior-vs-expert|Junior → Expert]], [[expert-vs-senior-l1|Expert → Senior L1]], [[senior-l2-vs-lead-technical|Senior L2 → Lead (technical)]], [[senior-l2-vs-lead-management|Senior L2 → Lead (management)]].
+- [[senior-l1-vs-l2]] updated with a "Related boundary docs" section.
+- All seven level pages updated with an italic "Boundary/Boundaries:" line below the intro.
+
+---
+
 ## 2026-05-19: Replaced per-level Subject-Specific Skills with Role Profiles
 
 ### Decision

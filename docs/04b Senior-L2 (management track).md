@@ -20,7 +20,7 @@ People multiplier
 
 > A Senior L2 on the management track multiplies their impact through people. They are responsible for the team's delivery, growth, and well-being. They still have strong technical judgment — using it to make good decisions, support their team, and participate in technical discussions — but their primary job is no longer writing code. They create the environment in which their team can do their best work.
 
-_See [[senior-l1-vs-l2]] for how the L1 → L2 transition is defined._
+_Boundaries: [[senior-l1-vs-l2|Senior L1 → Senior L2]] · [[senior-l2-vs-lead-management|Senior L2 → Lead]]._
 
 ## Technical Mastery
 **tldr;** A Senior L2 (management) maintains strong technical credibility, uses technical judgment to guide their team's decisions, participates meaningfully in architectural discussions, and ensures technical quality without being the one implementing.

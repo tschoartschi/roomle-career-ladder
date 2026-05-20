@@ -20,7 +20,7 @@ Technical multiplier
 
 > A Senior L2 on the technical track has mastered their domain and now multiplies their impact through others. They lead larger technical initiatives, mentor team members, provide cross-team technical guidance, and drive the technical direction within their area. They are trusted to make decisions that affect the whole team and beyond.
 
-_See [[senior-l1-vs-l2]] for how the L1 → L2 transition is defined._
+_Boundaries: [[senior-l1-vs-l2|Senior L1 → Senior L2]] · [[senior-l2-vs-lead-technical|Senior L2 → Lead]]._
 
 ## Technical Mastery
 **tldr;** A Senior L2 (technical) has deep mastery across the full technology stack in their domain, drives technical decisions that affect the team, researches and introduces new technologies, and is the recognized authority for architectural questions in their area.

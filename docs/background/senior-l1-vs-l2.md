@@ -30,3 +30,10 @@ This means:
 - The career choice is genuine: continue going deep on craft (stay L1), or shift toward making others productive (move to L2). Neither is "above" the other; they are different jobs.
 - For the management track ([[04b Senior-L2 (management track)|L2b]]), the principle is the same but the multiplier work shifts toward people delivery rather than technical leadership.
 - Staying at Senior L1 long-term is a valid, respected choice — see [[00 Overview#Starting Level & Progression|Overview]].
+
+## Related boundary docs
+
+- [[junior-vs-expert|Junior → Expert]]
+- [[expert-vs-senior-l1|Expert → Senior L1]]
+- [[senior-l2-vs-lead-technical|Senior L2 → Lead (technical)]]
+- [[senior-l2-vs-lead-management|Senior L2 → Lead (management)]]
