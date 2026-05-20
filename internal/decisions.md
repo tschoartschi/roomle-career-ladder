@@ -54,8 +54,8 @@ The external-hire calibration language in [[00 Overview]] was also sharpened. Se
 
 - [[00 Overview]]: corrected the Senior L2 footnote and ST1 → ST2 transition language; expanded the external-hire Senior L1 explanation.
 - [[idea]]: corrected the IT KV mapping note for ST2 Einstieg vs ST2 Regel.
-- [[senior-l1-vs-l2]]: clarified that normal L1 → L2 maps to ST2 Regel.
-- [[senior-l2-vs-lead-technical]] and [[senior-l2-vs-lead-management]]: replaced the soft "honest scope conversation" language with the explicit transition-out/termination consequence already decided for KV-mandated mismatch.
+- [[03-senior-l1-vs-l2]]: clarified that normal L1 → L2 maps to ST2 Regel.
+- [[04-senior-l2-vs-lead-technical]] and [[05-senior-l2-vs-lead-management]]: replaced the soft "honest scope conversation" language with the explicit transition-out/termination consequence already decided for KV-mandated mismatch.
 
 ---
 
@@ -70,11 +70,11 @@ A close reading of the IT KV (§ 15 II, ST1 vs ST2 descriptions) flagged Senior 
    - "Full lifecycle ownership: owns the entire lifecycle of their projects" → "Feature lifecycle ownership: owns the features they lead from design and implementation through deployment and post-release follow-up, within their area; multi-team or cross-cutting initiatives are Senior L2 territory"
    - "Solo capability: can be the sole developer on a topic for extended periods" → "Self-direction: can carry a well-scoped feature or component without daily check-ins; sustained sole ownership of a system is Senior L2 territory"
    - Intro paragraph updated for consistency.
-2. **Mirrored the softening in the boundary docs** ([[expert-vs-senior-l1]], [[senior-l1-vs-l2]]) so calibration material does not undo the level-page changes.
+2. **Mirrored the softening in the boundary docs** ([[02-expert-vs-senior-l1]], [[03-senior-l1-vs-l2]]) so calibration material does not undo the level-page changes.
 3. **Made L2 the explicit threshold for KV-defining responsibilities**:
    - [[04a Senior-L2 (technical track)|L2 technical]]: explicitly framed as the threshold for **fachliche Managementaufgaben** (team-wide architectural ownership, team standards, cross-cutting initiatives).
    - [[04b Senior-L2 (management track)|L2 management]]: explicitly framed as the threshold for **personelle Managementaufgaben** (team delivery, performance management, people development).
-   - [[senior-l1-vs-l2|L1↔L2 boundary doc]] now includes a "KV-relevant boundary" subsection.
+   - [[03-senior-l1-vs-l2|L1↔L2 boundary doc]] now includes a "KV-relevant boundary" subsection.
 4. **Added a follow-up for the 36-month assessment obligation** (§ 15 II ST2 ¶ 2) in [[follow-ups]] — this is a legal obligation, not a process preference.
 
 ### Rationale
@@ -92,8 +92,8 @@ This change does not replace seeking a written opinion from an Austrian labor la
 ### Changes
 
 - [[03 Senior-L1|Senior L1]]: intro and four Technical Mastery / Responsibility & Ownership bullets softened.
-- [[expert-vs-senior-l1|Expert → Senior L1]]: Scope-of-work and Design rows updated to match.
-- [[senior-l1-vs-l2|Senior L1 → Senior L2]]: new "KV-relevant boundary" subsection added.
+- [[02-expert-vs-senior-l1|Expert → Senior L1]]: Scope-of-work and Design rows updated to match.
+- [[03-senior-l1-vs-l2|Senior L1 → Senior L2]]: new "KV-relevant boundary" subsection added.
 - [[04a Senior-L2 (technical track)|Senior L2 (technical)]]: intro extended with fachliche-Managementaufgaben framing.
 - [[04b Senior-L2 (management track)|Senior L2 (management)]]: intro extended with personelle-Managementaufgaben framing.
 - [[follow-ups]]: new "36-Month KV ST1/ST2 Assessment" item added.
@@ -163,7 +163,7 @@ When adding Backend, Infrastructure, or 3D/Configurator role profiles, follow th
 
 ### Decision
 
-Added comparison/boundary documents for every level transition, following the pattern established by [[senior-l1-vs-l2]]. Every ladder level now links to its relevant boundary doc(s) via an italic "Boundaries:" line below the intro.
+Added comparison/boundary documents for every level transition, following the pattern established by [[03-senior-l1-vs-l2]]. Every ladder level now links to its relevant boundary doc(s) via an italic "Boundaries:" line below the intro.
 
 ### Rationale
 
@@ -171,8 +171,8 @@ The L1 → L2 boundary doc proved useful for clarifying intent. Extending the pa
 
 ### Changes
 
-- New: [[junior-vs-expert|Junior → Expert]], [[expert-vs-senior-l1|Expert → Senior L1]], [[senior-l2-vs-lead-technical|Senior L2 → Lead (technical)]], [[senior-l2-vs-lead-management|Senior L2 → Lead (management)]].
-- [[senior-l1-vs-l2]] updated with a "Related boundary docs" section.
+- New: [[01-junior-vs-expert|Junior → Expert]], [[02-expert-vs-senior-l1|Expert → Senior L1]], [[04-senior-l2-vs-lead-technical|Senior L2 → Lead (technical)]], [[05-senior-l2-vs-lead-management|Senior L2 → Lead (management)]].
+- [[03-senior-l1-vs-l2]] updated with a "Related boundary docs" section.
 - All seven level pages updated with an italic "Boundary/Boundaries:" line below the intro.
 
 ---
@@ -219,7 +219,7 @@ Behaviors that imply *actively driving the team* (defining team-wide standards, 
 
 - [[03 Senior-L1|Senior L1]]: framing softened throughout; active/intentional language moved to L2 or removed.
 - [[00 Overview|Overview]]: operating level "Team driver" → "Senior contributor"; level-at-a-glance summary updated.
-- New: [[senior-l1-vs-l2|Senior L1 vs Senior L2]] reference documenting how the boundary is drawn.
+- New: [[03-senior-l1-vs-l2|Senior L1 vs Senior L2]] reference documenting how the boundary is drawn.
 - [[04a Senior-L2 (technical track)|Senior L2 (technical)]] and [[04b Senior-L2 (management track)|Senior L2 (management)]]: cross-links added to the new boundary doc; no behavioral changes (L2 descriptions already represented all of the moved-up content).
 
 ### Acknowledged trade-off

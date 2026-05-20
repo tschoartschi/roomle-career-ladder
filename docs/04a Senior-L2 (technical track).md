@@ -21,7 +21,7 @@ Technical multiplier
 >
 > This level is the threshold for **fachliche Managementaufgaben** in the IT KV sense — team-wide architectural ownership, defining and maintaining technical standards, and leading cross-cutting initiatives — which is why it maps to ST2 rather than ST1.
 
-_Boundaries: [[senior-l1-vs-l2|Senior L1 → Senior L2]] · [[senior-l2-vs-lead-technical|Senior L2 → Lead]]._
+_Boundaries: [[03-senior-l1-vs-l2|Senior L1 → Senior L2]] · [[04-senior-l2-vs-lead-technical|Senior L2 → Lead]]._
 
 ## Technical Mastery
 **tldr;** A Senior L2 (technical) has deep mastery across the full technology stack in their domain, drives technical decisions that affect the team, researches and introduces new technologies, and is the recognized authority for architectural questions in their area.

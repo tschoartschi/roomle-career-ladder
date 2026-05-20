@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/05b Lead (management track).md",
+                "file": "docs/leitung.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05b Lead (management track)"
+              "title": "leitung"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 369.5
   },
   "right": {
     "id": "74319cf97d25c574",
@@ -185,15 +185,34 @@
   },
   "active": "2f4ac53730b96c0e",
   "lastOpenFiles": [
-    "docs/background/follow-ups.md",
+    "internal/README.md",
+    "internal/review-prompt.md",
+    "internal/idea.md",
+    "internal/follow-ups.md",
+    "internal/decisions.md",
+    "internal",
+    "docs/wip.md",
+    "docs/leitung.md",
+    "docs/axes.md",
+    "docs/05b Lead (management track).md",
+    "docs/05a Lead (technical track).md",
     "docs/04b Senior-L2 (management track).md",
     "docs/04a Senior-L2 (technical track).md",
-    "docs/03 Senior-L1.md",
-    "docs/02 Expert.md",
-    "docs/01 Junior.md",
-    "docs/background/company-profile.md",
+    "docs/background/boundaries/03-senior-l1-vs-l2.md",
     "docs/background/idea.md",
+    "docs/03 Senior-L1.md",
+    "docs/background/boundaries/02-expert-vs-senior-l1.md",
+    "docs/background/follow-ups.md",
+    "docs/background/decisions.md",
+    "docs/02 Expert.md",
     "docs/00 Overview.md",
-    "docs/background/kv-informationstechnologie-2026.md"
+    "docs/01 Junior.md",
+    "docs/background/boundaries/01-junior-vs-expert.md",
+    "junior-vs-expert.md",
+    "docs/background/boundaries/05-senior-l2-vs-lead-management.md",
+    "docs/background/boundaries/04-senior-l2-vs-lead-technical.md",
+    "docs/background/boundaries",
+    "docs/background/engineering-context.md",
+    "docs/role-profiles"
   ]
 }

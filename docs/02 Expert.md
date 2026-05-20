@@ -18,7 +18,7 @@ Competent individual contributor
 
 > An Expert has moved beyond the learning and onboarding phase. They solve standard problems independently within their domain, take ownership of their work and its outcomes, collaborate actively with their team, and build credibility through consistent, reliable contributions. They don't yet design complex systems or drive larger initiatives, they deliver solid, well-understood work with growing confidence and autonomy.
 
-_Boundaries: [[junior-vs-expert|Junior → Expert]] · [[expert-vs-senior-l1|Expert → Senior L1]]._
+_Boundaries: [[01-junior-vs-expert|Junior → Expert]] · [[02-expert-vs-senior-l1|Expert → Senior L1]]._
 
 ## Technical Mastery
 **tldr;** An Expert solves standard problems independently in their domain, writes clean and maintainable code, debugs effectively within known systems, and is building depth in their area of expertise.

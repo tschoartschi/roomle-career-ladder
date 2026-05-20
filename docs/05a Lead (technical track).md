@@ -19,7 +19,7 @@ Technical visionary
 
 > A Lead on the technical track is the highest level in this career ladder. They create and shape the technical future of the organization, evangelize new approaches, mentor at an organizational level, and have impact that extends beyond the company. They are the technical conscience of the organization — balancing innovation, reliability, and pragmatism at the highest level.
 
-_Boundary: [[senior-l2-vs-lead-technical|Senior L2 → Lead]]._
+_Boundary: [[04-senior-l2-vs-lead-technical|Senior L2 → Lead]]._
 
 ## Technical Mastery
 **tldr;** A Lead (technical) creates novel technical approaches and architectures that are adopted across the organization. They define the technical vision, push the boundaries of what's possible, and ensure the company's technology choices remain competitive and sustainable.

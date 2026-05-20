@@ -9,7 +9,7 @@ tags: [background, engineering, context]
 
 This document captures the engineering reality at Roomle that the career ladder is written against — what we build, how the codebase is organized, who works on what, how engineers communicate with the outside world, and the domain vocabulary every engineer should know. The level pages, boundary docs, and role profiles all reference this context.
 
-This document describes a destination state. Where current reality differs from the description below (e.g., the RAPI team is currently being rebuilt), the ladder is written against the healthy destination, not the temporary state. See [[follow-ups]].
+This document describes a destination state. Where current reality differs from the description below, the ladder is written against the healthy destination, not the temporary state.
 
 ## Product surfaces
 
@@ -45,9 +45,9 @@ Roomle's C/C++ module, cross-compiled to two builds from one source:
 Core does two kinds of work:
 
 1. **Roomle Script interpretation** — Core is the runtime for *Roomle Script*, the language used to define the construction logic of configurable items.
-2. **Interaction and physics rules** — collision detection, placement constraints, and contextual interaction rules (e.g., *can this object be moved in front of a door*, *what happens when two objects collide*).
+2. **Interaction and rules** — collision detection, placement constraints, and contextual interaction rules (e.g., *can this object be moved in front of a door*, *what happens when two objects collide*).
 
-Core is staffed by one engineer who also works in roomle-ui / TypeScript. The role is broad by deliberate accident; the ladder does not require Core engineers to stay inside Core.
+Core is staffed by one engineer who also works in roomle-ui / TypeScript. The role is broad by an we acknowledge that; the ladder does not require Core engineers to stay solely inside Core.
 
 ### RAPI (Roomle API)
 
@@ -57,7 +57,7 @@ Inside Homag Intelligence, RAPI plays a small role (storing artifacts like floor
 
 ### Infrastructure & delivery
 
-Google Cloud Platform, Kubernetes, Docker. Observability and delivery pipelines. Single DevOps engineer.
+Google Cloud Platform, Kubernetes, Docker. Observability and delivery pipelines. Single DevOps engineer with support of backend team
 
 ### iOS
 
@@ -94,15 +94,15 @@ HI is developed in a highly agile environment with many moving parts on the Homa
 
 ### Reporting structure
 
-- **VP Engineering** — Georg (the author of this ladder).
-- **Lead of Product Operations** — covers a separate department.
-- Engineers report to either VP Engineering or Lead of Product Operations; both report to CEO Albert Ortig.
+- **Head of Engineering** — Georg (the author of this ladder).
+- **Lead of Product Operations** — Belix
+- Engineers report to either Head of Engineering or Lead of Product Operations; both report to CEO Albert Ortig.
 - No C-level engineering titles at Roomle.
-- No active Engineering Manager today; people-management responsibilities currently sit with the VP. The Senior L2 (management) role and Lead (management) role describe a destination, not the current state.
+- No active Engineering Manager today; people-management responsibilities currently sit with the Head of Engineering. The Senior L2 (management) role and Lead (management) role describe a destination, not the current state.
 
 ### Adjacent departments
 
-- **Content Service** — content developers who write Roomle Script and build configurable items as agency-style project work for Roomle customers. Not part of product development. Communication with Content Service is informal — they sit next to engineering, there is no formal channel — but the interface matters because content-vs-code triage is a frequent source of bugs.
+- **Content Service** — content developers who write Roomle Script and build configurable items as agency-style project work for Roomle customers. Not part of product development. Communication with Content Service is informal — they sit next to engineering, there is no formal channel — but the interface matters because content-vs-code triage is a frequent source of bugs. Also Content Service is a important input stream for new features and requirements.
 - **Customer Success / Service Desk** — see *Customer-facing communication* below.
 
 ## Customer-facing communication
@@ -116,7 +116,7 @@ The communication model is deliberate:
 - **However, engineers are still expected to answer in Service Desk tickets.** Their job is to deliver expert, customer-grade written answers that the customer can use. Shielding is from pressure, not from contact.
 - **The single exception is the Homag-dev ↔ Roomle-dev channel** for Homag Intelligence work. This is direct, technical, and intended.
 
-This is unusual relative to most engineering organizations and matters for the ladder: "stakeholder communication" at IC level at Roomle means *write a clear answer into a Service Desk ticket that a non-technical customer can use*, not *manage a customer escalation*.
+This is unusual relative to most engineering organizations and matters for the ladder: "stakeholder communication" for an individual contributor (Junior through Senior L1, and the technical-track Senior L2 / Lead in their hands-on work) at Roomle means *write a clear answer into a Service Desk ticket that a non-technical customer can use*, not *manage a customer escalation*.
 
 ## Domain vocabulary
 
@@ -156,13 +156,13 @@ Three things consistently challenge external senior hires in their first six mon
    - **Integration** — a creative use of the embedding library by the customer's webshop.
    - **Homag side** — a change on Homag's calc.js, backend, or HI configuration that is not under Roomle's control.
 
-   Distinguishing among these is a learned skill, and it is one of the things that separates Expert from Senior L1. Naming this triage explicitly is the most Roomle-specific competency in the ladder.
+   Distinguishing among these is a learned skill, and it is one of the things that separates Expert from Senior L1. Naming this triage explicitly is the a core Roomle-specific competency in the ladder.
 
 3. **HI moves fast and is not all ours.** Homag Intelligence is developed in a highly agile mode with many moving parts on the Homag side. Engineers working HI surfaces must be comfortable with ambiguity, with direct cross-company technical conversations, and with debugging across organizational boundaries.
 
 ## How to use this document
 
 - **Level pages** (`docs/01 Junior.md` through `docs/05b Lead (management track).md`) reference these surfaces and vocabulary in their bullets, so that "their area" and "their domain" mean something concrete.
-- **Boundary docs** (`docs/background/*-vs-*.md`) use the surfaces to describe scope progression between levels.
+- **Boundary docs** (`docs/background/boundaries/*.md`) use the surfaces to describe scope progression between levels.
 - **Role profiles** (`docs/role-profiles/`) describe what each level looks like for a specific surface. They are the deeper version of this document, per domain.
 - **Onboarding** can point new hires at this document early to make the rest of the ladder readable.

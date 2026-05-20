@@ -29,12 +29,12 @@ This means:
 
 - The readiness signal is not "stops asking for help" but "takes a well-scoped task and finishes it without daily check-ins, including handling review feedback to completion".
 - The KV mandates progression to ST1 Regel within max 3 years. By then the role expectations should match the KV salary — if they don't, that's a conversation, not a quiet acceptance.
-- Once at Expert, the path is broad: most Experts naturally grow toward Senior L1 over the KV's max 4 years at ST1 Regel. See [[expert-vs-senior-l1]] for that next boundary.
+- Once at Expert, the path is broad: most Experts naturally grow toward Senior L1 over the KV's max 4 years at ST1 Regel. See [[02-expert-vs-senior-l1]] for that next boundary.
 - Roomle doesn't currently hire Juniors — new hires typically start at Expert or higher. This boundary mostly matters for any future Junior hires.
 
 ## Related boundary docs
 
-- [[expert-vs-senior-l1|Expert → Senior L1]]
-- [[senior-l1-vs-l2|Senior L1 → Senior L2]]
-- [[senior-l2-vs-lead-technical|Senior L2 → Lead (technical)]]
-- [[senior-l2-vs-lead-management|Senior L2 → Lead (management)]]
+- [[02-expert-vs-senior-l1|Expert → Senior L1]]
+- [[03-senior-l1-vs-l2|Senior L1 → Senior L2]]
+- [[04-senior-l2-vs-lead-technical|Senior L2 → Lead (technical)]]
+- [[05-senior-l2-vs-lead-management|Senior L2 → Lead (management)]]

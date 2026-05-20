@@ -23,7 +23,7 @@ People multiplier
 >
 > This level is the threshold for **personelle Managementaufgaben** in the IT KV sense — ownership of team delivery, performance management, and people development — which is why it maps to ST2 rather than ST1.
 
-_Boundaries: [[senior-l1-vs-l2|Senior L1 → Senior L2]] · [[senior-l2-vs-lead-management|Senior L2 → Lead]]._
+_Boundaries: [[03-senior-l1-vs-l2|Senior L1 → Senior L2]] · [[05-senior-l2-vs-lead-management|Senior L2 → Lead]]._
 
 ## Technical Mastery
 **tldr;** A Senior L2 (management) maintains strong technical credibility, uses technical judgment to guide their team's decisions, participates meaningfully in architectural discussions, and ensures technical quality without being the one implementing.

@@ -21,7 +21,7 @@ Each level is **cumulative**: Expert assumes Junior; Senior L1 assumes Expert; a
 
 Roomle context: the roomle-ui project already has a body of AI conventions in its `.agents/` folder (including `.agents/ai-disclosure.md`, commit-scope discipline, and the rule of always using npm scripts rather than direct tool invocation). Where this profile says "the team's AI conventions", it refers to that kind of guidance.
 
-> **Status:** Draft — all five levels spelled out. Owner: TBD. See [[follow-ups]].
+> **Status:** Draft — all five levels spelled out. Owner: TBD. See [[wip|Work in Progress]].
 
 ---
 

@@ -19,7 +19,7 @@ Engineering leader
 
 > A Lead on the management track is the highest people-leadership level in this career ladder. They are responsible for the health, delivery, and growth of the engineering organization as a whole. They shape team structures, define how engineering works at Roomle, and ensure the company can attract, retain, and develop the talent it needs. They balance people, process, and technology at an organizational level.
 
-_Boundary: [[senior-l2-vs-lead-management|Senior L2 → Lead]]._
+_Boundary: [[05-senior-l2-vs-lead-management|Senior L2 → Lead]]._
 
 ## Technical Mastery
 **tldr;** A Lead (management) uses deep technical understanding to make strategic decisions about the engineering organization. They don't need to be the best coder, but their technical judgment shapes hiring, team structure, technology strategy, and investment priorities.

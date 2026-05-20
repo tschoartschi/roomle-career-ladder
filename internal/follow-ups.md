@@ -53,7 +53,7 @@ Open questions:
 - How does this assessment interact with internal Senior L1 → Senior L2 promotion conversations (same decision, different artifact, or one combined process)?
 - How is the outcome recorded and communicated (Dienstzettel update per § 15 I (8))?
 
-**Why it matters:** Senior L1 sits close to the ST1/ST2 boundary (see [[senior-l1-vs-l2#KV-relevant boundary|L1 vs L2 boundary]]). The 36-month assessment is the company's primary evidence trail defending an ST1 Erfahrung classification against a challenge from the employee, Betriebsrat, or AK. Without a documented process, classifications rest on individual manager memory and informal calibration.
+**Why it matters:** Senior L1 sits close to the ST1/ST2 boundary (see [[03-senior-l1-vs-l2#KV-relevant boundary|L1 vs L2 boundary]]). The 36-month assessment is the company's primary evidence trail defending an ST1 Erfahrung classification against a challenge from the employee, Betriebsrat, or AK. Without a documented process, classifications rest on individual manager memory and informal calibration.
 
 **Next step:** Draft a one-page assessment template and process, review with HR and (if applicable) Betriebsrat, and decide whether it runs as a standalone artifact or as part of the broader assessment process tracked below. Once defined, the same artifact also satisfies the "honest role-fit conversation at promotion time" need — there is no separate framework needed for that.
 
@@ -86,7 +86,7 @@ The ladder defines *what* each level is, but does not define *how* someone is as
 
 ### What we did
 
-Rather than splitting Senior L1 into sub-levels or adding bridging examples, we **reframed Senior L1 as the broad professional destination** (operating level: *Senior contributor*) and softened its description — moving the "actively drives the team" behaviors up to Senior L2. See [[decisions#2026-05-19 Reframed Senior L1 as Senior Contributor broad professional destination|the decision entry]] and the new [[senior-l1-vs-l2|L1 vs L2 boundary doc]].
+Rather than splitting Senior L1 into sub-levels or adding bridging examples, we **reframed Senior L1 as the broad professional destination** (operating level: *Senior contributor*) and softened its description — moving the "actively drives the team" behaviors up to Senior L2. See [[decisions#2026-05-19 Reframed Senior L1 as Senior Contributor broad professional destination|the decision entry]] and the new [[03-senior-l1-vs-l2|L1 vs L2 boundary doc]].
 
 Under the new framing:
 - **Expert** stays as the ramp-up level (capped by the KV at max 4 years in ST1 Regel).

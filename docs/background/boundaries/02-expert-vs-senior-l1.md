@@ -23,18 +23,18 @@ The cleanest way to draw the line is on **depth of craft and earned influence**:
 
 ## Why this distinction matters
 
-Both Expert and Senior L1 are individual-contributor roles. The difference is **depth, not job type**. Senior L1 is the broad professional destination most engineers reach and stay at (see [[decisions]]); Expert is the ramp-up.
+Both Expert and Senior L1 are individual-contributor roles. The difference is **depth, not job type**. Senior L1 is the broad professional destination most engineers reach and stay at; Expert is the ramp-up.
 
 This means:
 
-- The boundary is intentionally fuzzy — most engineers grow across it gradually rather than crossing a sharp line. Calibration happens at promotion time, not in the framework. (See the resolved [[follow-ups|Expert → L1 gap]] follow-up for the rationale.)
+- The boundary is intentionally fuzzy — most engineers grow across it gradually rather than crossing a sharp line. Calibration happens at promotion time, not in the framework.
 - The KV mandates progression to ST1 Erfahrung within max 4 years at ST1 Regel. By then the role expectations should match the KV salary.
-- Senior L1 still has *seeds* of multiplier behavior — informal mentoring, influence through reviews, being a go-to expert — but as byproducts of being a senior IC, not the primary job. The active/intentional multiplier role is Senior L2; see [[senior-l1-vs-l2]].
+- Senior L1 still has *seeds* of multiplier behavior — informal mentoring, influence through reviews, being a go-to expert — but as byproducts of being a senior individual contributor, not the primary job. The active/intentional multiplier role is Senior L2; see [[03-senior-l1-vs-l2]].
 - A common pattern: Expert + 2-3 years tenure + consistent demonstration of Senior L1 behaviors → ready for promotion.
 
 ## Related boundary docs
 
-- [[junior-vs-expert|Junior → Expert]]
-- [[senior-l1-vs-l2|Senior L1 → Senior L2]]
-- [[senior-l2-vs-lead-technical|Senior L2 → Lead (technical)]]
-- [[senior-l2-vs-lead-management|Senior L2 → Lead (management)]]
+- [[01-junior-vs-expert|Junior → Expert]]
+- [[03-senior-l1-vs-l2|Senior L1 → Senior L2]]
+- [[04-senior-l2-vs-lead-technical|Senior L2 → Lead (technical)]]
+- [[05-senior-l2-vs-lead-management|Senior L2 → Lead (management)]]

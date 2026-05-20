@@ -29,14 +29,14 @@ Both Senior L2 and Lead are technical roles, but operating at different organiza
 This means:
 
 - Lead is **structurally rare** in a 30-person company — there may only be 0-1 Leads at any time. The KV guarantees salary advancement (ST2 Erfahrung after max 4 years at ST2 Regel) but does not guarantee a Lead-shaped role. Performance and available scope have to match the level by then. If they do not, the sustainable outcome is transition out or termination; the framework does not pretend that permanent lower-level output at ST2 Erfahrung salary is viable.
-- Lead is the **top of the ladder**. Beyond Lead is Leitung (LT), which is intentionally outside this ladder. See [[idea#Leitung LT Outside the Career Ladder|idea]].
+- Lead is the **top of the ladder**. Beyond Lead is Leitung (LT), which is intentionally outside this ladder. See [[leitung|Leitung (LT) — Outside the Career Ladder]].
 - The "team → org" shift is real: a great Senior L2 architect for their team may lack the cross-org influence and external presence Leads need. Promotion to Lead should not be assumed automatic from doing the L2 job well — it requires demonstrating org-level behaviors.
 - Time horizon differs sharply: Senior L2 thinks in quarters and projects; Lead thinks in years and platforms.
-- For the management-track counterpart, see [[senior-l2-vs-lead-management]].
+- For the management-track counterpart, see [[05-senior-l2-vs-lead-management]].
 
 ## Related boundary docs
 
-- [[junior-vs-expert|Junior → Expert]]
-- [[expert-vs-senior-l1|Expert → Senior L1]]
-- [[senior-l1-vs-l2|Senior L1 → Senior L2]]
-- [[senior-l2-vs-lead-management|Senior L2 → Lead (management)]]
+- [[01-junior-vs-expert|Junior → Expert]]
+- [[02-expert-vs-senior-l1|Expert → Senior L1]]
+- [[03-senior-l1-vs-l2|Senior L1 → Senior L2]]
+- [[05-senior-l2-vs-lead-management|Senior L2 → Lead (management)]]

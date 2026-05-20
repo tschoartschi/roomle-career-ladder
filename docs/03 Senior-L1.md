@@ -20,12 +20,12 @@ Senior contributor
 
 > A Senior L1 is an established senior engineer who delivers complex work reliably. They design features and components in their area of ownership, make sound tradeoffs, take ownership of what they lead from spec through deployment, and contribute to team quality through their craft. Their influence is real and grounded in their domain expertise — they are accountable for the successful execution of their specific projects, features, or services. Team-wide architectural ownership, cross-cutting initiatives, and team-wide standards belong to Senior L2; the Senior L2 multiplier role is a deliberate next step that fundamentally shifts accountability toward cross-team outcomes and system-wide architecture. Staying at Senior L1 long-term is a valid choice.
 
-_Boundaries: [[expert-vs-senior-l1|Expert → Senior L1]] · [[senior-l1-vs-l2|Senior L1 → Senior L2]]._
+_Boundaries: [[02-expert-vs-senior-l1|Expert → Senior L1]] · [[03-senior-l1-vs-l2|Senior L1 → Senior L2]]._
 
 ## Technical Mastery
 **tldr;** A Senior L1 designs features and components in their area of ownership, makes sound technical tradeoffs, debugs to root cause, and models high quality standards through their own work. They are the go-to person for at least one part of the codebase.
 
-* **Software design**: designs features and components within their area, scoping data flow, error handling, and integration points. Typical examples at Roomle scale: measurement lines in 3D, a first WebGPU prototype, making the SDK Node.js-ready, a strict-null-checks migration across roomle-ui, swagger across all RAPI docs — work that spans more than one two-week iteration and crosses at least one surface seam (UI ↔ Web SDK ↔ Core, or UI ↔ embedding ↔ customer site). Contributes meaningfully to architecture discussions for their own work; team-wide architectural ownership belongs to Senior L2. Notices when something deviates from established patterns and addresses it.
+* **Software design**: designs features and components within their area, scoping data flow, error handling, and integration points. Typical examples at Roomle scale: measurement lines in 3D, a first WebGPU prototype, making the SDK Node.js-ready, a strict-null-checks migration across roomle-ui, swagger across all RAPI docs — work that spans more than one two-week iteration and crosses at least one surface seam (e.g.: UI ↔ Web SDK ↔ Core, or UI ↔ embedding ↔ customer site, RAPI ↔ Infrastructure). Contributes meaningfully to architecture discussions for their own work; team-wide architectural ownership belongs to Senior L2. Notices when something deviates from established patterns and addresses it.
 
 * **Tradeoffs**: balances technical excellence with delivery. Knows when "good enough" is right and when the remaining 20% matters. Documents tradeoffs so the team understands them.
 
@@ -37,7 +37,7 @@ _Boundaries: [[expert-vs-senior-l1|Expert → Senior L1]] · [[senior-l1-vs-l2|S
 
 * **Risk management**: identifies risks in their area of ownership — broken assumptions, security concerns, the line between fixing and rewriting in code they own. Knows when a change needs broader consultation and escalates rather than deciding alone.
 
-* **Professionalism**: polished PRs, thoughtful written communication, rarely makes the same mistake twice. Most of their PRs merge quickly because reviewers only have minor remarks.
+* **Professionalism**: polished PRs, thoughtful written communication, never makes the same mistake twice. Most of their PRs merge quickly because reviewers only have minor remarks.
 
 ## Learning
 **tldr;** A Senior L1 actively takes initiative to learn — within and outside their domain — and brings that learning back to the team.
@@ -51,7 +51,7 @@ _Boundaries: [[expert-vs-senior-l1|Expert → Senior L1]] · [[senior-l1-vs-l2|S
 ## Responsibility and Ownership
 **tldr;** A Senior L1 owns feature and component work end-to-end in their area of ownership, takes initiative within that scope, and reliably delivers complex work.
 
-* **Feature lifecycle ownership**: owns the features they lead from design and implementation through deployment and post-release follow-up, within their area of ownership. The typical L1 project is something that runs longer than two iterations — measurement lines in 3D, the SDK Node.js readiness work, a strict-null-checks migration, swagger across all RAPI docs. Multi-team or cross-cutting initiatives are Senior L2 territory.
+* **Feature lifecycle ownership**: owns the features they lead from design and implementation through deployment and post-release follow-up, within their area of ownership. The typical L1 project is something that runs longer than two iterations — measurement lines in 3D, the SDK Node.js readiness work, a strict-null-checks migration, swagger across all RAPI endpoints. Multi-team or cross-cutting initiatives are Senior L2 territory.
 * **Trusted with autonomy**: is trusted to identify and pursue technical work on their own within their area of ownership — upgrades, testing improvements, removing local impediments.
 * **Reliable delivery**: regularly delivers on time. Estimates accurately and improves their estimation through feedback.
 * **Proactive problem-solving**: identifies and solves problems within their area of ownership. Escalates or hands off cross-cutting issues to the right people rather than absorbing them silently.
@@ -77,11 +77,11 @@ _Boundaries: [[expert-vs-senior-l1|Expert → Senior L1]] · [[senior-l1-vs-l2|S
 
 * **Established credibility**: has earned the team's trust through consistent delivery and demonstrated expertise.
 * **Influence via reviews**: their PR reviews heavily shape consistency and quality within their domain. They establish standards for their area, and their work serves as the primary benchmark for colleagues.
-* **Go-to expert**: is the person colleagues seek out for at least one Roomle surface — e.g., Core, Web SDK / three.js, the embedding library, RAPI, Rubens Admin, iOS, the HI seam. They are accountable for maintaining the health of that specific area.
+* **Go-to expert**: is the person colleagues seek out for at least one well-defined area within a Roomle surface — not necessarily the whole surface. Examples: three.js / 3D rendering inside the Web SDK; AR inside the Web SDK; the embedding library's iframe protocol; the Roomle Script interpreter inside Core; the catalog / tenancy module inside RAPI; the Rubens Admin permissions model; the iOS native-bridge layer; the HI calc.js ↔ Rubens glue seam. The bar is depth in a specific area where colleagues route their questions, and accountability for keeping that area healthy.
 * **Participates in technical decisions**: contributes meaningfully to team-level technical decisions. Their voice carries weight; they do not necessarily own the decisions.
 * **Impactful focus**: focuses effort where it matters. Knows how to articulate why maintenance work or unglamorous improvements are worth doing.
 * **Reliability**: is known as someone the team can rely on, professionally and technically.
 
 ## Homag Intelligence engagement bar
 
-A Senior L1 working on the HI surface is expected to hold the Roomle ↔ Homag-dev engineering conversation directly — not via VP Engineering or a Lead. Concretely: can describe what calc.js does, knows which Homag-dev counterpart owns which piece, and can negotiate a contract or escalate a discrepancy without an internal escort. L1s who do not work on HI are not expected to do this; engagement scales with the surfaces they touch.
+A Senior L1 working on the HI surface is expected to hold the Roomle ↔ Homag-dev engineering conversation directly — not via Head of Engineering or a Lead. Concretely: can describe what calc.js does, knows which Homag-dev counterpart owns which piece, and can negotiate a technical interface (API shape, message format, data contract between calc.js and the Rubens glue layer) or escalate a discrepancy without an internal escort. *Commercial* contracts and *legal* terms are out of scope at L1 — those stay with Head of Engineering and CEO. L1s who do not work on HI are not expected to do any of this; engagement scales with the surfaces they touch.
