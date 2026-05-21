@@ -15,21 +15,21 @@ We had several thoughts when designing a career ladder:
 
 * it should be simple enough for a 30 people company
 * but it should be flexible enough to give everyone room to develop
-* it should somehow align with [IT KV](../docs/background/kv-informationstechnologie-2026.md)
+* it should somehow align with [IT KV](./kv-informationstechnologie-2026.md)
 * at a certain level there should be two tracks:
   - technical track
   - management track
 
-## [Engineering Ladders](../docs/background/engineeringladders.md)
+## [Engineering Ladders](./engineeringladders.md)
 
-To define the skill set we borrowed lot's of ideas from [engineeringladders.com](https://www.engineeringladders.com/) (also see [local version of engineering ladders](./engineeringladders/), see [local summary](../docs/background/engineeringladders.md)).
+To define the skill set we borrowed lot's of ideas from [engineeringladders.com](https://www.engineeringladders.com/) (also see [local version of engineering ladders](./engineeringladders/), see [local summary](./engineeringladders.md)).
 
 We defined that we will have the following levels:
 
 1. [Junior](../docs/01%20Junior.md)
 2. [Expert](../docs/02%20Expert.md)
 3. [Senior Level 1](../docs/03%20Senior-L1.md)
-4. Senior Level 2 (from here it's ST2 from [IT KV](../docs/background/kv-informationstechnologie-2026.md))
+4. Senior Level 2 (from here it's ST2 from [IT KV](./kv-informationstechnologie-2026.md))
   - 4a. [Senior Level 2 (technical track)](../docs/04a%20Senior-L2%20%28technical%20track%29.md)
   - 4b. [Senior Level 2 (management track)](../docs/04b%20Senior-L2%20%28management%20track%29.md)
 5. Lead  
@@ -38,7 +38,7 @@ We defined that we will have the following levels:
 
 ### IT KV Mapping
 
-The career ladder aligns with the [IT KV](../docs/background/kv-informationstechnologie-2026.md) salary grades as follows:
+The career ladder aligns with the [IT KV](./kv-informationstechnologie-2026.md) salary grades as follows:
 
 | IT KV | Vorrückungsstufe | Roomle Level | Min. Gehalt 2026 |
 |-------|-----------------|--------------|------------------|
@@ -53,7 +53,7 @@ The career ladder aligns with the [IT KV](../docs/background/kv-informationstech
 
 ### Leitung (LT) — Outside the Career Ladder
 
-The [IT KV](../docs/background/kv-informationstechnologie-2026.md) defines a further level: **Leitung (LT)** (Einstieg, Regel, Erfahrung) for employees in leadership positions that decisively influence the company in their area of responsibility.
+The [IT KV](./kv-informationstechnologie-2026.md) defines a further level: **Leitung (LT)** (Einstieg, Regel, Erfahrung) for employees in leadership positions that decisively influence the company in their area of responsibility.
 
 **Leitung (LT) is explicitly excluded from this career ladder** for the following reasons:
 
@@ -65,7 +65,7 @@ Reaching Lead (5a/5b) is the highest level in this career ladder. From there, a 
 
 ### Axes - Engineering Ladders
 
-In [engineeringladders.com](https://www.engineeringladders.com/) (also see [local version of engineering ladders](./engineeringladders/), see [local summary](../docs/background/engineeringladders.md)) the Radar chart/Spider Charts, defines the axes:
+In [engineeringladders.com](https://www.engineeringladders.com/) (also see [local version of engineering ladders](./engineeringladders/), see [local summary](./engineeringladders.md)) the Radar chart/Spider Charts, defines the axes:
 
 * Technology
 * System

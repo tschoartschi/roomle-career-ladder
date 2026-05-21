@@ -10,7 +10,7 @@ connie-publish: true
 
 The career ladder evaluates every level across **five axes**. Each axis has its own per-level expectation; the verb names (*Applies / Solves / Designs / Masters / Creates*, etc.) are what the dots in the [Overview shape table](00%20Overview.md#what-the-shape-looks-like-by-level) actually mean.
 
-The axes are loosely inspired by [engineeringladders.com](https://www.engineeringladders.com/) — see [local summary](background/engineeringladders.md) for the original Technology / System / People / Process / Influence model — but adapted to Roomle's reality.
+The axes are loosely inspired by [engineeringladders.com](https://www.engineeringladders.com/) — the original Technology / System / People / Process / Influence model — but adapted to Roomle's reality.
 
 ## Technical Mastery
 
