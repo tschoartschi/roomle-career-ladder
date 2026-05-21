@@ -1,0 +1,19 @@
+# Local environment — credentials live here, never commit
+.env
+.env.local
+.env.*.local
+
+# macOS / editor noise
+.DS_Store
+
+# Local Node tooling cache (if anyone runs the CLI locally via npx)
+node_modules/
+
+# Obsidian — commit vault settings, ignore per-session state and installed plugin code
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/cache
+.obsidian/plugins/*/
+!.obsidian/plugins/*/data.json
+!.obsidian/plugins/*/manifest.json

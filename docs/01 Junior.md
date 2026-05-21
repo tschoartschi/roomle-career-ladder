@@ -1,13 +1,19 @@
 ---
 title: Junior
-aliases: [Junior, Level 1]
+aliases:
+  - Junior
+  - Level 1
 level: 1
 track: technical
 it_kv: ST1 Einstieg
 operating_level: Guided contributor
-tags: [career-ladder, level]
+tags:
+  - career-ladder
+  - level
 prev: null
-next: "[02 Expert](02%20Expert.md)"
+next: '[02 Expert](02%20Expert.md)'
+connie-publish: true
+connie-page-id: '3755573251'
 ---
 
 # 01 Junior

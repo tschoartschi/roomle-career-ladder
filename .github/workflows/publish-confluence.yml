@@ -5,7 +5,6 @@ on:
     branches: [main, master]
     paths:
       - 'docs/**'
-      - 'index.md'
       - '.markdown-confluence.json'
       - '.github/workflows/publish-confluence.yml'
   workflow_dispatch:
@@ -38,15 +37,11 @@ jobs:
         env:
           CONFLUENCE_BASE_URL: ${{ vars.CONFLUENCE_BASE_URL }}
           CONFLUENCE_PARENT_ID: ${{ vars.CONFLUENCE_PARENT_ID }}
-          CONFLUENCE_SPACE_KEY: ${{ vars.CONFLUENCE_SPACE_KEY }}
           ATLASSIAN_USER_NAME: ${{ secrets.ATLASSIAN_USER_NAME }}
           ATLASSIAN_API_TOKEN: ${{ secrets.ATLASSIAN_API_TOKEN }}
-          DRY_RUN: ${{ github.event.inputs.dry-run }}
         run: |
-          set -euo pipefail
-          if [ "${DRY_RUN:-false}" = "true" ]; then
-            echo "Dry run — would publish to ${CONFLUENCE_BASE_URL} (space=${CONFLUENCE_SPACE_KEY}, parent=${CONFLUENCE_PARENT_ID})"
-            npx --yes @markdown-confluence/cli@latest --help
+          if [ "${{ github.event.inputs.dry-run }}" = "true" ]; then
+            ./scripts/publish-confluence.sh --dry
           else
-            npx --yes @markdown-confluence/cli@latest
+            ./scripts/publish-confluence.sh
           fi

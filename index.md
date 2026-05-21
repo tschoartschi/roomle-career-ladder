@@ -55,12 +55,16 @@ This vault publishes to Confluence Cloud automatically on every push to `main` v
 
 ### One-time setup
 
+Credentials and instance config are passed via environment variables — no secrets ever live in the repo. See [`.env.example`](.env.example) for the full list with explanations.
+
 1. Create an Atlassian API token at `id.atlassian.com/manage-profile/security/api-tokens`.
 2. Create a Confluence Space (or pick an existing one) and a parent page where the docs should live. Grab the Space key and the parent page ID (visible in the URL when viewing the parent).
-3. In the GitHub repo settings, add:
-   - **Repository secrets:** `ATLASSIAN_USER_NAME` (the Atlassian account email), `ATLASSIAN_API_TOKEN` (the token from step 1).
-   - **Repository variables:** `CONFLUENCE_BASE_URL` (e.g., `https://roomle.atlassian.net/wiki`), `CONFLUENCE_PARENT_ID`, `CONFLUENCE_SPACE_KEY`.
+3. In the GitHub repo settings (Settings → Secrets and variables → Actions):
+   - **Repository secrets** (sensitive): `ATLASSIAN_USER_NAME`, `ATLASSIAN_API_TOKEN`.
+   - **Repository variables** (non-sensitive but deployment-specific): `CONFLUENCE_BASE_URL` (bare domain, no `/wiki`), `CONFLUENCE_PARENT_ID`.
 4. Mark each page that should publish by adding `connie-publish: true` to its frontmatter. Pages without this flag are skipped.
+
+**Running locally** (optional): copy `.env.example` to `.env`, fill in your values, then `set -a && source .env && set +a && npx @markdown-confluence/cli`. `.env` is gitignored.
 
 ### How it works
 
