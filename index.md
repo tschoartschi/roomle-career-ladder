@@ -22,11 +22,11 @@ If you have ~30 minutes, read in this order:
 
 If you have another ~30 minutes, read the level pages:
 
-5. [Junior](docs/01%20Junior.md)
-6. [Expert](docs/02%20Expert.md)
-7. [Senior L1](docs/03%20Senior-L1.md)
-8. [Senior L2 (technical)](<docs/04a Senior-L2 (technical track).md>) · [Senior L2 (management)](<docs/04b Senior-L2 (management track).md>)
-9. [Lead (technical)](<docs/05a Lead (technical track).md>) · [Lead (management)](<docs/05b Lead (management track).md>)
+5. [Junior](docs/levels/01%20Junior.md)
+6. [Expert](docs/levels/02%20Expert.md)
+7. [Senior L1](docs/levels/03%20Senior-L1.md)
+8. [Senior L2 (technical)](<docs/levels/04a Senior-L2 (technical track).md>) · [Senior L2 (management)](<docs/levels/04b Senior-L2 (management track).md>)
+9. [Lead (technical)](<docs/levels/05a Lead (technical track).md>) · [Lead (management)](<docs/levels/05b Lead (management track).md>)
 
 If you want to go deep, also read:
 

@@ -6,21 +6,21 @@ track: management
 it_kv: ST2 Erfahrung
 operating_level: Org shaper
 tags: [career-ladder, level, management-track]
-prev: "[04b Senior-L2 (management track)](04b%20Senior-L2%20%28management%20track%29.md)"
+prev: "[04b Senior-L2 (management track)](04b%20Senior-L2%20(management%20track).md)"
 next: null
-counterpart: "[05a Lead (technical track)](05a%20Lead%20%28technical%20track%29.md)"
+counterpart: "[05a Lead (technical track)](05a%20Lead%20(technical%20track).md)"
 connie-publish: true
 ---
 
 # 05b Lead (Management Track)
 
-Management position → counterpart: [05a Lead (technical track)](05a%20Lead%20%28technical%20track%29.md)
+Management position → counterpart: [05a Lead (technical track)](05a%20Lead%20(technical%20track).md)
 
 Engineering leader
 
 > A Lead on the management track is the highest people-leadership level in this career ladder. They are responsible for the health, delivery, and growth of the engineering organization as a whole. They shape team structures, define how engineering works at Roomle, and ensure the company can attract, retain, and develop the talent it needs. They balance people, process, and technology at an organizational level.
 
-_Boundary: [Senior L2 → Lead](background/boundaries/05-senior-l2-vs-lead-management.md)._
+_Boundary: [Senior L2 → Lead](../background/boundaries/05-senior-l2-vs-lead-management.md)._
 
 ## Technical Mastery
 **tldr;** A Lead (management) uses deep technical understanding to make strategic decisions about the engineering organization. They don't need to be the best coder, but their technical judgment shapes hiring, team structure, technology strategy, and investment priorities.

@@ -18,7 +18,7 @@ Content is organized by the five [ladder axes](../00 Overview.md#Axes): Technica
 
 Role profiles complement the general ladder; they live separately so domain content can evolve at its own pace. Engineers should also read the cross-cutting [AI Tooling](ai-tooling.md) profile, which applies regardless of domain.
 
-> **Status:** Junior, Expert, and Senior L1 spelled out. Senior L2 and Lead are to be added — see [Work in Progress](../wip.md).
+> **Status:** Junior, Expert, and Senior L1 spelled out. Senior L2 and Lead are to be added — see [Work in Progress](../background/wip.md).
 
 ---
 
@@ -156,11 +156,11 @@ Role profiles complement the general ladder; they live separately so domain cont
 ## Senior L2 — Web Frontend
 *Adds on top of Senior L1.*
 
-To be defined. See [Work in Progress](../wip.md).
+To be defined. See [Work in Progress](../background/wip.md).
 
 ---
 
 ## Lead — Web Frontend
 *Adds on top of Senior L2.*
 
-To be defined. See [Work in Progress](../wip.md).
+To be defined. See [Work in Progress](../background/wip.md).

@@ -33,7 +33,7 @@ Senior L1 stays broad on purpose. Senior L2 is the deliberate step, so it must b
 
 \* See the **Team-of-one surfaces** note below — for Core / iOS / DevOps, criteria 1 and 2 are read across surface boundaries, not inside the surface.
 
-For the management track ([L2b](../../04b%20Senior-L2%20%28management%20track%29.md)), criterion 4 is replaced by: *has run an end-to-end people process (hiring, performance, reorg) where they were the decision-maker, not the participant*.
+For the management track ([L2b](../../levels/04b%20Senior-L2%20(management%20track).md)), criterion 4 is replaced by: *has run an end-to-end people process (hiring, performance, reorg) where they were the decision-maker, not the participant*.
 
 These four are entry criteria, not promotion guarantees — the company also needs an L2-shaped scope available for the role to exist (see [Overview](../../00%20Overview.md#starting-level-progression) on staying at L1 as a valid choice). But absence of any one of the four is a defensible reason to not promote, and a clear gap to point at in a non-promotion conversation.
 
@@ -47,7 +47,7 @@ This means:
 
 - A Senior L1 engineer should have demonstrated capability for multiplier work in small doses before being considered for the L2 promotion. The L1 → L2 leap is real and intentional, but it is not from zero — the four entry criteria above are how "small doses" become evidence.
 - The career choice is genuine: continue going deep on craft (stay L1), or shift toward making others productive (move to L2). Neither is "above" the other; they are different jobs. Salary growth is possible on both paths — see [Overview](../../00%20Overview.md#starting-level-progression).
-- For the management track ([L2b](../../04b%20Senior-L2%20%28management%20track%29.md)), the principle is the same but the multiplier work shifts toward people delivery rather than technical leadership.
+- For the management track ([L2b](../../levels/04b%20Senior-L2%20(management%20track).md)), the principle is the same but the multiplier work shifts toward people delivery rather than technical leadership.
 - Staying at Senior L1 long-term is a valid, respected choice — see [Overview](../../00%20Overview.md#starting-level-progression).
 
 ### KV-relevant boundary

@@ -7,14 +7,14 @@ it_kv: ST2 Regel
 operating_level: Multiplier
 tags: [career-ladder, level, technical-track]
 prev: "[03 Senior-L1](03%20Senior-L1.md)"
-next: "[05a Lead (technical track)](05a%20Lead%20%28technical%20track%29.md)"
-counterpart: "[04b Senior-L2 (management track)](04b%20Senior-L2%20%28management%20track%29.md)"
+next: "[05a Lead (technical track)](05a%20Lead%20(technical%20track).md)"
+counterpart: "[04b Senior-L2 (management track)](04b%20Senior-L2%20(management%20track).md)"
 connie-publish: true
 ---
 
 # 04a Senior L2 (Technical Track)
 
-Technical position → counterpart: [04b Senior-L2 (management track)](04b%20Senior-L2%20%28management%20track%29.md)
+Technical position → counterpart: [04b Senior-L2 (management track)](04b%20Senior-L2%20(management%20track).md)
 
 Technical multiplier
 
@@ -22,7 +22,7 @@ Technical multiplier
 >
 > This level is the threshold for **fachliche Managementaufgaben** in the IT KV sense — team-wide architectural ownership, defining and maintaining technical standards, and leading cross-cutting initiatives — which is why it maps to ST2 rather than ST1.
 
-_Boundaries: [Senior L1 → Senior L2](background/boundaries/03-senior-l1-vs-l2.md) · [Senior L2 → Lead](background/boundaries/04-senior-l2-vs-lead-technical.md)._
+_Boundaries: [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-l2.md) · [Senior L2 → Lead](../background/boundaries/04-senior-l2-vs-lead-technical.md)._
 
 ## Technical Mastery
 **tldr;** A Senior L2 (technical) has deep mastery across the full technology stack in their domain, drives technical decisions that affect the team, researches and introduces new technologies, and is the recognized authority for architectural questions in their area.

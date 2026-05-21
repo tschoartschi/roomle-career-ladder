@@ -18,4 +18,4 @@ The [IT KV](https://www.wko.at/oe/kollektivvertrag/kv-informationstechnologie-20
 
 Reaching **Lead (5a/5b)** is the highest level in this career ladder. From there, a move to Leitung is a fundamentally different kind of career step — one driven by organizational need, personal initiative, and mutual agreement between the employee and the company.
 
-For the boundaries where Leitung becomes relevant, see [Senior L2 → Lead (technical)](background/boundaries/04-senior-l2-vs-lead-technical.md) and [Senior L2 → Lead (management)](background/boundaries/05-senior-l2-vs-lead-management.md).
+For the boundaries where Leitung becomes relevant, see [Senior L2 → Lead (technical)](../background/boundaries/04-senior-l2-vs-lead-technical.md) and [Senior L2 → Lead (management)](../background/boundaries/05-senior-l2-vs-lead-management.md).

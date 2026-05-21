@@ -26,8 +26,8 @@ From Senior L2 onward, the ladder splits into two tracks:
 
 | Level | Technical Track | Management Track |
 |-------|----------------|------------------|
-| Senior L2 | [Technical multiplier](<04a Senior-L2 (technical track).md>) — system ownership, architectural leadership | [People multiplier](<04b Senior-L2 (management track).md>) — team delivery, coaching, people development |
-| Lead | [Technical visionary](<05a Lead (technical track).md>) — defines tech future, org-wide technical impact | [Engineering leader](<05b Lead (management track).md>) — shapes org culture, talent strategy, company influence |
+| Senior L2 | [Technical multiplier](<levels/04a Senior-L2 (technical track).md>) — system ownership, architectural leadership | [People multiplier](<levels/04b Senior-L2 (management track).md>) — team delivery, coaching, people development |
+| Lead | [Technical visionary](<levels/05a Lead (technical track).md>) — defines tech future, org-wide technical impact | [Engineering leader](<levels/05b Lead (management track).md>) — shapes org culture, talent strategy, company influence |
 
 ## Starting Level & Progression
 
