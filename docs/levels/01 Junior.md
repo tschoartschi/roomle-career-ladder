@@ -16,7 +16,7 @@ confluence-publish: true
 confluence-page-id: '3758522370'
 ---
 
-# 01 Junior
+# 01 Junior -
 
 Technical position → no management counterpart
 
