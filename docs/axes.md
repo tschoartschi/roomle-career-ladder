@@ -3,8 +3,8 @@ title: Axes
 aliases: [Axes, Axis Definitions]
 type: reference
 tags: [career-ladder, axes, reference]
-connie-publish: true
-connie-page-id: '3756720165'
+confluence-publish: true
+confluence-page-id: '3758948354'
 ---
 
 # Axes

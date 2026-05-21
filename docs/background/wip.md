@@ -3,8 +3,8 @@ title: Work in Progress
 aliases: [WIP, In Progress, To Be Defined]
 type: reference
 tags: [career-ladder, wip]
-connie-publish: true
-connie-page-id: '3756261415'
+confluence-publish: true
+confluence-page-id: '3758358552'
 ---
 
 # Work in Progress

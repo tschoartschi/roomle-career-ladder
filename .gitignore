@@ -6,11 +6,8 @@
 # macOS / editor noise
 .DS_Store
 
-# Local Node tooling cache (if anyone runs the CLI locally via npx)
+# Node
 node_modules/
-
-# Preprocessed copy of docs/ generated for Confluence publishing
-build/
 
 # Obsidian — commit vault settings, ignore per-session state and installed plugin code
 .obsidian/workspace.json

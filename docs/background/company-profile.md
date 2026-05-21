@@ -3,8 +3,8 @@ title: Company Profile
 aliases: [Roomle, Company]
 type: reference
 tags: [background, company]
-connie-publish: true
-connie-page-id: '3756195864'
+confluence-publish: true
+confluence-page-id: '3758063618'
 ---
 
 # Company Profile – Roomle GmbH

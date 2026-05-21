@@ -3,8 +3,8 @@ title: Career Ladder Overview
 aliases: [Overview, Career Ladder]
 type: overview
 tags: [career-ladder, overview]
-connie-publish: true
-connie-page-id: '3757113345'
+confluence-publish: true
+confluence-page-id: '3758620674'
 ---
 
 # Career Ladder – Overview

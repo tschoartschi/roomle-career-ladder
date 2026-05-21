@@ -5,13 +5,12 @@ on:
     branches: [main, master]
     paths:
       - 'docs/**'
-      - '.markdown-confluence.json'
-      - 'scripts/**'
+      - 'src/**'
       - '.github/workflows/publish-confluence.yml'
   workflow_dispatch:
     inputs:
       dry-run:
-        description: 'Run without publishing (preview config only)'
+        description: 'Run without publishing (preview only)'
         required: false
         default: 'false'
 
@@ -24,10 +23,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
-      contents: write  # needed to push connie-page-id back to the repo
+      contents: write
     env:
-      CONFLUENCE_BASE_URL: ${{ secrets.CONFLUENCE_BASE_URL }}
-      CONFLUENCE_PARENT_ID: ${{ secrets.CONFLUENCE_PARENT_ID }}
+      CONFLUENCE_BASE_URL: ${{ vars.CONFLUENCE_BASE_URL }}
+      CONFLUENCE_PARENT_ID: ${{ vars.CONFLUENCE_PARENT_ID }}
+      CONFLUENCE_SPACE_KEY: ${{ vars.CONFLUENCE_SPACE_KEY }}
+      CONFLUENCE_ARCHIVE_PARENT_ID: ${{ vars.CONFLUENCE_ARCHIVE_PARENT_ID }}
       ATLASSIAN_USER_NAME: ${{ secrets.ATLASSIAN_USER_NAME }}
       ATLASSIAN_API_TOKEN: ${{ secrets.ATLASSIAN_API_TOKEN }}
     steps:
@@ -39,23 +40,26 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Install dependencies
+        run: npm ci
+
       - name: Dry run
         if: github.event.inputs.dry-run == 'true'
-        run: ./scripts/publish-confluence.sh --dry
+        run: node --experimental-strip-types src/publish.ts --dry-run
 
       - name: Publish
         if: github.event.inputs.dry-run != 'true'
-        run: ./scripts/publish-confluence.sh
+        run: node --experimental-strip-types src/publish.ts
 
-      - name: Persist any new connie-page-id back to repo
+      - name: Persist any new confluence-page-id back to repo
         if: github.event.inputs.dry-run != 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/
           if git diff --cached --quiet; then
-            echo "No new connie-page-id to persist."
+            echo "No new confluence-page-id to persist."
           else
-            git commit -m "chore(ci): persist connie-page-id after Confluence publish [skip ci]"
+            git commit -m "chore(ci): persist confluence-page-id after publish [skip ci]"
             git push origin "HEAD:${{ github.ref_name }}"
           fi

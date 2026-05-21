@@ -5,8 +5,8 @@ type: role-profile
 domain: ai-tooling
 cross_cutting: true
 tags: [role-profile, ai-tooling, cross-cutting]
-connie-publish: true
-connie-page-id: '3756392464'
+confluence-publish: true
+confluence-page-id: '3758358572'
 ---
 
 # AI Tooling — Role Profile

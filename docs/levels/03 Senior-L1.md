@@ -10,8 +10,8 @@ prev: "[02 Expert](02%20Expert.md)"
 next:
   - "[04a Senior-L2 (technical track)](04a%20Senior-L2%20(technical%20track).md)"
   - "[04b Senior-L2 (management track)](04b%20Senior-L2%20(management%20track).md)"
-connie-publish: true
-connie-page-id: '3756884003'
+confluence-publish: true
+confluence-page-id: '3758981121'
 ---
 
 # 03 Senior L1

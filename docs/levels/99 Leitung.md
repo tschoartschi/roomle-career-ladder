@@ -3,8 +3,8 @@ title: Leitung (LT) — Outside the Career Ladder
 aliases: [Leitung, LT, Leitung outside the ladder]
 type: reference
 tags: [career-ladder, reference, kv]
-connie-publish: true
-connie-page-id: '3756130337'
+confluence-publish: true
+confluence-page-id: '3757211653'
 ---
 
 # 99 Leitung (LT) — Outside the Career Ladder

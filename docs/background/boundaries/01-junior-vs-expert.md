@@ -3,8 +3,8 @@ title: Junior vs Expert — How We Draw the Line
 aliases: [Junior vs Expert]
 type: reference
 tags: [background, level-boundaries]
-connie-publish: true
-connie-page-id: '3755442191'
+confluence-publish: true
+confluence-page-id: '3757506566'
 ---
 
 # 01 Junior vs Expert — How We Draw the Line

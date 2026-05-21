@@ -5,8 +5,8 @@ type: role-profile
 domain: web-frontend
 cross_cutting: false
 tags: [role-profile, web-frontend]
-connie-publish: true
-connie-page-id: '3755245600'
+confluence-publish: true
+confluence-page-id: '3758948374'
 ---
 
 # Web Frontend — Role Profile

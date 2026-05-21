@@ -1,6 +1,0 @@
-{
-  "$schema": "https://raw.githubusercontent.com/markdown-confluence/markdown-confluence/main/packages/lib/src/config.schema.json",
-  "folderToPublish": "docs",
-  "contentRoot": "docs",
-  "firstHeadingPageTitle": true
-}
