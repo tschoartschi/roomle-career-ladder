@@ -1,16 +1,21 @@
 #!/usr/bin/env bash
 # Publish docs/ to Confluence Cloud via @markdown-confluence/cli.
 #
-# Reads credentials and instance config from environment variables (locally via
-# .env, in CI via GitHub Secrets + Variables) and merges them with the static
-# defaults in .markdown-confluence.json into a runtime config that is passed to
-# the CLI. The runtime config is written to a temp file and removed on exit so
-# credentials never touch the repo.
+# Pipeline:
+#   1. Preprocess  docs/  →  build/docs/  (converts standard markdown links
+#      to Obsidian wikilinks so the CLI can resolve them).
+#   2. Run the CLI against build/docs/.
+#   3. Sync any new connie-page-id the CLI wrote into build/docs/ back into
+#      the corresponding source files in docs/, so subsequent runs update
+#      existing pages instead of creating duplicates.
+#
+# build/ is gitignored. The source markdown in docs/ stays GitHub-friendly.
+# Credentials and instance config come from environment variables (locally
+# via .env, in CI via GitHub Secrets).
 #
 # Required env vars:
-#   CONFLUENCE_BASE_URL     e.g. https://roomle.atlassian.net/wiki
+#   CONFLUENCE_BASE_URL     bare domain, no /wiki suffix
 #   CONFLUENCE_PARENT_ID    numeric page ID
-#   CONFLUENCE_SPACE_KEY    e.g. careerladder
 #   ATLASSIAN_USER_NAME     Atlassian account email
 #   ATLASSIAN_API_TOKEN     API token from id.atlassian.com
 #
@@ -25,8 +30,8 @@ DRY=false
 VERBOSE=false
 for arg in "$@"; do
   case "$arg" in
-    --dry)           DRY=true ;;
-    --verbose|-v)    VERBOSE=true ;;
+    --dry)        DRY=true ;;
+    --verbose|-v) VERBOSE=true ;;
     -h|--help)
       sed -n '2,/^$/p' "${BASH_SOURCE[0]}" | sed 's/^# \{0,1\}//'
       exit 0
@@ -51,26 +56,28 @@ if [[ "$CONFLUENCE_BASE_URL" == */wiki ]] || [[ "$CONFLUENCE_BASE_URL" == */wiki
 fi
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-STATIC_CONFIG="$REPO_ROOT/.markdown-confluence.json"
+cd "$REPO_ROOT"
 
-if [[ ! -f "$STATIC_CONFIG" ]]; then
-  echo "Missing $STATIC_CONFIG" >&2
-  exit 1
-fi
+STATIC_CONFIG="$REPO_ROOT/.markdown-confluence.json"
+[[ -f "$STATIC_CONFIG" ]] || { echo "Missing $STATIC_CONFIG" >&2; exit 1; }
 
 RUNTIME_CONFIG="$(mktemp -t mdconfluence.XXXXXX.json)"
 trap 'rm -f "$RUNTIME_CONFIG"' EXIT
 
+# Build runtime config: static defaults + env-supplied credentials.
+# folderToPublish/contentRoot point at build/docs (the preprocessed copy).
 jq \
   --arg url   "$CONFLUENCE_BASE_URL" \
   --arg pid   "$CONFLUENCE_PARENT_ID" \
   --arg user  "$ATLASSIAN_USER_NAME" \
   --arg token "$ATLASSIAN_API_TOKEN" \
   '. + {
-    confluenceBaseUrl:   $url,
-    confluenceParentId:  $pid,
-    atlassianUserName:   $user,
-    atlassianApiToken:   $token
+    folderToPublish:    "build/docs",
+    contentRoot:        "build/docs",
+    confluenceBaseUrl:  $url,
+    confluenceParentId: $pid,
+    atlassianUserName:  $user,
+    atlassianApiToken:  $token
   }' \
   "$STATIC_CONFIG" > "$RUNTIME_CONFIG"
 
@@ -80,13 +87,19 @@ if [[ "$DRY" == "true" ]]; then
   exit 0
 fi
 
-cd "$REPO_ROOT"
+# 1. Preprocess
+node scripts/preprocess-for-confluence.mjs
+
+# 2. Publish
 if [[ "$VERBOSE" == "true" ]]; then
   npx --yes @markdown-confluence/cli@latest --config "$RUNTIME_CONFIG"
 else
-  # Filter noisy CLI debug output: raw ADF JSON dumps and "TESTING DIFF" headers.
-  # SUCCESS/ERROR/warning lines and anything that isn't obviously a JSON dump are kept.
+  # Filter noisy CLI debug output (raw ADF JSON dumps + "TESTING DIFF" headers).
+  # SUCCESS/ERROR/warning lines and anything that isn't an obvious JSON dump are kept.
   # Exit code propagates via pipefail (sed always exits 0).
   npx --yes @markdown-confluence/cli@latest --config "$RUNTIME_CONFIG" \
     | sed -E '/^(TESTING DIFF|[{[])/d'
 fi
+
+# 3. Sync any new page IDs back to source docs/
+node scripts/sync-page-ids.mjs

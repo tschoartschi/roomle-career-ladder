@@ -10,6 +10,7 @@ prev: "[03 Senior-L1](03%20Senior-L1.md)"
 next: "[05b Lead (management track)](05b%20Lead%20(management%20track).md)"
 counterpart: "[04a Senior-L2 (technical track)](04a%20Senior-L2%20(technical%20track).md)"
 connie-publish: true
+connie-page-id: '3756556317'
 ---
 
 # 04b Senior L2 (Management Track)

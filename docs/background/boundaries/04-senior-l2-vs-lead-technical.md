@@ -4,9 +4,10 @@ aliases: [L2 vs Lead Technical, Senior L2 vs Lead Tech]
 type: reference
 tags: [background, level-boundaries, technical-track]
 connie-publish: true
+connie-page-id: '3755704374'
 ---
 
-# Senior L2 vs Lead (Technical Track) — How We Draw the Line
+# 04 Senior L2 vs Lead (Technical Track) — How We Draw the Line
 
 The transition from Senior L2 (technical) to Lead (technical) is the journey from "multiplier within a team" to "shaper of how engineering works org-wide". KV-wise it maps to ST2 Regel → ST2 Erfahrung — the KV mandates progression within max 4 years at ST2 Regel.
 

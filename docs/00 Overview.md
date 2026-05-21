@@ -4,9 +4,43 @@ aliases: [Overview, Career Ladder]
 type: overview
 tags: [career-ladder, overview]
 connie-publish: true
+connie-page-id: '3757113345'
 ---
 
 # Career Ladder – Overview
+
+## How to read this ladder
+
+The framework has more pages than any single read needs. Here's the order that works for most readers and why.
+
+**Start here (you are reading it).** This page gives you the five levels, the KV salary mapping, and the tech/management track split at L2. Once you've skimmed the tables below, you have the shape of the whole framework.
+
+**Then read the level pages in order, Junior → Lead.** They are cumulative: every level assumes everything from the levels below. Reading them out of order is possible but harder, because the "what's new at this level" framing leans on you having the previous level in your head.
+
+- [01 Junior](<levels/01 Junior.md>) — guided contributor, primary job is to learn
+- [02 Expert](<levels/02 Expert.md>) — independent, delivers reliably within their domain
+- [03 Senior L1](<levels/03 Senior-L1.md>) — established senior IC; the broad professional destination
+- [04a Senior L2 (technical)](<levels/04a Senior-L2 (technical track).md>) and [04b Senior L2 (management)](<levels/04b Senior-L2 (management track).md>) — the multiplier split
+- [05a Lead (technical)](<levels/05a Lead (technical track).md>) and [05b Lead (management)](<levels/05b Lead (management track).md>) — org-shaping; structurally rare at our size
+- [99 Leitung](<levels/99 Leitung.md>) — explicitly *outside* the ladder; explains why
+
+**Then read [Axes](axes.md).** All level descriptions are organised around the same five axes (Technical Mastery, Learning, Responsibility & Ownership, Collaboration & Communication, Influence). The level pages quote axis verbs (*Applies*, *Solves*, *Designs*, etc.) — Axes is what those verbs actually mean.
+
+**Read the boundary docs only when you need them.** Each one answers "how do we tell these two adjacent levels apart?" — useful for promotion conversations and calibration, less useful as continuous reading. Pick the boundary you care about right now:
+
+- [Junior → Expert](background/boundaries/01-junior-vs-expert.md) · [Expert → Senior L1](background/boundaries/02-expert-vs-senior-l1.md) · [Senior L1 → Senior L2](background/boundaries/03-senior-l1-vs-l2.md) · [Senior L2 → Lead (technical)](background/boundaries/04-senior-l2-vs-lead-technical.md) · [Senior L2 → Lead (management)](background/boundaries/05-senior-l2-vs-lead-management.md)
+
+**Read role profiles when you want domain-specific expectations.** The general ladder describes competencies abstractly; role profiles spell out what those competencies look like for a specific domain.
+
+- [Web Frontend](role-profiles/web-frontend.md) (domain) and [AI Tooling](role-profiles/ai-tooling.md) (cross-cutting — applies to every engineer)
+
+**Background pages are optional context.** [Company Profile](background/company-profile.md) is for external readers who don't know Roomle. [Engineering Context](background/engineering-context.md) explains the Rubens / Core / RAPI / HI vocabulary used in the role profiles. [Work in Progress](background/wip.md) is a placeholder for content not yet written.
+
+### If you only have 10 minutes
+
+Read this page top to bottom, then skim the three levels closest to where you are (or where you want to be). Come back for the rest when you need it.
+
+---
 
 ## Levels at a Glance
 

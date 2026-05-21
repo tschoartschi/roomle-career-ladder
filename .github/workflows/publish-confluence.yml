@@ -6,7 +6,7 @@ on:
     paths:
       - 'docs/**'
       - '.markdown-confluence.json'
-      - 'scripts/publish-confluence.sh'
+      - 'scripts/**'
       - '.github/workflows/publish-confluence.yml'
   workflow_dispatch:
     inputs:
@@ -22,7 +22,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     permissions:
       contents: write  # needed to push connie-page-id back to the repo
     env:
@@ -33,56 +33,29 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
-        # persist-credentials defaults to true with the workflow's GITHUB_TOKEN,
-        # which is what we use later to push the frontmatter changes back.
 
       - name: Set up Node.js
         uses: actions/setup-node@v5
         with:
           node-version: '22'
 
-      # --- Dry run path: short-circuits the publish flow ---
       - name: Dry run
         if: github.event.inputs.dry-run == 'true'
         run: ./scripts/publish-confluence.sh --dry
 
-      # --- Real publish flow: two passes around an id-persistence commit ---
-      #
-      # The markdown-confluence CLI assigns each new page a connie-page-id and
-      # writes it back into the file's frontmatter. Without that id stored in
-      # git, cross-page links in Confluence render as `<a href="#">` because the
-      # CLI has no target to point them at.
-      #
-      # On a *fresh* publish (or after a wipe) we therefore need two passes:
-      #   1. First publish: creates pages, assigns ids, writes them to local files.
-      #   2. Commit the new ids back to the repo so they persist.
-      #   3. Second publish: now every file has its id in frontmatter, so the
-      #      CLI resolves all cross-file links to real Confluence page URLs and
-      #      updates the page bodies accordingly.
-      #
-      # Subsequent runs (no new files) skip step 3 because step 2 has nothing
-      # to commit — the conditional below handles that.
-
-      - name: First publish (create pages, populate connie-page-id)
+      - name: Publish
         if: github.event.inputs.dry-run != 'true'
         run: ./scripts/publish-confluence.sh
 
-      - name: Persist connie-page-id back to repo
+      - name: Persist any new connie-page-id back to repo
         if: github.event.inputs.dry-run != 'true'
-        id: persist
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/
           if git diff --cached --quiet; then
             echo "No new connie-page-id to persist."
-            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore(ci): persist connie-page-id after Confluence publish [skip ci]"
             git push origin "HEAD:${{ github.ref_name }}"
-            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
-
-      - name: Second publish (re-publish so cross-page links resolve to real Confluence URLs)
-        if: github.event.inputs.dry-run != 'true' && steps.persist.outputs.changed == 'true'
-        run: ./scripts/publish-confluence.sh

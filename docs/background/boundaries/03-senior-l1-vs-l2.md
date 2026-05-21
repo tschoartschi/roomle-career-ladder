@@ -4,9 +4,10 @@ aliases: [L1 vs L2, Level Boundaries]
 type: reference
 tags: [background, level-boundaries]
 connie-publish: true
+connie-page-id: '3755638812'
 ---
 
-# Senior L1 vs Senior L2 — How We Draw the Line
+# 03 Senior L1 vs Senior L2 — How We Draw the Line
 
 The transition from Senior L1 to Senior L2 is the most significant career inflection in this ladder. It is a deliberate, mutually-agreed choice — not an automatic progression. See the [Overview](../../00%20Overview.md#starting-level-progression) for the role-choice side; the salary-commitment side (IT KV ST1 → ST2) is summarized in the *KV-relevant boundary* section below.
 

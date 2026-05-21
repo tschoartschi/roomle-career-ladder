@@ -4,9 +4,10 @@ aliases: [L2 vs Lead Management, Senior L2 vs Lead Mgmt]
 type: reference
 tags: [background, level-boundaries, management-track]
 connie-publish: true
+connie-page-id: '3756589085'
 ---
 
-# Senior L2 vs Lead (Management Track) — How We Draw the Line
+# 05 Senior L2 vs Lead (Management Track) — How We Draw the Line
 
 The transition from Senior L2 (management) to Lead (management) is the journey from "team manager" to "leader of the engineering organization". KV-wise it maps to ST2 Regel → ST2 Erfahrung — the KV mandates progression within max 4 years at ST2 Regel.
 

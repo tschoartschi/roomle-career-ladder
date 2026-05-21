@@ -4,6 +4,7 @@ aliases: [Roomle, Company]
 type: reference
 tags: [background, company]
 connie-publish: true
+connie-page-id: '3756195864'
 ---
 
 # Company Profile – Roomle GmbH

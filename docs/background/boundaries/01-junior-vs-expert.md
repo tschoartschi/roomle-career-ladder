@@ -4,9 +4,10 @@ aliases: [Junior vs Expert]
 type: reference
 tags: [background, level-boundaries]
 connie-publish: true
+connie-page-id: '3755442191'
 ---
 
-# Junior vs Expert — How We Draw the Line
+# 01 Junior vs Expert — How We Draw the Line
 
 The transition from Junior to Expert is the first level transition every employee makes. It is heavily shaped by the KV: Junior is capped at max 3 years at ST1 Einstieg, after which the employee advances to ST1 Regel (Expert) — performance has to grow into that level by then.
 

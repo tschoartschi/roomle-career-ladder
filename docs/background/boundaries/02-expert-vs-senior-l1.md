@@ -4,9 +4,10 @@ aliases: [Expert vs Senior L1, Expert vs L1]
 type: reference
 tags: [background, level-boundaries]
 connie-publish: true
+connie-page-id: '3755081768'
 ---
 
-# Expert vs Senior L1 — How We Draw the Line
+# 02 Expert vs Senior L1 — How We Draw the Line
 
 The transition from Expert to Senior L1 is the journey from "reliable independent contributor" to "established senior engineer whose craft lifts the team". KV-wise it maps to ST1 Regel → ST1 Erfahrung — the KV mandates progression within max 4 years at ST1 Regel.
 
