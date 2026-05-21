@@ -7,7 +7,7 @@ tags: [background, level-boundaries]
 
 # Senior L1 vs Senior L2 — How We Draw the Line
 
-The transition from Senior L1 to Senior L2 is the most significant career inflection in this ladder. It is a deliberate, mutually-agreed choice — not an automatic progression. See the [[00 Overview#Starting Level & Progression|Overview]] for the role-choice side; the salary-commitment side (IT KV ST1 → ST2) is summarized in the *KV-relevant boundary* section below.
+The transition from Senior L1 to Senior L2 is the most significant career inflection in this ladder. It is a deliberate, mutually-agreed choice — not an automatic progression. See the [Overview](../../00%20Overview.md#starting-level-progression) for the role-choice side; the salary-commitment side (IT KV ST1 → ST2) is summarized in the *KV-relevant boundary* section below.
 
 The cleanest way to draw the line is on **accountability and scope**:
 
@@ -32,9 +32,9 @@ Senior L1 stays broad on purpose. Senior L2 is the deliberate step, so it must b
 
 \* See the **Team-of-one surfaces** note below — for Core / iOS / DevOps, criteria 1 and 2 are read across surface boundaries, not inside the surface.
 
-For the management track ([[04b Senior-L2 (management track)|L2b]]), criterion 4 is replaced by: *has run an end-to-end people process (hiring, performance, reorg) where they were the decision-maker, not the participant*.
+For the management track ([L2b](../../04b%20Senior-L2%20%28management%20track%29.md)), criterion 4 is replaced by: *has run an end-to-end people process (hiring, performance, reorg) where they were the decision-maker, not the participant*.
 
-These four are entry criteria, not promotion guarantees — the company also needs an L2-shaped scope available for the role to exist (see [[00 Overview#Starting Level & Progression|Overview]] on staying at L1 as a valid choice). But absence of any one of the four is a defensible reason to not promote, and a clear gap to point at in a non-promotion conversation.
+These four are entry criteria, not promotion guarantees — the company also needs an L2-shaped scope available for the role to exist (see [Overview](../../00%20Overview.md#starting-level-progression) on staying at L1 as a valid choice). But absence of any one of the four is a defensible reason to not promote, and a clear gap to point at in a non-promotion conversation.
 
 **Team-of-one surfaces.** For engineers whose primary surface is small or staffed by one person (Core, iOS, DevOps), criteria 1 and 2 are met *across* surface boundaries, not inside the surface — e.g., a Core engineer who mentors a Web engineer through a WASM-boundary change, or a DevOps engineer who drives a release-pipeline change adopted by Web and Backend. The criteria are not waived; they apply across boundaries. The same logic applies to criterion 3 (a team-wide standard the surface contributes to) and criterion 4.
 
@@ -45,9 +45,9 @@ Senior L1s are highly skilled individual contributors accountable for executing 
 This means:
 
 - A Senior L1 engineer should have demonstrated capability for multiplier work in small doses before being considered for the L2 promotion. The L1 → L2 leap is real and intentional, but it is not from zero — the four entry criteria above are how "small doses" become evidence.
-- The career choice is genuine: continue going deep on craft (stay L1), or shift toward making others productive (move to L2). Neither is "above" the other; they are different jobs. Salary growth is possible on both paths — see [[00 Overview#Starting Level & Progression|Overview]].
-- For the management track ([[04b Senior-L2 (management track)|L2b]]), the principle is the same but the multiplier work shifts toward people delivery rather than technical leadership.
-- Staying at Senior L1 long-term is a valid, respected choice — see [[00 Overview#Starting Level & Progression|Overview]].
+- The career choice is genuine: continue going deep on craft (stay L1), or shift toward making others productive (move to L2). Neither is "above" the other; they are different jobs. Salary growth is possible on both paths — see [Overview](../../00%20Overview.md#starting-level-progression).
+- For the management track ([L2b](../../04b%20Senior-L2%20%28management%20track%29.md)), the principle is the same but the multiplier work shifts toward people delivery rather than technical leadership.
+- Staying at Senior L1 long-term is a valid, respected choice — see [Overview](../../00%20Overview.md#starting-level-progression).
 
 ### KV-relevant boundary
 
@@ -55,7 +55,7 @@ This boundary is also where the IT KV ST1 → ST2 threshold sits. ST2 begins whe
 
 ## Related boundary docs
 
-- [[01-junior-vs-expert|Junior → Expert]]
-- [[02-expert-vs-senior-l1|Expert → Senior L1]]
-- [[04-senior-l2-vs-lead-technical|Senior L2 → Lead (technical)]]
-- [[05-senior-l2-vs-lead-management|Senior L2 → Lead (management)]]
+- [Junior → Expert](01-junior-vs-expert.md)
+- [Expert → Senior L1](02-expert-vs-senior-l1.md)
+- [Senior L2 → Lead (technical)](04-senior-l2-vs-lead-technical.md)
+- [Senior L2 → Lead (management)](05-senior-l2-vs-lead-management.md)

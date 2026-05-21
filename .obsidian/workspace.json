@@ -185,6 +185,9 @@
   },
   "active": "2f4ac53730b96c0e",
   "lastOpenFiles": [
+    "convert-wikilinks.py",
+    "junior-vs-expert.md",
+    "docs/leitung.md",
     "internal/README.md",
     "internal/review-prompt.md",
     "internal/idea.md",
@@ -192,7 +195,6 @@
     "internal/decisions.md",
     "internal",
     "docs/wip.md",
-    "docs/leitung.md",
     "docs/axes.md",
     "docs/05b Lead (management track).md",
     "docs/05a Lead (technical track).md",
@@ -208,11 +210,9 @@
     "docs/00 Overview.md",
     "docs/01 Junior.md",
     "docs/background/boundaries/01-junior-vs-expert.md",
-    "junior-vs-expert.md",
     "docs/background/boundaries/05-senior-l2-vs-lead-management.md",
     "docs/background/boundaries/04-senior-l2-vs-lead-technical.md",
     "docs/background/boundaries",
-    "docs/background/engineering-context.md",
     "docs/role-profiles"
   ]
 }

@@ -6,14 +6,14 @@ track: management
 it_kv: ST2 Regel
 operating_level: Multiplier
 tags: [career-ladder, level, management-track]
-prev: "[[03 Senior-L1]]"
-next: "[[05b Lead (management track)]]"
-counterpart: "[[04a Senior-L2 (technical track)]]"
+prev: "[03 Senior-L1](03%20Senior-L1.md)"
+next: "[05b Lead (management track)](05b%20Lead%20%28management%20track%29.md)"
+counterpart: "[04a Senior-L2 (technical track)](04a%20Senior-L2%20%28technical%20track%29.md)"
 ---
 
 # 04b Senior L2 (Management Track)
 
-Management position → counterpart: [[04a Senior-L2 (technical track)]]
+Management position → counterpart: [04a Senior-L2 (technical track)](04a%20Senior-L2%20%28technical%20track%29.md)
 
 People multiplier
 
@@ -23,7 +23,7 @@ People multiplier
 >
 > This level is the threshold for **personelle Managementaufgaben** in the IT KV sense — ownership of team delivery, performance management, and people development — which is why it maps to ST2 rather than ST1.
 
-_Boundaries: [[03-senior-l1-vs-l2|Senior L1 → Senior L2]] · [[05-senior-l2-vs-lead-management|Senior L2 → Lead]]._
+_Boundaries: [Senior L1 → Senior L2](background/boundaries/03-senior-l1-vs-l2.md) · [Senior L2 → Lead](background/boundaries/05-senior-l2-vs-lead-management.md)._
 
 ## Technical Mastery
 **tldr;** A Senior L2 (management) maintains strong technical credibility, uses technical judgment to guide their team's decisions, participates meaningfully in architectural discussions, and ensures technical quality without being the one implementing.

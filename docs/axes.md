@@ -7,9 +7,9 @@ tags: [career-ladder, axes, reference]
 
 # Axes
 
-The career ladder evaluates every level across **five axes**. Each axis has its own per-level expectation; the verb names (*Applies / Solves / Designs / Masters / Creates*, etc.) are what the dots in the [[00 Overview#What the shape looks like by level|Overview shape table]] actually mean.
+The career ladder evaluates every level across **five axes**. Each axis has its own per-level expectation; the verb names (*Applies / Solves / Designs / Masters / Creates*, etc.) are what the dots in the [Overview shape table](00%20Overview.md#what-the-shape-looks-like-by-level) actually mean.
 
-The axes are loosely inspired by [engineeringladders.com](https://www.engineeringladders.com/) — see [[engineeringladders|local summary]] for the original Technology / System / People / Process / Influence model — but adapted to Roomle's reality.
+The axes are loosely inspired by [engineeringladders.com](https://www.engineeringladders.com/) — see [local summary](background/engineeringladders.md) for the original Technology / System / People / Process / Influence model — but adapted to Roomle's reality.
 
 ## Technical Mastery
 
@@ -23,7 +23,7 @@ There are 5 stages of technical mastery (each stage includes the previous stage)
 4. **Masters**: masters the full stack/domain; drives technical decisions.
 5. **Creates**: creates novel approaches and technologies adopted by others.
 
-Subject-specific technical skills (e.g., the difference between a frontend and a backend engineer at the same level) are captured in the [[web-frontend|domain]] and [[ai-tooling|cross-cutting]] role profiles, not in this general axis.
+Subject-specific technical skills (e.g., the difference between a frontend and a backend engineer at the same level) are captured in the [domain](role-profiles/web-frontend.md) and [cross-cutting](role-profiles/ai-tooling.md) role profiles, not in this general axis.
 
 ## Learning
 

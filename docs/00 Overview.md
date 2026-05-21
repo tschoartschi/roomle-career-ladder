@@ -17,7 +17,7 @@ tags: [career-ladder, overview]
 | Senior L2 | ST2 Regel *             | Multiplier              | Makes others better, through tech leadership or people leadership       |
 | Lead      | ST2 Erfahrung           | Org shaper              | Defines how engineering works; impact outlasts individual contributions |
 
-\* Senior L2 normally maps to **ST2 Regel**. When someone moves from **ST1 Erfahrung** (Senior L1) into ST2, the KV transition is **ST1 Erfahrung → ST2 Regel**, not ST2 Einstieg. **ST2 Einstieg** only applies when someone is moved from **ST1 Regel** into ST2 early; in that case they already operate at Senior L2 expectations, but the KV salary floor progresses from ST2 Einstieg to ST2 Regel within max 3 years. See [[kv-informationstechnologie-2026|IT KV details]].
+\* Senior L2 normally maps to **ST2 Regel**. When someone moves from **ST1 Erfahrung** (Senior L1) into ST2, the KV transition is **ST1 Erfahrung → ST2 Regel**, not ST2 Einstieg. **ST2 Einstieg** only applies when someone is moved from **ST1 Regel** into ST2 early; in that case they already operate at Senior L2 expectations, but the KV salary floor progresses from ST2 Einstieg to ST2 Regel within max 3 years. See [IT KV details](background/kv-informationstechnologie-2026.md).
 
 ## Track Split
 
@@ -34,7 +34,7 @@ From Senior L2 onward, the ladder splits into two tracks:
 
 **Senior L1 requires Roomle-specific knowledge; Senior L2 requires Roomle-specific *context*.** A strong engineer hired from Big Tech or another company may have the general technical skills of a Senior, but Senior L1 at Roomle additionally requires understanding our systems, our domain, our team dynamics, our ambiguity level, and our way of working. Concretely:
 
-- **Beginning at Senior L1, Roomle-specific knowledge becomes very relevant.** No one is expected to write Roomle Script *and* three.js *and* the Java backend — depth lives in one or two surfaces. But an L1 is expected to *understand how the parts fit together*: how a Roomle Script change in Core surfaces through the WASM boundary into the Web SDK, how the Vue UI in roomle-ui sits on top of the SDK, how the embedding library mediates between Rubens and a customer's webshop, and where RAPI sits behind all of it. That mental model is what lets an L1 reliably helps to make decisions and also to triage whether a reported bug is content, code, integration, or a Homag-side change (see [[engineering-context#What makes Roomle hard|Engineering Context]]).
+- **Beginning at Senior L1, Roomle-specific knowledge becomes very relevant.** No one is expected to write Roomle Script *and* three.js *and* the Java backend — depth lives in one or two surfaces. But an L1 is expected to *understand how the parts fit together*: how a Roomle Script change in Core surfaces through the WASM boundary into the Web SDK, how the Vue UI in roomle-ui sits on top of the SDK, how the embedding library mediates between Rubens and a customer's webshop, and where RAPI sits behind all of it. That mental model is what lets an L1 reliably helps to make decisions and also to triage whether a reported bug is content, code, integration, or a Homag-side change (see [Engineering Context](background/engineering-context.md#what-makes-roomle-hard)).
 - **At Senior L2, Roomle context becomes one of the main requirements.** Multiplier work — team-wide standards, cross-surface architecture, leading initiatives that span engineers other than themselves — is only credible when the person decides with full awareness of the Roomle landscape: who owns which surface, where the Homag-dev counterparts sit, what the embedding contract guarantees to customers, what the 30-person-product-unit-inside-10k+-industrial-group reality actually means for trade-offs. An L2 without Roomle context will optimize for the wrong thing.
 
 Roomle's experience is that seniority from large corporations does not automatically translate into Roomle Senior performance from day one: people from highly specialized, process-heavy environments can struggle with the autonomy, breadth, and context-switching expected here. Engineers with freelancer or agency backgrounds often ramp faster because they are already used to ownership across messy boundaries. External hires therefore typically start at Expert and can progress quickly once they demonstrate Roomle-context seniority. This is not a demotion; it is an acknowledgment that seniority is partly contextual.
@@ -54,7 +54,7 @@ Roomle's experience is that seniority from large corporations does not automatic
 
 ## Roomle Technical Surfaces
 
-Engineers grow depth in one or more of these surfaces. When level pages and boundary docs say *"their area"* or *"their domain"*, they mean one of the following. Full descriptions in [[engineering-context|Engineering Context]].
+Engineers grow depth in one or more of these surfaces. When level pages and boundary docs say *"their area"* or *"their domain"*, they mean one of the following. Full descriptions in [Engineering Context](background/engineering-context.md).
 
 | Surface                                           | What it covers                                                                                                                                                           | Current shape                                                                  |
 | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
@@ -68,7 +68,7 @@ Engineers grow depth in one or more of these surfaces. When level pages and boun
 | **iOS**                                           | Native iOS app (since 2013); maintained for steady revenue, not a strategic growth area                                                                                  | Single iOS engineer                                                            |
 | **DAP**                                           | Digital asset pipeline                                                                                                                                                   | Adjacent to RAPI and Core                                                      |
 
-**Single-engineer surfaces (Core, iOS, DevOps...) are a structural reality.** The ladder does not require these engineers to mentor inside their surface (no one is there); their multiplier behavior expresses across surfaces or in adjacent surfaces. See the team-of-one paragraph in [[03-senior-l1-vs-l2|L1 vs L2 boundary]]. Cross-surface depth (e.g., the Web + Core engineer) is explicitly welcomed — see [[engineering-context#Team shape|Engineering Context → Team shape]].
+**Single-engineer surfaces (Core, iOS, DevOps...) are a structural reality.** The ladder does not require these engineers to mentor inside their surface (no one is there); their multiplier behavior expresses across surfaces or in adjacent surfaces. See the team-of-one paragraph in [L1 vs L2 boundary](background/boundaries/03-senior-l1-vs-l2.md). Cross-surface depth (e.g., the Web + Core engineer) is explicitly welcomed — see [Engineering Context → Team shape](background/engineering-context.md#team-shape).
 
 ## Technical Track vs Management Track
 
@@ -109,11 +109,11 @@ The five axes are:
 
 | Axis | What it measures |
 |------|-----------------|
-| [[axes#Technical Mastery\|Technical Mastery]] | Depth and breadth of technical skills; how they solve problems |
-| [[axes#Learning\|Learning]] | How they acquire and share knowledge |
-| [[axes#Responsibility and Ownership\|Responsibility & Ownership]] | How they own outcomes and empower others |
-| [[axes#Collaboration and Communication\|Collaboration & Communication]] | How they work with and through people |
-| [[axes#Influence\|Influence]] | How they shape decisions and the organization |
+| [Technical Mastery](axes.md#technical-mastery) | Depth and breadth of technical skills; how they solve problems |
+| [Learning](axes.md#learning) | How they acquire and share knowledge |
+| [Responsibility & Ownership](axes.md#responsibility-and-ownership) | How they own outcomes and empower others |
+| [Collaboration & Communication](axes.md#collaboration-and-communication) | How they work with and through people |
+| [Influence](axes.md#influence) | How they shape decisions and the organization |
 
 ### What the shape looks like by level
 
@@ -127,7 +127,7 @@ At every level, all five axes move forward together — but the *expected reach*
 | **Senior L2** | ●●●●○             | ●●●●○    | ●●●●○          | ●●●●○         | ●●●●○     |
 | **Lead**      | ●●●●●             | ●●●●●    | ●●●●●          | ●●●●●         | ●●●●●     |
 
-> The reference shape is uniform per level: the ladder expects an engineer at a given level to meet *every* axis at that level (see [[#Evaluation & Aggregation Rule|Evaluation & Aggregation Rule]] below). Real engineers will be spikier — strong on some axes, weaker on others. The shape an individual draws against the reference is what a calibration conversation is actually about. The per-axis verb (*Applies → Solves → Designs → Masters → Creates* for Technical Mastery, etc.) is what each filled dot actually means, see the table below.
+> The reference shape is uniform per level: the ladder expects an engineer at a given level to meet *every* axis at that level (see [Evaluation & Aggregation Rule](#evaluation-aggregation-rule) below). Real engineers will be spikier — strong on some axes, weaker on others. The shape an individual draws against the reference is what a calibration conversation is actually about. The per-axis verb (*Applies → Solves → Designs → Masters → Creates* for Technical Mastery, etc.) is what each filled dot actually means, see the table below.
 
 ### Stage Verbs by Level
 
@@ -157,6 +157,6 @@ For example, if utilizing AI tooling efficiently is defined as table stakes for 
 A strict "all axes, all artifacts, all the time" reading would make the framework brittle. Real engineers are spiky, profiles age, and the ladder is supposed to support honest conversations — not become a checkbox audit. Two explicit nuances apply:
 
 1. **Provisional promotion with a development plan.** If an engineer clearly meets the level on 4 of 5 axes (or on the core ladder but not yet on one cross-cutting profile), and the missing piece has a *concrete*, *time-boxed*, *documented* development plan agreed by the engineer and their manager, promotion may happen now with a defined check-in date (typically 3–6 months). At the check-in: either the gap is closed and the promotion stands, or the plan is revised, or the promotion is reversed before the next KV step makes that economically infeasible. "Provisional" must be named explicitly — not implied.
-2. **Compensating strength is acknowledged, but does not waive a missing axis.** An engineer who is exceptionally strong on Technical Mastery does not thereby meet the Influence bar. However, exceptional depth *can* justify a higher salary at the current level (see [[#Starting Level & Progression|Compensation growth is possible at Senior L1…]]). The career step and the compensation step are two different conversations — the backdoor is in compensation, not in the level definition.
+2. **Compensating strength is acknowledged, but does not waive a missing axis.** An engineer who is exceptionally strong on Technical Mastery does not thereby meet the Influence bar. However, exceptional depth *can* justify a higher salary at the current level (see [Compensation growth is possible at Senior L1…](#starting-level-progression)). The career step and the compensation step are two different conversations — the backdoor is in compensation, not in the level definition.
 
 Both nuances require **written documentation** (in the engineer's review record). The backdoor is not informal manager discretion; it is a tracked decision with a date attached. If a manager finds themselves wanting a third type of exception, that is a signal to re-examine the level definition itself, not to widen the backdoor.

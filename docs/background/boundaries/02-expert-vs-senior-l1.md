@@ -29,12 +29,12 @@ This means:
 
 - The boundary is intentionally fuzzy — most engineers grow across it gradually rather than crossing a sharp line. Calibration happens at promotion time, not in the framework.
 - The KV mandates progression to ST1 Erfahrung within max 4 years at ST1 Regel. By then the role expectations should match the KV salary.
-- Senior L1 still has *seeds* of multiplier behavior — informal mentoring, influence through reviews, being a go-to expert — but as byproducts of being a senior individual contributor, not the primary job. The active/intentional multiplier role is Senior L2; see [[03-senior-l1-vs-l2]].
+- Senior L1 still has *seeds* of multiplier behavior — informal mentoring, influence through reviews, being a go-to expert — but as byproducts of being a senior individual contributor, not the primary job. The active/intentional multiplier role is Senior L2; see [03-senior-l1-vs-l2](03-senior-l1-vs-l2.md).
 - A common pattern: Expert + 2-3 years tenure + consistent demonstration of Senior L1 behaviors → ready for promotion.
 
 ## Related boundary docs
 
-- [[01-junior-vs-expert|Junior → Expert]]
-- [[03-senior-l1-vs-l2|Senior L1 → Senior L2]]
-- [[04-senior-l2-vs-lead-technical|Senior L2 → Lead (technical)]]
-- [[05-senior-l2-vs-lead-management|Senior L2 → Lead (management)]]
+- [Junior → Expert](01-junior-vs-expert.md)
+- [Senior L1 → Senior L2](03-senior-l1-vs-l2.md)
+- [Senior L2 → Lead (technical)](04-senior-l2-vs-lead-technical.md)
+- [Senior L2 → Lead (management)](05-senior-l2-vs-lead-management.md)

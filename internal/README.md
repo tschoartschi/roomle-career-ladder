@@ -9,4 +9,4 @@ Contents:
 - `idea.md` — original brainstorm / source draft from which the public ladder was derived.
 - `review-prompt.md` — prompt template used for ladder review sessions.
 
-These documents may reference each other freely. Public docs under `docs/` should **not** link into this folder; if a public doc needs to point to material that is not yet ready, it should link to [[wip|Work in Progress]] instead.
+These documents may reference each other freely. Public docs under `docs/` should **not** link into this folder; if a public doc needs to point to material that is not yet ready, it should link to [Work in Progress](../docs/wip.md) instead.

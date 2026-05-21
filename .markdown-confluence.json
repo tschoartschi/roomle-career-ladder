@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/markdown-confluence/markdown-confluence/main/packages/lib/src/config.schema.json",
+  "confluenceBaseUrl": "${CONFLUENCE_BASE_URL}",
+  "confluenceParentId": "${CONFLUENCE_PARENT_ID}",
+  "confluenceSpaceKey": "${CONFLUENCE_SPACE_KEY}",
+  "atlassianUserName": "${ATLASSIAN_USER_NAME}",
+  "atlassianApiToken": "${ATLASSIAN_API_TOKEN}",
+  "folderToPublish": ".",
+  "contentRoot": ".",
+  "firstHeadingPageTitle": true
+}

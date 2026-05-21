@@ -6,10 +6,10 @@ track: technical
 it_kv: ST1 Erfahrung
 operating_level: Senior contributor
 tags: [career-ladder, level]
-prev: "[[02 Expert]]"
+prev: "[02 Expert](02%20Expert.md)"
 next:
-  - "[[04a Senior-L2 (technical track)]]"
-  - "[[04b Senior-L2 (management track)]]"
+  - "[04a Senior-L2 (technical track)](04a%20Senior-L2%20%28technical%20track%29.md)"
+  - "[04b Senior-L2 (management track)](04b%20Senior-L2%20%28management%20track%29.md)"
 ---
 
 # 03 Senior L1
@@ -20,7 +20,7 @@ Senior contributor
 
 > A Senior L1 is an established senior engineer who delivers complex work reliably. They design features and components in their area of ownership, make sound tradeoffs, take ownership of what they lead from spec through deployment, and contribute to team quality through their craft. Their influence is real and grounded in their domain expertise — they are accountable for the successful execution of their specific projects, features, or services. Team-wide architectural ownership, cross-cutting initiatives, and team-wide standards belong to Senior L2; the Senior L2 multiplier role is a deliberate next step that fundamentally shifts accountability toward cross-team outcomes and system-wide architecture. Staying at Senior L1 long-term is a valid choice.
 
-_Boundaries: [[02-expert-vs-senior-l1|Expert → Senior L1]] · [[03-senior-l1-vs-l2|Senior L1 → Senior L2]]._
+_Boundaries: [Expert → Senior L1](background/boundaries/02-expert-vs-senior-l1.md) · [Senior L1 → Senior L2](background/boundaries/03-senior-l1-vs-l2.md)._
 
 ## Technical Mastery
 **tldr;** A Senior L1 designs features and components in their area of ownership, makes sound technical tradeoffs, debugs to root cause, and models high quality standards through their own work. They are the go-to person for at least one part of the codebase.

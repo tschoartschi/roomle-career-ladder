@@ -7,7 +7,7 @@ tags: [background, follow-ups]
 
 # Open Follow-ups
 
-This document tracks known open items in the career ladder framework — things we've identified but haven't yet addressed. Once a follow-up is resolved, the outcome should be recorded in [[decisions]].
+This document tracks known open items in the career ladder framework — things we've identified but haven't yet addressed. Once a follow-up is resolved, the outcome should be recorded in [decisions](decisions.md).
 
 ---
 
@@ -17,7 +17,7 @@ This document tracks known open items in the career ladder framework — things 
 **Status:** Open
 **Owner:** TBD (needs HR alignment)
 
-[[decisions#2026-05-20 Resolved Regression and Up-or-Out due to IT KV|Decisions]] establishes that termination/separation is the only viable outcome when performance cannot meet the KV-mandated salary level. What is *not* yet defined is **the timeline and documented steps that lead up to that outcome** — particularly for the Expert → Senior L1 transition (ST1 Regel → ST1 Erfahrung, max 4 years) and the equivalent ST1 Einstieg → Regel transition (max 3 years).
+[Decisions](decisions.md#2026-05-20-resolved-regression-and-up-or-out-due-to-it-kv) establishes that termination/separation is the only viable outcome when performance cannot meet the KV-mandated salary level. What is *not* yet defined is **the timeline and documented steps that lead up to that outcome** — particularly for the Expert → Senior L1 transition (ST1 Regel → ST1 Erfahrung, max 4 years) and the equivalent ST1 Einstieg → Regel transition (max 3 years).
 
 Open questions:
 
@@ -53,7 +53,7 @@ Open questions:
 - How does this assessment interact with internal Senior L1 → Senior L2 promotion conversations (same decision, different artifact, or one combined process)?
 - How is the outcome recorded and communicated (Dienstzettel update per § 15 I (8))?
 
-**Why it matters:** Senior L1 sits close to the ST1/ST2 boundary (see [[03-senior-l1-vs-l2#KV-relevant boundary|L1 vs L2 boundary]]). The 36-month assessment is the company's primary evidence trail defending an ST1 Erfahrung classification against a challenge from the employee, Betriebsrat, or AK. Without a documented process, classifications rest on individual manager memory and informal calibration.
+**Why it matters:** Senior L1 sits close to the ST1/ST2 boundary (see [L1 vs L2 boundary](../docs/background/boundaries/03-senior-l1-vs-l2.md#kv-relevant-boundary)). The 36-month assessment is the company's primary evidence trail defending an ST1 Erfahrung classification against a challenge from the employee, Betriebsrat, or AK. Without a documented process, classifications rest on individual manager memory and informal calibration.
 
 **Next step:** Draft a one-page assessment template and process, review with HR and (if applicable) Betriebsrat, and decide whether it runs as a standalone artifact or as part of the broader assessment process tracked below. Once defined, the same artifact also satisfies the "honest role-fit conversation at promotion time" need — there is no separate framework needed for that.
 
@@ -86,7 +86,7 @@ The ladder defines *what* each level is, but does not define *how* someone is as
 
 ### What we did
 
-Rather than splitting Senior L1 into sub-levels or adding bridging examples, we **reframed Senior L1 as the broad professional destination** (operating level: *Senior contributor*) and softened its description — moving the "actively drives the team" behaviors up to Senior L2. See [[decisions#2026-05-19 Reframed Senior L1 as Senior Contributor broad professional destination|the decision entry]] and the new [[03-senior-l1-vs-l2|L1 vs L2 boundary doc]].
+Rather than splitting Senior L1 into sub-levels or adding bridging examples, we **reframed Senior L1 as the broad professional destination** (operating level: *Senior contributor*) and softened its description — moving the "actively drives the team" behaviors up to Senior L2. See [the decision entry](decisions.md#2026-05-19-reframed-senior-l1-as-senior-contributor-broad-professional-destination) and the new [L1 vs L2 boundary doc](../docs/background/boundaries/03-senior-l1-vs-l2.md).
 
 Under the new framing:
 - **Expert** stays as the ramp-up level (capped by the KV at max 4 years in ST1 Regel).
@@ -113,7 +113,7 @@ Rather than embedding per-domain skill content directly in the ladder, we moved 
 
 This keeps the ladder stable and abstract while letting domain content evolve at its own pace (frontend frameworks especially churn fast). It also lets each role profile be owned and refreshed by a domain expert, independently of ladder revisions.
 
-The Web Frontend content that previously lived in Senior L1 has been moved to [[web-frontend|Web Frontend role profile]]. The Subject-Specific section has been removed from Junior, Expert, Senior L1, Senior L2 (technical), and Lead (technical). See [[decisions]] for the full rationale.
+The Web Frontend content that previously lived in Senior L1 has been moved to [Web Frontend role profile](../docs/role-profiles/web-frontend.md). The Subject-Specific section has been removed from Junior, Expert, Senior L1, Senior L2 (technical), and Lead (technical). See [decisions](decisions.md) for the full rationale.
 
 ---
 
@@ -129,14 +129,14 @@ Coverage:
 
 **Domain profiles:**
 
-- [[web-frontend|Web Frontend]] — Junior, Expert, Senior L1 spelled out (axes-based, cumulative, 2026 stack); Senior L2, Lead to be added
+- [Web Frontend](../docs/role-profiles/web-frontend.md) — Junior, Expert, Senior L1 spelled out (axes-based, cumulative, 2026 stack); Senior L2, Lead to be added
 - **Backend** — to be created
 - **Infrastructure** — to be created
 - **3D / Configurator** — to be created
 
 **Cross-cutting profiles:**
 
-- [[ai-tooling|AI Tooling]] — all five levels drafted; owner TBD; needs review and ongoing refresh as the tooling landscape evolves
+- [AI Tooling](../docs/role-profiles/ai-tooling.md) — all five levels drafted; owner TBD; needs review and ongoing refresh as the tooling landscape evolves
 
 Each domain expert or lead owns the profile for their area. Cross-cutting profiles need a separate owner (engaged with the team's AI workflow practices).
 

@@ -6,20 +6,20 @@ track: technical
 it_kv: ST2 Erfahrung
 operating_level: Org shaper
 tags: [career-ladder, level, technical-track]
-prev: "[[04a Senior-L2 (technical track)]]"
+prev: "[04a Senior-L2 (technical track)](04a%20Senior-L2%20%28technical%20track%29.md)"
 next: null
-counterpart: "[[05b Lead (management track)]]"
+counterpart: "[05b Lead (management track)](05b%20Lead%20%28management%20track%29.md)"
 ---
 
 # 05a Lead (Technical Track)
 
-Technical position → counterpart: [[05b Lead (management track)]]
+Technical position → counterpart: [05b Lead (management track)](05b%20Lead%20%28management%20track%29.md)
 
 Technical visionary
 
 > A Lead on the technical track is the highest level in this career ladder. They create and shape the technical future of the organization, evangelize new approaches, mentor at an organizational level, and have impact that extends beyond the company. They are the technical conscience of the organization — balancing innovation, reliability, and pragmatism at the highest level.
 
-_Boundary: [[04-senior-l2-vs-lead-technical|Senior L2 → Lead]]._
+_Boundary: [Senior L2 → Lead](background/boundaries/04-senior-l2-vs-lead-technical.md)._
 
 ## Technical Mastery
 **tldr;** A Lead (technical) creates novel technical approaches and architectures that are adopted across the organization. They define the technical vision, push the boundaries of what's possible, and ensure the company's technology choices remain competitive and sustainable.

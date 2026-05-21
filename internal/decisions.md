@@ -27,8 +27,8 @@ Some gaps remain blocking: trust, ownership, legal/security hygiene, repeated qu
 
 ### Changes
 
-- [[00 Overview]]: "Evaluation & Aggregation Rule" renamed to "Evaluation & Calibration Rule" and rewritten as holistic calibration.
-- [[03 Senior-L1]]: clarified "within their area" as "area of ownership" and aligned the stale `tldr` lines with the softened L1 scope.
+- [00 Overview](../docs/00%20Overview.md): "Evaluation & Aggregation Rule" renamed to "Evaluation & Calibration Rule" and rewritten as holistic calibration.
+- [03 Senior-L1](../docs/03%20Senior-L1.md): clarified "within their area" as "area of ownership" and aligned the stale `tldr` lines with the softened L1 scope.
 
 ---
 
@@ -42,7 +42,7 @@ The Senior L2 KV mapping has been corrected:
 - **ST2 Einstieg** only applies when an employee is moved from **ST1 Regel** into ST2 early.
 - ST2 Einstieg is not a separate career level. In that case, the employee already operates at Senior L2 expectations, but the KV salary floor progresses from ST2 Einstieg to ST2 Regel within max 3 years.
 
-The external-hire calibration language in [[00 Overview]] was also sharpened. Seniority is treated as contextual: strong external seniority, including seniority at a large corporation, does not automatically mean Roomle Senior L1 performance from day one. Most external hires start at Expert unless there is strong evidence that they already operate effectively in Roomle's autonomous, broad, high-context environment.
+The external-hire calibration language in [00 Overview](../docs/00%20Overview.md) was also sharpened. Seniority is treated as contextual: strong external seniority, including seniority at a large corporation, does not automatically mean Roomle Senior L1 performance from day one. Most external hires start at Expert unless there is strong evidence that they already operate effectively in Roomle's autonomous, broad, high-context environment.
 
 ### Rationale
 
@@ -52,10 +52,10 @@ The external-hire calibration language in [[00 Overview]] was also sharpened. Se
 
 ### Changes
 
-- [[00 Overview]]: corrected the Senior L2 footnote and ST1 → ST2 transition language; expanded the external-hire Senior L1 explanation.
-- [[idea]]: corrected the IT KV mapping note for ST2 Einstieg vs ST2 Regel.
-- [[03-senior-l1-vs-l2]]: clarified that normal L1 → L2 maps to ST2 Regel.
-- [[04-senior-l2-vs-lead-technical]] and [[05-senior-l2-vs-lead-management]]: replaced the soft "honest scope conversation" language with the explicit transition-out/termination consequence already decided for KV-mandated mismatch.
+- [00 Overview](../docs/00%20Overview.md): corrected the Senior L2 footnote and ST1 → ST2 transition language; expanded the external-hire Senior L1 explanation.
+- [idea](idea.md): corrected the IT KV mapping note for ST2 Einstieg vs ST2 Regel.
+- [03-senior-l1-vs-l2](../docs/background/boundaries/03-senior-l1-vs-l2.md): clarified that normal L1 → L2 maps to ST2 Regel.
+- [04-senior-l2-vs-lead-technical](../docs/background/boundaries/04-senior-l2-vs-lead-technical.md) and [05-senior-l2-vs-lead-management](../docs/background/boundaries/05-senior-l2-vs-lead-management.md): replaced the soft "honest scope conversation" language with the explicit transition-out/termination consequence already decided for KV-mandated mismatch.
 
 ---
 
@@ -65,17 +65,17 @@ The external-hire calibration language in [[00 Overview]] was also sharpened. Se
 
 A close reading of the IT KV (§ 15 II, ST1 vs ST2 descriptions) flagged Senior L1 as sitting near the ST1/ST2 boundary. Three changes were made:
 
-1. **Softened the most exposed Senior L1 bullets** in [[03 Senior-L1|Senior L1]]:
+1. **Softened the most exposed Senior L1 bullets** in [Senior L1](../docs/03%20Senior-L1.md):
    - "designs complex systems within their area" → "designs features and components within their area, scoping data flow, error handling, and integration points; team-wide architectural ownership belongs to Senior L2"
    - "Full lifecycle ownership: owns the entire lifecycle of their projects" → "Feature lifecycle ownership: owns the features they lead from design and implementation through deployment and post-release follow-up, within their area; multi-team or cross-cutting initiatives are Senior L2 territory"
    - "Solo capability: can be the sole developer on a topic for extended periods" → "Self-direction: can carry a well-scoped feature or component without daily check-ins; sustained sole ownership of a system is Senior L2 territory"
    - Intro paragraph updated for consistency.
-2. **Mirrored the softening in the boundary docs** ([[02-expert-vs-senior-l1]], [[03-senior-l1-vs-l2]]) so calibration material does not undo the level-page changes.
+2. **Mirrored the softening in the boundary docs** ([02-expert-vs-senior-l1](../docs/background/boundaries/02-expert-vs-senior-l1.md), [03-senior-l1-vs-l2](../docs/background/boundaries/03-senior-l1-vs-l2.md)) so calibration material does not undo the level-page changes.
 3. **Made L2 the explicit threshold for KV-defining responsibilities**:
-   - [[04a Senior-L2 (technical track)|L2 technical]]: explicitly framed as the threshold for **fachliche Managementaufgaben** (team-wide architectural ownership, team standards, cross-cutting initiatives).
-   - [[04b Senior-L2 (management track)|L2 management]]: explicitly framed as the threshold for **personelle Managementaufgaben** (team delivery, performance management, people development).
-   - [[03-senior-l1-vs-l2|L1↔L2 boundary doc]] now includes a "KV-relevant boundary" subsection.
-4. **Added a follow-up for the 36-month assessment obligation** (§ 15 II ST2 ¶ 2) in [[follow-ups]] — this is a legal obligation, not a process preference.
+   - [L2 technical](../docs/04a%20Senior-L2%20%28technical%20track%29.md): explicitly framed as the threshold for **fachliche Managementaufgaben** (team-wide architectural ownership, team standards, cross-cutting initiatives).
+   - [L2 management](../docs/04b%20Senior-L2%20%28management%20track%29.md): explicitly framed as the threshold for **personelle Managementaufgaben** (team delivery, performance management, people development).
+   - [L1↔L2 boundary doc](../docs/background/boundaries/03-senior-l1-vs-l2.md) now includes a "KV-relevant boundary" subsection.
+4. **Added a follow-up for the 36-month assessment obligation** (§ 15 II ST2 ¶ 2) in [follow-ups](follow-ups.md) — this is a legal obligation, not a process preference.
 
 ### Rationale
 
@@ -91,12 +91,12 @@ This change does not replace seeking a written opinion from an Austrian labor la
 
 ### Changes
 
-- [[03 Senior-L1|Senior L1]]: intro and four Technical Mastery / Responsibility & Ownership bullets softened.
-- [[02-expert-vs-senior-l1|Expert → Senior L1]]: Scope-of-work and Design rows updated to match.
-- [[03-senior-l1-vs-l2|Senior L1 → Senior L2]]: new "KV-relevant boundary" subsection added.
-- [[04a Senior-L2 (technical track)|Senior L2 (technical)]]: intro extended with fachliche-Managementaufgaben framing.
-- [[04b Senior-L2 (management track)|Senior L2 (management)]]: intro extended with personelle-Managementaufgaben framing.
-- [[follow-ups]]: new "36-Month KV ST1/ST2 Assessment" item added.
+- [Senior L1](../docs/03%20Senior-L1.md): intro and four Technical Mastery / Responsibility & Ownership bullets softened.
+- [Expert → Senior L1](../docs/background/boundaries/02-expert-vs-senior-l1.md): Scope-of-work and Design rows updated to match.
+- [Senior L1 → Senior L2](../docs/background/boundaries/03-senior-l1-vs-l2.md): new "KV-relevant boundary" subsection added.
+- [Senior L2 (technical)](../docs/04a%20Senior-L2%20%28technical%20track%29.md): intro extended with fachliche-Managementaufgaben framing.
+- [Senior L2 (management)](../docs/04b%20Senior-L2%20%28management%20track%29.md): intro extended with personelle-Managementaufgaben framing.
+- [follow-ups](follow-ups.md): new "36-Month KV ST1/ST2 Assessment" item added.
 
 ---
 
@@ -104,7 +104,7 @@ This change does not replace seeking a written opinion from an Austrian labor la
 
 ### Decision
 
-Role profiles now have two categories: **domain profiles** (Web Frontend, Backend, …) and **cross-cutting profiles** that apply to all engineers regardless of domain. The first cross-cutting profile is [[ai-tooling|AI Tooling]], with all five levels drafted.
+Role profiles now have two categories: **domain profiles** (Web Frontend, Backend, …) and **cross-cutting profiles** that apply to all engineers regardless of domain. The first cross-cutting profile is [AI Tooling](../docs/role-profiles/ai-tooling.md), with all five levels drafted.
 
 Cross-cutting profiles use the same axes-based, cumulative structure as domain profiles. Engineers read them *in addition to* their domain profile.
 
@@ -118,13 +118,13 @@ Future cross-cutting profiles might cover code review craft, debugging methodolo
 
 ### Changes
 
-- New: [[ai-tooling|docs/role-profiles/ai-tooling.md]] — all five levels drafted.
-- [[web-frontend|Web Frontend role profile]]: brief cross-reference added to the intro.
-- [[follow-ups]]: Role Profiles section split into Domain and Cross-cutting subsections; AI Tooling listed with owner TBD.
+- New: [docs/role-profiles/ai-tooling.md](../docs/role-profiles/ai-tooling.md) — all five levels drafted.
+- [Web Frontend role profile](../docs/role-profiles/web-frontend.md): brief cross-reference added to the intro.
+- [follow-ups](follow-ups.md): Role Profiles section split into Domain and Cross-cutting subsections; AI Tooling listed with owner TBD.
 
 ### Open: owner for the AI Tooling profile
 
-Domain profiles have natural owners (the domain lead). Cross-cutting profiles need a different kind of owner — someone engaged with the team's AI workflow practices. Tracked in [[follow-ups]].
+Domain profiles have natural owners (the domain lead). Cross-cutting profiles need a different kind of owner — someone engaged with the team's AI workflow practices. Tracked in [follow-ups](follow-ups.md).
 
 ---
 
@@ -137,7 +137,7 @@ Role profiles follow a fixed structure that will apply to **all domains** (Web F
 1. **Organized by the five ladder axes** (Technical Mastery, Learning, Responsibility & Ownership, Collaboration & Communication, Influence) — not thematic bullets. This makes role profiles parallel to the ladder.
 2. **Cumulative levels**: each level describes only what is *newly expected* at that level. Expert assumes Junior; Senior L1 assumes Expert; etc. Readers add levels up to know the full expectation.
 
-The [[web-frontend|Web Frontend role profile]] has been refreshed under this structure and serves as the template for other domains. Junior, Expert, and Senior L1 are spelled out; Senior L2 and Lead remain open.
+The [Web Frontend role profile](../docs/role-profiles/web-frontend.md) has been refreshed under this structure and serves as the template for other domains. Junior, Expert, and Senior L1 are spelled out; Senior L2 and Lead remain open.
 
 The Web Frontend refresh also updated the content to the 2026 stack (Vue 3, Pinia, TypeScript, Vitest, Playwright, Vite — replacing the 2023 framing with Vuex/Jest/Cypress) and added expectations around accessibility, Core Web Vitals, and modern testing strategy.
 
@@ -155,7 +155,7 @@ When adding Backend, Infrastructure, or 3D/Configurator role profiles, follow th
 2. Explicit statement of the cumulative principle.
 3. Each level: stance + 5 axis sections.
 4. Each level above Junior labeled "*Adds on top of [previous]*".
-5. Levels not yet written marked "To be defined" with a [[follow-ups]] reference.
+5. Levels not yet written marked "To be defined" with a [follow-ups](follow-ups.md) reference.
 
 ---
 
@@ -163,7 +163,7 @@ When adding Backend, Infrastructure, or 3D/Configurator role profiles, follow th
 
 ### Decision
 
-Added comparison/boundary documents for every level transition, following the pattern established by [[03-senior-l1-vs-l2]]. Every ladder level now links to its relevant boundary doc(s) via an italic "Boundaries:" line below the intro.
+Added comparison/boundary documents for every level transition, following the pattern established by [03-senior-l1-vs-l2](../docs/background/boundaries/03-senior-l1-vs-l2.md). Every ladder level now links to its relevant boundary doc(s) via an italic "Boundaries:" line below the intro.
 
 ### Rationale
 
@@ -171,8 +171,8 @@ The L1 → L2 boundary doc proved useful for clarifying intent. Extending the pa
 
 ### Changes
 
-- New: [[01-junior-vs-expert|Junior → Expert]], [[02-expert-vs-senior-l1|Expert → Senior L1]], [[04-senior-l2-vs-lead-technical|Senior L2 → Lead (technical)]], [[05-senior-l2-vs-lead-management|Senior L2 → Lead (management)]].
-- [[03-senior-l1-vs-l2]] updated with a "Related boundary docs" section.
+- New: [Junior → Expert](../docs/background/boundaries/01-junior-vs-expert.md), [Expert → Senior L1](../docs/background/boundaries/02-expert-vs-senior-l1.md), [Senior L2 → Lead (technical)](../docs/background/boundaries/04-senior-l2-vs-lead-technical.md), [Senior L2 → Lead (management)](../docs/background/boundaries/05-senior-l2-vs-lead-management.md).
+- [03-senior-l1-vs-l2](../docs/background/boundaries/03-senior-l1-vs-l2.md) updated with a "Related boundary docs" section.
 - All seven level pages updated with an italic "Boundary/Boundaries:" line below the intro.
 
 ---
@@ -183,7 +183,7 @@ The L1 → L2 boundary doc proved useful for clarifying intent. Extending the pa
 
 Per-domain technical skills will not be embedded in the ladder. Instead they live in **role profiles** — separate documents per domain, kept at `docs/role-profiles/` — that describe what each ladder level looks like for that domain.
 
-The Web Frontend content previously in Senior L1 has been moved to [[web-frontend|role-profiles/web-frontend.md]]. The Subject-Specific section has been removed from all five technical-track levels.
+The Web Frontend content previously in Senior L1 has been moved to [role-profiles/web-frontend.md](../docs/role-profiles/web-frontend.md). The Subject-Specific section has been removed from all five technical-track levels.
 
 ### Rationale
 
@@ -194,9 +194,9 @@ The Web Frontend content previously in Senior L1 has been moved to [[web-fronten
 
 ### Changes
 
-- New: [[web-frontend|docs/role-profiles/web-frontend.md]] — Senior L1 frontend content moved here.
-- Subject-Specific Technical Skills section removed from: [[01 Junior|Junior]], [[02 Expert|Expert]], [[03 Senior-L1|Senior L1]], [[04a Senior-L2 (technical track)|Senior L2 (technical)]], [[05a Lead (technical track)|Lead (technical)]].
-- [[follow-ups]]: previous Subject-Specific item marked resolved; new Role Profiles item tracks per-domain coverage going forward.
+- New: [docs/role-profiles/web-frontend.md](../docs/role-profiles/web-frontend.md) — Senior L1 frontend content moved here.
+- Subject-Specific Technical Skills section removed from: [Junior](../docs/01%20Junior.md), [Expert](../docs/02%20Expert.md), [Senior L1](../docs/03%20Senior-L1.md), [Senior L2 (technical)](../docs/04a%20Senior-L2%20%28technical%20track%29.md), [Lead (technical)](../docs/05a%20Lead%20%28technical%20track%29.md).
+- [follow-ups](follow-ups.md): previous Subject-Specific item marked resolved; new Role Profiles item tracks per-domain coverage going forward.
 
 ---
 
@@ -212,19 +212,19 @@ Behaviors that imply *actively driving the team* (defining team-wide standards, 
 
 - **Reality fit**: Roomle has no Juniors today and won't hire any in the near term. Most engineers naturally reach ST1 Erfahrung within the KV's max 4 years at ST1 Regel — a comfortable destination there matches who we actually employ.
 - **Clean KV mapping**: keeping Senior L1 aligned with ST1 Erfahrung avoids decoupling role from salary (the earlier "Expert role / ST1 Erfahrung salary" option felt unappealing to communicate).
-- **Meaningful L1 → L2 transition**: by reserving multiplier behaviors for L2, the L1 → L2 step becomes a genuine, intentional career choice — matching the existing ST1 → ST2 mutual-commitment framing in [[idea]].
+- **Meaningful L1 → L2 transition**: by reserving multiplier behaviors for L2, the L1 → L2 step becomes a genuine, intentional career choice — matching the existing ST1 → ST2 mutual-commitment framing in [idea](idea.md).
 - **Avoids ladder inflation**: Senior L1 is reachable as a destination, but Senior L2 requires actively choosing the multiplier role.
 
 ### Changes
 
-- [[03 Senior-L1|Senior L1]]: framing softened throughout; active/intentional language moved to L2 or removed.
-- [[00 Overview|Overview]]: operating level "Team driver" → "Senior contributor"; level-at-a-glance summary updated.
-- New: [[03-senior-l1-vs-l2|Senior L1 vs Senior L2]] reference documenting how the boundary is drawn.
-- [[04a Senior-L2 (technical track)|Senior L2 (technical)]] and [[04b Senior-L2 (management track)|Senior L2 (management)]]: cross-links added to the new boundary doc; no behavioral changes (L2 descriptions already represented all of the moved-up content).
+- [Senior L1](../docs/03%20Senior-L1.md): framing softened throughout; active/intentional language moved to L2 or removed.
+- [Overview](../docs/00%20Overview.md): operating level "Team driver" → "Senior contributor"; level-at-a-glance summary updated.
+- New: [Senior L1 vs Senior L2](../docs/background/boundaries/03-senior-l1-vs-l2.md) reference documenting how the boundary is drawn.
+- [Senior L2 (technical)](../docs/04a%20Senior-L2%20%28technical%20track%29.md) and [Senior L2 (management)](../docs/04b%20Senior-L2%20%28management%20track%29.md): cross-links added to the new boundary doc; no behavioral changes (L2 descriptions already represented all of the moved-up content).
 
 ### Acknowledged trade-off
 
-The Expert → Senior L1 gap ([[follow-ups]]) is narrower under this framing but does not fully disappear. The gap becomes a calibration question rather than a structural one.
+The Expert → Senior L1 gap ([follow-ups](follow-ups.md)) is narrower under this framing but does not fully disappear. The gap becomes a calibration question rather than a structural one.
 
 ---
 
