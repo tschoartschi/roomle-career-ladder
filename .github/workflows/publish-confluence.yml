@@ -35,8 +35,10 @@ jobs:
 
       - name: Publish to Confluence
         env:
-          CONFLUENCE_BASE_URL: ${{ vars.CONFLUENCE_BASE_URL }}
-          CONFLUENCE_PARENT_ID: ${{ vars.CONFLUENCE_PARENT_ID }}
+          # Note: URL and parent ID are not really sensitive (could be Variables),
+          # but storing them as Secrets is also fine and keeps the setup uniform.
+          CONFLUENCE_BASE_URL: ${{ secrets.CONFLUENCE_BASE_URL }}
+          CONFLUENCE_PARENT_ID: ${{ secrets.CONFLUENCE_PARENT_ID }}
           ATLASSIAN_USER_NAME: ${{ secrets.ATLASSIAN_USER_NAME }}
           ATLASSIAN_API_TOKEN: ${{ secrets.ATLASSIAN_API_TOKEN }}
         run: |
