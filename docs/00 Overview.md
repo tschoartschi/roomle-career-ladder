@@ -3,6 +3,7 @@ title: Career Ladder Overview
 aliases: [Overview, Career Ladder]
 type: overview
 tags: [career-ladder, overview]
+connie-publish: true
 ---
 
 # Career Ladder – Overview
@@ -17,7 +18,7 @@ tags: [career-ladder, overview]
 | Senior L2 | ST2 Regel *             | Multiplier              | Makes others better, through tech leadership or people leadership       |
 | Lead      | ST2 Erfahrung           | Org shaper              | Defines how engineering works; impact outlasts individual contributions |
 
-\* Senior L2 normally maps to **ST2 Regel**. When someone moves from **ST1 Erfahrung** (Senior L1) into ST2, the KV transition is **ST1 Erfahrung → ST2 Regel**, not ST2 Einstieg. **ST2 Einstieg** only applies when someone is moved from **ST1 Regel** into ST2 early; in that case they already operate at Senior L2 expectations, but the KV salary floor progresses from ST2 Einstieg to ST2 Regel within max 3 years. See [IT KV details](background/kv-informationstechnologie-2026.md).
+\* Senior L2 normally maps to **ST2 Regel**. When someone moves from **ST1 Erfahrung** (Senior L1) into ST2, the KV transition is **ST1 Erfahrung → ST2 Regel**, not ST2 Einstieg. **ST2 Einstieg** only applies when someone is moved from **ST1 Regel** into ST2 early; in that case they already operate at Senior L2 expectations, but the KV salary floor progresses from ST2 Einstieg to ST2 Regel within max 3 years. See [IT KV details](https://www.wko.at/oe/kollektivvertrag/kv-informationstechnologie-2026.pdf).
 
 ## Track Split
 

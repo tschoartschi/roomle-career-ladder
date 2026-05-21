@@ -3,6 +3,7 @@ title: Engineering Context
 aliases: [Engineering Context, Surfaces, Team Shape]
 type: reference
 tags: [background, engineering, context]
+connie-publish: true
 ---
 
 # Engineering Context

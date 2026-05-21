@@ -3,11 +3,12 @@ title: Leitung (LT) — Outside the Career Ladder
 aliases: [Leitung, LT, Leitung outside the ladder]
 type: reference
 tags: [career-ladder, reference, kv]
+connie-publish: true
 ---
 
 # Leitung (LT) — Outside the Career Ladder
 
-The [IT KV](background/kv-informationstechnologie-2026.md) defines a further level above ST2: **Leitung (LT)** (with its own Einstieg / Regel / Erfahrung stages) for employees in leadership positions that decisively influence the company in their area of responsibility.
+The [IT KV](https://www.wko.at/oe/kollektivvertrag/kv-informationstechnologie-2026.pdf) defines a further level above ST2: **Leitung (LT)** (with its own Einstieg / Regel / Erfahrung stages) for employees in leadership positions that decisively influence the company in their area of responsibility.
 
 **Leitung (LT) is explicitly excluded from this career ladder** for three reasons:
 

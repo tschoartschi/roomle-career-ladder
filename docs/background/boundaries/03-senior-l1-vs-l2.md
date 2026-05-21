@@ -3,6 +3,7 @@ title: Senior L1 vs Senior L2 — How We Draw the Line
 aliases: [L1 vs L2, Level Boundaries]
 type: reference
 tags: [background, level-boundaries]
+connie-publish: true
 ---
 
 # Senior L1 vs Senior L2 — How We Draw the Line

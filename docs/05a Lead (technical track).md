@@ -9,6 +9,7 @@ tags: [career-ladder, level, technical-track]
 prev: "[04a Senior-L2 (technical track)](04a%20Senior-L2%20%28technical%20track%29.md)"
 next: null
 counterpart: "[05b Lead (management track)](05b%20Lead%20%28management%20track%29.md)"
+connie-publish: true
 ---
 
 # 05a Lead (Technical Track)

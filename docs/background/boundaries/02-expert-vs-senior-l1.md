@@ -3,6 +3,7 @@ title: Expert vs Senior L1 — How We Draw the Line
 aliases: [Expert vs Senior L1, Expert vs L1]
 type: reference
 tags: [background, level-boundaries]
+connie-publish: true
 ---
 
 # Expert vs Senior L1 — How We Draw the Line

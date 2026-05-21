@@ -3,6 +3,7 @@ title: Axes
 aliases: [Axes, Axis Definitions]
 type: reference
 tags: [career-ladder, axes, reference]
+connie-publish: true
 ---
 
 # Axes

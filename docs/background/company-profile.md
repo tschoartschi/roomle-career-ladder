@@ -3,6 +3,7 @@ title: Company Profile
 aliases: [Roomle, Company]
 type: reference
 tags: [background, company]
+connie-publish: true
 ---
 
 # Company Profile – Roomle GmbH

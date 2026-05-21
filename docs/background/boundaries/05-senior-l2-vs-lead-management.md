@@ -3,6 +3,7 @@ title: Senior L2 vs Lead (Management Track) — How We Draw the Line
 aliases: [L2 vs Lead Management, Senior L2 vs Lead Mgmt]
 type: reference
 tags: [background, level-boundaries, management-track]
+connie-publish: true
 ---
 
 # Senior L2 vs Lead (Management Track) — How We Draw the Line

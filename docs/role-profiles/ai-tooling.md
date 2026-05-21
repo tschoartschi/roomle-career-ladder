@@ -5,6 +5,7 @@ type: role-profile
 domain: ai-tooling
 cross_cutting: true
 tags: [role-profile, ai-tooling, cross-cutting]
+connie-publish: true
 ---
 
 # AI Tooling — Role Profile

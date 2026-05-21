@@ -3,6 +3,7 @@ title: Junior vs Expert — How We Draw the Line
 aliases: [Junior vs Expert]
 type: reference
 tags: [background, level-boundaries]
+connie-publish: true
 ---
 
 # Junior vs Expert — How We Draw the Line

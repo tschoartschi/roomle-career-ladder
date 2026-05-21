@@ -3,6 +3,7 @@ title: Work in Progress
 aliases: [WIP, In Progress, To Be Defined]
 type: reference
 tags: [career-ladder, wip]
+connie-publish: true
 ---
 
 # Work in Progress

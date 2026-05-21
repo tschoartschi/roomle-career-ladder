@@ -5,6 +5,7 @@ type: role-profile
 domain: web-frontend
 cross_cutting: false
 tags: [role-profile, web-frontend]
+connie-publish: true
 ---
 
 # Web Frontend — Role Profile
