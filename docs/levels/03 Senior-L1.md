@@ -24,6 +24,10 @@ Senior contributor
 
 _Boundaries: [Expert → Senior L1](../background/boundaries/02-expert-vs-senior-l1.md) · [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-l2.md)._
 
+## Skill radar
+
+![Senior L1 Skill Radar](../assets/levels/03-senior-l1-radar.png)
+
 ## Technical Mastery
 **tldr;** A Senior L1 designs features and components in their area of ownership, makes sound technical tradeoffs, debugs to root cause, and models high quality standards through their own work. They are the go-to person for at least one part of the codebase.
 

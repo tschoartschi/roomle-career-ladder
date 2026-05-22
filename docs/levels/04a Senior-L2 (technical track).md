@@ -25,6 +25,10 @@ Technical multiplier
 
 _Boundaries: [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-l2.md) · [Senior L2 → Lead](../background/boundaries/04-senior-l2-vs-lead-technical.md)._
 
+## Skill radar
+
+![Senior L2 Technical Skill Radar](../assets/levels/04a-senior-l2-tech-radar.png)
+
 ## Technical Mastery
 **tldr;** A Senior L2 (technical) has deep mastery across the full technology stack in their domain, drives technical decisions that affect the team, researches and introduces new technologies, and is the recognized authority for architectural questions in their area.
 

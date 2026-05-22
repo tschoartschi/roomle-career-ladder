@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="35 55 430 370" width="430" height="370">
   <defs>
     <style>
       .grid { fill: none; stroke: #ddd; stroke-width: 1; }
@@ -6,21 +6,16 @@
       .data-area { fill: rgba(66, 133, 244, 0.25); stroke: #4285f4; stroke-width: 2.5; }
       .data-point { fill: #4285f4; }
       .label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; fill: #333; text-anchor: middle; }
-      .level-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 10px; fill: #999; text-anchor: middle; }
-      .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 16px; font-weight: 600; fill: #222; text-anchor: middle; }
+      .level-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 10px; fill: #999; text-anchor: end; }
+      .verb-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 11px; fill: #1a56db; font-weight: 600; paint-order: stroke; stroke: white; stroke-width: 3px; }
     </style>
   </defs>
 
-  <!-- Grid pentagons (levels 1–5) -->
-  <!-- Level 5 (outermost) -->
+  <!-- Grid pentagons (levels 1-5) -->
   <polygon class="grid" points="250,90 402,207 344,383 156,383 98,207" />
-  <!-- Level 4 -->
   <polygon class="grid" points="250,122 372,215 325,356 175,356 128,215" />
-  <!-- Level 3 -->
   <polygon class="grid" points="250,154 341,224 305,329 195,329 159,224" />
-  <!-- Level 2 -->
   <polygon class="grid" points="250,186 311,232 286,302 214,302 189,232" />
-  <!-- Level 1 (innermost) -->
   <polygon class="grid" points="250,218 281,241 267,275 233,275 219,241" />
 
   <!-- Axis lines from center to vertices -->
@@ -30,7 +25,7 @@
   <line class="axis-line" x1="250" y1="250" x2="156" y2="383" />
   <line class="axis-line" x1="250" y1="250" x2="98" y2="207" />
 
-  <!-- Data polygon — Junior: all axes at level 1 of 5 -->
+  <!-- Data polygon -->
   <polygon class="data-area" points="250,218 281,241 267,275 233,275 219,241" />
 
   <!-- Data points -->
@@ -41,11 +36,11 @@
   <circle class="data-point" cx="219" cy="241" r="5" />
 
   <!-- Verb labels at data points -->
-  <text x="250" y="210" class="level-label" style="font-size:11px; fill:#4285f4; font-weight:600;">Applies</text>
-  <text x="296" y="237" class="level-label" style="font-size:11px; fill:#4285f4; font-weight:600; text-anchor:start;">Adopts</text>
-  <text x="280" y="285" class="level-label" style="font-size:11px; fill:#4285f4; font-weight:600; text-anchor:start;">Acknowledges</text>
-  <text x="220" y="285" class="level-label" style="font-size:11px; fill:#4285f4; font-weight:600; text-anchor:end;">Contributes</text>
-  <text x="204" y="237" class="level-label" style="font-size:11px; fill:#4285f4; font-weight:600; text-anchor:end;">Observes</text>
+  <text x="250" y="208" class="verb-label" style="text-anchor:middle;">Applies</text>
+  <text x="296" y="237" class="verb-label" style="text-anchor:start;">Adopts</text>
+  <text x="280" y="285" class="verb-label" style="text-anchor:start;">Acknowledges</text>
+  <text x="220" y="285" class="verb-label" style="text-anchor:end;">Contributes</text>
+  <text x="204" y="237" class="verb-label" style="text-anchor:end;">Observes</text>
 
   <!-- Axis labels -->
   <text x="250" y="72" class="label">Technical Mastery</text>
@@ -54,10 +49,10 @@
   <text x="135" y="405" class="label">Collaboration</text>
   <text x="75" y="200" class="label">Influence</text>
 
-  <!-- Level indicators along top axis -->
-  <text x="265" y="93" class="level-label">5</text>
-  <text x="265" y="125" class="level-label">4</text>
-  <text x="265" y="157" class="level-label">3</text>
-  <text x="265" y="189" class="level-label">2</text>
-  <text x="265" y="221" class="level-label">1</text>
+  <!-- Level indicators (left of top axis) -->
+  <text x="242" y="93" class="level-label">5</text>
+  <text x="242" y="125" class="level-label">4</text>
+  <text x="242" y="157" class="level-label">3</text>
+  <text x="242" y="189" class="level-label">2</text>
+  <text x="242" y="221" class="level-label">1</text>
 </svg>

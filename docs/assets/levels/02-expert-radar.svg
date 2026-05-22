@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="35 55 430 370" width="430" height="370">
+  <defs>
+    <style>
+      .grid { fill: none; stroke: #ddd; stroke-width: 1; }
+      .axis-line { stroke: #ccc; stroke-width: 1; }
+      .data-area { fill: rgba(66, 133, 244, 0.25); stroke: #4285f4; stroke-width: 2.5; }
+      .data-point { fill: #4285f4; }
+      .label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; fill: #333; text-anchor: middle; }
+      .level-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 10px; fill: #999; text-anchor: end; }
+      .verb-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 11px; fill: #1a56db; font-weight: 600; paint-order: stroke; stroke: white; stroke-width: 3px; }
+    </style>
+  </defs>
+
+  <!-- Grid pentagons (levels 1-5) -->
+  <polygon class="grid" points="250,90 402,207 344,383 156,383 98,207" />
+  <polygon class="grid" points="250,122 372,215 325,356 175,356 128,215" />
+  <polygon class="grid" points="250,154 341,224 305,329 195,329 159,224" />
+  <polygon class="grid" points="250,186 311,232 286,302 214,302 189,232" />
+  <polygon class="grid" points="250,218 281,241 267,275 233,275 219,241" />
+
+  <!-- Axis lines from center to vertices -->
+  <line class="axis-line" x1="250" y1="250" x2="250" y2="90" />
+  <line class="axis-line" x1="250" y1="250" x2="402" y2="207" />
+  <line class="axis-line" x1="250" y1="250" x2="344" y2="383" />
+  <line class="axis-line" x1="250" y1="250" x2="156" y2="383" />
+  <line class="axis-line" x1="250" y1="250" x2="98" y2="207" />
+
+  <!-- Data polygon -->
+  <polygon class="data-area" points="250,186 311,232 286,302 214,302 189,232" />
+
+  <!-- Data points -->
+  <circle class="data-point" cx="250" cy="186" r="5" />
+  <circle class="data-point" cx="311" cy="232" r="5" />
+  <circle class="data-point" cx="286" cy="302" r="5" />
+  <circle class="data-point" cx="214" cy="302" r="5" />
+  <circle class="data-point" cx="189" cy="232" r="5" />
+
+  <!-- Verb labels at data points -->
+  <text x="250" y="176" class="verb-label" style="text-anchor:middle;">Solves</text>
+  <text x="326" y="228" class="verb-label" style="text-anchor:start;">Grows</text>
+  <text x="299" y="312" class="verb-label" style="text-anchor:start;">Owns</text>
+  <text x="201" y="312" class="verb-label" style="text-anchor:end;">Collaborates</text>
+  <text x="174" y="228" class="verb-label" style="text-anchor:end;">Contributes</text>
+
+  <!-- Axis labels -->
+  <text x="250" y="72" class="label">Technical Mastery</text>
+  <text x="420" y="200" class="label">Learning</text>
+  <text x="365" y="405" class="label">Responsibility</text>
+  <text x="135" y="405" class="label">Collaboration</text>
+  <text x="75" y="200" class="label">Influence</text>
+
+  <!-- Level indicators (left of top axis) -->
+  <text x="242" y="93" class="level-label">5</text>
+  <text x="242" y="125" class="level-label">4</text>
+  <text x="242" y="157" class="level-label">3</text>
+  <text x="242" y="189" class="level-label">2</text>
+  <text x="242" y="221" class="level-label">1</text>
+</svg>

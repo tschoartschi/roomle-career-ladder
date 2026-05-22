@@ -28,7 +28,7 @@ _Boundary: [Junior → Expert](../background/boundaries/01-junior-vs-expert.md).
 
 ## Skill radar
 
-![Junior Skill Radar](../assets/junior-radar.png)
+![Junior Skill Radar](../assets/levels/01-junior-radar.png)
 
 ## Technical Mastery
 **tldr;** A Junior applies known patterns and tools to solve defined problems within their area, following established conventions and learning from the codebase and their colleagues.

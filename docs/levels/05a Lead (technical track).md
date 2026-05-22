@@ -23,6 +23,10 @@ Technical visionary
 
 _Boundary: [Senior L2 → Lead](../background/boundaries/04-senior-l2-vs-lead-technical.md)._
 
+## Skill radar
+
+![Lead Technical Skill Radar](../assets/levels/05a-lead-tech-radar.png)
+
 ## Technical Mastery
 **tldr;** A Lead (technical) creates novel technical approaches and architectures that are adopted across the organization. They define the technical vision, push the boundaries of what's possible, and ensure the company's technology choices remain competitive and sustainable.
 

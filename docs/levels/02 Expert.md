@@ -22,6 +22,10 @@ Competent individual contributor
 
 _Boundaries: [Junior → Expert](../background/boundaries/01-junior-vs-expert.md) · [Expert → Senior L1](../background/boundaries/02-expert-vs-senior-l1.md)._
 
+## Skill radar
+
+![Expert Skill Radar](../assets/levels/02-expert-radar.png)
+
 ## Technical Mastery
 **tldr;** An Expert solves standard problems independently in their domain, writes clean and maintainable code, debugs effectively within known systems, and is building depth in their area of expertise.
 

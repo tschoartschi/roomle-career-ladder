@@ -226,7 +226,7 @@ function inlineToken(token: Token, ctx: ConvertContext): AdfNode[] {
         // External image → external media node
         return [{
           type: 'mediaSingle',
-          attrs: { layout: 'center' },
+          attrs: { layout: 'center', width: 50 },
           content: [{
             type: 'media',
             attrs: { type: 'external', url: href },
@@ -241,7 +241,7 @@ function inlineToken(token: Token, ctx: ConvertContext): AdfNode[] {
           const pageId = ctx.currentFile.frontmatter['confluence-page-id'] ?? '';
           return [{
             type: 'mediaSingle',
-            attrs: { layout: 'center' },
+            attrs: { layout: 'center', width: 50 },
             content: [{
               type: 'media',
               attrs: { type: 'file', id: fileId, collection: `contentId-${pageId}` },

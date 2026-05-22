@@ -27,6 +27,10 @@ People multiplier
 
 _Boundaries: [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-l2.md) · [Senior L2 → Lead](../background/boundaries/05-senior-l2-vs-lead-management.md)._
 
+## Skill radar
+
+![Senior L2 Management Skill Radar](../assets/levels/04b-senior-l2-mgmt-radar.png)
+
 ## Technical Mastery
 **tldr;** A Senior L2 (management) maintains strong technical credibility, uses technical judgment to guide their team's decisions, participates meaningfully in architectural discussions, and ensures technical quality without being the one implementing.
 

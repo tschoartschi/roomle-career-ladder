@@ -23,6 +23,10 @@ Engineering leader
 
 _Boundary: [Senior L2 → Lead](../background/boundaries/05-senior-l2-vs-lead-management.md)._
 
+## Skill radar
+
+![Lead Management Skill Radar](../assets/levels/05b-lead-mgmt-radar.png)
+
 ## Technical Mastery
 **tldr;** A Lead (management) uses deep technical understanding to make strategic decisions about the engineering organization. They don't need to be the best coder, but their technical judgment shapes hiring, team structure, technology strategy, and investment priorities.
 

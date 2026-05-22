@@ -228,7 +228,7 @@ describe('convert', () => {
 
     expect(adf.content[0]).toMatchObject({
       type: 'mediaSingle',
-      attrs: { layout: 'center' },
+      attrs: { layout: 'center', width: 50 },
       content: [{
         type: 'media',
         attrs: { type: 'external', url: 'https://example.com/image.png' },
@@ -245,7 +245,7 @@ describe('convert', () => {
 
     expect(adf.content[0]).toMatchObject({
       type: 'mediaSingle',
-      attrs: { layout: 'center' },
+      attrs: { layout: 'center', width: 50 },
       content: [{
         type: 'media',
         attrs: { type: 'file', id: 'file-id-123', collection: 'contentId-111' },
