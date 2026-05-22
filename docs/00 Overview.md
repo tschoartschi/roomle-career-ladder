@@ -19,6 +19,14 @@ The framework has more pages than any single read needs. Here's the order that w
 
 **The framework is based on the ideas of engineeringladders.com**: every level has a description and is described along 5 axes. We deliberately chose different axes than in the original framework, but this is because we are a 30-person company and not big tech. More about the initial framework can be found here: https://www.engineeringladders.com/ (or: https://github.com/jorgef/engineeringladders)
 
+![Career Ladder Overview](assets/career-ladder-overview.png)
+
+The graphic above gives you the landscape at a glance: five levels, the track split at Senior L2, the KV mapping, and the mutual-agreement boundary between ST1 and ST2. Keep it in the back of your mind while reading the detail pages — but don't stop here. The text covers far more than this simple diagram can communicate; the graphic is a tool for orientation, not a substitute for the level descriptions.
+
+Each level is defined by five axes, and an engineer is evaluated against those axes. To give you an early intuition — similar to the overview graphic above — here is a fictive Senior L1 assessment plotted against the reference shape. The blue dashed line is what level 3 expects on every axis; the orange shape is what a real (spiky) engineer might look like. Remember: all axes must be met at the target level to be eligible for promotion. We chose Senior L1 deliberately here because it is also the level an engineer can choose to stay at long-term.
+
+![Fictive Senior L1 radar](assets/career-ladder-spiky-example.png)
+
 Our [Axes](axes.md) are described [here](axes.md). You may read the axes before or after the levels. This depends on your personal preferences.
 
 - [01 Junior](<levels/01 Junior.md>) — guided contributor, primary job is to learn
