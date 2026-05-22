@@ -11,6 +11,105 @@ This document tracks known open items in the career ladder framework — things 
 
 ---
 
+## Performance Review Template (with KV checkpoints)
+
+**Opened:** 2026-05-22
+**Status:** Open — skeleton drafted at [`performance-review-skeleton.md`](performance-review-skeleton.md)
+**Owner:** TBD (needs HR alignment)
+
+The ladder defines *what* each level is and *what* the level transitions look like, but the operational performance-review process is undocumented. A skeleton in `internal/` proposes a 6-section template (current performance assessment, KV classification fit incl. § 15 II ¶ 2 36-month assessment, Vordienstzeit reconciliation, development plan, compensation review, Dienstzettel implications) and a universal yearly cadence with a 6–12 month pre-KV-step "level fit" conversation.
+
+**Why it matters:** the skeleton is the operational artifact that satisfies the § 15 II ¶ 2 36-month assessment obligation, gives "structural performance issue" language an actual procedure, and gives engineers a predictable, calendar-driven review rhythm rather than ad-hoc conversations near KV jumps.
+
+**Next step:** review the skeleton with HR, decide whether the same artifact is also the Senior L1 → Senior L2 promotion document or a sibling artifact, then move it out of `internal/` once approved. Resolution of this item also resolves the open *Assessment Process*, *ST1 Performance-Gap Timeline*, and *36-Month KV ST1/ST2 Assessment* items.
+
+---
+
+## Dienstzettel update process per § 15 I (8) IT-KV
+
+**Opened:** 2026-05-22
+**Status:** Open
+**Owner:** TBD (HR-process item)
+
+Any change to an employee's KV classification triggers a Dienstzettel update obligation under § 15 I (8) IT-KV. The ladder currently documents *content* publication to Confluence but says nothing about individual *Dienstzettel* updates, which is an entirely separate HR process.
+
+Open questions:
+
+- Who is responsible for the Dienstzettel update (HR? Head of Engineering? both)?
+- What event triggers it (KV Vorrückungsstufe change? Internal promotion? Both?)
+- Where is the updated Dienstzettel filed, and is the employee provided a copy?
+- How is it tracked so nothing slips through?
+
+**Why it matters:** Dienstzettel updates are a procedural obligation. Missing one doesn't usually create salary backpay risk (which is § 15 II), but it does weaken the company's documentation in any subsequent dispute and creates a § 2 AVRAG procedural finding.
+
+**Next step:** Document the workflow as part of the Performance Review Template discussion with HR. One paragraph in HR's procedures is usually enough.
+
+---
+
+## Equal Treatment review of the assessment process
+
+**Opened:** 2026-05-22
+**Status:** Open
+**Owner:** TBD (HR + management)
+
+Several axes in the ladder are inherently qualitative (Influence, Collaboration & Communication, Learning). The "deep expert recognition" mechanism for above-floor compensation at Senior L1 is also subjective. Once the operational assessment process exists, it needs a Gleichbehandlungsgesetz review.
+
+Open questions:
+
+- Can the assessment process require multi-evaluator decisions for level changes (rather than a single manager call)?
+- What documented evidence is required per axis to support a "meets / does not meet" judgement?
+- Is there periodic (e.g., annual) anonymised statistical review of promotion outcomes by protected characteristic to catch pattern issues early?
+- Where do refusal-to-promote conversations get documented in a Gleichbehandlung-defensible way?
+
+**Why it matters:** § 6 and § 12 GlBG create both direct and indirect discrimination claims. In a small company with subjective evaluation criteria, the cleanest defence is *process*: multi-rater decisions, documented evidence, periodic review. The framework can otherwise be entirely correct on paper and still produce discriminatory outcomes in practice.
+
+**Next step:** include in the labour-lawyer review (below) and the HR alignment on the assessment process.
+
+---
+
+## Performance-based intervention procedure
+
+**Opened:** 2026-05-22
+**Status:** Open
+**Owner:** TBD (HR alignment)
+
+The Overview and the L2 → Lead boundary docs describe "structural performance issues" as the consequence of capability not keeping pace with KV-mandated salary advancement, but the *procedure* for handling such a situation is not documented anywhere.
+
+Open questions:
+
+- What constitutes a Verwarnung / Abmahnung in Roomle's process (verbal vs written, who issues, how filed)?
+- What is the documented opportunity to improve (timeline, supports offered, success criteria)?
+- What is the proportionality assessment before any termination step (could a role change, reduced scope, or coaching solve it instead)?
+- What evidence is required at each step to defend the procedure against an AK challenge?
+- How does this interact with the Performance Review Template above — same artifact extended, or a separate "intervention track" that begins after a failed review?
+
+**Why it matters:** Austrian labour law makes performance-based dismissal procedurally demanding. The framework's abstract "managed as a structural performance issue" language has no operational backing today, which means the first time it has to happen, it will be improvised — exactly the situation that creates AK exposure.
+
+**Next step:** Draft alongside the Performance Review Template; one informs the other. Both need the labour-lawyer review before going operational.
+
+---
+
+## Labour lawyer review before operational rollout
+
+**Opened:** 2026-05-22
+**Status:** Open
+**Owner:** Head of Engineering
+
+Before the ladder is used to make any formal classification or promotion decision — and before the Performance Review Template, Dienstzettel process, and Performance-based intervention procedure go operational — commission a written opinion from an Austrian labour lawyer with documented IT-KV § 15 experience.
+
+Scope of the review:
+
+- Does the framework, taken together with the operational HR procedures, expose the company to § 15 II misclassification claims?
+- Are the procedural safeguards around performance management, promotion, and dismissal sufficient under current case law?
+- Do the assessment axes survive a Gleichbehandlungsgesetz challenge?
+- Are there § 96 / § 96a / § 99 ArbVG obligations triggered, and what is the cleanest way to handle them (with or without a Betriebsrat)?
+
+**Why it matters:** the [2026-05-20 decision log](decisions.md) already flags this need. A 2–4 hour consultation costs trivially less than one Umreihung case or one Gleichbehandlungs proceeding. Once the framework is operational without the review, the risk window is open continuously.
+
+**Next step:** identify a labour lawyer with IT sector / IT-KV experience (AK has a referral list; some employer-side firms — Schima Mayer Starlinger, Baker McKenzie, Wolf Theiss, DLA Piper Vienna — also have IT-KV practice). Brief them with the ladder, the Performance Review skeleton, and the decision log. Get the written opinion before any operational use.
+
+---
+
 ## ST1 Performance-Gap Timeline — define the path before KV advancement triggers
 
 **Opened:** 2026-05-20
