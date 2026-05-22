@@ -55,7 +55,7 @@ The external-hire calibration language in [00 Overview](../docs/00%20Overview.md
 - [00 Overview](../docs/00%20Overview.md): corrected the Senior L2 footnote and ST1 → ST2 transition language; expanded the external-hire Senior L1 explanation.
 - [idea](idea.md): corrected the IT KV mapping note for ST2 Einstieg vs ST2 Regel.
 - [03-senior-l1-vs-l2](../docs/background/boundaries/03-senior-l1-vs-l2.md): clarified that normal L1 → L2 maps to ST2 Regel.
-- [04-senior-l2-vs-lead-technical](../docs/background/boundaries/04-senior-l2-vs-lead-technical.md) and [05-senior-l2-vs-lead-management](../docs/background/boundaries/05-senior-l2-vs-lead-management.md): replaced the soft "honest scope conversation" language with the explicit transition-out/termination consequence already decided for KV-mandated mismatch.
+- [04-senior-l2-vs-lead-technical](../docs/background/boundaries/04-senior-l2-vs-lead-technical.md) and [05-senior-l2-vs-lead-management](../docs/background/boundaries/05-senior-l2-vs-lead-management.md): aligned with the new Growth Framework language for managing KV-mandated salary band gaps.
 
 ---
 

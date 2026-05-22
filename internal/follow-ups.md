@@ -17,7 +17,7 @@ This document tracks known open items in the career ladder framework — things 
 **Status:** Open
 **Owner:** TBD (needs HR alignment)
 
-[Decisions](decisions.md#2026-05-20-resolved-regression-and-up-or-out-due-to-it-kv) establishes that termination/separation is the only viable outcome when performance cannot meet the KV-mandated salary level. What is *not* yet defined is **the timeline and documented steps that lead up to that outcome** — particularly for the Expert → Senior L1 transition (ST1 Regel → ST1 Erfahrung, max 4 years) and the equivalent ST1 Einstieg → Regel transition (max 3 years).
+[Decisions](decisions.md#2026-05-22-reframed-kv-time-advancement-from-up-or-out-to-growth-framework) establishes that a failure to meet KV-mandated salary levels will be managed as a structural performance issue. What is *not* yet defined is **the timeline and documented steps of the progression plan** — particularly for the Expert → Senior L1 transition (ST1 Regel → ST1 Erfahrung, max 4 years) and the equivalent ST1 Einstieg → Regel transition (max 3 years).
 
 Open questions:
 
