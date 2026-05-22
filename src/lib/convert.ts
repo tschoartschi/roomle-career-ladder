@@ -236,14 +236,15 @@ function inlineToken(token: Token, ctx: ConvertContext): AdfNode[] {
 
       // Local image → look up in attachment map
       if (ctx.attachmentMap) {
-        const attachmentId = ctx.attachmentMap.get(href);
-        if (attachmentId) {
+        const fileId = ctx.attachmentMap.get(href);
+        if (fileId) {
+          const pageId = ctx.currentFile.frontmatter['confluence-page-id'] ?? '';
           return [{
             type: 'mediaSingle',
             attrs: { layout: 'center' },
             content: [{
               type: 'media',
-              attrs: { type: 'file', id: attachmentId, collection: '' },
+              attrs: { type: 'file', id: fileId, collection: `contentId-${pageId}` },
             }],
           }];
         }

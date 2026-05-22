@@ -174,18 +174,19 @@ export class ConfluenceApi {
     return descendants.length;
   }
 
-  async listAttachments(pageId: string): Promise<Array<{ id: string; title: string; comment: string }>> {
-    const results: Array<{ id: string; title: string; comment: string }> = [];
+  async listAttachments(pageId: string): Promise<Array<{ id: string; fileId: string; title: string; comment: string }>> {
+    const results: Array<{ id: string; fileId: string; title: string; comment: string }> = [];
     let start = 0;
 
     while (true) {
-      const res = await this.request<{ results: Array<{ id: string; title: string; extensions?: { comment?: string } }>; size: number }>(
+      const res = await this.request<{ results: Array<{ id: string; title: string; extensions?: { comment?: string; fileId?: string } }>; size: number }>(
         'GET',
         `/rest/api/content/${pageId}/child/attachment?limit=250&start=${start}`,
       );
       for (const att of res.results) {
         results.push({
           id: att.id,
+          fileId: att.extensions?.fileId ?? att.id,
           title: att.title,
           comment: att.extensions?.comment ?? '',
         });
@@ -220,8 +221,8 @@ export class ConfluenceApi {
       throw new Error(`PUT ${url} → ${res.status}\n${text.slice(0, 500)}`);
     }
 
-    const data = await res.json() as { results: Array<{ id: string }> };
-    return data.results[0].id;
+    const data = await res.json() as { results: Array<{ id: string; extensions?: { fileId?: string } }> };
+    return data.results[0].extensions?.fileId ?? data.results[0].id;
   }
 
   async updateAttachmentData(pageId: string, attachmentId: string, filename: string, buffer: Buffer, hash: string): Promise<void> {

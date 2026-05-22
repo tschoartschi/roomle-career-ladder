@@ -330,13 +330,13 @@ async function uploadImagesForPage(
     if (existing && existing.comment === hash) {
       // Already up-to-date
       if (verbose) console.log(`    skip (unchanged): ${href}`);
-      attachmentMap.set(href, existing.id);
+      attachmentMap.set(href, existing.fileId);
     } else if (existing) {
       // Update existing attachment
       try {
         await api.updateAttachmentData(pageId, existing.id, filename, buffer, hash);
         if (verbose) console.log(`    updated: ${href}`);
-        attachmentMap.set(href, existing.id);
+        attachmentMap.set(href, existing.fileId);
       } catch (err) {
         console.warn(`  warning: failed to update attachment for ${href} in ${file.relPath}: ${(err as Error).message}`);
       }

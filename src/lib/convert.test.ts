@@ -240,7 +240,7 @@ describe('convert', () => {
   it('converts local image with attachment map entry to mediaSingle with type file', () => {
     const file = makeFile('# T\n\n![diagram](./assets/diagram.png)');
     const ctx = makeCtx(file);
-    ctx.attachmentMap = new Map([['./assets/diagram.png', 'att-123']]);
+    ctx.attachmentMap = new Map([['./assets/diagram.png', 'file-id-123']]);
     const adf = convert(file, ctx);
 
     expect(adf.content[0]).toMatchObject({
@@ -248,7 +248,7 @@ describe('convert', () => {
       attrs: { layout: 'center' },
       content: [{
         type: 'media',
-        attrs: { type: 'file', id: 'att-123', collection: '' },
+        attrs: { type: 'file', id: 'file-id-123', collection: 'contentId-111' },
       }],
     });
     expect(ctx.warnings).toHaveLength(0);
@@ -279,7 +279,7 @@ describe('convert', () => {
   it('handles multiple images in one document', () => {
     const file = makeFile('# T\n\n![ext](https://example.com/a.png)\n\n![local](./b.png)\n\n![missing](./c.png)');
     const ctx = makeCtx(file);
-    ctx.attachmentMap = new Map([['./b.png', 'att-456']]);
+    ctx.attachmentMap = new Map([['./b.png', 'file-456']]);
     const adf = convert(file, ctx);
 
     expect(adf.content[0]).toMatchObject({
@@ -288,7 +288,7 @@ describe('convert', () => {
     });
     expect(adf.content[1]).toMatchObject({
       type: 'mediaSingle',
-      content: [{ type: 'media', attrs: { type: 'file', id: 'att-456', collection: '' } }],
+      content: [{ type: 'media', attrs: { type: 'file', id: 'file-456', collection: 'contentId-111' } }],
     });
     // Third image is skipped (not in map)
     expect(adf.content.filter(n => n.type === 'mediaSingle')).toHaveLength(2);
