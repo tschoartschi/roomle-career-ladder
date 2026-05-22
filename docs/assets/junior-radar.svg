@@ -11,9 +11,6 @@
     </style>
   </defs>
 
-  <!-- Title -->
-  <text x="250" y="30" class="title">Junior — Skill Radar</text>
-
   <!-- Grid pentagons (levels 1–5) -->
   <!-- Level 5 (outermost) -->
   <polygon class="grid" points="250,90 402,207 344,383 156,383 98,207" />
@@ -42,6 +39,13 @@
   <circle class="data-point" cx="267" cy="275" r="5" />
   <circle class="data-point" cx="233" cy="275" r="5" />
   <circle class="data-point" cx="219" cy="241" r="5" />
+
+  <!-- Verb labels at data points -->
+  <text x="250" y="210" class="level-label" style="font-size:11px; fill:#4285f4; font-weight:600;">Applies</text>
+  <text x="296" y="237" class="level-label" style="font-size:11px; fill:#4285f4; font-weight:600; text-anchor:start;">Adopts</text>
+  <text x="280" y="285" class="level-label" style="font-size:11px; fill:#4285f4; font-weight:600; text-anchor:start;">Acknowledges</text>
+  <text x="220" y="285" class="level-label" style="font-size:11px; fill:#4285f4; font-weight:600; text-anchor:end;">Contributes</text>
+  <text x="204" y="237" class="level-label" style="font-size:11px; fill:#4285f4; font-weight:600; text-anchor:end;">Observes</text>
 
   <!-- Axis labels -->
   <text x="250" y="72" class="label">Technical Mastery</text>

@@ -26,6 +26,8 @@ Learning contributor
 
 _Boundary: [Junior → Expert](../background/boundaries/01-junior-vs-expert.md)._
 
+## Skill radar
+
 ![Junior Skill Radar](../assets/junior-radar.png)
 
 ## Technical Mastery
