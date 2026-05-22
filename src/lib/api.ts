@@ -173,8 +173,96 @@ export class ConfluenceApi {
     }
     return descendants.length;
   }
+
+  async listAttachments(pageId: string): Promise<Array<{ id: string; title: string; comment: string }>> {
+    const results: Array<{ id: string; title: string; comment: string }> = [];
+    let start = 0;
+
+    while (true) {
+      const res = await this.request<{ results: Array<{ id: string; title: string; extensions?: { comment?: string } }>; size: number }>(
+        'GET',
+        `/rest/api/content/${pageId}/child/attachment?limit=250&start=${start}`,
+      );
+      for (const att of res.results) {
+        results.push({
+          id: att.id,
+          title: att.title,
+          comment: att.extensions?.comment ?? '',
+        });
+      }
+      if (res.results.length < 250) break;
+      start += 250;
+    }
+
+    return results;
+  }
+
+  async uploadAttachment(pageId: string, filename: string, buffer: Buffer, hash: string): Promise<string> {
+    const url = `${this.baseUrl}/rest/api/content/${pageId}/child/attachment`;
+    const mimeType = getMimeType(filename);
+
+    const formData = new FormData();
+    const blob = new Blob([new Uint8Array(buffer)], { type: mimeType });
+    formData.append('file', blob, filename);
+    formData.append('comment', hash);
+
+    const res = await fetch(url, {
+      method: 'PUT',
+      headers: {
+        Authorization: this.auth,
+        'X-Atlassian-Token': 'nocheck',
+      },
+      body: formData,
+    });
+
+    if (!res.ok) {
+      const text = await res.text();
+      throw new Error(`PUT ${url} → ${res.status}\n${text.slice(0, 500)}`);
+    }
+
+    const data = await res.json() as { results: Array<{ id: string }> };
+    return data.results[0].id;
+  }
+
+  async updateAttachmentData(pageId: string, attachmentId: string, filename: string, buffer: Buffer, hash: string): Promise<void> {
+    const url = `${this.baseUrl}/rest/api/content/${pageId}/child/attachment/${attachmentId}/data`;
+    const mimeType = getMimeType(filename);
+
+    const formData = new FormData();
+    const blob = new Blob([new Uint8Array(buffer)], { type: mimeType });
+    formData.append('file', blob, filename);
+    formData.append('comment', hash);
+
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: {
+        Authorization: this.auth,
+        'X-Atlassian-Token': 'nocheck',
+      },
+      body: formData,
+    });
+
+    if (!res.ok) {
+      const text = await res.text();
+      throw new Error(`POST ${url} → ${res.status}\n${text.slice(0, 500)}`);
+    }
+  }
 }
 
 function sleep(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+const MIME_TYPES: Record<string, string> = {
+  '.png': 'image/png',
+  '.jpg': 'image/jpeg',
+  '.jpeg': 'image/jpeg',
+  '.gif': 'image/gif',
+  '.svg': 'image/svg+xml',
+  '.webp': 'image/webp',
+};
+
+function getMimeType(filename: string): string {
+  const ext = filename.slice(filename.lastIndexOf('.')).toLowerCase();
+  return MIME_TYPES[ext] ?? 'application/octet-stream';
 }

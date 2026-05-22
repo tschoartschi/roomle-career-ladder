@@ -17,24 +17,32 @@ The framework has more pages than any single read needs. Here's the order that w
 
 **Then read the level pages in order, Junior → Lead.** They are cumulative: every level assumes everything from the levels below. Reading them out of order is possible but harder, because the "what's new at this level" framing leans on you having the previous level in your head.
 
+**The framework is based on the ideas of engineeringladders.com**: every level has a description and is described along 5 axes. We deliberately chose different axes than in the original framework, but this is because we are a 30-person company and not big tech. More about the initial framework can be found here: https://www.engineeringladders.com/ (or: https://github.com/jorgef/engineeringladders)
+
+Our [Axes](axes.md) are described [here](axes.md). You may read the axes before or after the levels. This depends on your personal preferences.
+
 - [01 Junior](<levels/01 Junior.md>) — guided contributor, primary job is to learn
 - [02 Expert](<levels/02 Expert.md>) — independent, delivers reliably within their domain
-- [03 Senior L1](<levels/03 Senior-L1.md>) — established senior IC; the broad professional destination
-- [04a Senior L2 (technical)](<levels/04a Senior-L2 (technical track).md>) and [04b Senior L2 (management)](<levels/04b Senior-L2 (management track).md>) — the multiplier split
+- [03 Senior L1](<levels/03 Senior-L1.md>) — established senior individual contributor; the broad professional destination
+- [04a Senior L2 (technical)](<levels/04a Senior-L2 (technical track).md>) and [04b Senior L2 (management)](<levels/04b Senior-L2 (management track).md>) — the multiplier split, in L2 it's about enabling others and working cross-team and cross-stakeholders.
 - [05a Lead (technical)](<levels/05a Lead (technical track).md>) and [05b Lead (management)](<levels/05b Lead (management track).md>) — org-shaping; structurally rare at our size
-- [99 Leitung](<levels/99 Leitung.md>) — explicitly *outside* the ladder; explains why
+- [99 Leitung](<levels/99 Leitung.md>) — explicitly *outside* the ladder; the document explains why
 
-**Then read [Axes](axes.md).** All level descriptions are organised around the same five axes (Technical Mastery, Learning, Responsibility & Ownership, Collaboration & Communication, Influence). The level pages quote axis verbs (*Applies*, *Solves*, *Designs*, etc.) — Axes is what those verbs actually mean.
+**[Axes](axes.md).** All level descriptions are organised around the same five axes (Technical Mastery, Learning, Responsibility & Ownership, Collaboration & Communication, Influence). The level pages quote axis verbs (*Applies*, *Solves*, *Designs*, etc.) — Axes is what those verbs actually mean.
 
 **Read the boundary docs only when you need them.** Each one answers "how do we tell these two adjacent levels apart?" — useful for promotion conversations and calibration, less useful as continuous reading. Pick the boundary you care about right now:
 
-- [Junior → Expert](background/boundaries/01-junior-vs-expert.md) · [Expert → Senior L1](background/boundaries/02-expert-vs-senior-l1.md) · [Senior L1 → Senior L2](background/boundaries/03-senior-l1-vs-l2.md) · [Senior L2 → Lead (technical)](background/boundaries/04-senior-l2-vs-lead-technical.md) · [Senior L2 → Lead (management)](background/boundaries/05-senior-l2-vs-lead-management.md)
+- [Junior → Expert](background/boundaries/01-junior-vs-expert.md)
+- [Expert → Senior L1](background/boundaries/02-expert-vs-senior-l1.md)
+- [Senior L1 → Senior L2](background/boundaries/03-senior-l1-vs-l2.md)
+- [Senior L2 → Lead (technical)](background/boundaries/04-senior-l2-vs-lead-technical.md)
+- [Senior L2 → Lead (management)](background/boundaries/05-senior-l2-vs-lead-management.md)
 
 **Read role profiles when you want domain-specific expectations.** The general ladder describes competencies abstractly; role profiles spell out what those competencies look like for a specific domain.
 
-- [Web Frontend](role-profiles/web-frontend.md) (domain) and [AI Tooling](role-profiles/ai-tooling.md) (cross-cutting — applies to every engineer)
+- [Web Frontend](role-profiles/web-frontend.md) (domain) and [AI Tooling](role-profiles/ai-tooling.md) (cross-cutting — applies to every engineer). The other domains will follow and are work in progress
 
-**Background pages are optional context.** [Company Profile](background/company-profile.md) is for external readers who don't know Roomle. [Engineering Context](background/engineering-context.md) explains the Rubens / Core / RAPI / HI vocabulary used in the role profiles. [Work in Progress](background/wip.md) is a placeholder for content not yet written.
+**Background pages are optional context.** [Company Profile](background/company-profile.md) is for external readers who don't know Roomle (and for AI Agents to understand who we are). [Engineering Context](background/engineering-context.md) explains the Rubens / Core / RAPI / HI vocabulary used in the role profiles. [Work in Progress](background/wip.md) is a placeholder for content not yet written.
 
 ### If you only have 10 minutes
 
@@ -72,7 +80,7 @@ From Senior L2 onward, the ladder splits into two tracks:
 - **Beginning at Senior L1, Roomle-specific knowledge becomes very relevant.** No one is expected to write Roomle Script *and* three.js *and* the Java backend — depth lives in one or two surfaces. But an L1 is expected to *understand how the parts fit together*: how a Roomle Script change in Core surfaces through the WASM boundary into the Web SDK, how the Vue UI in roomle-ui sits on top of the SDK, how the embedding library mediates between Rubens and a customer's webshop, and where RAPI sits behind all of it. That mental model is what lets an L1 reliably helps to make decisions and also to triage whether a reported bug is content, code, integration, or a Homag-side change (see [Engineering Context](background/engineering-context.md#what-makes-roomle-hard)).
 - **At Senior L2, Roomle context becomes one of the main requirements.** Multiplier work — team-wide standards, cross-surface architecture, leading initiatives that span engineers other than themselves — is only credible when the person decides with full awareness of the Roomle landscape: who owns which surface, where the Homag-dev counterparts sit, what the embedding contract guarantees to customers, what the 30-person-product-unit-inside-10k+-industrial-group reality actually means for trade-offs. An L2 without Roomle context will optimize for the wrong thing.
 
-Roomle's experience is that seniority from large corporations does not automatically translate into Roomle Senior performance from day one: people from highly specialized, process-heavy environments can struggle with the autonomy, breadth, and context-switching expected here. Engineers with freelancer or agency backgrounds often ramp faster because they are already used to ownership across messy boundaries. External hires therefore typically start at Expert and can progress quickly once they demonstrate Roomle-context seniority. This is not a demotion; it is an acknowledgment that seniority is partly contextual.
+Roomle's experience is that seniority from large corporations does not automatically translate into Roomle Senior performance from day one: people from highly specialized, process-heavy environments can struggle with the autonomy, breadth, and context-switching expected here. Engineers with freelancer or agency backgrounds often ramp faster because they are already used to ownership across **messy boundaries**. External hires therefore typically start at Expert and can progress quickly once they demonstrate Roomle-context seniority. This is not a demotion; it is an acknowledgment that seniority is partly contextual.
 
 **IT KV advancement is legally mandated within a "Verwendungsgruppe".** The KV defines maximum durations per "Vorrückungsstufe" (e.g., max 3 years at Einstieg, max 4 years at Regel). Once those durations pass, the employer is **legally required** to advance the employee to the next "Vorrückungsstufe", regardless of performance. This means:
 
@@ -85,7 +93,7 @@ Roomle's experience is that seniority from large corporations does not automatic
 
 **Staying at Senior L1 is a valid choice.** Not every engineer wants — or needs — to become a multiplier. Some of our strongest engineers choose to stay at Senior L1 long-term because they enjoy what they do and don't want the broader responsibilities of Senior L2. This is fully respected. It is also a structural reality: a ~30-person company cannot sustain everyone at the Lead level. Senior L1 is a destination, not just a way station.
 
-**Compensation growth is possible at Senior L1 without moving to Senior L2.** ST1 Erfahrung is a KV *minimum*, not a ceiling. An engineer who becomes a recognized deep expert in a Roomle surface — Core (Roomle Script, the C/C++ rules engine), the Web SDK (three.js / AR / rendering), the embedding library, RAPI, Homag Intelligence — can be compensated above the KV floor while remaining at Senior L1. The L1 → L2 step is about taking on multiplier responsibilities (team standards, architecture across the team, growing others), not about being more technically expert. Some of the strongest individual experts in the company are L1 and intentionally stay there; their depth is rewarded through salary, not through a forced move into a multiplier role they don't want.
+**Compensation growth is possible at Senior L1 without moving to Senior L2.** ST1 Erfahrung is a KV *minimum*, not a ceiling. An engineer who becomes a recognized deep expert in a Roomle surface — Core (Roomle Script, the C/C++ rules engine), the Web SDK (three.js / AR / rendering), the embedding library, RAPI, Homag Intelligence, Infrastructure & delivery, or define their own new surface — can be compensated above the KV floor while remaining at Senior L1. The L1 → L2 step is about taking on multiplier responsibilities (team standards, architecture across the team, growing others), not about being more technically expert. Some of the strongest individual experts in the company are L1 and intentionally stay there; their depth is rewarded through salary, not through a forced move into a multiplier role they don't want.
 
 ## Roomle Technical Surfaces
 
@@ -99,7 +107,7 @@ Engineers grow depth in one or more of these surfaces. When level pages and boun
 | **Core**                                          | C/C++ rules engine — Roomle Script interpreter, collision detection, placement constraints, interaction rules and more. Cross-compiled to WASM (browser) and server      | Single engineer; also works across web                                         |
 | **RAPI**                                          | Java REST backend — catalog, tenants, content, persistence. Single backend for all Roomle products; "CMS of Roomle Data", minimal role inside Homag Intelligence         | Team of 3                                                                      |
 | **Homag Intelligence (HI)**                       | The Homag-content variant of Rubens Room Designer (calc.js + glue layer); engineering work spans Rubens, Web SDK, embedding, and a direct Roomle-dev ↔ Homag-dev channel | Cross-cutting; anyone working HI surfaces must hold the Homag-dev conversation |
-| **Infrastructure & delivery**                     | GCP, Kubernetes, Docker, observability, build/release pipelines                                                                                                          | Single DevOps engineer<br>RAPI engineers support if needed                     |
+| **Infrastructure & delivery**                     | GCP, Kubernetes, Docker, observability, build/release pipelines                                                                                                          | Single DevOps engineer RAPI engineers support if needed                     |
 | **iOS**                                           | Native iOS app (since 2013); maintained for steady revenue, not a strategic growth area                                                                                  | Single iOS engineer                                                            |
 | **DAP**                                           | Digital asset pipeline                                                                                                                                                   | Adjacent to RAPI and Core                                                      |
 

@@ -35,6 +35,8 @@ export interface ConvertContext {
   spaceKey: string;
   /** Warnings collected during conversion */
   warnings: string[];
+  /** Map from relative image path → attachment ID */
+  attachmentMap?: Map<string, string>;
 }
 
 function addMark(node: AdfNode, mark: AdfMark): AdfNode {
@@ -216,9 +218,41 @@ function inlineToken(token: Token, ctx: ConvertContext): AdfNode[] {
       return inner.map(n => addMark(n, { type: 'link', attrs: { href } }));
     }
 
-    case 'image':
-      ctx.warnings.push(`unsupported: image at ${ctx.currentFile.relPath}`);
+    case 'image': {
+      const t = token as Tokens.Image;
+      const href = t.href;
+
+      if (/^https?:\/\//.test(href)) {
+        // External image → external media node
+        return [{
+          type: 'mediaSingle',
+          attrs: { layout: 'center' },
+          content: [{
+            type: 'media',
+            attrs: { type: 'external', url: href },
+          }],
+        }];
+      }
+
+      // Local image → look up in attachment map
+      if (ctx.attachmentMap) {
+        const attachmentId = ctx.attachmentMap.get(href);
+        if (attachmentId) {
+          return [{
+            type: 'mediaSingle',
+            attrs: { layout: 'center' },
+            content: [{
+              type: 'media',
+              attrs: { type: 'file', id: attachmentId, collection: '' },
+            }],
+          }];
+        }
+      }
+
+      // Not found in map — warn and skip
+      ctx.warnings.push(`warning: image not resolved "${href}" in ${ctx.currentFile.relPath}`);
       return [];
+    }
 
     case 'html':
       // Strip raw inline HTML
@@ -296,6 +330,10 @@ function blockToken(token: Token, ctx: ConvertContext): AdfNode | null {
       const t = token as Tokens.Paragraph;
       const content = inlineTokens(t.tokens, ctx);
       if (content.length === 0) return null;
+      // If the paragraph contains only a mediaSingle node, hoist it to block level
+      if (content.length === 1 && content[0].type === 'mediaSingle') {
+        return content[0];
+      }
       return { type: 'paragraph', content };
     }
 

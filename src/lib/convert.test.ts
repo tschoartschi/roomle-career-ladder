@@ -221,13 +221,78 @@ describe('convert', () => {
     expect(() => convert(file, ctx)).toThrow(/which is not published/);
   });
 
-  it('skips images and logs warning', () => {
+  it('converts external URL image to mediaSingle with type external', () => {
+    const file = makeFile('# T\n\n![alt](https://example.com/image.png)');
+    const ctx = makeCtx(file);
+    const adf = convert(file, ctx);
+
+    expect(adf.content[0]).toMatchObject({
+      type: 'mediaSingle',
+      attrs: { layout: 'center' },
+      content: [{
+        type: 'media',
+        attrs: { type: 'external', url: 'https://example.com/image.png' },
+      }],
+    });
+    expect(ctx.warnings).toHaveLength(0);
+  });
+
+  it('converts local image with attachment map entry to mediaSingle with type file', () => {
+    const file = makeFile('# T\n\n![diagram](./assets/diagram.png)');
+    const ctx = makeCtx(file);
+    ctx.attachmentMap = new Map([['./assets/diagram.png', 'att-123']]);
+    const adf = convert(file, ctx);
+
+    expect(adf.content[0]).toMatchObject({
+      type: 'mediaSingle',
+      attrs: { layout: 'center' },
+      content: [{
+        type: 'media',
+        attrs: { type: 'file', id: 'att-123', collection: '' },
+      }],
+    });
+    expect(ctx.warnings).toHaveLength(0);
+  });
+
+  it('skips local image without attachment map entry and warns', () => {
+    const file = makeFile('# T\n\n![alt](./missing.png)');
+    const ctx = makeCtx(file);
+    ctx.attachmentMap = new Map();
+    const adf = convert(file, ctx);
+
+    // The mediaSingle should not appear
+    const mediaNodes = adf.content.filter(n => n.type === 'mediaSingle');
+    expect(mediaNodes).toHaveLength(0);
+    expect(ctx.warnings).toContainEqual(expect.stringContaining('image not resolved'));
+  });
+
+  it('skips local image without attachment map (undefined) and warns', () => {
     const file = makeFile('# T\n\n![alt](image.png)');
     const ctx = makeCtx(file);
     const adf = convert(file, ctx);
 
-    expect(ctx.warnings).toContain('unsupported: image at test.md');
-    // The paragraph may be empty or omitted
+    const mediaNodes = adf.content.filter(n => n.type === 'mediaSingle');
+    expect(mediaNodes).toHaveLength(0);
+    expect(ctx.warnings).toContainEqual(expect.stringContaining('image not resolved'));
+  });
+
+  it('handles multiple images in one document', () => {
+    const file = makeFile('# T\n\n![ext](https://example.com/a.png)\n\n![local](./b.png)\n\n![missing](./c.png)');
+    const ctx = makeCtx(file);
+    ctx.attachmentMap = new Map([['./b.png', 'att-456']]);
+    const adf = convert(file, ctx);
+
+    expect(adf.content[0]).toMatchObject({
+      type: 'mediaSingle',
+      content: [{ type: 'media', attrs: { type: 'external', url: 'https://example.com/a.png' } }],
+    });
+    expect(adf.content[1]).toMatchObject({
+      type: 'mediaSingle',
+      content: [{ type: 'media', attrs: { type: 'file', id: 'att-456', collection: '' } }],
+    });
+    // Third image is skipped (not in map)
+    expect(adf.content.filter(n => n.type === 'mediaSingle')).toHaveLength(2);
+    expect(ctx.warnings).toContainEqual(expect.stringContaining('./c.png'));
   });
 
   it('strips raw HTML', () => {

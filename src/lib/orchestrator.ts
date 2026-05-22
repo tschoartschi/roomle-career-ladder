@@ -1,4 +1,8 @@
 import path from 'node:path';
+import { readFile } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { marked, type Token, type Tokens } from 'marked';
 import type { Config } from './config.ts';
 import type { SourceFile } from './discover.ts';
 import { discover, buildBasenameMap, buildRelPathMap, persistPageId } from './discover.ts';
@@ -134,6 +138,11 @@ export async function publish(opts: PublishOptions): Promise<void> {
       // Pass 2: convert with all IDs resolved, then update all pages
       console.log(`\n  Updating ${files.length} page(s) with full content...`);
       for (const file of files) {
+        const pageId = file.frontmatter['confluence-page-id']!;
+
+        // Upload images before converting
+        const attachmentMap = await uploadImagesForPage(api, file, docsDir, pageId, verbose);
+
         const ctx: ConvertContext = {
           basenameMap,
           relPathMap,
@@ -141,6 +150,7 @@ export async function publish(opts: PublishOptions): Promise<void> {
           confluenceBaseUrl: config.confluenceBaseUrl,
           spaceKey: config.confluenceSpaceKey,
           warnings: [],
+          attachmentMap,
         };
 
         const adf = convert(file, ctx);
@@ -149,7 +159,6 @@ export async function publish(opts: PublishOptions): Promise<void> {
         const adfJson = JSON.stringify(adf);
         const fileDir = file.relPath.includes('/') ? file.relPath.slice(0, file.relPath.lastIndexOf('/')) : '';
         const parentId = folderIdMap.get(fileDir) ?? config.confluenceParentId;
-        const pageId = file.frontmatter['confluence-page-id']!;
 
         const current = await api.getPage(pageId);
         const nextVersion = (current.version?.number ?? 0) + 1;
@@ -188,6 +197,13 @@ export async function publish(opts: PublishOptions): Promise<void> {
 
       const allWarnings: string[] = [];
       for (const file of files) {
+        // In dry-run, scan for images but don't upload
+        const imageTokens = marked.lexer(file.body);
+        const imageHrefs = collectImageHrefs(imageTokens).filter(h => !/^https?:\/\//.test(h));
+        if (imageHrefs.length > 0 && verbose) {
+          console.log(`    Would upload ${imageHrefs.length} image(s): ${imageHrefs.join(', ')}`);
+        }
+
         const ctx: ConvertContext = {
           basenameMap,
           relPathMap,
@@ -245,6 +261,119 @@ export async function publish(opts: PublishOptions): Promise<void> {
   }
 
   console.log('\nDone.');
+}
+
+const SIZE_WARN = 5 * 1024 * 1024;
+const SIZE_LIMIT = 20 * 1024 * 1024;
+
+/**
+ * Scan a file's markdown for local image references, upload them as attachments,
+ * and return a map from relative href → attachment ID.
+ */
+async function uploadImagesForPage(
+  api: ConfluenceApi,
+  file: SourceFile,
+  docsDir: string,
+  pageId: string,
+  verbose: boolean,
+): Promise<Map<string, string>> {
+  const attachmentMap = new Map<string, string>();
+
+  // Tokenize to find image tokens
+  const tokens = marked.lexer(file.body);
+  const imageHrefs = collectImageHrefs(tokens);
+
+  if (imageHrefs.length === 0) return attachmentMap;
+
+  // Resolve and validate each image path
+  const fileDir = path.dirname(file.absPath);
+  const existingAttachments = await api.listAttachments(pageId);
+
+  for (const href of imageHrefs) {
+    // Skip external URLs
+    if (/^https?:\/\//.test(href)) continue;
+
+    const resolved = path.resolve(fileDir, href);
+
+    // Validate: must be under docs/
+    const docsAbsPath = path.resolve(docsDir);
+    if (!resolved.startsWith(docsAbsPath + path.sep) && resolved !== docsAbsPath) {
+      console.warn(`  warning: image path escapes docs/ in ${file.relPath}: ${href}`);
+      continue;
+    }
+
+    // Validate: file exists
+    if (!existsSync(resolved)) {
+      console.warn(`  warning: image not found in ${file.relPath}: ${href}`);
+      continue;
+    }
+
+    // Read file
+    const buffer = await readFile(resolved);
+
+    // Size checks
+    if (buffer.length > SIZE_LIMIT) {
+      console.error(`  error: image > 20 MB, skipping in ${file.relPath}: ${href} (${(buffer.length / 1024 / 1024).toFixed(1)} MB)`);
+      continue;
+    }
+    if (buffer.length > SIZE_WARN) {
+      console.warn(`  warning: image > 5 MB in ${file.relPath}: ${href} (${(buffer.length / 1024 / 1024).toFixed(1)} MB)`);
+    }
+
+    // Compute hash
+    const hash = createHash('sha256').update(buffer).digest('hex');
+    const filename = path.basename(resolved);
+
+    // Check existing attachments
+    const existing = existingAttachments.find(a => a.title === filename);
+
+    if (existing && existing.comment === hash) {
+      // Already up-to-date
+      if (verbose) console.log(`    skip (unchanged): ${href}`);
+      attachmentMap.set(href, existing.id);
+    } else if (existing) {
+      // Update existing attachment
+      try {
+        await api.updateAttachmentData(pageId, existing.id, filename, buffer, hash);
+        if (verbose) console.log(`    updated: ${href}`);
+        attachmentMap.set(href, existing.id);
+      } catch (err) {
+        console.warn(`  warning: failed to update attachment for ${href} in ${file.relPath}: ${(err as Error).message}`);
+      }
+    } else {
+      // Upload new attachment
+      try {
+        const attId = await api.uploadAttachment(pageId, filename, buffer, hash);
+        if (verbose) console.log(`    uploaded: ${href} (${attId})`);
+        attachmentMap.set(href, attId);
+      } catch (err) {
+        console.warn(`  warning: failed to upload attachment for ${href} in ${file.relPath}: ${(err as Error).message}`);
+      }
+    }
+  }
+
+  return attachmentMap;
+}
+
+/** Recursively collect image hrefs from a token tree. */
+function collectImageHrefs(tokens: Token[]): string[] {
+  const hrefs: string[] = [];
+  for (const token of tokens) {
+    if (token.type === 'image') {
+      hrefs.push((token as Tokens.Image).href);
+    }
+    if ('tokens' in token && Array.isArray((token as any).tokens)) {
+      hrefs.push(...collectImageHrefs((token as any).tokens));
+    }
+    if ('items' in token && Array.isArray((token as any).items)) {
+      for (const item of (token as any).items) {
+        if (item.tokens) {
+          hrefs.push(...collectImageHrefs(item.tokens));
+        }
+      }
+    }
+  }
+  return hrefs;
 }
 
 async function reorderChildren(api: ConfluenceApi, parentId: string, verbose: boolean): Promise<void> {
