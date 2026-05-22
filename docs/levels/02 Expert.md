@@ -16,7 +16,7 @@ confluence-page-id: '3758424068'
 
 Technical position → no management counterpart
 
-Competent individual contributor
+Independent contributor
 
 > An Expert has moved beyond the learning and onboarding phase. They solve standard problems independently within their domain, take ownership of their work and its outcomes, collaborate actively with their team, and build credibility through consistent, reliable contributions. They don't yet design complex systems or drive larger initiatives, they deliver solid, well-understood work with growing confidence and autonomy.
 
@@ -44,6 +44,8 @@ _Boundaries: [Junior → Expert](../background/boundaries/01-junior-vs-expert.md
 * **Applying patterns**: recognizes and applies standard design patterns and architectural idioms used in the codebase. Doesn't yet invent new approaches, but uses existing ones correctly and consistently.
 
 * **Quality awareness**: pays attention to edge cases, error handling, and input validation in their own code. Reviews their own work before submitting PRs.
+
+* **Secure implementation**: actively applies secure coding practices within their domain (e.g., escaping inputs in Vue, validating inputs in RAPI). Knows how to handle GDPR-sensitive data securely.
 
 ## Learning
 **tldr;** An Expert actively grows their knowledge within their domain, seeks feedback to improve, and keeps up with developments in their primary technology area.

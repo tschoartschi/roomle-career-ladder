@@ -37,7 +37,9 @@ _Boundaries: [Expert → Senior L1](../background/boundaries/02-expert-vs-senior
 
 * **Debugging**: finds root causes rather than patching symptoms. Can debug race conditions, deadlocks, and other problems that don't appear in a breakpoint. **At Roomle this includes the four-way triage**: is this content (a Roomle Script issue), code (Rubens / Web SDK / RAPI / Core), integration (a creative use of the embedding library by a customer's webshop), or a Homag-side change (calc.js, HI backend) outside our control? Knows when a quick fix is appropriate and when a real fix is warranted. Never resolves an issue by trial and error without understanding the underlying cause. Knows when to step back during a debugging session and start over.
 
-* **High standards**: attention to detail, secure coding, performance-aware (without premature optimization), meaningful tests. Their own work consistently models these standards.
+* **High standards**: attention to detail, performance-aware (without premature optimization), meaningful tests. Their own work consistently models these standards.
+
+* **Security & compliance**: reviews code for security vulnerabilities. Identifies architectural edge cases where race conditions or improper access control could leak data. Designs features with compliance (e.g., GDPR data deletion flows) in mind from the start.
 
 * **Maintenance and technical debt**: spots and addresses tech debt in their area of ownership. Refactors proactively when working in code that has decayed. Identifies larger-scope debt and flags it to L2/Lead rather than absorbing it silently or driving the cross-cutting fix themselves.
 
@@ -91,3 +93,11 @@ _Boundaries: [Expert → Senior L1](../background/boundaries/02-expert-vs-senior
 ## Homag Intelligence engagement bar
 
 A Senior L1 working on the HI surface is expected to hold the Roomle ↔ Homag-dev engineering conversation directly — not via Head of Engineering or a Lead. Concretely: can describe what calc.js does, knows which Homag-dev counterpart owns which piece, and can negotiate a technical interface (API shape, message format, data contract between calc.js and the Rubens glue layer) or escalate a discrepancy without an internal escort. *Commercial* contracts and *legal* terms are out of scope at L1 — those stay with Head of Engineering and CEO. L1s who do not work on HI are not expected to do any of this; engagement scales with the surfaces they touch.
+
+## Team-of-one surfaces
+
+For engineers whose primary surface is staffed by one person (Core, iOS, DevOps), several L1 expectations need to be read across surface boundaries rather than inside the surface:
+
+- **"Go-to expert"** is automatic when you are the only engineer on the surface; the L1 bar is *keeping the surface healthy and being approachable to engineers in adjacent surfaces who need to interact with it* (e.g., the Web team consuming the Core WASM build, or the Backend team interacting with the release pipeline DevOps owns).
+- **"Helps colleagues when asked"** and informal mentoring happen *across* surfaces — a Core engineer helping a Web engineer through a WASM-boundary change, an iOS engineer pairing on a native-bridge issue, a DevOps engineer walking the Backend team through a release. The expectation is not waived; it is read across boundaries.
+- The same logic applies more strictly at [Senior L2](04a%20Senior-L2%20%28technical%20track%29.md#team-of-one-surfaces) — see the L2 entry criteria treatment in [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-l2.md#l2-entry-criteria).

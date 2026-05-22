@@ -48,6 +48,8 @@ _Boundaries: [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-
 
 * **Team-wide automation**: identifies recurring friction across the team — not just their own tedious tasks — and drives automation that the whole team adopts. Shares the resulting tooling so it stops being one person's pet project.
 
+* **Security posture**: enforces security standards across their area (e.g., dependency vulnerability management, secure CI/CD pipelines). Understands and defends the security and trust boundaries (e.g., between Roomle and Homag).
+
 ## Learning
 **tldr;** A Senior L2 (technical) actively educates others, brings new knowledge into the team through structured formats, and creates learning opportunities for the team.
 
@@ -89,3 +91,14 @@ _Boundaries: [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-
 * **Trusted representative**: trusted to represent the team's technical perspective in cross-functional discussions and planning sessions.
 * **Shapes team practices**: actively improves how the team works, tooling, processes, standards, and gets buy-in for changes.
 * **Role model**: others look to them as an example of technical excellence combined with pragmatism and professionalism.
+
+## Team-of-one surfaces
+
+For engineers whose primary surface is staffed by one person (Core, iOS, DevOps), the multiplier expectations at L2 are read *across* surface boundaries:
+
+- **Mentoring** happens across surfaces — a Core engineer running a structured 1:1 with a Web engineer who is becoming the second person able to touch Roomle Script, or a DevOps engineer mentoring a Backend engineer toward shared on-call. The L2 entry criterion *"structured mentoring for ≥6 months"* applies — the surface boundary is not an excuse to skip it.
+- **Cross-cutting initiatives** the L2 leads pull other surfaces along — a Core engineer aligning Web, Backend, and Content Service on a Roomle Script change; a DevOps engineer driving a delivery-pipeline change adopted across teams.
+- **Team-wide standards** owned are ones the surface contributes to — e.g., the SDK API contract Core publishes for Web consumers, or the release-pipeline conventions DevOps maintains for all of engineering.
+- See the L2 entry criteria treatment in [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-l2.md#l2-entry-criteria).
+
+The expectation is not waived for team-of-one surfaces; it is read across boundaries.

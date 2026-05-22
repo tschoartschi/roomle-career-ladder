@@ -19,7 +19,7 @@ Management position → counterpart: [04a Senior-L2 (technical track)](04a%20Sen
 
 People multiplier
 
-> **Current organisational note.** At Roomle today there is no Senior L2 (management track) role filled \u2014 the responsibilities described here are currently covered by VP Engineering. This page describes the level as a *destination*: what someone moving into people management at Roomle would actually be accountable for, and what would have to be true for the role to exist as a distinct slot.
+> **Current organisational note.** At Roomle today there is no Senior L2 (management track) role filled. This page describes the level as a *destination*: what someone moving into people management at Roomle would actually be accountable for, and what would have to be true for the role to exist as a distinct slot.
 
 > A Senior L2 on the management track multiplies their impact through people. They are responsible for the team's delivery, growth, and well-being. At our current company scale, this role operates heavily as a **"Player-Coach"**, managing 1-4 engineers while still contributing directly. They use their strong technical judgment to make good decisions, support their team, and participate in discussions. Their primary accountability is the team's output and health, not just their own ticket delivery.
 >
@@ -30,6 +30,8 @@ _Boundaries: [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-
 ## Skill radar
 
 ![Senior L2 Management Skill Radar](../assets/levels/04b-senior-l2-mgmt-radar.png)
+
+> **Note on the radar shape.** The reference shape is identical to the [technical track](04a%20Senior-L2%20%28technical%20track%29.md) at this level — the verbs are by level, not by track. The track difference lives in the prose below: where the work actually happens day-to-day. Collaboration and Influence weigh heavier here; Technical Mastery is exercised through judgment and decision support, not hands-on implementation.
 
 ## Technical Mastery
 **tldr;** A Senior L2 (management) maintains strong technical credibility, uses technical judgment to guide their team's decisions, participates meaningfully in architectural discussions, and ensures technical quality without being the one implementing.

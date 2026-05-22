@@ -23,7 +23,7 @@ The framework has more pages than any single read needs. Here's the order that w
 
 The graphic above gives you the landscape at a glance: five levels, the track split at Senior L2, the KV mapping, and the mutual-agreement boundary between ST1 and ST2. Keep it in the back of your mind while reading the detail pages — but don't stop here. The text covers far more than this simple diagram can communicate; the graphic is a tool for orientation, not a substitute for the level descriptions.
 
-Each level is defined by five axes, and an engineer is evaluated against those axes. To give you an early intuition — similar to the overview graphic above — here is a fictive Senior L1 assessment plotted against the reference shape. The blue dashed line is what level 3 expects on every axis; the orange shape is what a real (spiky) engineer might look like. Remember: all axes must be met at the target level to be eligible for promotion. We chose Senior L1 deliberately here because it is also the level an engineer can choose to stay at long-term.
+Each level is defined by five axes, and an engineer is evaluated against those axes. To give you an early intuition — similar to the overview graphic above — here is a fictive Senior L1 assessment plotted against the reference shape. The blue dashed line is what Senior L1 expects on every axis; the orange shape is what a real (spiky) engineer might look like. Remember: all axes must be met at the target level to be eligible for promotion. We chose Senior L1 deliberately here because it is also the level an engineer can choose to stay at long-term.
 
 ![Fictive Senior L1 radar](assets/career-ladder-spiky-example.png)
 
@@ -48,7 +48,8 @@ Our [Axes](axes.md) are described [here](axes.md). You may read the axes before 
 
 **Read role profiles when you want domain-specific expectations.** The general ladder describes competencies abstractly; role profiles spell out what those competencies look like for a specific domain.
 
-- [Web Frontend](role-profiles/web-frontend.md) (domain) and [AI Tooling](role-profiles/ai-tooling.md) (cross-cutting — applies to every engineer). The other domains will follow and are work in progress
+- [Web Frontend](role-profiles/web-frontend.md) (domain) and [AI Tooling](role-profiles/ai-tooling.md) (cross-cutting — applies to every engineer).
+- The remaining domains have placeholder profiles that name the surface but leave the per-level content to be defined: [Backend (RAPI)](role-profiles/backend.md), [Infrastructure & Delivery](role-profiles/infrastructure.md), [3D / Configurator (Web SDK)](role-profiles/3d-configurator.md), [Core (C/C++)](role-profiles/core-cpp.md). The placeholders exist so the ladder is structurally complete; treat them as known gaps, not endorsed content.
 
 **Background pages are optional context.** [Company Profile](background/company-profile.md) is for external readers who don't know Roomle (and for AI Agents to understand who we are). [Engineering Context](background/engineering-context.md) explains the Rubens / Core / RAPI / HI vocabulary used in the role profiles. [Work in Progress](background/wip.md) is a placeholder for content not yet written.
 
@@ -90,10 +91,13 @@ From Senior L2 onward, the ladder splits into two tracks:
 
 Roomle's experience is that seniority from large corporations does not automatically translate into Roomle Senior performance from day one: people from highly specialized, process-heavy environments can struggle with the autonomy, breadth, and context-switching expected here. Engineers with freelancer or agency backgrounds often ramp faster because they are already used to ownership across **messy boundaries**. External hires therefore typically start at Expert and can progress quickly once they demonstrate Roomle-context seniority. This is not a demotion; it is an acknowledgment that seniority is partly contextual.
 
-**IT KV advancement is legally mandated within a "Verwendungsgruppe".** The KV defines maximum durations per "Vorrückungsstufe" (e.g., max 3 years at Einstieg, max 4 years at Regel). Once those durations pass, the employer is **legally required** to advance the employee to the next "Vorrückungsstufe", regardless of performance. This means:
+**IT KV advancement is legally mandated within a "Verwendungsgruppe".** The KV defines maximum durations per "Vorrückungsstufe" (e.g., max 3 years at Einstieg, max 4 years at Regel). Once those durations pass, the employer is **legally required** to advance the employee to the next "Vorrückungsstufe". 
 
-- Within **ST1**: an employee will progress through Einstieg → Regel → Erfahrung automatically over time. The KV guarantees this salary progression, but the employee's performance **must** keep pace with the corresponding ladder level (e.g., meeting Senior L1 expectations when arriving at ST1 Erfahrung). If an employee reaches a KV-mandated salary baseline but cannot sustainably meet the behavioral and technical expectations of that level, the company cannot simply pay the higher salary for lower-level output. In such cases, legal and economic reality forces a termination of the contract.
-- Within **ST2**: the same applies. Once someone enters ST2, they will progress to ST2 Erfahrung (Lead level) over time. The employee is strictly expected to grow into that level of responsibility. If they top out at Senior L2, or regress in performance, and cannot meet the framework expectations for the salary the KV enforces, they cannot remain in the role.
+At Roomle, we view this KV timeline as a framework for expected professional growth:
+
+- **We expect our employees to grow,** and we offer them plenty of possibilities to do so. The KV provides the baseline framework for how fast we assume this progression should ideally happen.
+- **Within ST1:** An employee progresses through Einstieg → Regel → Erfahrung over time. This means that until they reach the "Erfahrung" stage (Senior L1), there will be a defined progression plan and regular reviews to steer this growth. We use the KV steps as natural checkpoints to ensure the employee's capability keeps pace with their advancing salary band.
+- **Within ST2:** The same principle applies. Moving into ST2 is a mutual commitment to grow toward Lead-level responsibilities (ST2 Erfahrung) over time. We support this with continuous coaching, feedback, and clear expectations.
 
 **Promotion to the next level can happen faster.** If someone demonstrates the next level's expectations consistently, they can be promoted ahead of the KV schedule. But the KV pace is the guaranteed minimum.
 
@@ -115,7 +119,7 @@ Engineers grow depth in one or more of these surfaces. When level pages and boun
 | **Core**                                          | C/C++ rules engine — Roomle Script interpreter, collision detection, placement constraints, interaction rules and more. Cross-compiled to WASM (browser) and server      | Single engineer; also works across web                                         |
 | **RAPI**                                          | Java REST backend — catalog, tenants, content, persistence. Single backend for all Roomle products; "CMS of Roomle Data", minimal role inside Homag Intelligence         | Team of 3                                                                      |
 | **Homag Intelligence (HI)**                       | The Homag-content variant of Rubens Room Designer (calc.js + glue layer); engineering work spans Rubens, Web SDK, embedding, and a direct Roomle-dev ↔ Homag-dev channel | Cross-cutting; anyone working HI surfaces must hold the Homag-dev conversation |
-| **Infrastructure & delivery**                     | GCP, Kubernetes, Docker, observability, build/release pipelines                                                                                                          | Single DevOps engineer RAPI engineers support if needed                     |
+| **Infrastructure & delivery**                     | GCP, Kubernetes, Docker, observability, build/release pipelines, access & account management, cloud cost governance; stand-in for Lead of Product Operations on ServiceDesk | Single DevOps engineer; RAPI engineers support if needed                    |
 | **iOS**                                           | Native iOS app (since 2013); maintained for steady revenue, not a strategic growth area                                                                                  | Single iOS engineer                                                            |
 | **DAP**                                           | Digital asset pipeline                                                                                                                                                   | Adjacent to RAPI and Core                                                      |
 
@@ -150,6 +154,8 @@ From Senior L2 onward, the ladder offers two equally senior, equally valuable tr
 
 Neither track is "above" the other. In small teams, one person may cover both, but as teams grow, these responsibilities should be separated.
 
+**At Roomle's current size (~30 people), the management track is largely aspirational.** Today, most senior engineers who take on people responsibilities do so as player-coaches — they still write code and own technical outcomes while also coaching, hiring, and running 1:1s. The track is defined now so the framework doesn't need to be rewritten when the company grows and dedicated engineering-management roles become necessary. If you're reading the management-track level pages and thinking "we don't have anyone who does this full-time" — that's expected.
+
 ---
 
 ## Axes
@@ -168,7 +174,7 @@ The five axes are:
 
 ### What the shape looks like by level
 
-At every level, all five axes move forward together — but the *expected reach* of each axis grows differently between Senior L1 (deep contributor) and Senior L2 (multiplier). The reference shape is intentionally uniform per level (●  = expected reach on that axis, ○ = not yet expected):
+The framework defines a **uniform reference shape per level**: at every level, every axis is expected to reach the same depth. The reference is what *the level* asks for; it is not a prediction of what *a real engineer* will look like (● = expected reach on that axis at this level, ○ = not yet expected):
 
 | Level         | Technical Mastery | Learning | Responsibility | Collaboration | Influence |
 | ------------- | ----------------- | -------- | -------------- | ------------- | --------- |
@@ -178,7 +184,7 @@ At every level, all five axes move forward together — but the *expected reach*
 | **Senior L2** | ●●●●○             | ●●●●○    | ●●●●○          | ●●●●○         | ●●●●○     |
 | **Lead**      | ●●●●●             | ●●●●●    | ●●●●●          | ●●●●●         | ●●●●●     |
 
-> The reference shape is uniform per level: the ladder expects an engineer at a given level to meet *every* axis at that level (see [Evaluation & Aggregation Rule](#evaluation-aggregation-rule) below). Real engineers will be spikier — strong on some axes, weaker on others. The shape an individual draws against the reference is what a calibration conversation is actually about. The per-axis verb (*Applies → Solves → Designs → Masters → Creates* for Technical Mastery, etc.) is what each filled dot actually means, see the table below.
+> Real engineers are not uniform. An individual will almost always be **spiky** against the reference — already operating at the next level on one or two axes, still building toward this level on others. That is normal and expected. The shape an individual draws against the reference is what a calibration conversation is actually about (see [Evaluation & Aggregation Rule](#evaluation-aggregation-rule) below for how that conversation is structured). The per-axis verb (*Applies → Solves → Designs → Masters → Creates* for Technical Mastery, etc.) is what each filled dot actually means — see the table below.
 
 ### Stage Verbs by Level
 

@@ -74,6 +74,7 @@ Roomle context: the roomle-ui project already has a body of AI conventions in it
 - Knows where AI helps vs hinders: strong on boilerplate, syntax, and conventional patterns; weaker on subtle business logic, security-critical code, novel algorithms, and codebase-specific conventions the AI hasn't been shown
 - Notices and corrects common AI failures: fabricated APIs, wrong library versions, plausible-but-wrong reasoning
 - Avoids AI for security-critical, performance-critical, or novel-algorithm work without senior review
+- **Proprietary IP awareness**: understands the difference between zero-retention enterprise AI tools and public models. Never pastes proprietary Roomle/Homag IP, customer 3D models, or credentials into unapproved AI tools.
 
 ### Learning
 
@@ -144,6 +145,7 @@ Roomle context: the roomle-ui project already has a body of AI conventions in it
 
 - Defines team-level AI workflow conventions and guardrails (disclosure labels, sensitive-data boundaries, code-review extra-attention areas)
 - Evaluates new AI tools and integrations against the team's stack and needs; drives adoption or rejection decisions
+- **Defines boundaries**: defines what code and data can be processed by LLMs. Evaluates data retention agreements with AI vendors and sets clear rules for the team.
 
 ### Learning
 

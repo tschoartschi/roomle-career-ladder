@@ -1,116 +1,39 @@
-# Confluence Publisher
+# Roomle Career Ladder
 
-Publishes `docs/` to Confluence Cloud as the source of truth. Replaces the old `@markdown-confluence/cli` + preprocessor setup with a single in-house tool.
+This repository is the draft career ladder for **Roomle GmbH** — a ~30-person product unit inside the HOMAG Group, building the *Rubens* 3D configurator and Homag Intelligence. The ladder defines five engineering levels (Junior → Lead) with a tech / management track split at L2, deliberately mapped to the Austrian IT KV salary grades.
 
-## Prerequisites
+**Status:** Draft for internal review. The content under `docs/` is the source of truth; everything else here exists to support reading, reviewing, or publishing it.
 
-- Node.js 22+
-- A `.env` file (copy from `.env.example`) or environment variables set
+## Reading the ladder
 
-## Install
+If you have ~30 minutes and want the framework, start at [`index.md`](index.md) — it explains the recommended reading order, what we'd most like feedback on, and how to leave it. If you'd rather jump straight in, the entry point is [`docs/00 Overview.md`](docs/00%20Overview.md).
 
-```sh
-npm install
-```
+For the full link graph, clone the repo and open it in [Obsidian](https://obsidian.md/) — relative links work both on GitHub and inside the vault.
 
-## Environment Variables
+## Repository layout
 
-| Variable | Description |
-|----------|-------------|
-| `CONFLUENCE_BASE_URL` | Bare domain, e.g. `https://roomle.atlassian.net` (no `/wiki` suffix) |
-| `CONFLUENCE_PARENT_ID` | Numeric page ID under which all content lives |
-| `CONFLUENCE_SPACE_KEY` | e.g. `careerladder` |
-| `CONFLUENCE_ARCHIVE_PARENT_ID` | Numeric page ID of the dedicated Archive page |
-| `ATLASSIAN_USER_NAME` | Atlassian account email |
-| `ATLASSIAN_API_TOKEN` | API token from [id.atlassian.com](https://id.atlassian.com/manage-profile/security/api-tokens) |
+| Path | What lives here |
+|------|-----------------|
+| [`index.md`](index.md) | Vault landing page — start here as a reviewer |
+| [`docs/`](docs/) | The published ladder (Overview, axes, level pages, boundary docs, role profiles, background) |
+| [`docs/levels/`](docs/levels/) | The seven level pages (`01 Junior` → `05b Lead (management track)`) plus `99 Leitung` |
+| [`docs/background/`](docs/background/) | Company profile, engineering context, level-transition boundary docs |
+| [`docs/role-profiles/`](docs/role-profiles/) | Per-domain (Web Frontend, …) and cross-cutting (AI Tooling, …) profiles |
+| [`docs/assets/`](docs/assets/) | Diagrams and radar charts (PNG + SVG) |
+| [`internal/`](internal/) | Author working notes — decisions log, follow-ups, framework-design rationale. **Not published to Confluence.** |
+| [`src/`](src/) | The in-house Markdown → Confluence publisher — see [`src/README.md`](src/README.md) |
+| [`scripts/`](scripts/) | Maintenance scripts (radar regeneration, etc.) |
 
-Locally, place these in `.env` (gitignored). In CI, they come from GitHub Secrets / Repository Variables.
+## Giving feedback
 
-## Usage
+- **Preferred: GitHub PR comments.** Inline on the open review PR — most precise, most discussable.
+- Alternatively, ping the owner ([Georg](mailto:georg.kothmeier@roomle.com)) directly with the file + section.
+- For structural disagreement (a whole premise feels wrong), see [`internal/decisions.md`](internal/decisions.md) and call out the specific dated decision you'd revisit.
 
-### Publish all pages
+The [`internal/follow-ups.md`](internal/follow-ups.md) file lists what we already know is unfinished — no need to re-flag those.
 
-```sh
-node --experimental-strip-types src/publish.ts
-```
+## Publishing
 
-This will:
-1. Discover all `docs/**/*.md` files with `confluence-publish: true` in frontmatter
-2. Create folder pages for each directory containing published files
-3. Create or update each content page with converted Markdown→ADF
-4. Resolve internal links between published pages to real Confluence page URLs
-5. Apply labels (`auto-published` + any tags from frontmatter)
-6. Reorder children alphabetically under each parent
-7. Archive orphaned pages (pages whose source file no longer exists)
-8. Write back `confluence-page-id` to source files for any newly created pages
+`docs/` is pushed to Confluence Cloud automatically on every merge to `main` via [`.github/workflows/publish-confluence.yml`](.github/workflows/publish-confluence.yml). The publisher is an in-house tool — usage, flags, environment variables, and recovery procedures live in [`src/README.md`](src/README.md).
 
-### Dry run (no API mutations)
-
-```sh
-node --experimental-strip-types src/publish.ts --dry-run
-```
-
-### Wipe all pages (fresh start)
-
-```sh
-node --experimental-strip-types src/publish.ts --wipe --confirm
-```
-
-Deletes every page under `CONFLUENCE_PARENT_ID`. Use before a full republish.
-
-### Reorder only
-
-```sh
-node --experimental-strip-types src/publish.ts --reorder-only
-```
-
-### Verbose output
-
-```sh
-node --experimental-strip-types src/publish.ts --verbose
-```
-
-## How page IDs stay in sync
-
-- When the publisher **creates** a new page, it writes `confluence-page-id: '<id>'` into the source file's YAML frontmatter.
-- Locally, the IDs are written immediately. Commit them with your content changes.
-- In CI (GitHub Actions), the workflow commits and pushes any new IDs back to the repo with `[skip ci]` to avoid loops.
-- On subsequent runs, the publisher uses the stored ID to **update** existing pages in place.
-
-## Auto-archival
-
-When a source file is removed from `docs/` (and its `confluence-page-id` disappears from the repo), the next publish run detects the orphaned Confluence page and moves it under the Archive page. This is reversible — manually move the page back in Confluence if needed.
-
-## How to recover an archived page
-
-1. Navigate to the Archive page in Confluence
-2. Find the archived page
-3. Move it back under the correct parent using Confluence's "Move" action
-4. Re-add the file to `docs/` with `confluence-publish: true` and the page's `confluence-page-id` in frontmatter
-
-## Frontmatter schema
-
-```yaml
----
-title: Human-readable title (informational, not used by publisher)
-confluence-publish: true        # required to publish; default false
-confluence-page-id: '12345'     # auto-managed by publisher; do not edit manually
-tags: [tag1, tag2]              # mapped 1:1 to Confluence labels
----
-```
-
-## Running tests
-
-```sh
-npm test
-```
-
-## Migration from old tooling
-
-If you still have `connie-publish` / `connie-page-id` in frontmatter:
-
-```sh
-node --experimental-strip-types src/migrate.ts
-```
-
-This renames the fields to `confluence-publish` / `confluence-page-id`. Run once, commit the diff.
+**Git is the source of truth.** Edits made directly in Confluence will be overwritten on the next push. Use Confluence inline comments for feedback, not Confluence edits.

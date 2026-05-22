@@ -27,6 +27,8 @@ _Boundary: [Senior L2 → Lead](../background/boundaries/05-senior-l2-vs-lead-ma
 
 ![Lead Management Skill Radar](../assets/levels/05b-lead-mgmt-radar.png)
 
+> **Note on the radar shape.** The reference shape is identical to the [technical track](05a%20Lead%20%28technical%20track%29.md) at this level — the verbs are by level, not by track. The track difference lives in the prose below: where the work actually happens day-to-day. Collaboration and Influence weigh heavier here; Technical Mastery is exercised through strategic judgment, not hands-on implementation.
+
 ## Technical Mastery
 **tldr;** A Lead (management) uses deep technical understanding to make strategic decisions about the engineering organization. They don't need to be the best coder, but their technical judgment shapes hiring, team structure, technology strategy, and investment priorities.
 
@@ -68,7 +70,7 @@ _Boundary: [Senior L2 → Lead](../background/boundaries/05-senior-l2-vs-lead-ma
 * **Executive communication**: communicates engineering's priorities, risks, and needs to company leadership. Frames engineering work in business terms. Ensures engineering has a seat at the strategic table.
 * **Cross-functional leadership**: works closely with product, design, sales, and other functions at a leadership level. Ensures engineering is aligned with and responsive to company-wide priorities.
 * **Organizational alignment**: aligns multiple teams toward shared goals. Creates forums, rituals, and communication channels that keep the engineering organization connected and moving in the same direction.
-* **Navigates corporate context**: effectively works within the Homag Group / Dürr AG context — a 10k+ engineering organization sitting above Roomle's 30-person product unit, with its own roadmaps, process standards, and political weight. Manages up to corporate stakeholders, leverages group resources, and actively protects team autonomy and Roomle's product-org speed where needed.
+* **Navigates corporate context**: effectively works within the Homag Group / Dürr AG context — a ~7,000-person industrial group sitting above Roomle's 30-person product unit, with its own roadmaps, process standards, and political weight. Manages up to corporate stakeholders, leverages group resources, and actively protects team autonomy and Roomle's product-org speed where needed.
 * **Grows other managers**: coaches and develops the management capabilities of team leads and aspiring managers. Establishes management practices and standards across the organization.
 * **Difficult decisions**: makes and communicates difficult organizational decisions (restructuring, letting people go, killing projects) with transparency, empathy, and conviction.
 * **External representation**: represents Roomle's engineering organization externally — across the Roomle ↔ Homag Group engineering interface, at industry events, in the hiring market — building the company's reputation as a strong engineering organization.

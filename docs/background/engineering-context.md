@@ -49,7 +49,7 @@ Core does two kinds of work:
 1. **Roomle Script interpretation** — Core is the runtime for *Roomle Script*, the language used to define the construction logic of configurable items.
 2. **Interaction and rules** — collision detection, placement constraints, and contextual interaction rules (e.g., *can this object be moved in front of a door*, *what happens when two objects collide*).
 
-Core is staffed by one engineer who also works in roomle-ui / TypeScript. The role is broad by an we acknowledge that; the ladder does not require Core engineers to stay solely inside Core.
+Core is staffed by one engineer who also works in roomle-ui / TypeScript. The role is broad and we acknowledge that; the ladder does not require Core engineers to stay solely inside Core.
 
 ### RAPI (Roomle API)
 
@@ -59,7 +59,7 @@ Inside Homag Intelligence, RAPI plays a small role (storing artifacts like floor
 
 ### Infrastructure & delivery
 
-Google Cloud Platform, Kubernetes, Docker. Observability and delivery pipelines. Single DevOps engineer with support of backend team
+Google Cloud Platform, Kubernetes, Docker. Observability and delivery pipelines. Also covers access & account management (who has access to what), cloud cost governance (budgets, spend tracking), and acts as stand-in for Lead of Product Operations on ServiceDesk (the customer contact point). Single DevOps engineer with support of backend team.
 
 ### iOS
 
@@ -88,6 +88,7 @@ HI is developed in a highly agile environment with many moving parts on the Homa
 - **RAPI (Java REST)** — 3 engineers.
 - **DevOps** — 1.
 - **iOS** — 1.
+- **Head of Engineering** — 1 (Leitung, outside the ladder).
 - **Product Operations** — 1.
 
 **Single-engineer surfaces (Core / iOS / DevOps) are a structural reality at Roomle's size.** The ladder cannot require these engineers to mentor inside their surface (there is no one inside); their multiplier behavior expresses across surfaces or in adjacent surfaces.
@@ -100,7 +101,7 @@ HI is developed in a highly agile environment with many moving parts on the Homa
 - **Lead of Product Operations** — Belix
 - Engineers report to either Head of Engineering or Lead of Product Operations; both report to CEO Albert Ortig.
 - No C-level engineering titles at Roomle.
-- No active Engineering Manager today; people-management responsibilities currently sit with the Head of Engineering. The Senior L2 (management) role and Lead (management) role describe a destination, not the current state.
+- No active Engineering Manager today. The Senior L2 (management) role and Lead (management) role describe a destination, not the current state.
 
 ### Adjacent departments
 
@@ -158,7 +159,7 @@ Three things consistently challenge external senior hires in their first six mon
    - **Integration** — a creative use of the embedding library by the customer's webshop.
    - **Homag side** — a change on Homag's calc.js, backend, or HI configuration that is not under Roomle's control.
 
-   Distinguishing among these is a learned skill, and it is one of the things that separates Expert from Senior L1. Naming this triage explicitly is the a core Roomle-specific competency in the ladder.
+   Distinguishing among these is a learned skill, and it is one of the things that separates Expert from Senior L1. Naming this triage explicitly is a core Roomle-specific competency in the ladder.
 
 3. **HI moves fast and is not all ours.** Homag Intelligence is developed in a highly agile mode with many moving parts on the Homag side. Engineers working HI surfaces must be comfortable with ambiguity, with direct cross-company technical conversations, and with debugging across organizational boundaries.
 

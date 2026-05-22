@@ -130,14 +130,15 @@ Coverage:
 **Domain profiles:**
 
 - [Web Frontend](../docs/role-profiles/web-frontend.md) — Junior, Expert, Senior L1 spelled out (axes-based, cumulative, 2026 stack); Senior L2, Lead to be added
-- **Backend** — to be created
-- **Infrastructure** — to be created
-- **3D / Configurator** — to be created
+- [Backend (RAPI)](../docs/role-profiles/backend.md) — **placeholder created**; per-level content to be defined by RAPI team lead
+- [Infrastructure & Delivery](../docs/role-profiles/infrastructure.md) — **placeholder created**; per-level content to be defined by DevOps (single-engineer surface — team-of-one treatment applies)
+- [3D / Configurator (Web SDK)](../docs/role-profiles/3d-configurator.md) — **placeholder created**; per-level content to be defined by the 3D specialist
+- [Core (C/C++)](../docs/role-profiles/core-cpp.md) — **placeholder created**; per-level content to be defined by the Core engineer (single-engineer surface — team-of-one treatment applies)
 
 **Cross-cutting profiles:**
 
 - [AI Tooling](../docs/role-profiles/ai-tooling.md) — all five levels drafted; owner TBD; needs review and ongoing refresh as the tooling landscape evolves
 
-Each domain expert or lead owns the profile for their area. Cross-cutting profiles need a separate owner (engaged with the team's AI workflow practices).
+Each domain expert or lead owns the profile for their area. Cross-cutting profiles need a separate owner (engaged with the team's AI workflow practices). The placeholders exist so the ladder is structurally complete and so a reader sees the gap — they should not be treated as endorsed content until filled in.
 
 ---

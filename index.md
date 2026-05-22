@@ -51,7 +51,7 @@ The [follow-ups](internal/follow-ups.md) list what we already know is unfinished
 
 ## Publishing to Confluence
 
-This vault publishes to Confluence Cloud automatically on every push to `main` via the [`publish-confluence.yml`](.github/workflows/publish-confluence.yml) GitHub Action. Configuration lives in [`.markdown-confluence.json`](.markdown-confluence.json).
+This vault publishes to Confluence Cloud automatically on every push to `main` via the [`publish-confluence.yml`](.github/workflows/publish-confluence.yml) GitHub Action. The publisher is an in-house tool under [`src/publish.ts`](src/publish.ts); see the project [README](README.md) for full usage, flags, and recovery procedures.
 
 ### One-time setup
 
@@ -61,23 +61,21 @@ Credentials and instance config are passed via environment variables — no secr
 2. Create a Confluence Space (or pick an existing one) and a parent page where the docs should live. Grab the Space key and the parent page ID (visible in the URL when viewing the parent).
 3. In the GitHub repo settings (Settings → Secrets and variables → Actions):
    - **Repository secrets** (sensitive): `ATLASSIAN_USER_NAME`, `ATLASSIAN_API_TOKEN`.
-   - **Repository variables** (non-sensitive but deployment-specific): `CONFLUENCE_BASE_URL` (bare domain, no `/wiki`), `CONFLUENCE_PARENT_ID`.
-4. Mark each page that should publish by adding `connie-publish: true` to its frontmatter. Pages without this flag are skipped.
+   - **Repository variables** (non-sensitive but deployment-specific): `CONFLUENCE_BASE_URL` (bare domain, no `/wiki`), `CONFLUENCE_PARENT_ID`, `CONFLUENCE_SPACE_KEY`, `CONFLUENCE_ARCHIVE_PARENT_ID`.
+4. Mark each page that should publish by adding `confluence-publish: true` to its frontmatter. Pages without this flag are skipped.
 
-**Running locally** (optional): copy `.env.example` to `.env`, fill in your values, then `set -a && source .env && set +a && npx @markdown-confluence/cli`. `.env` is gitignored.
+**Running locally** (optional): copy `.env.example` to `.env`, fill in your values, then `node --experimental-strip-types src/publish.ts`. `.env` is gitignored.
 
 ### How it works
 
-- Push to `main` touching `docs/**`, `index.md`, or the config triggers the workflow.
-- The workflow runs `npx @markdown-confluence/cli` which converts Markdown → ADF and upserts the Confluence pages.
-- Page identity is preserved across runs (page IDs are stored back into frontmatter on first publish), so re-runs update in place rather than creating duplicates.
-- Manual trigger with `dry-run: true` is available via "Run workflow" in the Actions tab.
+- Push to `main` touching `docs/**`, `index.md`, or the publisher source triggers the workflow.
+- The workflow runs the in-house publisher, which converts Markdown → ADF and upserts the Confluence pages.
+- Page identity is preserved across runs: the publisher writes `confluence-page-id` into each source file's frontmatter on first publish, so re-runs update in place rather than creating duplicates.
+- Orphaned pages (whose source file was removed) are auto-archived under a dedicated Archive page — see the README for recovery steps.
 
 ### Caveat
 
 Confluence is the **derived artifact**; git is the source of truth. Edits made directly in Confluence will be overwritten on the next push. Use Confluence inline comments for feedback, not Confluence edits.
-
-The CLI's exact flag names and config keys may have shifted since this was written — verify against [the current README](https://github.com/markdown-confluence/markdown-confluence) before the first run.
 
 ## Notes for reviewers
 

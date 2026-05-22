@@ -20,7 +20,9 @@ confluence-page-id: '3758522370'
 
 Technical position → no management counterpart
 
-Learning contributor
+Guided contributor
+
+> **Current organisational note.** Roomle does not currently hire Juniors — new hires typically start at Expert or higher. This level is documented for completeness and to define expectations if/when a Junior is hired (e.g., a graduate, career changer, or trainee). See [Junior → Expert](../background/boundaries/01-junior-vs-expert.md) for context.
 
 > A Junior is at the beginning of their professional career. They learn and adopt the patterns, tools, and practices of the team, take responsibility for their own tasks with guidance, participate in team efforts, and are building their initial understanding of how the organization works. Their primary job is to grow, absorbing knowledge, asking questions, and turning guidance into independent capability.
 
@@ -46,6 +48,8 @@ _Boundary: [Junior → Expert](../background/boundaries/01-junior-vs-expert.md).
 * **Asks good questions**: when stuck, formulates clear questions that show what they've already tried. Doesn't spin for too long before asking, but also doesn't ask before trying.
 
 * **Growing toolkit**: is actively building familiarity with the team's tools, IDE, version control, CI/CD pipeline, deployment processes. Can use them for standard workflows without help.
+
+* **Basic security awareness**: knows never to commit secrets, API keys, or customer PII. Understands basic data handling rules (e.g., not copying production databases locally without masking).
 
 ## Learning
 **tldr;** A Junior adopts the patterns, practices, and knowledge presented to them, actively absorbs information from their environment, and shows curiosity about how things work.

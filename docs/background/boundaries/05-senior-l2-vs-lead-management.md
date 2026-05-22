@@ -32,7 +32,7 @@ This means:
 
 - Lead (management) is **structurally rare** in a 30-person company. For a ~15-person engineering org, the natural shape is one Lead-mgmt seat — or none, if covered by Leitung/CTO directly. At this size, the boundary between Lead (management) and Leitung (LT) can blur — see [Leitung (LT) — Outside the Career Ladder](../../levels/99%20Leitung.md) for why Leitung sits outside this ladder.
 - A great team manager is **not automatically** a great engineering-organization leader. Different skills: executive communication (not stakeholder management), talent strategy (not team hiring), organizational design (not team rituals).
-- The KV guarantees salary advancement (ST2 Erfahrung after max 4 years at ST2 Regel) but does not guarantee a Lead-shaped role. Performance and available scope have to match the level by then. If they do not, the sustainable outcome is transition out or termination; the framework does not pretend that permanent lower-level output at ST2 Erfahrung salary is viable.
+- The KV guarantees salary advancement (ST2 Erfahrung after max 4 years at ST2 Regel) but does not guarantee a Lead-shaped role. We use the KV timeline to actively manage progression: performance and available scope must grow to match the level by then. If an employee cannot sustainably close the gap between the KV-mandated salary band and actual impact, it is managed as a structural performance issue. We do not passively accept paying higher KV bands for lower-level output.
 - For the technical-track counterpart, see [04-senior-l2-vs-lead-technical](04-senior-l2-vs-lead-technical.md).
 
 ## Related boundary docs

@@ -44,6 +44,8 @@ _Boundary: [Senior L2 → Lead](../background/boundaries/04-senior-l2-vs-lead-te
 
 * **Technical risk at org level**: identifies and manages systemic technical risks — vendor dependencies, technology obsolescence, architectural bottlenecks — and develops strategies to mitigate them before they become critical.
 
+* **Organizational risk & compliance**: owns the company's technical risk posture. Guides the engineering team through security audits or penetration tests, and defines broad policies for data handling and security across the organization.
+
 ## Learning
 **tldr;** A Lead (technical) evangelizes new ideas inside and outside the organization, shapes the learning culture, and ensures the company stays at the forefront of relevant technology.
 
@@ -68,7 +70,7 @@ _Boundary: [Senior L2 → Lead](../background/boundaries/04-senior-l2-vs-lead-te
 * **Advocates**: champions best practices, technical culture, and engineering excellence across the entire organization. Is the voice of engineering in strategic discussions.
 * **Bridges tech and business**: communicates complex technical realities to executive leadership and business stakeholders in a way that shapes company strategy. Translates business needs into technical vision and vice versa.
 * **Cross-organizational alignment**: aligns technical direction across all teams. Ensures different parts of the organization are pulling in the same direction technically and resolves conflicts at the architectural level.
-* **External representation**: represents Roomle's technical capabilities externally — most importantly across the Roomle ↔ Homag engineering interface (a 10k+ engineering org around our 30-person product unit), and with B2B furniture-brand customers, at conferences, or in the broader community. Their credibility reflects on the organization.
+* **External representation**: represents Roomle's technical capabilities externally — most importantly across the Roomle ↔ Homag engineering interface (a ~7,000-person engineering org around our 30-person product unit), and with B2B furniture-brand customers, at conferences, or in the broader community. Their credibility reflects on the organization.
 * **Grows leaders**: doesn't just mentor individuals — develops other technical leaders. Helps Senior L2 engineers grow into leadership roles and gives them the space and guidance to succeed.
 * **Navigates organizational complexity**: understands how decisions get made in the broader organization (including the HOMAG Group context). Can navigate corporate dynamics to secure resources, alignment, and support for technical initiatives.
 * **Difficult conversations**: has the courage and skill to lead difficult conversations — whether it's challenging a product direction, pushing back on unrealistic timelines, or addressing systemic people issues that affect technical outcomes.
@@ -83,3 +85,11 @@ _Boundary: [Senior L2 → Lead](../background/boundaries/04-senior-l2-vs-lead-te
 * **Long-term thinking**: makes decisions with a 2-5 year horizon. Balances immediate needs with long-term positioning. Accepts short-term costs for strategic advantages.
 * **Organizational gravity**: people across the company (not just engineering) seek their input on decisions. Their opinion carries weight because of demonstrated judgment over time.
 * **Legacy**: actively works to make the organization better in ways that will outlast their personal involvement. Builds systems, practices, and people that sustain excellence independently.
+
+## Team-of-one surfaces
+
+For a Lead whose primary surface is staffed by one person (e.g., the canonical Web + Core engineer, or a Lead growing from the DevOps or iOS surface), the *"grows other technical leaders"* expectation must be read across surfaces — there is no L2 inside the surface to grow into a Lead. Concretely:
+
+- The Lead grows L2-shaped engineers in *adjacent* surfaces — a Core-rooted Lead helping a Web engineer take on architecture across the Web ↔ Core seam; a DevOps-rooted Lead growing a Backend engineer into shared platform ownership.
+- The "succession planning" expectation focuses on making the team-of-one surface *no longer* a team-of-one — actively recruiting, mentoring, or pairing so the surface gains a second qualified contributor over time. Bus-factor reduction is part of the Lead's job, not a nice-to-have.
+- See the L2 treatment in [Senior L2 (technical) — Team-of-one surfaces](04a%20Senior-L2%20%28technical%20track%29.md#team-of-one-surfaces) and the boundary doc in [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-l2.md#l2-entry-criteria).

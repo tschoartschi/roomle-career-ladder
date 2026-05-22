@@ -17,3 +17,5 @@ node_modules/
 .obsidian/plugins/*/
 !.obsidian/plugins/*/data.json
 !.obsidian/plugins/*/manifest.json
+
+.antigravitycli/

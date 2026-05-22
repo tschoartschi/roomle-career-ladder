@@ -13,7 +13,7 @@ The [IT KV](https://www.wko.at/oe/kollektivvertrag/kv-informationstechnologie-20
 
 **Leitung (LT) is explicitly excluded from this career ladder** for three reasons:
 
-- **LT depends on structural opportunity, not just skill growth.** In a ~30-person company there are only 1–2 such positions (e.g., CTO, VP Engineering). You cannot "ladder" into something that requires an organizational seat to be available.
+- **LT depends on structural opportunity, not just skill growth.** In a ~30-person company there are only 1–2 such positions (e.g., CTO, Head of Engineering). You cannot "ladder" into something that requires an organizational seat to be available.
 - **LT requires active seeking and claiming.** An employee aiming for Leitung must proactively seek the position and demonstrate readiness beyond the Lead level. It is not an automatic progression.
 - **LT requires specific individual negotiations** regarding scope, responsibilities, and compensation that go beyond what a standardized career ladder can define.
 

@@ -26,15 +26,15 @@ To define the skill set we borrowed lot's of ideas from [engineeringladders.com]
 
 We defined that we will have the following levels:
 
-1. [Junior](../docs/01%20Junior.md)
-2. [Expert](../docs/02%20Expert.md)
-3. [Senior Level 1](../docs/03%20Senior-L1.md)
+1. [Junior](../docs/levels/01%20Junior.md)
+2. [Expert](../docs/levels/02%20Expert.md)
+3. [Senior Level 1](../docs/levels/03%20Senior-L1.md)
 4. Senior Level 2 (from here it's ST2 from [IT KV](./kv-informationstechnologie-2026.md))
-  - 4a. [Senior Level 2 (technical track)](../docs/04a%20Senior-L2%20%28technical%20track%29.md)
-  - 4b. [Senior Level 2 (management track)](../docs/04b%20Senior-L2%20%28management%20track%29.md)
+  - 4a. [Senior Level 2 (technical track)](../docs/levels/04a%20Senior-L2%20%28technical%20track%29.md)
+  - 4b. [Senior Level 2 (management track)](../docs/levels/04b%20Senior-L2%20%28management%20track%29.md)
 5. Lead  
-  - 5a. [Lead (technical track)](../docs/05a%20Lead%20%28technical%20track%29.md)
-  - 5b. [Lead (management track)](../docs/05b%20Lead%20%28management%20track%29.md)
+  - 5a. [Lead (technical track)](../docs/levels/05a%20Lead%20%28technical%20track%29.md)
+  - 5b. [Lead (management track)](../docs/levels/05b%20Lead%20%28management%20track%29.md)
 
 ### IT KV Mapping
 
@@ -57,7 +57,7 @@ The [IT KV](./kv-informationstechnologie-2026.md) defines a further level: **Lei
 
 **Leitung (LT) is explicitly excluded from this career ladder** for the following reasons:
 
-- LT depends on **structural opportunity, not just skill growth**. In a ~30-person company, there are only 1–2 such positions (e.g., CTO, VP Engineering). You cannot "ladder" into something that requires an organizational seat to be available.
+- LT depends on **structural opportunity, not just skill growth**. In a ~30-person company, there are only 1–2 such positions (e.g., CTO, Head of Engineering). You cannot "ladder" into something that requires an organizational seat to be available.
 - LT requires **active seeking and claiming**. An employee who aims for Leitung must proactively seek this position and demonstrate readiness beyond the Lead level. It is not an automatic progression.
 - LT requires **specific individual negotiations** regarding scope, responsibilities, and compensation that go beyond what a standardized career ladder can define.
 

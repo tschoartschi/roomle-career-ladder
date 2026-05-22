@@ -28,7 +28,7 @@ Some gaps remain blocking: trust, ownership, legal/security hygiene, repeated qu
 ### Changes
 
 - [00 Overview](../docs/00%20Overview.md): "Evaluation & Aggregation Rule" renamed to "Evaluation & Calibration Rule" and rewritten as holistic calibration.
-- [03 Senior-L1](../docs/03%20Senior-L1.md): clarified "within their area" as "area of ownership" and aligned the stale `tldr` lines with the softened L1 scope.
+- [03 Senior-L1](../docs/levels/03%20Senior-L1.md): clarified "within their area" as "area of ownership" and aligned the stale `tldr` lines with the softened L1 scope.
 
 ---
 
@@ -65,15 +65,15 @@ The external-hire calibration language in [00 Overview](../docs/00%20Overview.md
 
 A close reading of the IT KV (§ 15 II, ST1 vs ST2 descriptions) flagged Senior L1 as sitting near the ST1/ST2 boundary. Three changes were made:
 
-1. **Softened the most exposed Senior L1 bullets** in [Senior L1](../docs/03%20Senior-L1.md):
+1. **Softened the most exposed Senior L1 bullets** in [Senior L1](../docs/levels/03%20Senior-L1.md):
    - "designs complex systems within their area" → "designs features and components within their area, scoping data flow, error handling, and integration points; team-wide architectural ownership belongs to Senior L2"
    - "Full lifecycle ownership: owns the entire lifecycle of their projects" → "Feature lifecycle ownership: owns the features they lead from design and implementation through deployment and post-release follow-up, within their area; multi-team or cross-cutting initiatives are Senior L2 territory"
    - "Solo capability: can be the sole developer on a topic for extended periods" → "Self-direction: can carry a well-scoped feature or component without daily check-ins; sustained sole ownership of a system is Senior L2 territory"
    - Intro paragraph updated for consistency.
 2. **Mirrored the softening in the boundary docs** ([02-expert-vs-senior-l1](../docs/background/boundaries/02-expert-vs-senior-l1.md), [03-senior-l1-vs-l2](../docs/background/boundaries/03-senior-l1-vs-l2.md)) so calibration material does not undo the level-page changes.
 3. **Made L2 the explicit threshold for KV-defining responsibilities**:
-   - [L2 technical](../docs/04a%20Senior-L2%20%28technical%20track%29.md): explicitly framed as the threshold for **fachliche Managementaufgaben** (team-wide architectural ownership, team standards, cross-cutting initiatives).
-   - [L2 management](../docs/04b%20Senior-L2%20%28management%20track%29.md): explicitly framed as the threshold for **personelle Managementaufgaben** (team delivery, performance management, people development).
+   - [L2 technical](../docs/levels/04a%20Senior-L2%20%28technical%20track%29.md): explicitly framed as the threshold for **fachliche Managementaufgaben** (team-wide architectural ownership, team standards, cross-cutting initiatives).
+   - [L2 management](../docs/levels/04b%20Senior-L2%20%28management%20track%29.md): explicitly framed as the threshold for **personelle Managementaufgaben** (team delivery, performance management, people development).
    - [L1↔L2 boundary doc](../docs/background/boundaries/03-senior-l1-vs-l2.md) now includes a "KV-relevant boundary" subsection.
 4. **Added a follow-up for the 36-month assessment obligation** (§ 15 II ST2 ¶ 2) in [follow-ups](follow-ups.md) — this is a legal obligation, not a process preference.
 
@@ -91,11 +91,11 @@ This change does not replace seeking a written opinion from an Austrian labor la
 
 ### Changes
 
-- [Senior L1](../docs/03%20Senior-L1.md): intro and four Technical Mastery / Responsibility & Ownership bullets softened.
+- [Senior L1](../docs/levels/03%20Senior-L1.md): intro and four Technical Mastery / Responsibility & Ownership bullets softened.
 - [Expert → Senior L1](../docs/background/boundaries/02-expert-vs-senior-l1.md): Scope-of-work and Design rows updated to match.
 - [Senior L1 → Senior L2](../docs/background/boundaries/03-senior-l1-vs-l2.md): new "KV-relevant boundary" subsection added.
-- [Senior L2 (technical)](../docs/04a%20Senior-L2%20%28technical%20track%29.md): intro extended with fachliche-Managementaufgaben framing.
-- [Senior L2 (management)](../docs/04b%20Senior-L2%20%28management%20track%29.md): intro extended with personelle-Managementaufgaben framing.
+- [Senior L2 (technical)](../docs/levels/04a%20Senior-L2%20%28technical%20track%29.md): intro extended with fachliche-Managementaufgaben framing.
+- [Senior L2 (management)](../docs/levels/04b%20Senior-L2%20%28management%20track%29.md): intro extended with personelle-Managementaufgaben framing.
 - [follow-ups](follow-ups.md): new "36-Month KV ST1/ST2 Assessment" item added.
 
 ---
@@ -195,7 +195,7 @@ The Web Frontend content previously in Senior L1 has been moved to [role-profile
 ### Changes
 
 - New: [docs/role-profiles/web-frontend.md](../docs/role-profiles/web-frontend.md) — Senior L1 frontend content moved here.
-- Subject-Specific Technical Skills section removed from: [Junior](../docs/01%20Junior.md), [Expert](../docs/02%20Expert.md), [Senior L1](../docs/03%20Senior-L1.md), [Senior L2 (technical)](../docs/04a%20Senior-L2%20%28technical%20track%29.md), [Lead (technical)](../docs/05a%20Lead%20%28technical%20track%29.md).
+- Subject-Specific Technical Skills section removed from: [Junior](../docs/levels/01%20Junior.md), [Expert](../docs/levels/02%20Expert.md), [Senior L1](../docs/levels/03%20Senior-L1.md), [Senior L2 (technical)](../docs/levels/04a%20Senior-L2%20%28technical%20track%29.md), [Lead (technical)](../docs/levels/05a%20Lead%20%28technical%20track%29.md).
 - [follow-ups](follow-ups.md): previous Subject-Specific item marked resolved; new Role Profiles item tracks per-domain coverage going forward.
 
 ---
@@ -217,10 +217,10 @@ Behaviors that imply *actively driving the team* (defining team-wide standards, 
 
 ### Changes
 
-- [Senior L1](../docs/03%20Senior-L1.md): framing softened throughout; active/intentional language moved to L2 or removed.
+- [Senior L1](../docs/levels/03%20Senior-L1.md): framing softened throughout; active/intentional language moved to L2 or removed.
 - [Overview](../docs/00%20Overview.md): operating level "Team driver" → "Senior contributor"; level-at-a-glance summary updated.
 - New: [Senior L1 vs Senior L2](../docs/background/boundaries/03-senior-l1-vs-l2.md) reference documenting how the boundary is drawn.
-- [Senior L2 (technical)](../docs/04a%20Senior-L2%20%28technical%20track%29.md) and [Senior L2 (management)](../docs/04b%20Senior-L2%20%28management%20track%29.md): cross-links added to the new boundary doc; no behavioral changes (L2 descriptions already represented all of the moved-up content).
+- [Senior L2 (technical)](../docs/levels/04a%20Senior-L2%20%28technical%20track%29.md) and [Senior L2 (management)](../docs/levels/04b%20Senior-L2%20%28management%20track%29.md): cross-links added to the new boundary doc; no behavioral changes (L2 descriptions already represented all of the moved-up content).
 
 ### Acknowledged trade-off
 
@@ -308,14 +308,14 @@ Replaced Engineering Ladders' original 5 axes with Roomle-specific ones.
 
 ---
 
-## 2026-05-20: Resolved "Regression and Up-or-Out" due to IT KV
+## 2026-05-22: Reframed KV Time-Advancement from "Up-or-Out" to "Growth Framework"
 
 ### Decision
 
-There will be no formal framework mechanism for "stepping down" or "down-leveling" if an employee regresses or fails to grow into a KV-mandated salary band. The outcome of structural underperformance against the KV-mandated level is a mutual transition out or termination.
+Replaced the strict "termination" language around KV time-advancements (Vorrückungsstufen) with a supportive, growth-oriented framing. The KV timelines (e.g., max 4 years at ST1 Regel) are now presented as the company's expected pace of professional growth, supported by defined progression plans and reviews. 
 
 ### Rationale
 
-- **The legal and economic reality**: The Austrian IT KV forces salary increases over time (e.g. max 4 years in ST1 Regel before moving to ST1 Erfahrung). The company cannot legally cut an employee's salary to correspond to a lower output level.
-- **Sustainability**: Paying for Senior L2 levels while receiving Senior L1 output is financially unsustainable for a ~30-person startup.
-- **Clarity**: Rather than pretending down-leveling is a viable ongoing state, the framework and the Overview explicitly state that failing to keep pace with the salary guarantees enforced by the calendar leaves termination/separation as the only viable path.
+- **Legal Risk:** Framing a legally mandated, time-based KV salary increase as a trigger for termination ("Up-or-Out") creates significant labor law risk in Austria if the employee's actual performance hasn't declined.
+- **Cultural Fit:** A supportive tone ("we expect you to grow and will help you get there") aligns better with the company's culture and retention goals than an automatic guillotine.
+- **Clarity of Expectations:** The KV timeline still serves its purpose: it justifies the structure of the ladder and sets a clear, objective benchmark for how fast an engineer is expected to master their domain. By tying progression plans to the KV steps, the company proactively steers growth before structural underperformance occurs.
