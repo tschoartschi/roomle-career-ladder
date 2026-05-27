@@ -9,31 +9,38 @@ confluence-page-id: '3758817282'
 
 # 05 Senior L2 vs Lead (Management Track) — How We Draw the Line
 
-The transition from Senior L2 (management) to Lead (management) is the journey from "team manager" to "leader of the engineering organization". It is a step that depends on both demonstrated capability and an available org-shaping scope; in a 30-person engineering organization that scope is naturally limited.
+The transition from Senior L2 (management) to Lead (management) is the journey from "I make my team successful" to "I run multiple teams operationally across a 1–2 quarter horizon". It is **not** the journey to strategic / corporate-level leadership — that's the next tier up, **Head of Engineering**, which sits explicitly outside this career ladder (see [99 Executive Leadership](../../levels/99%20Executive%20Leadership.md)).
 
-The cleanest way to draw the line is on **organizational scope**:
+This boundary doc is therefore really about **three tiers**, not two — because in practice at Roomle, the Senior L2 → Lead step only becomes intelligible when you also draw the Lead → Head-of line.
 
-|                        | Senior L2 (management)                                       | Lead (management)                                                                                                              |
-| ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| **Stance**             | "I make my team successful"                                  | "I shape the engineering organization"                                                                                         |
-| **Scope**              | One team's delivery, growth, and well-being                  | The engineering organization as a whole                                                                                        |
-| **Delivery**           | Owns their team's delivery and quality                       | Owns engineering-wide delivery and long-term sustainability                                                                    |
-| **Hiring**             | Participates actively in hiring for their team               | Owns together with Head of Development, headcount planning, employer brand, pipeline                                           |
-| **Culture**            | Shapes their team's culture and dynamics                     | Defines and evolves the engineering organization's culture                                                                     |
-| **Process**            | Improves how their team works (rituals, planning, decisions) | Together with Head of Development Designs how engineering works org-wide (team topology, decision rights, communication paths) |
-| **External relations** | Stakeholder management — product, business, other teams      | Executive-level communication; corporate context (HOMAG/Dürr); external representation                                         |
-| **Mentoring**          | Coaches individuals on their team                            | Grows other managers and engineering leaders; designs leadership development                                                   |
+## The three tiers
+
+The cleanest way to draw the lines is on **scope** and **time horizon**:
+
+|                                  | Senior L2 (management)                                | Lead (management) — *operational*                                                                                | Head of Engineering — *strategic* (outside ladder)                                                |
+| -------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Stance**                       | "I make my team successful"                           | "I run multiple teams operationally"                                                                             | "I shape the engineering organization"                                                            |
+| **Horizon**                      | Current quarter, one team                             | **1–2 quarters**, multiple teams                                                                                 | **1+ years and corporate**                                                                        |
+| **Scope**                        | One team's delivery, growth, and well-being           | Multiple teams or a substantial cross-team area                                                                  | The engineering organization as a whole                                                           |
+| **Delivery**                     | Their team's delivery and quality                     | Multi-team quarterly delivery and operational sustainability                                                     | Org-wide delivery and long-term sustainability over years                                         |
+| **Hiring**                       | Participates in hiring for their team                 | Runs interview loops; surfaces team hiring needs                                                                 | **Owns** headcount strategy, employer brand, offer decisions                                      |
+| **Restructuring / termination**  | Surfaces concerns to Lead or Head                     | **Initiates** and runs the conversation; *does not decide*                                                       | **Decides**                                                                                       |
+| **Technology direction**         | Within their team's scope                             | Mid-term across multiple teams (1–2 quarters), aligned with Head                                                 | Year-plus technology strategy, owned with Lead (technical)                                        |
+| **Process**                      | Improves how their team works (rituals, planning)     | Defines how their teams work together quarter to quarter                                                         | Designs how engineering works org-wide (team topology, decision rights, communication paths)      |
+| **Corporate (Homag/Dürr)**       | n/a                                                   | Project-level / informal Roomle-dev ↔ Homag-dev contact on HI work                                              | Corporate audits, strategy alignment, vendor relationship, security review                        |
+| **External / executive comms**   | Stakeholder management — product, business            | Reports upward to Head of Engineering                                                                            | CEO, Homag/Dürr corporate stakeholders, external representation                                   |
+| **Mentoring**                    | Coaches individuals on their team                     | Grows L2-mgmt successors; runs the team-of-teams management craft                                                | Develops Leads; designs the leadership-development system                                         |
+| **HR-Lead system**               | Coordinates with HR-Leads of their team members        | Supports the HR-Lead system *operationally* inside their teams                                                   | **Accountable** for the HR-Lead system itself (existence, trust contract, evolution)              |
 
 ## Why this distinction matters
 
-Both Senior L2 and Lead on the management track are people-leadership roles, but at different scales. The shift is not just "more reports" — it is **a different kind of work**, requiring executive communication, talent strategy, and organizational design that team management does not need.
+**L2 → Lead is a shift in scope and horizon, not in altitude.** A Lead does not become "strategic" — they take on more teams and a longer planning arc. The strategic, year-plus, corporate-facing work belongs to the tier above (Head of Engineering). A great team manager is not automatically a great Lead, and a great Lead is not automatically Head-of-Engineering material; each transition is a different kind of work.
 
-This means:
+**The "initiates / decides" rule is the cleanest test.** When a structural decision is involved — restructuring, termination, headcount increase, year-plus technology bet, corporate-level Homag conversation — the Lead is the one who *sees it, surfaces it, makes the case, and runs the conversation*. The formal decision sits with Head of Engineering. If a candidate Lead is consistently *deciding* those things unilaterally, they are operating in Head-of-Engineering territory; if they consistently *refuse to initiate* them, they are still operating as an L2.
 
-- Lead (management) is **structurally rare** in a 30-person company. For a ~15-person engineering org, the natural shape is one Lead-mgmt seat — or none, if covered by an executive-leadership position directly. At this size, the boundary between Lead (management) and executive leadership can blur — see [Executive Leadership — Outside the Career Ladder](../../levels/99%20Executive%20Leadership.md) for why executive positions sit outside this ladder.
-- A great team manager is **not automatically** a great engineering-organization leader. Different skills: executive communication (not stakeholder management), talent strategy (not team hiring), organizational design (not team rituals).
-- Lead requires both demonstrated capability *and* an available org-shaping scope. The framework cannot promise everyone at Senior L2 a path to Lead; if the scope is not there, the level is not there. Compensation can continue to grow within Senior L2 in that case — strong L2 work is rewarded through salary, not by manufacturing a Lead role that doesn't exist.
-- For the technical-track counterpart, see [04-senior-l2-vs-lead-technical](04-senior-l2-vs-lead-technical.md).
+**Lead (management) is structurally rare in a 30-person company.** Today, in engineering, only **Lead of Product Operations** is filled. Other Lead-mgmt seats are framework-defined but unfilled. For a ~15-person engineering org, the natural shape is 0–1 Lead-mgmt seat, with Head of Engineering covering the rest. The framework does not promise everyone at Senior L2 a path to Lead — if the scope is not there, the level is not there. Compensation can continue to grow within Senior L2 in that case (see Overview → [Compensation growth is possible at Senior L1…](../../00%20Overview.md#starting-level-progression) — the same logic applies inside L2).
+
+**For the technical-track counterpart**, see [04-senior-l2-vs-lead-technical](04-senior-l2-vs-lead-technical.md). And for why Head of Engineering sits *outside* the ladder altogether, see [99 Executive Leadership](../../levels/99%20Executive%20Leadership.md).
 
 ## Related boundary docs
 

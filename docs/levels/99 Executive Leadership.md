@@ -17,4 +17,15 @@ Executive-leadership positions (e.g., CTO, Head of Engineering, VP-level roles) 
 
 Reaching **Lead (5a/5b)** is the highest level in this career ladder. From there, a move into executive leadership is a fundamentally different kind of career step — one driven by organizational need, personal initiative, and mutual agreement between the employee and the company.
 
+## Head of Engineering vs Lead (management) — the strategic / operational split
+
+In Roomle's current org, the live distinction inside engineering is:
+
+- **Head of Engineering** (executive leadership, outside this ladder) owns the **strategic, year-plus, corporate-facing** layer: technology strategy, headcount strategy, formal restructuring and termination decisions, the Homag/Dürr-corporate relationship, employer brand, and accountability for the HR-Lead system itself.
+- **Lead (management)** — the highest level *inside* the ladder, see [05b](05b%20Lead%20%28management%20track%29.md) — owns the **operational, 1–2 quarter, multi-team** layer: quarterly delivery across multiple teams, mid-term technical direction within their scope, running interview loops, surfacing structural change for Head of Engineering to decide.
+
+The working rule is **"Lead initiates and runs; Head of decides."** A Lead who is unilaterally deciding restructures, terminations, headcount, or year-plus technology strategy is operating in Head-of-Engineering territory. A Head of Engineering who is running quarterly multi-team planning rituals personally is operating in Lead territory. Both signals are worth noticing.
+
+At Roomle today, the only filled Lead-mgmt seat in engineering is **Lead of Product Operations**. Other titles in adjacent functions ("Lead of Sales", "Lead of Content Service") follow the same operational-mid-term framing; the executive-strategic seats are titled "Head of …" (Roomle's mother company prefers "Head of" over "VP of").
+
 For where this boundary becomes relevant in level transitions, see [Senior L2 → Lead (technical)](../background/boundaries/04-senior-l2-vs-lead-technical.md) and [Senior L2 → Lead (management)](../background/boundaries/05-senior-l2-vs-lead-management.md).
