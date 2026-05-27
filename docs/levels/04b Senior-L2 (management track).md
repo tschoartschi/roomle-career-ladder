@@ -47,6 +47,8 @@ _Boundaries: [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-
 
 * **Quality oversight**: ensures the team maintains high technical standards — not by reviewing every PR, but by establishing practices (code review culture, testing standards) and trusting colleagues to uphold them.
 
+* **Security & privacy oversight**: ensures the team takes security and privacy seriously without owning every review themselves. Asks the right questions in design reviews (what's the threat model? where does customer data flow? what happens on a leak?), makes sure GDPR-relevant changes have an owner, and surfaces unaddressed risk to Head of Engineering when needed. Does not need to spot every vulnerability themselves — needs to ensure someone on the team does.
+
 ## Learning
 **tldr;** A Senior L2 (management) develops their team's skills, creates structured learning opportunities, and grows their own management capabilities alongside their technical knowledge.
 

@@ -46,10 +46,10 @@ Our [Axes](axes.md) are described [here](axes.md). You may read the axes before 
 
 **Read role profiles when you want domain-specific expectations.** The general ladder describes competencies abstractly; role profiles spell out what those competencies look like for a specific domain.
 
-- [Web Frontend](role-profiles/web-frontend.md) (domain) and [AI Tooling](role-profiles/ai-tooling.md) (cross-cutting — applies to every engineer).
+- [Web Frontend](role-profiles/web-frontend.md) (domain), [AI Tooling](role-profiles/ai-tooling.md) and [Production & Operations](role-profiles/production-operations.md) (cross-cutting — apply to every engineer).
 - The remaining domains have placeholder profiles that name the surface but leave the per-level content to be defined: [Backend (RAPI)](role-profiles/backend.md), [Infrastructure & Delivery](role-profiles/infrastructure.md), [3D / Configurator (Web SDK)](role-profiles/3d-configurator.md), [Core (C/C++)](role-profiles/core-cpp.md). The placeholders exist so the ladder is structurally complete; treat them as known gaps, not endorsed content.
 
-**Background pages are optional context.** [Company Profile](background/company-profile.md) is for external readers who don't know Roomle (and for AI Agents to understand who we are). [Engineering Context](background/engineering-context.md) explains the Rubens / Core / RAPI / HI vocabulary used in the role profiles. [Work in Progress](background/wip.md) is a placeholder for content not yet written.
+**Background pages are optional context.** [Company Profile](background/company-profile.md) is for external readers who don't know Roomle (and for AI Agents to understand who we are). [Engineering Context](background/engineering-context.md) explains the Rubens / Core / RAPI / HI vocabulary used in the role profiles. [Licensing & Legal Basics](background/licensing-policy.md) is a short reference for dependency licensing and the escalation path — read it before adopting unfamiliar open-source licenses. [Work in Progress](background/wip.md) is a placeholder for content not yet written.
 
 ## Levels at a Glance
 
@@ -163,7 +163,7 @@ When evaluating an engineer for a level (e.g., for promotion to Senior L1), mana
 
 **The Rule**: To achieve a level, an engineer must meet the expectations outlined in **all applicable artifacts** for that level. The domain and cross-cutting profiles are not optional extras; they are mandatory extensions of the core ladder (primarily mapping to the *Technical Mastery* and *Learning* axes).
 
-For example, if utilizing AI tooling efficiently is defined as table stakes for a Senior L1 in 2026, an engineer must meet the Senior L1 criteria in the AI Tooling profile in order to be recognized as a Senior L1 overall. If an engineer is Senior L1 in Web Frontend but only operates at Expert level in AI Tooling, they have not yet met the bar for Senior L1 overall. This prevents the "leakage" of critical modern technical skills.
+For example, if utilizing AI tooling efficiently is defined as table stakes for a Senior L1 in 2026, an engineer must meet the Senior L1 criteria in the AI Tooling profile in order to be recognized as a Senior L1 overall. If an engineer is Senior L1 in Web Frontend but only operates at Expert level in AI Tooling, they have not yet met the bar for Senior L1 overall. The same applies to [Production & Operations](role-profiles/production-operations.md): an engineer who is Senior L1 in their domain but operationally still at Expert level (does not design for failure, does not own observability, cannot lead an incident response) has not yet met the bar for Senior L1 overall. This prevents the "leakage" of critical modern technical skills.
 
 ### Nuance: the rule has a deliberate backdoor
 

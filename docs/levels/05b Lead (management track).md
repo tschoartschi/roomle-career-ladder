@@ -43,6 +43,8 @@ _Boundary: [Senior L2 → Lead](../background/boundaries/05-senior-l2-vs-lead-ma
 
 * **Translates tech to business**: bridges the gap between technical realities and business strategy. Can explain to executive leadership what technical investments are needed and why, in terms that drive decisions.
 
+* **Security & privacy posture**: co-owns the engineering organization's security and privacy posture alongside the technical Lead. Ensures the org has the people, processes, and budget for credible security — vulnerability handling, dependency hygiene, incident response capability, GDPR compliance, multi-tenant data isolation. Engages with the Homag/Dürr corporate security review when it lands on Roomle. Does not personally drive technical security work — ensures the org can.
+
 ## Learning
 **tldr;** A Lead (management) shapes the learning culture of the engineering organization, develops leaders, and ensures the company continuously grows its collective capabilities.
 
