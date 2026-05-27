@@ -85,12 +85,21 @@ HI is developed in a highly agile environment with many moving parts on the Homa
 - **RAPI (Java REST)** — 3 engineers.
 - **DevOps** — 1.
 - **iOS** — 1.
+- **Roomle Lab** — 2 engineers, innovation / B2C exploration (currently developing new approaches for the iOS app). Founding-era employees; sits *outside* the career ladder, reporting directly to CEO Albert Ortig (parallel to Head of Engineering). See *Roomle Lab — outside the ladder* below.
 - **Head of Engineering** — 1 (executive-leadership position, outside the ladder; see [99 Executive Leadership](../levels/99%20Executive%20Leadership.md)).
 - **Product Operations** — 1.
 
 **Single-engineer surfaces (Core / iOS / DevOps) are a structural reality at Roomle's size.** The ladder cannot require these engineers to mentor inside their surface (there is no one inside); their multiplier behavior expresses across surfaces or in adjacent surfaces.
 
 **Cross-surface depth is welcomed, not penalized.** The Web + Core engineer is the canonical example; the ladder does not forbid this pattern.
+
+### Roomle Lab — outside the ladder
+
+Roomle Lab is a 2-person free-radical team that tries out new technology and drives product-direction exploration — currently new approaches for the B2C app (the iOS surface). Both Lab engineers are founding-era employees who had already reached the top of the regular career ladder and wanted to grow beyond it; Lab was created in response. They report directly to CEO Albert Ortig, parallel to Head of Engineering, *not* inside the engineering reporting line.
+
+Lab sits **outside this career ladder** for the same structural reasons as Executive Leadership: limited seats, active seeking and claiming, individual negotiation of scope and compensation. The framework does not pretend to evaluate Lab work against the Junior → Lead progression — a free-radical innovation role does not map cleanly onto the team-multiplier expectations the ladder is built around. See [99 Executive Leadership → Roomle Lab](../levels/99%20Executive%20Leadership.md#roomle-lab--also-outside-the-ladder) for the full framing.
+
+Lab is **not a product surface** — they prototype across whatever codebase serves the experiment (currently iOS), and their output may land in existing surfaces, in new surfaces, or stay as discontinued prototypes. That is the nature of the role.
 
 ### Reporting structure
 

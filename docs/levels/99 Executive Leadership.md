@@ -17,6 +17,20 @@ Executive-leadership positions (e.g., CTO, Head of Engineering, VP-level roles) 
 
 Reaching **Lead (5a/5b)** is the highest level in this career ladder. From there, a move into executive leadership is a fundamentally different kind of career step — one driven by organizational need, personal initiative, and mutual agreement between the employee and the company.
 
+## Roomle Lab — also outside the ladder
+
+Executive Leadership is not the only role that sits outside this ladder. **Roomle Lab** — a 2-person free-radical team that tries out new technology and explores new product directions (currently new approaches for the B2C/iOS app) — sits outside the ladder for the same structural reasons.
+
+The three points above apply unchanged:
+
+- *Structural opportunity*: only ~2 such Lab seats exist, and they cannot be ladder-promoted into.
+- *Active seeking and claiming*: Lab exists because the two engineers asked for it. Both are founding-era Roomle employees who had already reached the top of the regular ladder and wanted to grow beyond it. The role was created in response.
+- *Individual negotiation*: scope, deliverables, and compensation are agreed individually with the CEO, not derived from a level definition.
+
+Lab engineers report **directly to CEO Albert Ortig**, parallel to Head of Engineering, not inside the engineering reporting line.
+
+Where Executive Leadership shapes the engineering organization, **Roomle Lab explores what the company might build next**. Both are post-Lead destinations; neither is a step inside the ladder, and neither is reachable by passing the next promotion checklist. For Lab's place in the team shape, see [Engineering Context → Team shape](../background/engineering-context.md#team-shape).
+
 ## Head of Engineering vs Lead (management) — the strategic / operational split
 
 In Roomle's current org, the live distinction inside engineering is:
