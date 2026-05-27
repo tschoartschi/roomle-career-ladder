@@ -100,3 +100,12 @@ For engineers whose primary surface is staffed by one person (Core, iOS, DevOps)
 - **"Go-to expert"** is automatic when you are the only engineer on the surface; the L1 bar is *keeping the surface healthy and being approachable to engineers in adjacent surfaces who need to interact with it* (e.g., the Web team consuming the Core WASM build, or the Backend team interacting with the release pipeline DevOps owns).
 - **"Helps colleagues when asked"** and informal mentoring happen *across* surfaces — a Core engineer helping a Web engineer through a WASM-boundary change, an iOS engineer pairing on a native-bridge issue, a DevOps engineer walking the Backend team through a release. The expectation is not waived; it is read across boundaries.
 - The same logic applies more strictly at [Senior L2](04a%20Senior-L2%20%28technical%20track%29.md#team-of-one-surfaces) — see the L2 entry criteria treatment in [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-l2.md#l2-entry-criteria).
+
+## Senior L1 as a long-term destination
+
+Senior L1 is a destination, not just a way station. Staying here long-term is a fully respected choice — not every engineer wants the multiplier responsibilities that come with L2 (team-wide standards, cross-surface architecture, growing others), and at Roomle's size we cannot — and do not need to — sustain everyone at higher levels. Some of our strongest individual experts are deliberately L1.
+
+Two things follow from this:
+
+- **The L1 → L2 step is a mutual decision, not a default career path.** Sustained L1 performance does not automatically trigger a push toward L2. See [Overview → Starting Level & Progression](../00%20Overview.md#starting-level--progression).
+- **Compensation can grow at L1 without moving to L2.** Deep expertise in a Roomle surface (Core, Web SDK, embedding, RAPI, HI, Infrastructure, or a self-defined surface) is rewarded through salary, not through a forced move into a multiplier role. The L1 → L2 step is about taking on multiplier responsibilities, not about being more technically expert.
