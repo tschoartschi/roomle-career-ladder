@@ -6,9 +6,12 @@
   "scripts": {
     "publish": "node --experimental-strip-types src/publish.ts",
     "publish:dry": "node --experimental-strip-types src/publish.ts --dry-run",
+    "deploy": "npm run publish && git push",
     "migrate": "node --experimental-strip-types src/migrate.ts",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "setup-hooks": "git config core.hooksPath .githooks",
+    "prepare": "git config core.hooksPath .githooks 2>/dev/null || true"
   },
   "dependencies": {
     "marked": "^16.0.0"

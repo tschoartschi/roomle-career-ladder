@@ -43,6 +43,20 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Guard against empty confluence-page-id
+        run: |
+          empties=$(grep -rln "confluence-page-id: ''" docs/ || true)
+          if [ -n "$empties" ]; then
+            echo "::error::The following docs have an empty 'confluence-page-id':"
+            echo "$empties" | sed 's|^|  - |'
+            echo ""
+            echo "::error::This usually means new docs were pushed without first running the publisher locally."
+            echo "::error::Fix: on a developer machine, run 'npm run publish' (which creates the pages and writes the IDs back into the frontmatter), commit the populated IDs, and push again."
+            echo "::error::Shortcut: 'npm run deploy' runs publish + push in one step."
+            echo "::error::A local pre-push hook normally catches this; it may have been bypassed with --no-verify or hooks may not be configured ('npm run setup-hooks' to enable)."
+            exit 1
+          fi
+
       - name: Dry run
         if: github.event.inputs.dry-run == 'true'
         run: node --experimental-strip-types src/publish.ts --dry-run

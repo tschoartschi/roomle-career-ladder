@@ -1,0 +1,62 @@
+#!/bin/sh
+#
+# Pre-push guard: blocks pushes to master/main if any docs/ file has an
+# empty 'confluence-page-id'. Forces "publish locally first, then push"
+# so CI never has to create new pages — which prevents partial-publish
+# state and Confluence trash-collision bugs.
+#
+# Bypass: git push --no-verify   (only for non-publishing branches)
+#
+# Activated by: npm run setup-hooks  (or automatically via 'npm install').
+
+set -e
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+DOCS_DIR="$REPO_ROOT/docs"
+
+# Only enforce when pushing to a branch the publish workflow actually runs on.
+should_check=0
+while read -r local_ref local_sha remote_ref remote_sha; do
+  case "$remote_ref" in
+    refs/heads/master|refs/heads/main)
+      should_check=1
+      ;;
+  esac
+done
+
+if [ "$should_check" -eq 0 ]; then
+  exit 0
+fi
+
+if [ ! -d "$DOCS_DIR" ]; then
+  exit 0
+fi
+
+empties=$(grep -rln "confluence-page-id: ''" "$DOCS_DIR" 2>/dev/null || true)
+
+if [ -z "$empties" ]; then
+  exit 0
+fi
+
+echo ""
+echo "Push blocked: the following docs have an empty 'confluence-page-id':"
+echo ""
+echo "$empties" | sed "s|^$REPO_ROOT/|  - |"
+echo ""
+echo "Why this is blocked:"
+echo "  CI publishes docs/ to Confluence. If a doc reaches CI without an ID,"
+echo "  CI tries to CREATE the page. A previous partial-publish (or a manual"
+echo "  page with the same title) will then cause a 400 title-collision and"
+echo "  leave the system in an inconsistent state."
+echo ""
+echo "How to fix:"
+echo "  1. Run 'npm run publish' locally. This creates the missing pages in"
+echo "     Confluence and writes the new IDs back into the frontmatter."
+echo "  2. Commit the populated IDs."
+echo "  3. Push again."
+echo ""
+echo "Shortcut: 'npm run deploy' runs publish + push in one step."
+echo ""
+echo "Bypass (only for non-publishing branches): git push --no-verify"
+echo ""
+exit 1
