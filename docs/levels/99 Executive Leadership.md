@@ -24,7 +24,7 @@ Executive Leadership is not the only role that sits outside this ladder. **Rooml
 The three points above apply unchanged:
 
 - *Structural opportunity*: only ~2 such Lab seats exist, and they cannot be ladder-promoted into.
-- *Active seeking and claiming*: Lab exists because the two engineers asked for it. Both are founding-era Roomle employees who had already reached the top of the regular ladder and wanted to grow beyond it. The role was created in response.
+- *Active seeking and claiming*: Lab exists because the two engineers asked for it. Both are founding-era Roomle employees who had outgrown what the regular engineering team could offer them in terms of scope and direction — long before this career ladder existed — and wanted a kind of growth the existing org shape didn't have a slot for. The role was created in response.
 - *Individual negotiation*: scope, deliverables, and compensation are agreed individually with the CEO, not derived from a level definition.
 
 Lab engineers report **directly to CEO Albert Ortig**, parallel to Head of Engineering, not inside the engineering reporting line.

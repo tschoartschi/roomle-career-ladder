@@ -95,7 +95,7 @@ HI is developed in a highly agile environment with many moving parts on the Homa
 
 ### Roomle Lab — outside the ladder
 
-Roomle Lab is a 2-person free-radical team that tries out new technology and drives product-direction exploration — currently new approaches for the B2C app (the iOS surface). Both Lab engineers are founding-era employees who had already reached the top of the regular career ladder and wanted to grow beyond it; Lab was created in response. They report directly to CEO Albert Ortig, parallel to Head of Engineering, *not* inside the engineering reporting line.
+Roomle Lab is a 2-person free-radical team that tries out new technology and drives product-direction exploration — currently new approaches for the B2C app (the iOS surface). Both Lab engineers are founding-era employees who had outgrown what the regular engineering team could offer them in terms of scope and direction — long before this career ladder existed — and wanted a kind of growth the existing org shape didn't have a slot for. Lab was created in response. They report directly to CEO Albert Ortig, parallel to Head of Engineering, *not* inside the engineering reporting line.
 
 Lab sits **outside this career ladder** for the same structural reasons as Executive Leadership: limited seats, active seeking and claiming, individual negotiation of scope and compensation. The framework does not pretend to evaluate Lab work against the Junior → Lead progression — a free-radical innovation role does not map cleanly onto the team-multiplier expectations the ladder is built around. See [99 Executive Leadership → Roomle Lab](../levels/99%20Executive%20Leadership.md#roomle-lab--also-outside-the-ladder) for the full framing.
 
