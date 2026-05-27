@@ -1,6 +1,6 @@
 # Roomle Career Ladder
 
-This repository is the draft career ladder for **Roomle GmbH** — a ~30-person product unit inside the HOMAG Group, building the *Rubens* 3D configurator and Homag Intelligence. The ladder defines five engineering levels (Junior → Lead) with a tech / management track split at L2, deliberately mapped to the Austrian IT KV salary grades.
+This repository is the draft career ladder for **Roomle GmbH** — a ~30-person product unit inside the HOMAG Group, building the *Rubens* 3D configurator and Homag Intelligence. The ladder defines five engineering levels (Junior → Lead) with a tech / management track split at L2.
 
 **Status:** Draft for internal review. The content under `docs/` is the source of truth; everything else here exists to support reading, reviewing, or publishing it.
 
@@ -16,7 +16,7 @@ For the full link graph, clone the repo and open it in [Obsidian](https://obsidi
 |------|-----------------|
 | [`index.md`](index.md) | Vault landing page — start here as a reviewer |
 | [`docs/`](docs/) | The published ladder (Overview, axes, level pages, boundary docs, role profiles, background) |
-| [`docs/levels/`](docs/levels/) | The seven level pages (`01 Junior` → `05b Lead (management track)`) plus `99 Leitung` |
+| [`docs/levels/`](docs/levels/) | The seven level pages (`01 Junior` → `05b Lead (management track)`) plus `99 Executive Leadership` |
 | [`docs/background/`](docs/background/) | Company profile, engineering context, level-transition boundary docs |
 | [`docs/role-profiles/`](docs/role-profiles/) | Per-domain (Web Frontend, …) and cross-cutting (AI Tooling, …) profiles |
 | [`docs/assets/`](docs/assets/) | Diagrams and radar charts (PNG + SVG) |

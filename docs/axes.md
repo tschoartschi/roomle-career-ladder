@@ -29,7 +29,7 @@ Subject-specific technical skills (e.g., the difference between a frontend and a
 
 ## Learning
 
-The ability to learn and grasp new things is important for a software engineer because the field of software development is constantly evolving, and being able to adapt to new technologies and techniques is essential to remain relevant and effective. Additionally, software engineers are often required to work on projects that involve unfamiliar domains, so being able to quickly understand and learn about these domains is crucial for success.
+The ability to learn and grasp new things is important for a software engineer because the field of software development is constantly evolving, and being able to adapt to new technologies and techniques is essential to remain relevant and effective. Additionally, software engineers are often required to work on projects that involve unfamiliar domains (e.g.: Homag Intelligence, needs understanding of machinery, carpenters, complex corporate logic and much more), so being able to quickly understand and learn about these domains is crucial for success.
 
 There are 5 stages of learning (each stage includes the previous stage):
 

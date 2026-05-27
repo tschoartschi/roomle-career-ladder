@@ -9,7 +9,7 @@ confluence-page-id: '3757506566'
 
 # 01 Junior vs Expert — How We Draw the Line
 
-The transition from Junior to Expert is the first level transition every employee makes. It is heavily shaped by the KV: Junior is capped at max 3 years at ST1 Einstieg, after which the employee advances to ST1 Regel (Expert) — performance has to grow into that level by then.
+The transition from Junior to Expert is the first level transition every employee makes — from "I am learning to do this job" to "I deliver my work reliably and independently". The Junior level is a learning role; the expectation is that an engineer grows out of it as their capability matches the Expert description.
 
 The cleanest way to draw the line is on **independence**:
 
@@ -30,9 +30,9 @@ The Junior → Expert transition is fundamentally about **ownership of one's own
 This means:
 
 - The readiness signal is not "stops asking for help" but "takes a well-scoped task and finishes it without daily check-ins, including handling review feedback to completion".
-- The KV mandates progression to ST1 Regel within max 3 years. By then the role expectations should match the KV salary — if they don't, that's a conversation, not a quiet acceptance.
-- Once at Expert, the path is broad: most Experts naturally grow toward Senior L1 over the KV's max 4 years at ST1 Regel. See [02-expert-vs-senior-l1](02-expert-vs-senior-l1.md) for that next boundary.
-- Roomle doesn't currently hire Juniors — new hires typically start at Expert or higher. This boundary mostly matters for any future Junior hires.
+- Junior is a *learning* role. The expectation is that an engineer's capability grows out of Junior within a few years, into Expert. If growth stalls, that is a conversation to have in the regular performance review, not a quiet acceptance.
+- Once at Expert, the path is broad: most Experts naturally grow toward Senior L1 over time. See [02-expert-vs-senior-l1](02-expert-vs-senior-l1.md) for that next boundary.
+- Roomle doesn't currently hire Juniors and all existing employees already grew out of Junior — new hires typically start at Expert or higher. This boundary mostly matters for any future Junior hires.
 
 ## Related boundary docs
 

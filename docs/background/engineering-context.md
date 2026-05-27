@@ -10,12 +10,9 @@ confluence-page-id: '3758882818'
 # Engineering Context
 
 This document captures the engineering reality at Roomle that the career ladder is written against — what we build, how the codebase is organized, who works on what, how engineers communicate with the outside world, and the domain vocabulary every engineer should know. The level pages, boundary docs, and role profiles all reference this context.
-
-This document describes a destination state. Where current reality differs from the description below, the ladder is written against the healthy destination, not the temporary state.
-
 ## Product surfaces
 
-Roomle's product is shipped as a single codebase under the **Rubens** brand, with feature flags differentiating the visible products. The codebase decomposes into the following technical surfaces. Engineers grow depth in one or more of these.
+Roomle's main product is shipped as a single codebase under the **Rubens** brand, with feature flags differentiating the visible products. The codebase decomposes into the following technical surfaces. Engineers grow depth in one or more of these.
 
 ### Rubens (Room Designer + Configurator + Admin)
 
@@ -42,7 +39,7 @@ The embedding library is the channel through which end-consumers actually meet R
 Roomle's C/C++ module, cross-compiled to two builds from one source:
 
 - **Browser (WASM)** — runs inside Rubens to power configuration and interaction in the client.
-- **Server** — runs server-side for headless evaluation, validation, and offline rendering.
+- **Server** — runs server-side for headless evaluation, validation, and more.
 
 Core does two kinds of work:
 
@@ -53,7 +50,7 @@ Core is staffed by one engineer who also works in roomle-ui / TypeScript. The ro
 
 ### RAPI (Roomle API)
 
-Java REST backend. The single backend for all Roomle products: catalog, tenancy, user management, content storage, persistence. Owned by the backend team.
+Java REST backend. The single backend for all Roomle products: catalog, tenancy, user management, content storage, persistence. Owned by the backend team. It's the "Roomle Content Management System" with access rights and all of those things.
 
 Inside Homag Intelligence, RAPI plays a small role (storing artifacts like floor plans); the bulk of the backend work for HI happens inside Homag's own systems.
 
@@ -88,7 +85,7 @@ HI is developed in a highly agile environment with many moving parts on the Homa
 - **RAPI (Java REST)** — 3 engineers.
 - **DevOps** — 1.
 - **iOS** — 1.
-- **Head of Engineering** — 1 (Leitung, outside the ladder).
+- **Head of Engineering** — 1 (executive-leadership position, outside the ladder; see [99 Executive Leadership](../levels/99%20Executive%20Leadership.md)).
 - **Product Operations** — 1.
 
 **Single-engineer surfaces (Core / iOS / DevOps) are a structural reality at Roomle's size.** The ladder cannot require these engineers to mentor inside their surface (there is no one inside); their multiplier behavior expresses across surfaces or in adjacent surfaces.
@@ -149,10 +146,9 @@ Engineers should also know what these infrastructure-level concepts *are* (not n
 
 ## What makes Roomle hard
 
-Three things consistently challenge external senior hires in their first six months:
+Three things consistently challenge external senior hires in their first months:
 
-1. **Stack breadth.** A web engineer routinely touches Vue, TypeScript, Ember (Admin), three.js (Web SDK), the embedding library's iframe protocol, build configs, and Java REST contracts. Engineers from highly specialized, process-heavy environments often struggle with this breadth. Engineers with freelancer or agency backgrounds frequently ramp faster because they're already used to ownership across messy boundaries.
-
+1. **Stack breadth.** A web engineer routinely touches Vue, TypeScript, Ember (Admin), three.js (Web SDK), the embedding library's iframe protocol, build configs, and Java REST contracts. Engineers from highly specialized, process-heavy environments often struggle with this breadth. 
 2. **Multi-system bug triage.** A reported bug at Roomle can originate in:
    - **Content** — a Roomle Script issue in the customer's catalog.
    - **Code** — a regression in Rubens / Web SDK / RAPI / Core.
@@ -162,10 +158,3 @@ Three things consistently challenge external senior hires in their first six mon
    Distinguishing among these is a learned skill, and it is one of the things that separates Expert from Senior L1. Naming this triage explicitly is a core Roomle-specific competency in the ladder.
 
 3. **HI moves fast and is not all ours.** Homag Intelligence is developed in a highly agile mode with many moving parts on the Homag side. Engineers working HI surfaces must be comfortable with ambiguity, with direct cross-company technical conversations, and with debugging across organizational boundaries.
-
-## How to use this document
-
-- **Level pages** (`docs/01 Junior.md` through `docs/05b Lead (management track).md`) reference these surfaces and vocabulary in their bullets, so that "their area" and "their domain" mean something concrete.
-- **Boundary docs** (`docs/background/boundaries/*.md`) use the surfaces to describe scope progression between levels.
-- **Role profiles** (`docs/role-profiles/`) describe what each level looks like for a specific surface. They are the deeper version of this document, per domain.
-- **Onboarding** can point new hires at this document early to make the rest of the ladder readable.

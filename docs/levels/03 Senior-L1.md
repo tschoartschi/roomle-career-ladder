@@ -3,7 +3,6 @@ title: Senior L1
 aliases: [Senior L1, Senior Level 1, Level 3]
 level: 3
 track: technical
-it_kv: ST1 Erfahrung
 operating_level: Senior contributor
 tags: [career-ladder, level]
 prev: "[02 Expert](02%20Expert.md)"
@@ -31,7 +30,7 @@ _Boundaries: [Expert → Senior L1](../background/boundaries/02-expert-vs-senior
 ## Technical Mastery
 **tldr;** A Senior L1 designs features and components in their area of ownership, makes sound technical tradeoffs, debugs to root cause, and models high quality standards through their own work. They are the go-to person for at least one part of the codebase.
 
-* **Software design**: designs features and components within their area, scoping data flow, error handling, and integration points. Typical examples at Roomle scale: measurement lines in 3D, a first WebGPU prototype, making the SDK Node.js-ready, a strict-null-checks migration across roomle-ui, swagger across all RAPI docs — work that spans more than one two-week iteration and crosses at least one surface seam (e.g.: UI ↔ Web SDK ↔ Core, or UI ↔ embedding ↔ customer site, RAPI ↔ Infrastructure). Contributes meaningfully to architecture discussions for their own work; team-wide architectural ownership belongs to Senior L2. Notices when something deviates from established patterns and addresses it.
+* **Software design**: designs features and components within their area, scoping data flow, error handling, and integration points. Contributes meaningfully to architecture discussions for their own work; team-wide architectural ownership belongs to Senior L2. Notices when something deviates from established patterns and addresses it.
 
 * **Tradeoffs**: balances technical excellence with delivery. Knows when "good enough" is right and when the remaining 20% matters. Documents tradeoffs so the team understands them.
 
@@ -59,7 +58,7 @@ _Boundaries: [Expert → Senior L1](../background/boundaries/02-expert-vs-senior
 ## Responsibility and Ownership
 **tldr;** A Senior L1 owns feature and component work end-to-end in their area of ownership, takes initiative within that scope, and reliably delivers complex work.
 
-* **Feature lifecycle ownership**: owns the features they lead from design and implementation through deployment and post-release follow-up, within their area of ownership. The typical L1 project is something that runs longer than two iterations — measurement lines in 3D, the SDK Node.js readiness work, a strict-null-checks migration, swagger across all RAPI endpoints. Multi-team or cross-cutting initiatives are Senior L2 territory.
+* **Feature lifecycle ownership**: owns the features they lead from design and implementation through deployment and post-release follow-up, within their area of ownership. The typical L1 project is something that runs longer than two iterations. Multi-team or cross-cutting initiatives are Senior L2 territory.
 * **Trusted with autonomy**: is trusted to identify and pursue technical work on their own within their area of ownership — upgrades, testing improvements, removing local impediments.
 * **Reliable delivery**: regularly delivers on time. Estimates accurately and improves their estimation through feedback.
 * **Proactive problem-solving**: identifies and solves problems within their area of ownership. Escalates or hands off cross-cutting issues to the right people rather than absorbing them silently.
@@ -92,7 +91,7 @@ _Boundaries: [Expert → Senior L1](../background/boundaries/02-expert-vs-senior
 
 ## Homag Intelligence engagement bar
 
-A Senior L1 working on the HI surface is expected to hold the Roomle ↔ Homag-dev engineering conversation directly — not via Head of Engineering or a Lead. Concretely: can describe what calc.js does, knows which Homag-dev counterpart owns which piece, and can negotiate a technical interface (API shape, message format, data contract between calc.js and the Rubens glue layer) or escalate a discrepancy without an internal escort. *Commercial* contracts and *legal* terms are out of scope at L1 — those stay with Head of Engineering and CEO. L1s who do not work on HI are not expected to do any of this; engagement scales with the surfaces they touch.
+A Senior L1 working on the HI surface is expected to hold the Roomle ↔ Homag-dev engineering conversation directly — not via Head of Engineering or a Lead. Concretely: can describe what calc.js does, knows which Homag-dev counterpart owns which piece, and can negotiate a technical interface (API shape, message format, data contract between calc.js and the Rubens glue layer) or escalate a discrepancy without an internal escort. *Commercial* contracts and *legal* terms are out of scope at L1 — those stay with Head of Engineering and CEO. L1s who do not work on HI are not expected to do any of this; engagement scales with the surfaces they touch. But every Senior L1 is expected to be able to be moved to Homag Intelligence territory if needed.
 
 ## Team-of-one surfaces
 

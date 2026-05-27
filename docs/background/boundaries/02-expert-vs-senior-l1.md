@@ -9,7 +9,7 @@ confluence-page-id: '3758555139'
 
 # 02 Expert vs Senior L1 — How We Draw the Line
 
-The transition from Expert to Senior L1 is the journey from "reliable independent contributor" to "established senior engineer whose craft lifts the team". KV-wise it maps to ST1 Regel → ST1 Erfahrung — the KV mandates progression within max 4 years at ST1 Regel.
+The transition from Expert to Senior L1 is the journey from "reliable independent contributor" to "established senior engineer whose craft lifts the team". Most engineers grow into this transition naturally over a few years at Expert, as their depth of craft and earned influence become visible to the team.
 
 The cleanest way to draw the line is on **depth of craft and earned influence**:
 
@@ -30,7 +30,7 @@ Both Expert and Senior L1 are individual-contributor roles. The difference is **
 This means:
 
 - The boundary is intentionally fuzzy — most engineers grow across it gradually rather than crossing a sharp line. Calibration happens at promotion time, not in the framework.
-- The KV mandates progression to ST1 Erfahrung within max 4 years at ST1 Regel. By then the role expectations should match the KV salary.
+- If an engineer remains at Expert long-term without growing toward Senior L1, that is a conversation to have in the regular performance review — not a quiet acceptance, and not a deadline-triggered crisis.
 - Senior L1 still has *seeds* of multiplier behavior — informal mentoring, influence through reviews, being a go-to expert — but as byproducts of being a senior individual contributor, not the primary job. The active/intentional multiplier role is Senior L2; see [03-senior-l1-vs-l2](03-senior-l1-vs-l2.md).
 - A common pattern: Expert + 2-3 years tenure + consistent demonstration of Senior L1 behaviors → ready for promotion.
 

@@ -3,7 +3,6 @@ title: Senior L2 (Technical Track)
 aliases: [Senior L2 Tech, Level 4a]
 level: 4
 track: technical
-it_kv: ST2 Regel
 operating_level: Multiplier
 tags: [career-ladder, level, technical-track]
 prev: "[03 Senior-L1](03%20Senior-L1.md)"
@@ -21,7 +20,7 @@ Technical multiplier
 
 > A Senior L2 on the technical track has mastered their domain and now multiplies their impact through others. They lead larger technical initiatives, mentor team members, provide cross-team technical guidance, and drive the technical direction within their area. They are trusted to make decisions that affect the whole team and beyond.
 >
-> This level is the threshold for **fachliche Managementaufgaben** in the IT KV sense — team-wide architectural ownership, defining and maintaining technical standards, and leading cross-cutting initiatives — which is why it maps to ST2 rather than ST1.
+> This level is where active technical leadership across the team begins — team-wide architectural ownership, defining and maintaining technical standards, and leading cross-cutting initiatives. That shift in accountability is what distinguishes Senior L2 (technical) from Senior L1.
 
 _Boundaries: [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-l2.md) · [Senior L2 → Lead](../background/boundaries/04-senior-l2-vs-lead-technical.md)._
 
@@ -38,7 +37,7 @@ _Boundaries: [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-
 
 * **Research and innovation**: researches, creates proofs of concept, and introduces new technologies to the team. Evaluates emerging technologies against the team's real needs (not hype-driven). Can articulate the costs and benefits of adopting something new.
 
-* **Technical decision-making**: trusted to make significant technical decisions autonomously. Knows when a decision needs broader consultation and when they can move forward. Documents decisions (ADRs or similar) so the team understands the rationale.
+* **Technical decision-making**: trusted to make significant technical decisions autonomously. Knows when a decision needs broader consultation and when they can move forward. Documents decisions (ADRs, Confluence or similar) so the team understands the rationale.
 
 * **Quality at scale**: defines and evolves quality standards that go beyond their own code. Establishes testing strategies, performance budgets, and reliability targets for the systems they own. Ensures technical excellence across the team's output, not just their own.
 
@@ -61,7 +60,7 @@ _Boundaries: [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-
 ## Responsibility and Ownership
 **tldr;** A Senior L2 (technical) leads larger technical initiatives, empowers others to take ownership, mentors team members, and provides technical advice that impacts beyond their immediate area.
 
-* **Leads larger initiatives**: can and is trusted to lead cross-cutting technical initiatives (e.g., major refactors, platform migrations, new system introductions). Scopes, plans, and drives these to completion. Roomle-scale example: rolling swagger across all RAPI endpoints and getting the Web team to consume the generated client; aligning a Web ↔ Core ↔ RAPI ERP-sync improvement with the Homag-dev counterpart on the HI side.
+* **Leads larger initiatives**: can and is trusted to lead cross-cutting technical initiatives (e.g., major refactors, platform migrations, new system introductions). Scopes, plans, and drives these to completion.
 * **Empowers others**: delegates meaningful work to others and trusts them to deliver. Provides the right level of guidance without micromanaging. Grows others' autonomy by giving them stretch opportunities.
 * **Mentors**: formally and informally mentors other engineers. Helps them navigate technical challenges, career growth, and professional development. Is sought out for advice.
 * **Cross-team technical advice**: provides technical guidance that impacts other teams or the company at large. At Roomle that includes the Roomle ↔ Homag-dev engineering interface: Senior L2 (technical) on an HI-relevant surface is expected to identify their Homag-dev counterpart and own that conversation, not delegate it upward.
@@ -73,7 +72,7 @@ _Boundaries: [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-
 ## Collaboration and Communication
 **tldr;** A Senior L2 (technical) leads technical discussions, builds buy-in across the organization for technical initiatives, represents the team externally, and actively grows others' communication skills.
 
-* **Lobbying and buy-in**: actively communicates their ideas and knows how to get organizational buy-in. Can rally people behind a technical direction. Knows how to frame technical needs in business terms. Roomle example: getting swagger across all of RAPI accepted by both backend and Web; getting strict null checks adopted across roomle-ui without stalling feature work.
+* **Lobbying and buy-in**: actively communicates their ideas and knows how to get organizational buy-in. Can rally people behind a technical direction. Knows how to frame technical needs in business terms.
 * **Represents the team**: trusted to interact with and represent the team with other stakeholders (other teams, management, external partners) to drive technical decisions.
 * **Leads technical discussions**: moderates architecture discussions, design reviews, and technical planning sessions. Ensures all voices are heard and brings discussions to actionable conclusions.
 * **Cross-team collaboration**: works effectively across team boundaries. Identifies dependencies, coordinates with other teams, and resolves technical conflicts.
@@ -96,7 +95,7 @@ _Boundaries: [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-
 
 For engineers whose primary surface is staffed by one person (Core, iOS, DevOps), the multiplier expectations at L2 are read *across* surface boundaries:
 
-- **Mentoring** happens across surfaces — a Core engineer running a structured 1:1 with a Web engineer who is becoming the second person able to touch Roomle Script, or a DevOps engineer mentoring a Backend engineer toward shared on-call. The L2 entry criterion *"structured mentoring for ≥6 months"* applies — the surface boundary is not an excuse to skip it.
+- **Mentoring** happens across surfaces — a Core engineer running a structured 1:1 with a Web engineer who is becoming the second person able to touch Roomle Script, or a DevOps engineer mentoring a Backend engineer toward shared on-call. The L2 entry criterion *"structured mentoring for  multiple months"* applies — the surface boundary is not an excuse to skip it.
 - **Cross-cutting initiatives** the L2 leads pull other surfaces along — a Core engineer aligning Web, Backend, and Content Service on a Roomle Script change; a DevOps engineer driving a delivery-pipeline change adopted across teams.
 - **Team-wide standards** owned are ones the surface contributes to — e.g., the SDK API contract Core publishes for Web consumers, or the release-pipeline conventions DevOps maintains for all of engineering.
 - See the L2 entry criteria treatment in [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-l2.md#l2-entry-criteria).

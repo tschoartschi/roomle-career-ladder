@@ -3,7 +3,6 @@ title: Senior L2 (Management Track)
 aliases: [Senior L2 Mgmt, Level 4b]
 level: 4
 track: management
-it_kv: ST2 Regel
 operating_level: Multiplier
 tags: [career-ladder, level, management-track]
 prev: "[03 Senior-L1](03%20Senior-L1.md)"
@@ -23,7 +22,7 @@ People multiplier
 
 > A Senior L2 on the management track multiplies their impact through people. They are responsible for the team's delivery, growth, and well-being. At our current company scale, this role operates heavily as a **"Player-Coach"**, managing 1-4 engineers while still contributing directly. They use their strong technical judgment to make good decisions, support their team, and participate in discussions. Their primary accountability is the team's output and health, not just their own ticket delivery.
 >
-> This level is the threshold for **personelle Managementaufgaben** in the IT KV sense — ownership of team delivery, performance management, and people development — which is why it maps to ST2 rather than ST1.
+> This level is where active people-leadership begins — owning team delivery, performance management, and people development. That shift in accountability is what distinguishes Senior L2 (management) from Senior L1.
 
 _Boundaries: [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-l2.md) · [Senior L2 → Lead](../background/boundaries/05-senior-l2-vs-lead-management.md)._
 
@@ -31,7 +30,7 @@ _Boundaries: [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-
 
 ![Senior L2 Management Skill Radar](../assets/levels/04b-senior-l2-mgmt-radar.png)
 
-> **Note on the radar shape.** The reference shape is identical to the [technical track](04a%20Senior-L2%20%28technical%20track%29.md) at this level — the verbs are by level, not by track. The track difference lives in the prose below: where the work actually happens day-to-day. Collaboration and Influence weigh heavier here; Technical Mastery is exercised through judgment and decision support, not hands-on implementation.
+> **Note on the radar shape.** The reference shape is identical to the [technical track](04a%20Senior-L2%20%28technical%20track%29.md) at this level — the verbs are by level, not by track. The track difference lives in the prose below: where the work actually happens day-to-day. Collaboration and Influence weigh heavier here; Technical Mastery is exercised through judgement and decision support, not hands-on implementation.
 
 ## Technical Mastery
 **tldr;** A Senior L2 (management) maintains strong technical credibility, uses technical judgment to guide their team's decisions, participates meaningfully in architectural discussions, and ensures technical quality without being the one implementing.

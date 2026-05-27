@@ -5,7 +5,6 @@ aliases:
   - Level 1
 level: 1
 track: technical
-it_kv: ST1 Einstieg
 operating_level: Guided contributor
 tags:
   - career-ladder
@@ -22,7 +21,7 @@ Technical position → no management counterpart
 
 Guided contributor
 
-> **Current organisational note.** Roomle does not currently hire Juniors — new hires typically start at Expert or higher. This level is documented for completeness and to define expectations if/when a Junior is hired (e.g., a graduate, career changer, or trainee). See [Junior → Expert](../background/boundaries/01-junior-vs-expert.md) for context.
+> **Current organisational note.** Roomle does not currently hire Juniors (but this can change anytime soon, also all current employees already grew out of Junior Role) — new hires typically start at Expert or higher. At the moment this level is documented for completeness and to define expectations if/when a Junior is hired (e.g., a graduate, career changer, or trainee). See [Junior → Expert](../background/boundaries/01-junior-vs-expert.md) for context.
 
 > A Junior is at the beginning of their professional career. They learn and adopt the patterns, tools, and practices of the team, take responsibility for their own tasks with guidance, participate in team efforts, and are building their initial understanding of how the organization works. Their primary job is to grow, absorbing knowledge, asking questions, and turning guidance into independent capability.
 

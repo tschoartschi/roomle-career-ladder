@@ -1,10 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 680" width="820" height="680">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 680" width="780" height="680">
   <defs>
     <style>
       .level-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 18px; fill: #333; font-weight: 500; }
-      .kv-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; fill: #888; }
       .track-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; fill: #555; text-anchor: middle; }
-      .bracket-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 28px; fill: #333; font-weight: 300; }
       .annotation { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 12px; fill: #888; }
       .annotation-emph { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 12px; fill: #666; font-style: italic; }
       .axis-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 11px; fill: #999; }
@@ -14,7 +12,6 @@
       .path-line { stroke: #bbb; stroke-width: 2; fill: none; }
       .bar { stroke: #999; stroke-width: 3; }
       .dotted { stroke: #ccc; stroke-width: 1; stroke-dasharray: 4,4; }
-      .bracket { stroke: #999; stroke-width: 1.5; fill: none; }
       .arrow-line { stroke: #999; stroke-width: 1.5; fill: none; }
     </style>
   </defs>
@@ -41,13 +38,6 @@
   <text x="100" y="395" class="level-name">Senior L1</text>
   <text x="100" y="520" class="level-name">Expert</text>
   <text x="100" y="630" class="level-name">Junior</text>
-
-  <!-- KV labels (right of nodes) -->
-  <text x="530" y="125" class="kv-label">ST2 Erfahrung</text>
-  <text x="530" y="225" class="kv-label">ST2 Regel</text>
-  <text x="530" y="395" class="kv-label">ST1 Erfahrung</text>
-  <text x="530" y="520" class="kv-label">ST1 Regel</text>
-  <text x="530" y="630" class="kv-label">ST1 Einstieg</text>
 
   <!-- Vertical path (single track: Junior → Expert → Senior L1) -->
   <line class="path-line" x1="360" y1="620" x2="360" y2="405" />
@@ -87,12 +77,4 @@
   <!-- Senior L1 annotation -->
   <text x="100" y="418" class="annotation-emph">valid long-term destination</text>
   <text x="100" y="433" class="annotation-emph">compensation grows with expertise</text>
-
-  <!-- ST2 bracket -->
-  <path d="M 660,95 Q 670,95 670,110 L 670,163 Q 670,175 680,175 Q 670,175 670,187 L 670,240 Q 670,255 660,255" style="stroke: #999; stroke-width: 1.2; fill: none;" />
-  <text x="695" y="185" class="bracket-label">ST2</text>
-
-  <!-- ST1 bracket -->
-  <path d="M 660,365 Q 670,365 670,380 L 670,495 Q 670,510 680,510 Q 670,510 670,525 L 670,640 Q 670,655 660,655" style="stroke: #999; stroke-width: 1.2; fill: none;" />
-  <text x="695" y="520" class="bracket-label">ST1</text>
 </svg>

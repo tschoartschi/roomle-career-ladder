@@ -16,7 +16,6 @@ confluence-page-id: '3758063618'
 - **Headcount:** ~30 employees
 - **CEO:** Albert Ortig
 - **Legal form:** GmbH (Austrian limited liability company)
-- **Collective agreement:** Austrian IT services KV (UBIT/WKO)
 
 ## Integration into HOMAG Group
 

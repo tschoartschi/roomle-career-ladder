@@ -3,7 +3,6 @@ title: Expert
 aliases: [Expert, Level 2]
 level: 2
 track: technical
-it_kv: ST1 Regel
 operating_level: Independent contributor
 tags: [career-ladder, level]
 prev: "[01 Junior](01%20Junior.md)"

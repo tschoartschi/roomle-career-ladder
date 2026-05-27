@@ -3,7 +3,6 @@ title: Lead (Management Track)
 aliases: [Lead Mgmt, Level 5b]
 level: 5
 track: management
-it_kv: ST2 Erfahrung
 operating_level: Org shaper
 tags: [career-ladder, level, management-track]
 prev: "[04b Senior-L2 (management track)](04b%20Senior-L2%20(management%20track).md)"
