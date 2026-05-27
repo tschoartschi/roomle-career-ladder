@@ -88,3 +88,21 @@ _Boundaries: [Senior L1 → Senior L2](../background/boundaries/03-senior-l1-vs-
 * **Trusted manager**: the team trusts them with difficult topics — career concerns, interpersonal issues, disagreements. They've earned this trust through consistent, fair behavior.
 * **Organizational citizenship**: contributes to the broader organization beyond their team — interviewing, mentoring people outside their team, participating in company initiatives.
 * **Role model**: models the behavior they expect — transparency, accountability, work-life balance, curiosity, and respect. People learn from watching them as much as from what they say.
+
+## Relationship to HR-Leads
+
+Roomle runs a parallel **HR-Lead** system: trust persons freely chosen by employees who carry part of the career-development and wellbeing conversation. HR-Lead is **not** a prerequisite for the management track and **not** a substitute for it — the two systems co-exist, and an employee may have both a management-track manager *and* an HR-Lead.
+
+What stays with the management-track engineer (formal ownership):
+
+- Performance management, formal evaluations, leveling decisions
+- Hiring, team composition, capacity planning
+- Delivery and team outcomes
+- Approving development requests within budget and team plan
+
+Where the overlap is real (shared territory):
+
+- **Career-development conversations.** An employee may bring growth topics to their HR-Lead, their management-track manager, or both. Workshop / conference / training *requests* surfaced through an HR-Lead are communicated openly to the relevant Lead-of / Head-of — there is no hidden track.
+- **Wellbeing and personal issues that affect work.** An HR-Lead may hold context the management-track engineer doesn't, and exercises discretion on how openly to escalate. The management-track engineer should not expect to be a default recipient of that information.
+
+The expectation at L2 (management) is to **be aware of and coordinate with** HR-Leads — accept that some development conversations happen in a channel they don't own, route requests cleanly when an HR-Lead surfaces them, and avoid pulling rank on the trust relationship. Active management of the HR-Lead *system itself* (defining how it works, who is eligible, how it interacts with formal management) is [Lead (management track)](05b%20Lead%20%28management%20track%29.md#relationship-to-hr-leads) and Head of Engineering territory.

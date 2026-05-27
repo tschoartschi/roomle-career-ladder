@@ -84,3 +84,7 @@ _Boundary: [Senior L2 → Lead](../background/boundaries/05-senior-l2-vs-lead-ma
 * **Attracts and retains talent**: their leadership and the culture they build make Roomle attractive to strong engineers and managers. They are a key reason people join and stay.
 * **Industry presence**: is known beyond the company as a thoughtful engineering leader. Their network and reputation benefit the organization through hiring, partnerships, and knowledge.
 * **Lasting impact**: builds an organization that functions excellently regardless of any single individual — including themselves. Their legacy is the systems, culture, and people they've developed.
+
+## Relationship to HR-Leads
+
+While a [Senior L2 (management track)](04b%20Senior-L2%20%28management%20track%29.md#relationship-to-hr-leads) is expected to *coordinate with* HR-Leads, a Lead (management track) — together with Head of Engineering — is accountable for the **HR-Lead system itself**: that it exists, that employees can choose freely, that the trust contract is respected, and that the boundaries between HR-Lead conversations and formal management decisions stay clear as the organization grows. HR-Lead remains a freely chosen, non-ladder role; the Lead's job is to protect that property, not to assign it.

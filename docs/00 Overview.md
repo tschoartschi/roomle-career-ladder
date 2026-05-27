@@ -138,6 +138,8 @@ Neither track is "above" the other. In small teams, one person may cover both, b
 
 **At Roomle's current size (~30 people), the management track is largely aspirational.** Today, most senior engineers who take on people responsibilities do so as player-coaches — they still write code and own technical outcomes while also coaching, hiring, and running 1:1s. The track is defined now so the framework doesn't need to be rewritten when the company grows and dedicated engineering-management roles become necessary. If you're reading the management-track level pages and thinking "we don't have anyone who does this full-time" — that's the reality.
 
+**Roomle additionally runs a parallel HR-Lead system.** HR-Leads are trust persons freely chosen by employees who carry part of the career-development and wellbeing conversation. HR-Lead is *not* a ladder role and *not* a management-track requirement — anyone trusted by colleagues can be one, regardless of level. The management-track engineer keeps formal ownership of delivery, performance management, hiring, and structural decisions; the overlap with HR-Leads is on **career-development conversations**, where employees may deliberately route through whichever party they trust more for a given topic. See [04b Senior-L2 (management track) → Relationship to HR-Leads](<levels/04b Senior-L2 (management track).md>#relationship-to-hr-leads).
+
 ---
 
 ### Stage Verbs by Level
