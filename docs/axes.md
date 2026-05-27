@@ -4,7 +4,7 @@ aliases: [Axes, Axis Definitions]
 type: reference
 tags: [career-ladder, axes, reference]
 confluence-publish: true
-confluence-page-id: '3758948354'
+confluence-page-id: '3771465735'
 ---
 
 # Axes

@@ -4,7 +4,7 @@ aliases: [L2 vs Lead Management, Senior L2 vs Lead Mgmt]
 type: reference
 tags: [background, level-boundaries, management-track]
 confluence-publish: true
-confluence-page-id: '3758817282'
+confluence-page-id: '3771400219'
 ---
 
 # 05 Senior L2 vs Lead (Management Track) — How We Draw the Line

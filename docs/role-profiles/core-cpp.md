@@ -6,11 +6,12 @@ domain: core-cpp
 cross_cutting: false
 tags: [role-profile, core, cpp, wasm, roomle-script, placeholder, wip]
 confluence-publish: true
+confluence-page-id: '3771498523'
 ---
 
 # Core (C/C++ rules engine) — Role Profile
 
-> **Status: PLACEHOLDER — content to be defined.** This page exists so the ladder is structurally complete, but the per-level expectations have not yet been written. See [Work in Progress](../background/wip.md) and [follow-ups](../../internal/follow-ups.md) for the open item tracking this.
+> **Status: PLACEHOLDER — content to be defined.** This page exists so the ladder is structurally complete, but the per-level expectations have not yet been written. See [Work in Progress](../background/wip.md) for the open item tracking this.
 
 This document will describe what each ladder level looks like specifically for engineers working on **Core** — Roomle's C/C++ rules engine, cross-compiled to WASM (browser) and a server build. Core is the runtime for **Roomle Script** and the home of collision detection, placement constraints, and interaction rules. See [Engineering Context → Core](../background/engineering-context.md#core-cc-rules-and-interaction-engine).
 

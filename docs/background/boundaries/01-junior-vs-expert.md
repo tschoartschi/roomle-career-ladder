@@ -4,7 +4,7 @@ aliases: [Junior vs Expert]
 type: reference
 tags: [background, level-boundaries]
 confluence-publish: true
-confluence-page-id: '3757506566'
+confluence-page-id: '3771629599'
 ---
 
 # 01 Junior vs Expert — How We Draw the Line

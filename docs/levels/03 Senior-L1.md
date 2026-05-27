@@ -10,7 +10,7 @@ next:
   - "[04a Senior-L2 (technical track)](04a%20Senior-L2%20(technical%20track).md)"
   - "[04b Senior-L2 (management track)](04b%20Senior-L2%20(management%20track).md)"
 confluence-publish: true
-confluence-page-id: '3758981121'
+confluence-page-id: '3770974268'
 ---
 
 # 03 Senior L1

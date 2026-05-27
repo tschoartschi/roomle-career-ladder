@@ -6,11 +6,12 @@ domain: backend
 cross_cutting: false
 tags: [role-profile, backend, rapi, placeholder, wip]
 confluence-publish: true
+confluence-page-id: '3771695114'
 ---
 
 # Backend (RAPI) — Role Profile
 
-> **Status: PLACEHOLDER — content to be defined.** This page exists so the ladder is structurally complete, but the per-level expectations have not yet been written. See [Work in Progress](../background/wip.md) and [follow-ups](../../internal/follow-ups.md) for the open item tracking this.
+> **Status: PLACEHOLDER — content to be defined.** This page exists so the ladder is structurally complete, but the per-level expectations have not yet been written. See [Work in Progress](../background/wip.md) for the open item tracking this.
 
 This document will describe what each ladder level looks like specifically for **Backend** engineers at Roomle. The stack reference is **RAPI** — Java REST, the single backend for all Roomle products (catalog, tenancy, content storage, persistence). See [Engineering Context → RAPI](../background/engineering-context.md#rapi-roomle-api).
 

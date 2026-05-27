@@ -4,7 +4,7 @@ aliases: [L2 vs Lead Technical, Senior L2 vs Lead Tech]
 type: reference
 tags: [background, level-boundaries, technical-track]
 confluence-publish: true
-confluence-page-id: '3758555159'
+confluence-page-id: '3770974248'
 ---
 
 # 04 Senior L2 vs Lead (Technical Track) — How We Draw the Line

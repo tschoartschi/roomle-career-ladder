@@ -4,7 +4,7 @@ aliases: [Expert vs Senior L1, Expert vs L1]
 type: reference
 tags: [background, level-boundaries]
 confluence-publish: true
-confluence-page-id: '3758555139'
+confluence-page-id: '3769991193'
 ---
 
 # 02 Expert vs Senior L1 — How We Draw the Line

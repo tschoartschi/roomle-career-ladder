@@ -6,11 +6,12 @@ domain: infrastructure
 cross_cutting: false
 tags: [role-profile, infrastructure, devops, placeholder, wip]
 confluence-publish: true
+confluence-page-id: '3771433025'
 ---
 
 # Infrastructure & Delivery — Role Profile
 
-> **Status: PLACEHOLDER — content to be defined.** This page exists so the ladder is structurally complete, but the per-level expectations have not yet been written. See [Work in Progress](../background/wip.md) and [follow-ups](../../internal/follow-ups.md) for the open item tracking this.
+> **Status: PLACEHOLDER — content to be defined.** This page exists so the ladder is structurally complete, but the per-level expectations have not yet been written. See [Work in Progress](../background/wip.md) for the open item tracking this.
 
 This document will describe what each ladder level looks like specifically for **Infrastructure & Delivery** engineers at Roomle. The stack reference is GCP + Kubernetes + Docker, plus the observability and delivery pipelines that sit on top — see [Engineering Context → Infrastructure & delivery](../background/engineering-context.md#infrastructure--delivery).
 

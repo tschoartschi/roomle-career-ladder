@@ -9,7 +9,7 @@ prev: "[04a Senior-L2 (technical track)](04a%20Senior-L2%20(technical%20track).m
 next: null
 counterpart: "[05b Lead (management track)](05b%20Lead%20(management%20track).md)"
 confluence-publish: true
-confluence-page-id: '3757801475'
+confluence-page-id: '3771465755'
 ---
 
 # 05a Lead (Technical Track)

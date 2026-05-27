@@ -4,7 +4,7 @@ aliases: [L1 vs L2, Level Boundaries]
 type: reference
 tags: [background, level-boundaries]
 confluence-publish: true
-confluence-page-id: '3758325781'
+confluence-page-id: '3770548284'
 ---
 
 # 03 Senior L1 vs Senior L2 — How We Draw the Line

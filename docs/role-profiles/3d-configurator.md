@@ -6,11 +6,12 @@ domain: 3d-configurator
 cross_cutting: false
 tags: [role-profile, 3d, web-sdk, three-js, ar, placeholder, wip]
 confluence-publish: true
+confluence-page-id: '3770744896'
 ---
 
 # 3D / Configurator (Web SDK) — Role Profile
 
-> **Status: PLACEHOLDER — content to be defined.** This page exists so the ladder is structurally complete, but the per-level expectations have not yet been written. See [Work in Progress](../background/wip.md) and [follow-ups](../../internal/follow-ups.md) for the open item tracking this.
+> **Status: PLACEHOLDER — content to be defined.** This page exists so the ladder is structurally complete, but the per-level expectations have not yet been written. See [Work in Progress](../background/wip.md) for the open item tracking this.
 
 This document will describe what each ladder level looks like specifically for engineers working on the **Web SDK** — three.js, the canvas, real-time 3D graphics, AR, and rendering — at Roomle. See [Engineering Context → Web SDK](../background/engineering-context.md#web-sdk).
 

@@ -4,7 +4,7 @@ aliases: [Licensing Policy, Legal Basics]
 type: reference
 tags: [background, legal, licensing]
 confluence-publish: true
-confluence-page-id: ''
+confluence-page-id: '3771367430'
 ---
 
 # Licensing & Legal Basics
