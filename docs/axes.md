@@ -65,6 +65,6 @@ Influence inside an organization is important for software engineers because it 
 
 1. **Observes**: is learning how the organization works and building initial relationships.
 2. **Contributes**: actively contributes to projects and initiatives, building credibility within the team.
-3. **Influences**: has established expertise and credibility within the organization and is able to influence decision-making.
-4. **Leads**: inspires and guides others to achieve common goals; influences direction beyond own team.
+3. **Influences**: has established expertise and credibility within their team and is able to influence decision-making at the team level.
+4. **Leads**: their decisions, standards, and judgment carry beyond their own team; trusted to represent the team in cross-team and cross-stakeholder contexts.
 5. **Shapes**: shapes the long-term vision and strategy of the organization at a high level.
