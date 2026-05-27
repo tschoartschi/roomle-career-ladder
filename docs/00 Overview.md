@@ -36,8 +36,6 @@ Our [Axes](axes.md) are described [here](axes.md). You may read the axes before 
 - [05a Lead (technical)](<levels/05a Lead (technical track).md>) and [05b Lead (management)](<levels/05b Lead (management track).md>) — org-shaping; structurally rare at our size
 - [99 Executive Leadership](<levels/99 Executive Leadership.md>) — explicitly *outside* the ladder; the document explains why
 
-**[Axes](axes.md).** All level descriptions are organised around the same five axes (Technical Mastery, Learning, Responsibility & Ownership, Collaboration & Communication, Influence). The level pages quote axis verbs (*Applies*, *Solves*, *Designs*, etc.) — Axes is what those verbs actually mean.
-
 **Read the boundary docs only when you need them.** Each one answers "how do we tell these two adjacent levels apart?" — useful for promotion conversations and calibration, less useful as continuous reading. Pick the boundary you care about right now:
 
 - [Junior → Expert](background/boundaries/01-junior-vs-expert.md)
@@ -59,9 +57,9 @@ Our [Axes](axes.md) are described [here](axes.md). You may read the axes before 
 | --------- | ----------------------- | ------------------------------------------------------------------------ |
 | Junior    | Guided contributor      | Delivers with support; primary job is to learn                           |
 | Expert    | Independent contributor | Owns and delivers their work reliably                                    |
-| Senior L1 | Senior contributor      | Delivers complex work reliably; lifts the team through craft and reviews |
+| Senior L1 | Senior contributor      | Delivers complex work reliably in their area of ownership; a valid long-term destination |
 | Senior L2 | Multiplier              | Makes others better, through tech leadership or people leadership        |
-| Lead      | Org shaper              | Defines how engineering works; impact outlasts individual contributions  |
+| Lead      | Org shaper              | Shapes the org's technical direction or engineering culture; impact outlasts individual contributions |
 
 ## Track Split
 
