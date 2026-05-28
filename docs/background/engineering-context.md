@@ -157,11 +157,12 @@ Engineers should also know what these infrastructure-level concepts *are* (not n
 
 Three things consistently challenge external senior hires in their first months:
 
-1. **Stack breadth.** A web engineer routinely touches Vue, TypeScript, Ember (Admin), three.js (Web SDK), the embedding library's iframe protocol, build configs, and Java REST contracts. Engineers from highly specialized, process-heavy environments often struggle with this breadth. 
+1. **Surface breadth.** Roomle work rarely stays inside one surface. Depending on the surface, a single issue can cross Rubens UI, Web SDK, embedding, Core / Roomle Script, RAPI, catalog/tenant data, DAP/importer workflows, cloud infrastructure, observability, delivery pipelines, and customer-facing Service Desk impact. The concrete tools differ — Vue, TypeScript, Ember, and three.js in Web; Java REST and persistence in RAPI; Kubernetes, storage, Redis, BigQuery, and GitHub workflows in Infrastructure — but the pattern is the same: engineers need enough adjacent-surface awareness to understand where their work lands. Engineers from highly specialized, process-heavy environments often struggle with this breadth.
 2. **Multi-system bug triage.** A reported bug at Roomle can originate in:
-   - **Content** — a Roomle Script issue in the customer's catalog.
-   - **Code** — a regression in Rubens / Web SDK / RAPI / Core.
-   - **Integration** — a creative use of the embedding library by the customer's webshop.
+   - **Content/data** — a Roomle Script issue in the customer's catalog, inconsistent product data, missing assets, or a DAP/importer problem.
+   - **Application code** — a regression in Rubens / Web SDK / RAPI / Core.
+   - **Integration/configuration** — a creative use of the embedding library by the customer's webshop, a bad frontend request, tenant/catalog setup, or service configuration.
+   - **Infrastructure or external dependency** — SQL, DataStore, Storage, BigQuery, Redis, network/connectivity, deployment pipeline, release, or cloud-platform behavior.
    - **Homag side** — a change on Homag's calc.js, backend, or HI configuration that is not under Roomle's control.
 
    Distinguishing among these is a learned skill, and it is one of the things that separates Expert from Senior L1. Naming this triage explicitly is a core Roomle-specific competency in the ladder.
