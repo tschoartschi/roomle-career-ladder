@@ -36,7 +36,7 @@ _Boundaries: [Junior → Expert](../background/boundaries/01-junior-vs-expert.md
 
 * **Domain knowledge**: developing solid depth in their primary technology area. Understands the tools, frameworks, and libraries they work with — not just at surface level, but how they fit together.
 
-* **Roomle vocabulary and Roomle Script literacy**: knows what a static item, configurable item, and configuration are, and can read Roomle Script well enough to *triage* whether a bug is content (a Roomle Script issue from Content Service) or code. Writing production Roomle Script is not expected outside Core / Content Service. (See [Engineering Context](../background/engineering-context.md#domain-vocabulary).)
+* **Roomle vocabulary and Roomle Script literacy**: knows the basic object vocabulary — static item, configurable item, configuration, component, material, and mesh — and understands that the same concept may be named differently across surfaces (for example, an item in RAPI may appear as a product in Rubens Admin). Knows that Roomle Script exists and what it is used for. Writing production Roomle Script is not expected outside Core / Content Service. (See [Engineering Context](../background/engineering-context.md#domain-vocabulary).)
 
 * **Testing**: writes meaningful tests for their code. Understands the purpose of different testing layers (unit, integration, e2e) and applies them appropriately.
 
