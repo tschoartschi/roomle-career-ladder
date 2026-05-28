@@ -38,6 +38,14 @@ Senior L1 stays broad on purpose. Senior L2 is the deliberate step, so it must b
 
 These four are entry criteria, not promotion guarantees — the company also needs an L2-shaped scope available for the role to exist (see [Overview](../../00%20Overview.md#starting-level-progression) on staying at L1 as a valid choice). But absence of any one of the four is a defensible reason to not promote, and a clear gap to point at in a non-promotion conversation.
 
+**Documenting "not yet" decisions.** When the L1 → L2 conversation lands on "not yet", the reason is written down in the engineer's review record under one of three categories:
+
+- **(a) Criteria not met** — naming which of the four entry criteria above are not yet evidenced, with concrete examples of what is still missing.
+- **(b) No L2-shaped scope available** — naming why (no team to multiply into at present, headcount frozen, the team is already over-covered on multiplier work, etc.).
+- **(c) Criteria not met, with a documented growth path** — where (a) applies and the gap is concrete and closeable, the engineer and their manager set up a *time-boxed growth plan* per the [growth-plan nuance in the Overview](../../00%20Overview.md#nuance-the-rule-has-a-deliberate-backdoor): named missing criteria, a check-in date (typically 3–6 months), and what evidence would close the gap.
+
+All three reasons are legitimate; all three are written down. The intent is not to gate-keep — it is to make the conversation reviewable later, both for the engineer's own development and for the company's own consistency over time. A blank "we just didn't agree" is not a recorded reason.
+
 **Team-of-one surfaces.** For engineers whose primary surface is small or staffed by one person (Core, iOS, DevOps), criteria 1 and 2 are met *across* surface boundaries, not inside the surface — e.g., a Core engineer who mentors a Web engineer through a WASM-boundary change, or a DevOps engineer who drives a release-pipeline change adopted by Web and Backend. The criteria are not waived; they apply across boundaries. The same logic applies to criterion 3 (a team-wide standard the surface contributes to) and criterion 4.
 
 ## Why this distinction matters

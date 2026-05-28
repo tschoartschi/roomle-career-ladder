@@ -68,3 +68,16 @@ Influence inside an organization is important for software engineers because it 
 3. **Influences**: has established expertise and credibility within their team and is able to influence decision-making at the team level.
 4. **Leads**: their decisions, standards, and judgment carry beyond their own team; trusted to represent the team in cross-team and cross-stakeholder contexts.
 5. **Shapes**: shapes the long-term vision and strategy of the organization at a high level.
+
+## How the axes are evaluated
+
+Three of the five axes — *Influence*, *Learning*, and *Collaboration & Communication* — leave less artifact-shaped evidence behind than *Technical Mastery* or *Responsibility & Ownership*. Code, designs, and delivered features are visible; "trusted voice in cross-team discussions" or "shapes long-term vision" is not. We do not force these axes into a numeric scale they do not fit.
+
+At Roomle's current size (~30 people), an axis-by-axis evaluation at level-change time combines **four input streams**:
+
+- **Concrete examples named by the engineer themselves** — the projects, reviews, conversations, and decisions they would point to as evidence for the level. The engineer is expected to be able to articulate this; it is part of being a senior contributor.
+- **Input from multiple co-workers who work closely with them** — gathered informally from several people who routinely collaborate with the engineer, not a single peer. In a team this size, the relevant voices are visible and the views are easy to collect. We do not run formal 360 instruments at this scale.
+- **The Head of Engineering's read** — the manager's own observation of the engineer's work, behaviour, and growth over the review period.
+- **The Lead of Product Operations' read** — included as a standing input because the role also acts as Scrum Master and therefore has daily-work visibility across the engineering team, independent of the direct-manager line.
+
+The intent is that no level change rests on a single direct-manager judgment. This is the current practice and it is intentional, not a process gap. The trade-off is honesty about subjectivity: rather than pretending a soft skill is a hard metric, we name the inputs and the people whose view is weighed. As the company grows, this approach will need to be tightened; at the current size, it is the right level of formality.

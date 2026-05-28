@@ -11,6 +11,27 @@ This document tracks known open items in the career ladder framework — things 
 
 ---
 
+## EU Pay Transparency Directive (2023/970) — salary bands per ladder level
+
+**Opened:** 2026-05-28
+**Status:** Open
+**Owner:** HR
+
+The EU Pay Transparency Directive (Directive 2023/970) must be transposed into Austrian law by **7 June 2026**. HR has confirmed they will publish salary bands per ladder level as part of the compliance work. This follow-up tracks that the bands exist, are documented, and are referenced from the ladder before the directive's local implementation goes operational.
+
+Open questions:
+
+- Where do the bands live (HR system only, or also linked from the ladder docs)?
+- How are they refreshed (annually, on KV adjustments, both)?
+- How is the employee's right to "average pay level for comparable work" disclosure handled procedurally?
+- Does this work interact with the existing *Equal Treatment review of the assessment process* item below — the subjective axes (Influence, earned credibility, Collaboration & Communication, Learning) need objective evidence requirements before the new transparency rules bite.
+
+**Why it matters:** independent of IT-KV. The directive requires *objective, gender-neutral, written* criteria for pay setting and promotion. The career ladder is already strong input — the missing pieces are (a) published bands and (b) tighter evidence requirements on the more subjective axes. Without those, a § 12 GlBG / future transposition-act challenge has more surface to attack than necessary.
+
+**Next step:** confirm with HR that bands are ready before 7 June 2026; once available, link or reference them from [Starting Level & Progression](../docs/00%20Overview.md#starting-level--progression). Coordinate the evidence-requirements work with the *Equal Treatment review of the assessment process* follow-up so the two land together.
+
+---
+
 ## Performance Review Template (with KV checkpoints)
 
 **Opened:** 2026-05-22

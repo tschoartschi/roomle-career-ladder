@@ -50,7 +50,6 @@ _Boundary: [Senior L2 → Lead](../background/boundaries/04-senior-l2-vs-lead-te
 
 * **Evangelizes**: doesn't just teach what they know — they champion new ideas, get organizational buy-in for paradigm shifts, and inspire others to explore unfamiliar territory. Can get people excited about learning something they didn't know they needed.
 * **Shapes learning culture**: defines how the organization learns and grows. Establishes programs, rituals, or structures (e.g., tech radar, innovation days, conference budgets, internal academies) that make continuous learning part of the DNA.
-* **External thought leadership**: contributes to the broader tech community through talks, publications, open-source work, or industry participation. Brings external credibility that benefits the company's reputation and hiring.
 * **Stays ahead**: despite being at the top of the ladder, maintains beginner's mind. Actively explores adjacent fields, emerging paradigms, and unconventional approaches. Models the learning behavior they expect from others.
 
 ## Responsibility and Ownership
