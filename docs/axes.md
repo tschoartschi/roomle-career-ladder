@@ -46,7 +46,7 @@ Responsibility and ownership are crucial for a software engineer because softwar
 1. **Acknowledges**: understands the importance of responsibility and ownership, but has not yet fully internalized it in their work.
 2. **Owns**: takes responsibility for their work and accepts the consequences of their actions.
 3. **Drives**: actively seeks out ways to improve their work and takes ownership of projects beyond their assigned tasks.
-4. **Empowers**: is trusted to make decisions and is given autonomy to manage projects; empowers others to take ownership.
+4. **Empowers**: is trusted to make decisions that affect others' work. Creates the conditions for others to take ownership and deliver well — through clear expectations, support, standards, feedback, and follow-through.
 5. **Mentors**: serves as a role model and mentor to others, instilling a culture of responsibility and ownership within the team.
 
 ## Collaboration and Communication
@@ -81,3 +81,15 @@ At Roomle's current size (~30 people), an axis-by-axis evaluation at level-chang
 - **The Lead of Product Operations' read** — included as a standing input because the role also acts as Scrum Master and therefore has daily-work visibility across the engineering team, independent of the direct-manager line.
 
 The intent is that no level change rests on a single direct-manager judgment. This is the current practice and it is intentional, not a process gap. The trade-off is honesty about subjectivity: rather than pretending a soft skill is a hard metric, we name the inputs and the people whose view is weighed. As the company grows, this approach will need to be tightened; at the current size, it is the right level of formality.
+
+## Track-specific interpretation from Senior L2 onward
+
+From Senior L2 onward, the same five axes apply to both tracks, but they express differently. The technical track is accountable for technical outcomes and technical enablement; the management track is accountable for delivery conditions, people growth, and performance management.
+
+| Axis | Technical track | Management track |
+|---|---|---|
+| **Technical Mastery** | Owns technical quality, architecture, standards, reliability, and technical direction across a broader surface. | Maintains enough technical judgment to make good delivery, staffing, and tradeoff decisions, but does not need to be the primary architecture owner. |
+| **Learning** | Deepens craft, evaluates technologies, and turns technical learning into shared practice. | Develops the craft of people leadership: coaching, feedback, hiring, prioritization, performance management, and sustainable delivery. |
+| **Responsibility & Ownership** | Is accountable for technical outcomes and the systems that let other engineers do good work. | Is accountable for team delivery, people growth, role clarity, and performance conversations through to documented outcomes. |
+| **Collaboration & Communication** | Drives technical alignment between engineers, surfaces, and architectural decisions. | Drives alignment between people, priorities, stakeholders, delivery expectations, and feedback loops. |
+| **Influence** | Influences through technical credibility, architecture, standards, reviews, and durable engineering practices. | Influences through team health, hiring, coaching, performance management, process ownership, and organizational trust. |

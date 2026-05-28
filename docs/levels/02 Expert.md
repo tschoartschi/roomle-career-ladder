@@ -79,7 +79,7 @@ _Boundaries: [Junior → Expert](../background/boundaries/01-junior-vs-expert.md
 **tldr;** An Expert builds credibility through consistent, reliable work, contributes actively to projects and team discussions, and is becoming a trusted member of the team.
 
 * **Builds credibility**: earns the trust of their team through consistent delivery, quality work, and professionalism. Others know they can rely on them.
-* **Contributes to projects**: actively contributes meaningful work to team projects — not just assigned tickets, but useful additions they identify themselves.
+* **Contributes to projects**: actively contributes meaningful work to team projects — not just assigned ticket, but small useful additions they identify while doing the work, such as a missing test, a clearer error message, or a local cleanup that keeps the change healthier.
 * **Shares knowledge**: shares what they learn with the team — whether in code reviews, informal discussions, or documentation. Doesn't hoard knowledge.
 * **Growing presence**: is becoming a known and valued voice in team discussions. Their opinions carry increasing weight as they demonstrate competence.
 * **Professional behavior**: is dependable, punctual, and respectful. Communicates professionally in all contexts (PRs, chat, meetings).

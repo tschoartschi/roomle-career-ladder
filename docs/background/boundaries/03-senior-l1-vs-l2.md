@@ -34,7 +34,7 @@ Senior L1 stays broad on purpose. Senior L2 is the deliberate step, so it must b
 | 3   | **Team-wide standard / rhythm owned**       | Maintains at least one team-wide technical standard — testing strategy, code review guidelines, deployment process, AI use conventions, etc. "Owns" means: edits the document, decides on changes, and the team accepts those changes as authoritative. | Maintains at least one team-wide people-and-process rhythm — 1:1 cadence, planning ritual, retro format, hiring rubric, performance review template, on-call rotation, etc. "Owns" means: defines it, evolves it, and the team treats it as the way the team works.                                                |
 | 4   | **Decision recorded and adopted**           | Has driven at least one architectural decision (documented with a durable artifact) that affected work beyond their own area — and the team is following it months later.                                                                               | Has run at least one end-to-end people decision where they were the decision-maker, not the participant — a hire, a performance-improvement conversation through to outcome, a reorg, a team-shape change. The decision and its rationale must be documented (offer letter, performance record, org-chart change). |
 
-\* See the **Team-of-one surfaces** note below — for Core / iOS / DevOps, criteria 1 and 2 are read across surface boundaries, not inside the surface.
+\* For single-engineer surfaces, see **Team-of-one surfaces** below.
 
 These four are entry criteria, not promotion guarantees — the company also needs an L2-shaped scope available for the role to exist (see [Overview](../../00%20Overview.md#starting-level-progression) on staying at L1 as a valid choice). But absence of any one of the four is a defensible reason to not promote, and a clear gap to point at in a non-promotion conversation.
 
@@ -46,7 +46,7 @@ These four are entry criteria, not promotion guarantees — the company also nee
 
 All three reasons are legitimate; all three are written down. The intent is not to gate-keep — it is to make the conversation reviewable later, both for the engineer's own development and for the company's own consistency over time. A blank "we just didn't agree" is not a recorded reason.
 
-**Team-of-one surfaces.** For engineers whose primary surface is small or staffed by one person (Core, iOS, DevOps), criteria 1 and 2 are met *across* surface boundaries, not inside the surface — e.g., a Core engineer who mentors a Web engineer through a WASM-boundary change, or a DevOps engineer who drives a release-pipeline change adopted by Web and Backend. The criteria are not waived; they apply across boundaries. The same logic applies to criterion 3 (a team-wide standard the surface contributes to) and criterion 4.
+**Team-of-one surfaces.** For small or single-person surfaces (Core, iOS, DevOps), the criteria are not waived; evidence is read across adjacent surfaces. A Core engineer mentoring a Web engineer through a WASM-boundary change, or a DevOps engineer driving a release-pipeline change adopted by Web and Backend, can satisfy the marked criteria. Criteria 3 and 4 follow the same principle for team-wide standards and recorded decisions.
 
 ## Why this distinction matters
 
